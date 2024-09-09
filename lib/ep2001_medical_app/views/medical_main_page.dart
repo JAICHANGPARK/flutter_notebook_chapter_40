@@ -226,6 +226,18 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                                   ),
                                   borderRadius: BorderRadius.circular(4),
                                 ),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Icon(
+                                      Icons.video_camera_back_outlined,
+                                      size: 16,
+                                      color: Colors.blue,
+                                    ),
+                                    Gap(6),
+                                    Text("Video Consult")
+                                  ],
+                                ),
                               )
                             ],
                           );
