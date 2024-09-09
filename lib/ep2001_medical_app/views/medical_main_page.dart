@@ -10,6 +10,15 @@ class MedicalMainPage extends StatefulWidget {
 class _MedicalMainPageState extends State<MedicalMainPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Column(
+        children: [],
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+            BottomNavigationBarItem(icon: Icon())
+        ],
+      ),
+    );
   }
 }
