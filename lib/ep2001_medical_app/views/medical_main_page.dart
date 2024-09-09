@@ -150,24 +150,30 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                     ),
                   ),
                   Divider(),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text(
-                        "Available doctors",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "Available doctors",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          ),
                         ),
-                      ),
-                      TextButton(
-                        onPressed: () {},
-                        child: Text(
-                          "View all",
-                        ),
-                      )
-                    ],
-                  )
+                        TextButton(
+                          onPressed: () {},
+                          child: Text(
+                            "View all",
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                  Expanded(
+                    child: Placeholder(),
+                  ),
                 ],
               ),
             ),
