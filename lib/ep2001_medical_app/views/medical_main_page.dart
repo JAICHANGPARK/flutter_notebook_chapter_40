@@ -60,20 +60,37 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
               child: Column(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(16, 16 ,0 , 16),
+                    padding: const EdgeInsets.fromLTRB(16, 16, 0, 16),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
                           "Top searched specialties",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
+                          ),
                         ),
+                        Gap(24),
                         Container(
                           color: Colors.blue,
-                          height: 120,
+                          height: 84,
                           child: ListView(
                             scrollDirection: Axis.horizontal,
                             children: [
+                              Container(
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Icon(
+                                      HugeIcons.strokeRoundedAiPhone01,
+                                      size: 42,
+                                    ),
 
+                                    Text("Video visit")
+                                  ],
+                                ),
+                              )
                             ],
                           ),
                         )
@@ -81,7 +98,6 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                     ),
                   ),
                   Divider()
-
                 ],
               ),
             ),
