@@ -25,7 +25,7 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
               children: [
                 Text("Hello, Dream👋"),
                 Text(
-                  "Find local doctors who take care your health",
+                  "Find local doctors who take\ncare your health",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                   ),
