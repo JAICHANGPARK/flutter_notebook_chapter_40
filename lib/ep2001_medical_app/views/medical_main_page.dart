@@ -19,15 +19,17 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
             height: 200,
             width: double.infinity,
             color: Colors.blue[50],
-            padding: EdgeInsets.only(top: 64, left: 24, right: 24),
+            padding: EdgeInsets.only(top: 52, left: 24, right: 24),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text("Hello, Dream👋"),
+                Gap(4),
                 Text(
                   "Find local doctors who take\ncare your health",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
+                    fontSize: 18,
                   ),
                 ),
                 Container(
