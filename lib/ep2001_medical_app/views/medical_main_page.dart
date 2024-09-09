@@ -27,19 +27,19 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
             icon: Icon(
               HugeIcons.strokeRoundedDoctor01,
             ),
-            label: "Home",
+            label: "My Doctor",
           ),
           BottomNavigationBarItem(
             icon: Icon(
               HugeIcons.strokeRoundedCalendarCheckIn01,
             ),
-            label: "Home",
+            label: "Appointment",
           ),
           BottomNavigationBarItem(
             icon: Icon(
               HugeIcons.strokeRoundedUser,
             ),
-            label: "Home",
+            label: "My Profile",
           ),
         ],
       ),
