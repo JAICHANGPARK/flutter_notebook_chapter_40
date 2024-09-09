@@ -192,6 +192,7 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                                   ),
                                 ),
                               ),
+                              Gap(6),
                               Text(
                                 "Dr, Dreamwalker",
                                 style: TextStyle(
@@ -199,22 +200,25 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                                 ),
                               ),
                               Text("Flutter (Development)"),
+                              Gap(6),
                               Row(
                                 children: [
                                   Icon(
                                     Icons.star,
                                     color: Colors.orange,
-                                  ),
-                                  Text("(209)"),
+                                    size: 16,
+                                  ), Gap(6),
+                                  Text("5.0 (209)",),
                                 ],
                               ),
+                              Gap(8),
                               Container(
-                                height: 42,
+                                height: 38,
                                 decoration: BoxDecoration(
                                   border: Border.all(
                                     color: Colors.blue,
                                   ),
-                                  borderRadius: BorderRadius.circular(8),
+                                  borderRadius: BorderRadius.circular(4),
                                 ),
                               )
                             ],
