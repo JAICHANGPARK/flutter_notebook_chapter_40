@@ -12,10 +12,26 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Column(
         children: [
           Container(
             height: 240,
+            width: double.infinity,
+            color: Colors.blue[100],
+            padding: EdgeInsets.only(top: 64),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text("Hello, Dream👋"),
+                Text(
+                  "Find local doctors who take care your health",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ],
+            ),
           ),
           Expanded(
             child: Container(),
