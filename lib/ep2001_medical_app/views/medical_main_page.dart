@@ -210,7 +210,12 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                               ),
                               Container(
                                 height: 42,
-                                decoration: BoxDecoration(),
+                                decoration: BoxDecoration(
+                                  border: Border.all(
+                                    color: Colors.blue,
+                                  ),
+                                  borderRadius: BorderRadius.circular(8),
+                                ),
                               )
                             ],
                           );
