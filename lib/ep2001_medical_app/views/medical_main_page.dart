@@ -231,11 +231,16 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                                   children: [
                                     Icon(
                                       Icons.video_camera_back_outlined,
-                                      size: 16,
+                                      size: 18,
                                       color: Colors.blue,
                                     ),
                                     Gap(6),
-                                    Text("Video Consult")
+                                    Text(
+                                      "Video Consult",
+                                      style: TextStyle(
+                                        color: Colors.blue,
+                                      ),
+                                    )
                                   ],
                                 ),
                               )
