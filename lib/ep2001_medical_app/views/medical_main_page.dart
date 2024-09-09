@@ -172,26 +172,35 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                     ),
                   ),
                   Expanded(
-                    child: GridView.builder(
-                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: 2,
-                      ),
-                      itemBuilder: (context, index) {
-                        return Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Expanded(
-                              child: Container(),
-                            ),
-                            Text(
-                              "Dr, Dreamwalker",
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
+                    child: Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: GridView.builder(
+                        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                          crossAxisCount: 2,
+                          crossAxisSpacing: 12,
+                          mainAxisSpacing: 12,
+                        ),
+                        itemBuilder: (context, index) {
+                          return Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.blue[50],
+                                  ),
+                                ),
                               ),
-                            )
-                          ],
-                        );
-                      },
+                              Text(
+                                "Dr, Dreamwalker",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              )
+                            ],
+                          );
+                        },
+                      ),
                     ),
                   ),
                 ],
