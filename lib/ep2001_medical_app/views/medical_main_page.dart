@@ -13,7 +13,14 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: [],
+        children: [
+          Container(
+            height: 240,
+          ),
+          Expanded(
+            child: Container(),
+          ),
+        ],
       ),
       bottomNavigationBar: BottomNavigationBar(
         items: [
