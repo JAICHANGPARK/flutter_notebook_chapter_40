@@ -92,7 +92,34 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                                   ],
                                 ),
                               ),
+                              Container(
+                                margin: EdgeInsets.only(right: 24),
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Icon(
+                                      HugeIcons.strokeRoundedDoctor01,
+                                      size: 42,
+                                    ),
 
+                                    Text("Dentist")
+                                  ],
+                                ),
+                              ),
+                              Container(
+                                margin: EdgeInsets.only(right: 24),
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Icon(
+                                      HugeIcons.strokeRoundedAiBrain02,
+                                      size: 42,
+                                    ),
+
+                                    Text("Psychiatrist")
+                                  ],
+                                ),
+                              ),
                             ],
                           ),
                         )
