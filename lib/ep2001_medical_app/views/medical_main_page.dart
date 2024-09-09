@@ -42,7 +42,11 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                   ),
                   child: TextField(
                     decoration: InputDecoration(
-                      hintText: "Search doctor by name or department"
+                      hintText: "Search doctor by name or department",
+                      icon: Icon(
+                        Icons.search,
+                      ),
+                      border: InputBorder.none,
                     ),
                   ),
                 )
