@@ -59,6 +59,7 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
             icon: Icon(
