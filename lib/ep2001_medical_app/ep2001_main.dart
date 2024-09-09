@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-
+void main() {
+  runApp(MedialMobileApp());
+}
 
 class MedialMobileApp extends StatelessWidget {
   const MedialMobileApp({super.key});
