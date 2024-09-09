@@ -71,7 +71,7 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                             fontSize: 18,
                           ),
                         ),
-                        Gap(24),
+                        Gap(16),
                         Container(
                           color: Colors.blue,
                           height: 84,
@@ -79,6 +79,7 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                             scrollDirection: Axis.horizontal,
                             children: [
                               Container(
+                                margin: EdgeInsets.only(right: 24),
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
@@ -90,7 +91,8 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                                     Text("Video visit")
                                   ],
                                 ),
-                              )
+                              ),
+
                             ],
                           ),
                         )
