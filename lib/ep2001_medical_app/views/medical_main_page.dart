@@ -87,7 +87,6 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                                       HugeIcons.strokeRoundedAiPhone01,
                                       size: 42,
                                     ),
-
                                     Text("Video visit")
                                   ],
                                 ),
@@ -101,7 +100,6 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                                       HugeIcons.strokeRoundedDoctor01,
                                       size: 42,
                                     ),
-
                                     Text("Dentist")
                                   ],
                                 ),
@@ -115,7 +113,6 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                                       HugeIcons.strokeRoundedBrain02,
                                       size: 42,
                                     ),
-
                                     Text("Psychiatrist")
                                   ],
                                 ),
@@ -129,7 +126,6 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                                       Icons.female,
                                       size: 42,
                                     ),
-
                                     Text("OBGYN")
                                   ],
                                 ),
@@ -143,7 +139,6 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                                       HugeIcons.strokeRoundedDoctor01,
                                       size: 42,
                                     ),
-
                                     Text("Dentist")
                                   ],
                                 ),
@@ -154,7 +149,25 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                       ],
                     ),
                   ),
-                  Divider()
+                  Divider(),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        "Available doctors",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16,
+                        ),
+                      ),
+                      TextButton(
+                        onPressed: () {},
+                        child: Text(
+                          "View all",
+                        ),
+                      )
+                    ],
+                  )
                 ],
               ),
             ),
@@ -163,6 +176,7 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
+        backgroundColor: Colors.white,
         items: [
           BottomNavigationBarItem(
             icon: Icon(
