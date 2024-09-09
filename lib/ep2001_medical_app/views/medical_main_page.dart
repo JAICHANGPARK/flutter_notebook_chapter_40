@@ -173,8 +173,11 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                   ),
                   Expanded(
                     child: Padding(
-                      padding: const EdgeInsets.all(16.0),
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 16,
+                      ),
                       child: GridView.builder(
+                        padding: EdgeInsets.zero,
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                           crossAxisCount: 2,
                           crossAxisSpacing: 12,
@@ -207,8 +210,11 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                                     Icons.star,
                                     color: Colors.orange,
                                     size: 16,
-                                  ), Gap(6),
-                                  Text("5.0 (209)",),
+                                  ),
+                                  Gap(6),
+                                  Text(
+                                    "5.0 (209)",
+                                  ),
                                 ],
                               ),
                               Gap(8),
