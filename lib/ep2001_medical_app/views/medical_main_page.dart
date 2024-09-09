@@ -16,9 +16,9 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
       body: Column(
         children: [
           Container(
-            height: 240,
+            height: 200,
             width: double.infinity,
-            color: Colors.blue[100],
+            color: Colors.blue[50],
             padding: EdgeInsets.only(top: 64, left: 24, right: 24),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -30,6 +30,13 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
+                Container(
+                  height: 48,
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                )
               ],
             ),
           ),
