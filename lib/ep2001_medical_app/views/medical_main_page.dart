@@ -178,10 +178,17 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                       ),
                       itemBuilder: (context, index) {
                         return Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Expanded(
                               child: Container(),
                             ),
+                            Text(
+                              "Dr, Dreamwalker",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            )
                           ],
                         );
                       },
