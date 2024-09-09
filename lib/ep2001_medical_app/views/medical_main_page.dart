@@ -56,7 +56,25 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
             ),
           ),
           Expanded(
-            child: Container(),
+            child: Container(
+              child: Column(
+                children: [
+                  Text(
+                    "Top searched specialties",
+                  ),
+                  Container(
+                    color: Colors.blue,
+                    height: 120,
+                    child: ListView(
+                      scrollDirection: Axis.horizontal,
+                      children: [
+                        
+                      ],
+                    ),
+                  )
+                ],
+              ),
+            ),
           ),
         ],
       ),
