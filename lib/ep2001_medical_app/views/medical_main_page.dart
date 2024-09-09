@@ -179,6 +179,7 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                           crossAxisCount: 2,
                           crossAxisSpacing: 12,
                           mainAxisSpacing: 12,
+                          childAspectRatio: .7,
                         ),
                         itemBuilder: (context, index) {
                           return Column(
@@ -196,6 +197,20 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                 ),
+                              ),
+                              Text("Flutter (Development)"),
+                              Row(
+                                children: [
+                                  Icon(
+                                    Icons.star,
+                                    color: Colors.orange,
+                                  ),
+                                  Text("(209)"),
+                                ],
+                              ),
+                              Container(
+                                height: 42,
+                                decoration: BoxDecoration(),
                               )
                             ],
                           );
