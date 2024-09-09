@@ -182,7 +182,7 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                           crossAxisCount: 2,
                           crossAxisSpacing: 12,
                           mainAxisSpacing: 12,
-                          childAspectRatio: .7,
+                          childAspectRatio: .6,
                         ),
                         itemBuilder: (context, index) {
                           return Column(
