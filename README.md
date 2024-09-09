@@ -4,8 +4,8 @@ A new Flutter project.
 
 ## EP2001
 
-- Mobile Articles - Lookscout Design System
-- Stelian Subotin
-- https://dribbble.com/shots/24681090-Mobile-Articles-Lookscout-Design-System
+- Medicare - Medical Mobile App
+- Naimur Rahman
+- https://dribbble.com/shots/24823359-Medicare-Medical-Mobile-App
 
-<img src="https://cdn.dribbble.com/userupload/16061305/file/original-dbc99bfd2f090a679324e686d90c9040.png?resize=1905x1429"/>
+<img src="https://cdn.dribbble.com/userupload/16475563/file/original-18bcccc5dcfc8c9dc25f478139eb5c53.png?resize=1600x1200"/>
