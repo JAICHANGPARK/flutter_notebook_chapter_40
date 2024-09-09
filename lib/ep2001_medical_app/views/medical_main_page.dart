@@ -73,13 +73,13 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                         ),
                         Gap(16),
                         Container(
-                          color: Colors.blue,
+                          // color: Colors.blue,
                           height: 84,
                           child: ListView(
                             scrollDirection: Axis.horizontal,
                             children: [
                               Container(
-                                margin: EdgeInsets.only(right: 24),
+                                margin: EdgeInsets.only(right: 32),
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
@@ -107,16 +107,44 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                                 ),
                               ),
                               Container(
-                                margin: EdgeInsets.only(right: 24),
+                                margin: EdgeInsets.only(right: 32),
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
                                     Icon(
-                                      HugeIcons.strokeRoundedAiBrain02,
+                                      HugeIcons.strokeRoundedBrain02,
                                       size: 42,
                                     ),
 
                                     Text("Psychiatrist")
+                                  ],
+                                ),
+                              ),
+                              Container(
+                                margin: EdgeInsets.only(right: 32),
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Icon(
+                                      Icons.female,
+                                      size: 42,
+                                    ),
+
+                                    Text("OBGYN")
+                                  ],
+                                ),
+                              ),
+                              Container(
+                                margin: EdgeInsets.only(right: 32),
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Icon(
+                                      HugeIcons.strokeRoundedDoctor01,
+                                      size: 42,
+                                    ),
+
+                                    Text("Dentist")
                                   ],
                                 ),
                               ),
