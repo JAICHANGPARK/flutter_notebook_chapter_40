@@ -59,19 +59,29 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
             child: Container(
               child: Column(
                 children: [
-                  Text(
-                    "Top searched specialties",
-                  ),
-                  Container(
-                    color: Colors.blue,
-                    height: 120,
-                    child: ListView(
-                      scrollDirection: Axis.horizontal,
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 16 ,0 , 16),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        
+                        Text(
+                          "Top searched specialties",
+                        ),
+                        Container(
+                          color: Colors.blue,
+                          height: 120,
+                          child: ListView(
+                            scrollDirection: Axis.horizontal,
+                            children: [
+
+                            ],
+                          ),
+                        )
                       ],
                     ),
-                  )
+                  ),
+                  Divider()
+
                 ],
               ),
             ),
