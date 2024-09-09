@@ -1,4 +1,4 @@
-
+import 'package:flutter/material.dart';
 
 class MedicalMainPage extends StatefulWidget {
   const MedicalMainPage({super.key});
@@ -10,6 +10,6 @@ class MedicalMainPage extends StatefulWidget {
 class _MedicalMainPageState extends State<MedicalMainPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
