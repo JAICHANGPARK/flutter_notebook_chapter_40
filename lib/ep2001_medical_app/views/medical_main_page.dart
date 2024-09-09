@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class MedicalMainPage extends StatefulWidget {
@@ -32,11 +33,17 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                     fontSize: 18,
                   ),
                 ),
+                Gap(8),
                 Container(
                   height: 48,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: TextField(
+                    decoration: InputDecoration(
+                      hintText: "Search doctor by name or department"
+                    ),
                   ),
                 )
               ],
