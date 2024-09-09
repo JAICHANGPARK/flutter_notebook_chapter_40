@@ -172,7 +172,20 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                     ),
                   ),
                   Expanded(
-                    child: Placeholder(),
+                    child: GridView.builder(
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: 2,
+                      ),
+                      itemBuilder: (context, index) {
+                        return Column(
+                          children: [
+                            Expanded(
+                              child: Container(),
+                            ),
+                          ],
+                        );
+                      },
+                    ),
                   ),
                 ],
               ),
