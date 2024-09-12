@@ -26,14 +26,14 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
               children: [
                 const Text("Hello, Dream👋"),
                 const Gap(4),
-                Text(
+                const Text(
                   "Find local doctors who take\ncare your health",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 18,
                   ),
                 ),
-                Gap(12),
+                const Gap(12),
                 Container(
                   height: 42,
                   decoration: BoxDecoration(
