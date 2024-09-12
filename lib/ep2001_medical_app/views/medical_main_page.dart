@@ -41,7 +41,7 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                     borderRadius: BorderRadius.circular(8),
                   ),
                   padding: const EdgeInsets.only(left: 8),
-                  child: TextField(
+                  child: const TextField(
                     decoration: InputDecoration(
                       hintText: "Search doctor by name or department",
                       icon: Icon(
