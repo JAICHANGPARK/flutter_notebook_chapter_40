@@ -25,7 +25,7 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const Text("Hello, Dream👋"),
-                Gap(4),
+                const Gap(4),
                 Text(
                   "Find local doctors who take\ncare your health",
                   style: TextStyle(
