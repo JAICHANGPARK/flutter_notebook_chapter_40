@@ -40,7 +40,7 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(8),
                   ),
-                  padding: EdgeInsets.only(left: 8),
+                  padding: const EdgeInsets.only(left: 8),
                   child: TextField(
                     decoration: InputDecoration(
                       hintText: "Search doctor by name or department",
