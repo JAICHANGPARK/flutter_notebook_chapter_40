@@ -20,7 +20,7 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
             // height: 200,
             width: double.infinity,
             color: Colors.blue[50],
-            padding: EdgeInsets.only(top: 52, left: 24, right: 24, bottom: 24),
+            padding: const EdgeInsets.only(top: 52, left: 24, right: 24, bottom: 24),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
