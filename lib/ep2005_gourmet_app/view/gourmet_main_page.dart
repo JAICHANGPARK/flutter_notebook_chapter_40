@@ -14,7 +14,20 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      body: Column(
+        children: [
+          Row(
+            children: [
+              Icon(HugeIcons.strokeRoundedLocation01),
+              Text("15 Water Street Fremount"),
+              Spacer(),
+              Icon(HugeIcons.strokeRoundedFavourite),
+              Icon(HugeIcons.strokeRoundedNotification01),
 
+            ],
+          )
+        ],
+      ),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         items: [
