@@ -18,6 +18,11 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(HugeIcons.strokeRoundedHome01),
+            label: "Home",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(HugeIcons.strokeRoundedShoppingBag01),
+            label: "My Order",
           ),
         ],
       ),
