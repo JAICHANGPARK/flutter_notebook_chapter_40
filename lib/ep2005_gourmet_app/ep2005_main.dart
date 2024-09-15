@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
 
+void main() {
+  runApp(GourmetApp());
+}
 
 class GourmetApp extends StatelessWidget {
   const GourmetApp({super.key});
