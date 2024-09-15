@@ -31,7 +31,7 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
             label: "Saved",
           ),
           BottomNavigationBarItem(
-            icon: Icon(HugeIcons.strokeRoundedProfile),
+            icon: Icon(HugeIcons.strokeRoundedUser),
             label: "Profile",
           ),
         ],
