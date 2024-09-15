@@ -18,6 +18,7 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Row(
                 children: [
@@ -26,15 +27,23 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                   Spacer(),
                   Icon(HugeIcons.strokeRoundedFavourite),
                   Icon(HugeIcons.strokeRoundedNotification01),
-
                 ],
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text("Your trusted picks"),
-                  TextButton(onPressed: (){}, child: Text("View all"))
+                  TextButton(
+                    onPressed: () {},
+                    child: Text("View all"),
+                  ),
                 ],
-              )
+              ),
+              SizedBox(
+                height: 300,
+                child: Placeholder(),
+              ),
+              Text("Recommended"),
             ],
           ),
         ),
