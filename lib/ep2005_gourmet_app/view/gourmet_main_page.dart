@@ -14,7 +14,9 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
             icon: Icon(HugeIcons.strokeRoundedHome01),
