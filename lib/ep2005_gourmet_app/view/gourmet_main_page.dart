@@ -24,6 +24,14 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
             icon: Icon(HugeIcons.strokeRoundedShoppingBag01),
             label: "My Order",
           ),
+          BottomNavigationBarItem(
+            icon: Icon(HugeIcons.strokeRoundedFavourite),
+            label: "Saved",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(HugeIcons.strokeRoundedProfile),
+            label: "Profile",
+          ),
         ],
       ),
     );
