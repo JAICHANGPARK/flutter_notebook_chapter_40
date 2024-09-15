@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'view/gourmet_main_page.dart';
+
 
 void main() {
   runApp(GourmetApp());
