@@ -44,6 +44,9 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                 child: Placeholder(),
               ),
               Text("Recommended"),
+              Expanded(
+                child: Placeholder(),
+              ),
             ],
           ),
         ),
