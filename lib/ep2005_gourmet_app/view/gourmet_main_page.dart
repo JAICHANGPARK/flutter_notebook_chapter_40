@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class GourmetMainPage extends StatefulWidget {
   const GourmetMainPage({super.key});
@@ -9,8 +10,17 @@ class GourmetMainPage extends StatefulWidget {
 
 class _GourmetMainPageState extends State<GourmetMainPage> {
   int menuNumber = 0;
+
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(HugeIcons.strokeRoundedHome01),
+          ),
+        ],
+      ),
+    );
   }
 }
