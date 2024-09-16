@@ -86,14 +86,38 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                 child: Row(
                   children: [
                     Expanded(
-                        child: Container(
-                      decoration: BoxDecoration(
-                        border: Border.all(
-                          color: Colors.grey[300]!,
+                      child: Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(
+                            color: Colors.grey[300]!,
+                          ),
+                          borderRadius: BorderRadius.circular(12),
                         ),
-                        borderRadius: BorderRadius.circular(12),
+                        child: Stack(
+                          children: [
+                            Positioned(
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Expanded(
+                                    child: Placeholder(),
+                                  ),
+                                  Text("Mixed paella"),
+                                  Row(
+                                    children: [
+                                      Icon(Icons.timer_sharp),
+                                      Text("15 min"),
+                                      Gap(12),
+                                      Text("500 Kal"),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            )
+                          ],
+                        ),
                       ),
-                    )),
+                    ),
                     Gap(16),
                     Expanded(
                       child: Container(
