@@ -14,10 +14,10 @@ class GourmetApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         scaffoldBackgroundColor: Color.fromRGBO(255, 253, 237, 1),
-
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
-          backgroundColor:  Color.fromRGBO(255, 253, 237, 1),
-        )
+          backgroundColor: Color.fromRGBO(255, 253, 237, 1),
+          selectedItemColor: Color.fromRGBO(58, 77, 57, 1),
+        ),
       ),
       home: GourmetMainPage(),
     );
