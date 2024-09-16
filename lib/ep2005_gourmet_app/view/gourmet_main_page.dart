@@ -110,6 +110,7 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                                     "Mixed paella",
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
+                                      fontSize: 18,
                                     ),
                                   ),
                                   Row(
