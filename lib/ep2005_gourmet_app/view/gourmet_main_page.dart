@@ -104,7 +104,7 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Expanded(
-                                    child: Placeholder(),
+                                    child: Container(),
                                   ),
                                   Text(
                                     "Mixed paella",
