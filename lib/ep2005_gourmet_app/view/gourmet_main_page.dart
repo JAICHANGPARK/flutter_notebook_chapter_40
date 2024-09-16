@@ -150,7 +150,15 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                               top: 8,
                               right: 8,
                               child: Row(
-                                children: [],
+                                children: [
+                                  Icon(
+                                    Icons.star,
+                                    size: 16,
+                                  ),
+                                  Text(
+                                    "4.5",
+                                  )
+                                ],
                               ),
                             )
                           ],
