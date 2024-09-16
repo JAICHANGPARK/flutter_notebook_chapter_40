@@ -82,7 +82,17 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
               ),
               SizedBox(
                 height: 300,
-                child: Placeholder(),
+                child: Row(
+                  children: [
+                    Expanded(
+                        child: Container(
+                      decoration: BoxDecoration(
+                          border: Border.all(
+                        color: Colors.grey[200]!,
+                      )),
+                    ))
+                  ],
+                ),
               ),
               Text("Recommended"),
               Expanded(
