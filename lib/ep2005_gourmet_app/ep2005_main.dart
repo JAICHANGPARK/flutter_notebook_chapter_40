@@ -13,7 +13,7 @@ class GourmetApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-          scaffoldBackgroundColor: Color.fromRGBO(255, 253, 237, 1),
+          scaffoldBackgroundColor: const Color.fromRGBO(255, 253, 237, 1),
           bottomNavigationBarTheme: BottomNavigationBarThemeData(
             type: BottomNavigationBarType.fixed,
             backgroundColor: Color.fromRGBO(255, 253, 237, 1),
