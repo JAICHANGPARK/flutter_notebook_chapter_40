@@ -67,7 +67,12 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text("Your trusted picks"),
+                  Text(
+                    "Your trusted picks",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                   TextButton(
                     onPressed: () {},
                     child: Text("View all"),
