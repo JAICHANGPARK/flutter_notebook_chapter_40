@@ -24,13 +24,15 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
               Row(
                 children: [
                   Icon(HugeIcons.strokeRoundedLocation01),
+                  Gap(8),
                   Text("15 Water Street Fremount"),
                   Spacer(),
                   Icon(HugeIcons.strokeRoundedFavourite),
+                  Gap(16),
                   Icon(HugeIcons.strokeRoundedNotification01),
                 ],
               ),
-              Gap(16),
+              Gap(24),
               Container(
                 padding: EdgeInsets.symmetric(horizontal: 16, vertical: 3),
                 decoration: BoxDecoration(
@@ -49,7 +51,14 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                           ),
                         ),
                       ),
-                      VerticalDivider(),
+                      VerticalDivider(
+                        endIndent: 8,
+                        indent: 8,
+                      ),
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.mic_none),
+                      ),
                     ],
                   ),
                 ),
