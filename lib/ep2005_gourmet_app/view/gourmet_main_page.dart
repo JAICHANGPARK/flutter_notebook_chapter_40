@@ -96,6 +96,10 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                         child: Stack(
                           children: [
                             Positioned(
+                              left: 8,
+                              top: 8,
+                              bottom: 8,
+                              right: 8,
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
@@ -111,6 +115,13 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                                       Text("500 Kal"),
                                     ],
                                   ),
+                                  Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("\$30.00"),
+                                      CircleAvatar(),
+                                    ],
+                                  )
                                 ],
                               ),
                             )
