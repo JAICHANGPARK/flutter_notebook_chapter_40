@@ -88,18 +88,23 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                     Expanded(
                         child: Container(
                       decoration: BoxDecoration(
-                          border: Border.all(
-                        color: Colors.grey[300]!,
-                      )),
+                        border: Border.all(
+                          color: Colors.grey[300]!,
+                        ),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
                     )),
                     Gap(16),
                     Expanded(
-                        child: Container(
-                          decoration: BoxDecoration(
-                              border: Border.all(
-                                color: Colors.grey[300]!,
-                              )),
-                        ))
+                      child: Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(
+                            color: Colors.grey[300]!,
+                          ),
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                      ),
+                    )
                   ],
                 ),
               ),
