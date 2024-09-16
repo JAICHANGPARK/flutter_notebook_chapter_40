@@ -20,7 +20,7 @@ class GourmetApp extends StatelessWidget {
           ),
           textButtonTheme: TextButtonThemeData(
             style: TextButton.styleFrom(
-              
+              foregroundColor: Color.fromRGBO(58, 77, 57, 1),
             ),
           )),
       home: GourmetMainPage(),
