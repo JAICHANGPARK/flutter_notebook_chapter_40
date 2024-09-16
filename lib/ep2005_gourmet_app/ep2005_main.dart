@@ -14,7 +14,7 @@ class GourmetApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
           scaffoldBackgroundColor: const Color.fromRGBO(255, 253, 237, 1),
-          bottomNavigationBarTheme: BottomNavigationBarThemeData(
+          bottomNavigationBarTheme: const BottomNavigationBarThemeData(
             type: BottomNavigationBarType.fixed,
             backgroundColor: Color.fromRGBO(255, 253, 237, 1),
             selectedItemColor: Color.fromRGBO(58, 77, 57, 1),
