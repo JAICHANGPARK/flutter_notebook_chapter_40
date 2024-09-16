@@ -106,10 +106,18 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                                   Expanded(
                                     child: Placeholder(),
                                   ),
-                                  Text("Mixed paella"),
+                                  Text(
+                                    "Mixed paella",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
                                   Row(
                                     children: [
-                                      Icon(Icons.timer_sharp),
+                                      Icon(
+                                        Icons.timer_sharp,
+                                        size: 16,
+                                      ),
                                       Text("15 min"),
                                       Gap(12),
                                       Text("500 Kal"),
