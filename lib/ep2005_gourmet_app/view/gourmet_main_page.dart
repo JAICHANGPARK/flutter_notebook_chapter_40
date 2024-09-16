@@ -127,7 +127,13 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                                   Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("\$30.00"),
+                                      Text(
+                                        "\$30.00",
+                                        style: TextStyle(
+                                          fontSize: 18,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
                                       CircleAvatar(),
                                     ],
                                   )
