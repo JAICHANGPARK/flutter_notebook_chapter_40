@@ -80,6 +80,7 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                   ),
                 ],
               ),
+              Gap(16),
               SizedBox(
                 height: 300,
                 child: Row(
@@ -90,10 +91,19 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                           border: Border.all(
                         color: Colors.grey[200]!,
                       )),
-                    ))
+                    )),
+                    Gap(16),
+                    Expanded(
+                        child: Container(
+                          decoration: BoxDecoration(
+                              border: Border.all(
+                                color: Colors.grey[200]!,
+                              )),
+                        ))
                   ],
                 ),
               ),
+              Gap(24),
               Text("Recommended"),
               Expanded(
                 child: Placeholder(),
