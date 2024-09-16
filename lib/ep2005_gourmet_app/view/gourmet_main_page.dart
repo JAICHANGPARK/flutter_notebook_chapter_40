@@ -71,6 +71,7 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                     "Your trusted picks",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
+                      fontSize: 18,
                     ),
                   ),
                   TextButton(
