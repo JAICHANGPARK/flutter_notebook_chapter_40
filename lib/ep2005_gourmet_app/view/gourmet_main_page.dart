@@ -145,6 +145,13 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                                   )
                                 ],
                               ),
+                            ),
+                            Positioned(
+                              top: 8,
+                              right: 8,
+                              child: Row(
+                                children: [],
+                              ),
                             )
                           ],
                         ),
