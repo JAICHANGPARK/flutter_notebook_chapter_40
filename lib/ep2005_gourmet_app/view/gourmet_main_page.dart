@@ -42,7 +42,11 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                     children: [
                       Expanded(
                         child: TextField(
-                          decoration: ,
+                          decoration: InputDecoration(
+                            border: InputBorder.none,
+                            hintText: "Search...",
+                            icon: Icon(Icons.search),
+                          ),
                         ),
                       ),
                       VerticalDivider(),
