@@ -18,6 +18,9 @@ class GourmetApp extends StatelessWidget {
           backgroundColor: Color.fromRGBO(255, 253, 237, 1),
           selectedItemColor: Color.fromRGBO(58, 77, 57, 1),
         ),
+        textButtonTheme: TextButtonThemeData(
+          style: Tex
+        )
       ),
       home: GourmetMainPage(),
     );
