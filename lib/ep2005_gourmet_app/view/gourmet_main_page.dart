@@ -82,14 +82,14 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
               ),
               Gap(16),
               SizedBox(
-                height: 300,
+                height: 260,
                 child: Row(
                   children: [
                     Expanded(
                         child: Container(
                       decoration: BoxDecoration(
                           border: Border.all(
-                        color: Colors.grey[200]!,
+                        color: Colors.grey[300]!,
                       )),
                     )),
                     Gap(16),
@@ -97,7 +97,7 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                         child: Container(
                           decoration: BoxDecoration(
                               border: Border.all(
-                                color: Colors.grey[200]!,
+                                color: Colors.grey[300]!,
                               )),
                         ))
                   ],
