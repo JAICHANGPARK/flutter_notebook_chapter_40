@@ -124,6 +124,7 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                                       Text("500 Kal"),
                                     ],
                                   ),
+                                  Gap(12),
                                   Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
@@ -134,7 +135,12 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                                           fontWeight: FontWeight.bold,
                                         ),
                                       ),
-                                      CircleAvatar(),
+                                      CircleAvatar(
+                                        radius: 18,
+                                        backgroundColor: Colors.black,
+                                        foregroundColor: Colors.white,
+                                        child: Icon(Icons.add),
+                                      ),
                                     ],
                                   )
                                 ],
