@@ -53,6 +53,7 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
+        currentIndex: menuNumber,
         onTap: (idx) {
           setState(() {
             menuNumber = idx;
