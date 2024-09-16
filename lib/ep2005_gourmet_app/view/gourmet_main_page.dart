@@ -32,14 +32,20 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
               ),
               Gap(16),
               Container(
+                padding: EdgeInsets.symmetric(horizontal: 16, vertical: 3),
+                decoration: BoxDecoration(
+                  color: Color.fromRGBO(248, 244, 218, 1),
+                  borderRadius: BorderRadius.circular(42),
+                ),
                 child: IntrinsicHeight(
                   child: Row(
                     children: [
                       Expanded(
-                        child: TextField(),
+                        child: TextField(
+                          decoration: ,
+                        ),
                       ),
                       VerticalDivider(),
-                      
                     ],
                   ),
                 ),
