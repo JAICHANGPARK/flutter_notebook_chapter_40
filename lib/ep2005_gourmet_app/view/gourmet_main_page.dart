@@ -134,7 +134,7 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                                       "Seafood paella",
                                       style: TextStyle(
                                         fontWeight: FontWeight.bold,
-                                        fontSize: 20,
+                                        fontSize: 18,
                                       ),
                                     ),
                                     Container(
@@ -168,6 +168,7 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                                     Text("54 Summit Street"),
                                   ],
                                 ),
+                                Gap(12),
                                 Row(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
@@ -175,7 +176,7 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                                       "\$15.00",
                                       style: TextStyle(
                                         fontWeight: FontWeight.bold,
-                                        fontSize: 20,
+                                        fontSize: 18,
                                       ),
                                     ),
                                     Container(
