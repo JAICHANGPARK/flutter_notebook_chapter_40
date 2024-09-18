@@ -99,7 +99,24 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
               Gap(24),
               Text("Recommended"),
               Expanded(
-                child: Placeholder(),
+                child: ListView.builder(
+                  itemBuilder: (context, index) {
+                    return Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(8),
+                        border: Border.all(
+                          color: Colors.grey[300]!,
+                        ),
+                      ),
+                      margin: EdgeInsets.only(bottom: 12),
+                      child: Row(
+                        children: [
+
+                        ],
+                      ),
+                    );
+                  },
+                ),
               ),
             ],
           ),
