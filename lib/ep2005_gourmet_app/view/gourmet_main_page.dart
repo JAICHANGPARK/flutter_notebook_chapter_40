@@ -123,15 +123,19 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                             width: 120,
                             child: Placeholder(),
                           ),
-                          Gap(8),
+                          Gap(16),
                           Expanded(
                             child: Column(
-
                               children: [
                                 Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
                                     Text(
                                       "Seafood paella",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 20,
+                                      ),
                                     ),
                                     Container(
                                       child: Row(
@@ -167,14 +171,28 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                                 Row(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
-                                    Text("\$15.00"),
+                                    Text(
+                                      "\$15.00",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 20,
+                                      ),
+                                    ),
                                     Container(
                                       decoration: ShapeDecoration(shape: StadiumBorder(), color: Colors.black),
                                       padding: EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                                       child: Row(
                                         children: [
-                                          Icon(Icons.add),
-                                          Text("Add"),
+                                          Icon(
+                                            Icons.add,
+                                            color: Colors.white,
+                                          ),
+                                          Text(
+                                            "Add",
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                            ),
+                                          ),
                                         ],
                                       ),
                                     )
