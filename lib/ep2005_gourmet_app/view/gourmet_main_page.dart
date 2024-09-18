@@ -82,7 +82,7 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                 ],
               ),
               Gap(8),
-              SizedBox(
+              const SizedBox(
                 height: 260,
                 child: Row(
                   children: [
