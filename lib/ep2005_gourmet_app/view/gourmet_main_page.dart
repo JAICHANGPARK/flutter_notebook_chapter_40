@@ -126,6 +126,7 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                           Gap(8),
                           Expanded(
                             child: Column(
+
                               children: [
                                 Row(
                                   children: [
@@ -164,6 +165,7 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                                   ],
                                 ),
                                 Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
                                     Text("\$15.00"),
                                     Container(
