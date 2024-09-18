@@ -97,7 +97,13 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                 ),
               ),
               Gap(24),
-              Text("Recommended"),
+              Text(
+                "Recommended",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                ),
+              ),
               Expanded(
                 child: ListView.builder(
                   itemBuilder: (context, index) {
@@ -109,9 +115,47 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                         ),
                       ),
                       margin: EdgeInsets.only(bottom: 12),
+                      padding: EdgeInsets.all(8),
                       child: Row(
                         children: [
-
+                          Container(
+                            height: 120,
+                            width: 120,
+                            child: Placeholder(),
+                          ),
+                          Gap(8),
+                          Expanded(
+                            child: Column(
+                              children: [
+                                Row(
+                                  children: [
+                                    Text(
+                                      "Seafood paella",
+                                    ),
+                                    Container(
+                                      child: Row(
+                                        children: [
+                                          Icon(
+                                            Icons.star,
+                                            size: 18,
+                                          ),
+                                          Text("4.5"),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(
+                                      Icons.timer_sharp,
+                                      size: 16,
+                                    ),
+                                  ],
+                                )
+                              ],
+                            ),
+                          )
                         ],
                       ),
                     );
