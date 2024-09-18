@@ -152,9 +152,32 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                                       size: 16,
                                     ),
                                     Text("15 min | 500 Kal"),
-                                    
                                   ],
-                                )
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(
+                                      Icons.location_on_outlined,
+                                      size: 16,
+                                    ),
+                                    Text("54 Summit Street"),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Text("\$15.00"),
+                                    Container(
+                                      decoration: ShapeDecoration(shape: StadiumBorder(), color: Colors.black),
+                                      padding: EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+                                      child: Row(
+                                        children: [
+                                          Icon(Icons.add),
+                                          Text("Add"),
+                                        ],
+                                      ),
+                                    )
+                                  ],
+                                ),
                               ],
                             ),
                           )
