@@ -151,6 +151,8 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                                       Icons.timer_sharp,
                                       size: 16,
                                     ),
+                                    Text("15 min | 500 Kal"),
+                                    
                                   ],
                                 )
                               ],
