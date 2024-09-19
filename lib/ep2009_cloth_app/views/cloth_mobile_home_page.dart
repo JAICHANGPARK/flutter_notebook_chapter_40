@@ -68,7 +68,10 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                         ),
                       )
                     ],
-                  )
+                  ),
+                  Expanded(
+                    child: Placeholder(),
+                  ),
                 ],
               ),
             ),
