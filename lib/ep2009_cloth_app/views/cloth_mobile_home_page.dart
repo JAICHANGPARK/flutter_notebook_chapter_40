@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class ClothMobileHomePage extends StatefulWidget {
   const ClothMobileHomePage({super.key});
@@ -27,6 +28,18 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
               child: Container(
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
+                ),
+                child: Row(
+                  children: [
+                    Expanded(
+                        child: Container(
+                      child: Center(
+                        child: Icon(
+                          HugeIcons.strokeRoundedHome01,
+                        ),
+                      ),
+                    ))
+                  ],
                 ),
               ),
             ),
