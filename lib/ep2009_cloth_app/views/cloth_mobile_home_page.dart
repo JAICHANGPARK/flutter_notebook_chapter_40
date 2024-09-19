@@ -31,6 +31,40 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                             color: Colors.grey,
                           ),
                         ),
+                        child: Icon(Icons.keyboard_arrow_left),
+                      ),
+                      Expanded(
+                        child: Container(
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            border: Border.all(
+                              color: Colors.grey,
+                            ),
+                          ),
+                        ),
+                      ),
+                      Container(
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            border: Border.all(
+                              color: Colors.grey,
+                            ),
+                          ),
+                          child: Badge(
+                            child: Icon(
+                              Icons.shopping_bag,
+                            ),
+                          )),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text("128 RESULTS PRODUCT"),
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(
+                          HugeIcons.strokeRoundedFilter,
+                        ),
                       )
                     ],
                   )
