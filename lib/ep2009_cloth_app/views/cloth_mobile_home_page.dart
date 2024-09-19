@@ -34,7 +34,7 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                   color: Colors.black,
                 ),
                 padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
-                height: 52,
+                height: 60,
                 child: Row(
                   children: [
                     Expanded(
