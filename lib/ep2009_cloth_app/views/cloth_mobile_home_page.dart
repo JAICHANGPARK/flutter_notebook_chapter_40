@@ -25,20 +25,51 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
               ),
             ),
             Positioned(
+              bottom: 32,
+              left: 32,
+              right: 32,
               child: Container(
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
+                  color: Colors.black,
                 ),
+                height: 52,
                 child: Row(
                   children: [
                     Expanded(
-                        child: Container(
-                      child: Center(
-                        child: Icon(
-                          HugeIcons.strokeRoundedHome01,
+                      child: Container(
+                        child: Center(
+                          child: Icon(
+                            HugeIcons.strokeRoundedHome01,
+                          ),
                         ),
                       ),
-                    ))
+                    ),
+                    Expanded(
+                      child: Container(
+                        child: Center(
+                          child: Icon(HugeIcons.strokeRoundedSearch01),
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      child: Container(
+                        child: Center(
+                          child: Icon(
+                            HugeIcons.strokeRoundedHome01,
+                          ),
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      child: Container(
+                        child: Center(
+                          child: Icon(
+                            HugeIcons.strokeRoundedHome01,
+                          ),
+                        ),
+                      ),
+                    )
                   ],
                 ),
               ),
