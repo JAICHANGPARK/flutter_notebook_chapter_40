@@ -33,11 +33,16 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                   shape: StadiumBorder(),
                   color: Colors.black,
                 ),
+                
                 height: 52,
                 child: Row(
                   children: [
                     Expanded(
                       child: Container(
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.black,
+                        ),
                         child: Center(
                           child: Icon(
                             HugeIcons.strokeRoundedHome01,
@@ -46,7 +51,12 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                       ),
                     ),
                     Expanded(
+
                       child: Container(
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.white
+                        ),
                         child: Center(
                           child: Icon(HugeIcons.strokeRoundedSearch01),
                         ),
