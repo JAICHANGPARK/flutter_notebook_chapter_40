@@ -14,8 +14,21 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
       body: SafeArea(
         child: Stack(
           children: [
-            Column(
-              children: [],
+            Positioned(
+              left: 16,
+              right: 16,
+              top: 16,
+              bottom: 0,
+              child: Column(
+                children: [],
+              ),
+            ),
+            Positioned(
+              child: Container(
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                ),
+              ),
             ),
           ],
         ),
