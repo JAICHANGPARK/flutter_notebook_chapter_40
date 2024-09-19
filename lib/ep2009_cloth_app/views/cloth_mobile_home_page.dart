@@ -46,17 +46,14 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                         child: Center(
                           child: Icon(
                             HugeIcons.strokeRoundedHome01,
+                            color: Colors.white,
                           ),
                         ),
                       ),
                     ),
                     Expanded(
-
                       child: Container(
-                        decoration: ShapeDecoration(
-                          shape: StadiumBorder(),
-                          color: Colors.white
-                        ),
+                        decoration: ShapeDecoration(shape: StadiumBorder(), color: Colors.white),
                         child: Center(
                           child: Icon(HugeIcons.strokeRoundedSearch01),
                         ),
