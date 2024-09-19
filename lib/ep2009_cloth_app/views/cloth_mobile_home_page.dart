@@ -33,7 +33,7 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                   shape: StadiumBorder(),
                   color: Colors.black,
                 ),
-                
+                padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                 height: 52,
                 child: Row(
                   children: [
