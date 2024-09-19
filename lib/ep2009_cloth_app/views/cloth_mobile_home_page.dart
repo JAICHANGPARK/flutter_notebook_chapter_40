@@ -21,7 +21,20 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
               top: 16,
               bottom: 0,
               child: Column(
-                children: [],
+                children: [
+                  Row(
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          border: Border.all(
+                            color: Colors.grey,
+                          ),
+                        ),
+                      )
+                    ],
+                  )
+                ],
               ),
             ),
             Positioned(
