@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class ClothMobileHomePage extends StatefulWidget {
   const ClothMobileHomePage({super.key});
 
@@ -12,10 +11,14 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          
-        ],
+      body: SafeArea(
+        child: Stack(
+          children: [
+            Column(
+              children: [],
+            ),
+          ],
+        ),
       ),
     );
   }
