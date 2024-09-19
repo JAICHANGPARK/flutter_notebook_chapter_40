@@ -63,25 +63,29 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                       ),
                     ),
                     Expanded(
-                      child: Container( decoration: ShapeDecoration(
-                        shape: StadiumBorder(),
-                        color: Colors.black,
-                      ),
+                      child: Container(
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.black,
+                        ),
                         child: Center(
                           child: Icon(
                             HugeIcons.strokeRoundedShoppingCart01,
+                            color: Colors.white,
                           ),
                         ),
                       ),
                     ),
                     Expanded(
-                      child: Container( decoration: ShapeDecoration(
-                        shape: StadiumBorder(),
-                        color: Colors.black,
-                      ),
+                      child: Container(
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.black,
+                        ),
                         child: Center(
                           child: Icon(
                             HugeIcons.strokeRoundedUser,
+                            color: Colors.white,
                           ),
                         ),
                       ),
