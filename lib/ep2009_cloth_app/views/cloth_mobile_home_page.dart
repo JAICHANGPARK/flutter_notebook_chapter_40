@@ -58,6 +58,7 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                     ],
                   ),
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text("128 RESULTS PRODUCT"),
                       IconButton(
