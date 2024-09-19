@@ -63,7 +63,7 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                       IconButton(
                         onPressed: () {},
                         icon: Icon(
-                          HugeIcons.strokeRoundedFilter,
+                          HugeIcons.strokeRoundedFilterHorizontal,
                         ),
                       )
                     ],
