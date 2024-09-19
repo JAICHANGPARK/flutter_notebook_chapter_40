@@ -56,7 +56,7 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                       child: Container(
                         child: Center(
                           child: Icon(
-                            HugeIcons.strokeRoundedHome01,
+                            HugeIcons.strokeRoundedShoppingCart01,
                           ),
                         ),
                       ),
@@ -65,7 +65,7 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                       child: Container(
                         child: Center(
                           child: Icon(
-                            HugeIcons.strokeRoundedHome01,
+                            HugeIcons.strokeRoundedUser,
                           ),
                         ),
                       ),
