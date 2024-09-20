@@ -113,7 +113,7 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                           crossAxisCount: 2,
                           mainAxisSpacing: 16,
                           crossAxisSpacing: 16,
-                          childAspectRatio: .7,
+                          childAspectRatio: .65,
                         ),
                         itemBuilder: (context, index) {
                           return Column(
