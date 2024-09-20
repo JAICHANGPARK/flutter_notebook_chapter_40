@@ -38,21 +38,24 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                       Gap(16),
                       Expanded(
                         child: Container(
+                          height: 42,
                           decoration: BoxDecoration(
                             border: Border.all(
                               color: Colors.grey,
                             ),
                             borderRadius: BorderRadius.circular(32),
                           ),
-                          child: Center(
-                            child: TextField(
-                              decoration: InputDecoration(
-                                hintText: "STYLISH T-SHIRT",
-                                border: InputBorder.none,
-                                icon: Icon(
-                                  Icons.search,
-                                ),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 12,
+                          ),
+                          child: TextField(
+                            decoration: InputDecoration(
+                              hintText: "STYLISH T-SHIRT",
+                              border: InputBorder.none,
+                              icon: Icon(
+                                Icons.search,
                               ),
+                              contentPadding: EdgeInsets.zero,
                             ),
                           ),
                         ),
