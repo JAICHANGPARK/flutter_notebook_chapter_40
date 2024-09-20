@@ -20,7 +20,7 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
             Positioned(
               left: 16,
               right: 16,
-              top: 16,
+              top: 32,
               bottom: 0,
               child: Column(
                 children: [
