@@ -55,7 +55,9 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                               icon: Icon(
                                 Icons.search,
                               ),
-                              contentPadding: EdgeInsets.zero,
+                              contentPadding: EdgeInsets.only(
+                                bottom: 8,
+                              ),
                             ),
                           ),
                         ),
