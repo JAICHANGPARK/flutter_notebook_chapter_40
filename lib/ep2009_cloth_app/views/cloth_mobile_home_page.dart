@@ -41,7 +41,7 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                             border: Border.all(
                               color: Colors.grey,
                             ),
-                            borderRadius: Bor
+                            borderRadius: BorderRadius.circular(32),
                           ),
                           child: Center(
                             child: TextField(
