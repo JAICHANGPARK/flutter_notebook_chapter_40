@@ -125,7 +125,13 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                                   color: Colors.grey,
                                   borderRadius: BorderRadius.circular(8),
                                 ),
-                              ))
+                              )),
+                              Text(
+                                "KID STLYSH JAKET",
+                              ),
+                              Text(
+                                "\$250.00",
+                              ),
                             ],
                           );
                         }),
