@@ -51,19 +51,24 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                           ),
                           child: TextField(
                             decoration: InputDecoration(
-                                hintText: "STYLISH T-SHIRT",
-                                border: InputBorder.none,
-                                icon: Icon(
-                                  CupertinoIcons.search,
-                                  size: 16,
-                                ),
-                                contentPadding: EdgeInsets.only(
-                                  bottom: 8,
-                                ),
-                                hintStyle: TextStyle(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.bold,
-                                )),
+                              hintText: "STYLISH T-SHIRT",
+                              border: InputBorder.none,
+                              icon: Icon(
+                                CupertinoIcons.search,
+                                size: 16,
+                              ),
+                              contentPadding: EdgeInsets.only(
+                                bottom: 8,
+                              ),
+                              hintStyle: TextStyle(
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
+                              ),
+                              suffixIcon: Icon(
+                                Icons.clear,
+                                size: 16,
+                              ),
+                            ),
                           ),
                         ),
                       ),
@@ -83,6 +88,7 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                           )),
                     ],
                   ),
+                  Gap(32),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -96,7 +102,13 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                     ],
                   ),
                   Expanded(
-                    child: Placeholder(),
+                    child: GridView.builder(
+                        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                          crossAxisCount: 2,
+                        ),
+                        itemBuilder: (context, index){
+                          return Placeholder();
+                        }),
                   ),
                 ],
               ),
