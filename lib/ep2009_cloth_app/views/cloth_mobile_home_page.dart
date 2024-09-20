@@ -92,7 +92,13 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("128 RESULTS PRODUCT"),
+                      Text(
+                        "128 RESULTS PRODUCT",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18,
+                        ),
+                      ),
                       IconButton(
                         onPressed: () {},
                         icon: Icon(
@@ -105,8 +111,11 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                     child: GridView.builder(
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                           crossAxisCount: 2,
+                          mainAxisSpacing: 16,
+                          crossAxisSpacing: 16,
+                          childAspectRatio: .7,
                         ),
-                        itemBuilder: (context, index){
+                        itemBuilder: (context, index) {
                           return Placeholder();
                         }),
                   ),
