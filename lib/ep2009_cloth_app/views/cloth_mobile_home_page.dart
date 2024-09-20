@@ -41,6 +41,11 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                               color: Colors.grey,
                             ),
                           ),
+                          child: TextField(
+                            decoration: InputDecoration(
+
+                            ),
+                          ),
                         ),
                       ),
                       Container(
