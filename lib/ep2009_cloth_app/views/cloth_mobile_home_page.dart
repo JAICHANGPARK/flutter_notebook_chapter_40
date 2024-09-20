@@ -46,8 +46,11 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                           child: Center(
                             child: TextField(
                               decoration: InputDecoration(
-                                hintText: "STYLISH T-SHIRT"
-
+                                hintText: "STYLISH T-SHIRT",
+                                border: InputBorder.none,
+                                icon: Icon(
+                                  Icons.search,
+                                ),
                               ),
                             ),
                           ),
