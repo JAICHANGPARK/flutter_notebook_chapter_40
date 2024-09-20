@@ -116,7 +116,18 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                           childAspectRatio: .7,
                         ),
                         itemBuilder: (context, index) {
-                          return Placeholder();
+                          return Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Expanded(
+                                  child: Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                  borderRadius: BorderRadius.circular(8),
+                                ),
+                              ))
+                            ],
+                          );
                         }),
                   ),
                 ],
