@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class ClothMobileHomePage extends StatefulWidget {
@@ -33,21 +34,26 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                         ),
                         child: Icon(Icons.keyboard_arrow_left),
                       ),
+                      Gap(16),
                       Expanded(
                         child: Container(
                           decoration: BoxDecoration(
-                            shape: BoxShape.circle,
                             border: Border.all(
                               color: Colors.grey,
                             ),
+                            borderRadius: Bor
                           ),
-                          child: TextField(
-                            decoration: InputDecoration(
+                          child: Center(
+                            child: TextField(
+                              decoration: InputDecoration(
+                                hintText: "STYLISH T-SHIRT"
 
+                              ),
                             ),
                           ),
                         ),
                       ),
+                      Gap(16),
                       Container(
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
