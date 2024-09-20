@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
@@ -50,15 +51,19 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                           ),
                           child: TextField(
                             decoration: InputDecoration(
-                              hintText: "STYLISH T-SHIRT",
-                              border: InputBorder.none,
-                              icon: Icon(
-                                Icons.search,
-                              ),
-                              contentPadding: EdgeInsets.only(
-                                bottom: 8,
-                              ),
-                            ),
+                                hintText: "STYLISH T-SHIRT",
+                                border: InputBorder.none,
+                                icon: Icon(
+                                  CupertinoIcons.search,
+                                  size: 16,
+                                ),
+                                contentPadding: EdgeInsets.only(
+                                  bottom: 8,
+                                ),
+                                hintStyle: TextStyle(
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.bold,
+                                )),
                           ),
                         ),
                       ),
