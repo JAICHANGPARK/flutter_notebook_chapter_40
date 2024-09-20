@@ -32,6 +32,7 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                             color: Colors.grey,
                           ),
                         ),
+                        padding: EdgeInsets.all(8),
                         child: Icon(Icons.keyboard_arrow_left),
                       ),
                       Gap(16),
@@ -58,6 +59,7 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                       ),
                       Gap(16),
                       Container(
+                          padding: EdgeInsets.all(8),
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             border: Border.all(
