@@ -126,10 +126,13 @@ class _ClothMobileHomePageState extends State<ClothMobileHomePage> {
                                   borderRadius: BorderRadius.circular(8),
                                 ),
                               )),
+                              Gap(8),
                               Text(
                                 "KID STLYSH JAKET",
                               ),
+                              Gap(4),
                               Text(
+
                                 "\$250.00",
                               ),
                             ],
