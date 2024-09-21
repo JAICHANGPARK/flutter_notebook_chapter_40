@@ -65,8 +65,9 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                 ],
               ),
             ),
+            Gap(16),
             Padding(
-              padding: const EdgeInsets.all(16.0),
+              padding: const EdgeInsets.symmetric(horizontal: 16),
               child: Row(
                 children: [
                   Expanded(
@@ -85,7 +86,28 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                   )
                 ],
               ),
-            )
+            ),
+            Expanded(
+                child: Container(
+              margin: EdgeInsets.all(16),
+              decoration: BoxDecoration(
+                color: Colors.grey[200],
+                borderRadius: BorderRadius.circular(12),
+              ),
+            )),
+            SizedBox(
+              height: 82,
+              child: Row(
+                children: [
+                  Column(
+                    children: [
+                      
+                    ],
+                  )
+                ],
+              ),
+            ),
+
           ],
         ),
       ),
