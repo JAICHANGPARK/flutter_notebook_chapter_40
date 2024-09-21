@@ -59,7 +59,7 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                   Text("Human"),
                   Gap(12),
                   SizedBox(
-                    height: 140,
+                    height: 120,
                     child: Placeholder(),
                   )
                 ],
@@ -96,7 +96,11 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
               ),
                   child: Column(
                     children: [
-                      
+                      Container(
+                        height: 200,
+                        color: Colors.white,
+                      ),
+                      Expanded(child: Placeholder(),)
                     ],
                   ),
             )),
