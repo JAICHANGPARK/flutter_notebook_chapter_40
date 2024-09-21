@@ -101,13 +101,42 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                 children: [
                   Column(
                     children: [
-                      
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.explore),
+                      ),
+                      Text(
+                        "Explore",
+                      ),
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.chat_bubble_outline),
+                      ),
+                      Text(
+                        "Activity",
+                      ),
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(
+                          Icons.notifications_none,
+                        ),
+                      ),
+                      Text(
+                        "Notification",
+                      ),
                     ],
                   )
                 ],
               ),
             ),
-
           ],
         ),
       ),
