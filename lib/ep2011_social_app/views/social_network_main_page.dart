@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class SocialNetworkMainPage extends StatefulWidget {
   const SocialNetworkMainPage({super.key});
 
@@ -12,7 +11,11 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      body: SafeArea(
+        child: Column(
+          children: [],
+        ),
+      ),
     );
   }
 }
