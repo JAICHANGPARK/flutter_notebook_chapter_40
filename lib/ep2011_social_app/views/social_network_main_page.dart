@@ -95,9 +95,11 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                 borderRadius: BorderRadius.circular(12),
               ),
             )),
-            SizedBox(
+            Container(
               height: 82,
+              padding: EdgeInsets.symmetric(horizontal: 32),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   Column(
                     children: [
