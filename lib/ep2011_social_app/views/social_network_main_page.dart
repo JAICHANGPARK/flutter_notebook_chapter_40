@@ -13,6 +13,7 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
     return Scaffold(
       body: SafeArea(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Row(
               children: [
@@ -43,7 +44,10 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                   icon: Icon(Icons.filter_list),
                 ),
               ],
-            )
+            ),
+            Text("Human"),
+            SizedBox(height: 180,
+            child: Placeholder(),)
           ],
         ),
       ),
