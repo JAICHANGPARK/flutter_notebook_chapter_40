@@ -94,6 +94,11 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                 color: Colors.grey[200],
                 borderRadius: BorderRadius.circular(12),
               ),
+                  child: Column(
+                    children: [
+                      
+                    ],
+                  ),
             )),
             Container(
               height: 82,
