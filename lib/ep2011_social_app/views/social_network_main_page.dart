@@ -13,7 +13,29 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
     return Scaffold(
       body: SafeArea(
         child: Column(
-          children: [],
+          children: [
+            Row(
+              children: [
+                CircleAvatar(),
+                Expanded(
+                  child: Column(
+                    children: [
+                      Text("STATUS"),
+                      Row(
+                        children: [
+                          Text("Up for coffee"),
+                          Icon(
+                            Icons.keyboard_arrow_down,
+                            size: 16,
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                )
+              ],
+            )
+          ],
         ),
       ),
     );
