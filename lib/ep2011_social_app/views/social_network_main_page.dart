@@ -12,7 +12,7 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+
     );
   }
 }
