@@ -19,6 +19,7 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                 CircleAvatar(),
                 Expanded(
                   child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text("STATUS"),
                       Row(
@@ -32,7 +33,15 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                       ),
                     ],
                   ),
-                )
+                ),
+                Container(
+                  decoration: BoxDecoration(),
+                  child: Text("3 Requests"),
+                ),
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(Icons.filter_list),
+                ),
               ],
             )
           ],
