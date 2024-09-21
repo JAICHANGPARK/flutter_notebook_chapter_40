@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class SocialNetworkMainPage extends StatefulWidget {
   const SocialNetworkMainPage({super.key});
@@ -48,15 +49,35 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                 ],
               ),
             ),
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text("Human"),
-                SizedBox(height: 140,
-                  child: Placeholder(),)
-              ],
+            Padding(
+              padding: const EdgeInsets.only(
+                left: 16,
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text("Human"),
+                  Gap(12),
+                  SizedBox(
+                    height: 140,
+                    child: Placeholder(),
+                  )
+                ],
+              ),
             ),
-
+            Row(
+              children: [
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text("Things to do"),
+                      Text("Swipe up for more details"),
+                    ],
+                  ),
+                )
+              ],
+            )
           ],
         ),
       ),
