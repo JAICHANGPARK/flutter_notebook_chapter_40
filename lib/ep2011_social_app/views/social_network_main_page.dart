@@ -65,18 +65,26 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                 ],
               ),
             ),
-            Row(
-              children: [
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text("Things to do"),
-                      Text("Swipe up for more details"),
-                    ],
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Row(
+                children: [
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text("Things to do"),
+                        Text("Swipe up for more details"),
+                      ],
+                    ),
                   ),
-                )
-              ],
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.grey[200],
+                    ),
+                  )
+                ],
+              ),
             )
           ],
         ),
