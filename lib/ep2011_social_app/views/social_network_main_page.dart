@@ -138,8 +138,9 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                     ),
                   ),
                   Container(
-                    decoration: BoxDecoration(
-                      color: Colors.grey[200],
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.grey[200]!,
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                     child: Row(
