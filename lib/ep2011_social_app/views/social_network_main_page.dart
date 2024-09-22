@@ -21,11 +21,12 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
               child: Row(
                 children: [
                   CircleAvatar(),
+                  Gap(8),
                   Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("STATUS"),
+                        Text("STATUS",style: TextStyle(),),
                         Row(
                           children: [
                             Text("Up for coffee"),
