@@ -91,6 +91,17 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                           decoration: BoxDecoration(
                             color: Colors.grey,
                           ),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            mainAxisAlignment: ,
+                            children: [
+                              CircleAvatar(),
+                              Text("Beer anyone aroud?"),
+                              Text(
+                                "3.4kms away",
+                              ),
+                            ],
+                          ),
                         );
                       },
                     ),
