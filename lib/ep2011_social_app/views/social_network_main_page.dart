@@ -93,7 +93,7 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                           ),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: ,
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               CircleAvatar(),
                               Text("Beer anyone aroud?"),
