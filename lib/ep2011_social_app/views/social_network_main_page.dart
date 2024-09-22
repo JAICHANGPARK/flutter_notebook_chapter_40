@@ -96,7 +96,12 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               CircleAvatar(),
-                              Text("Beer anyone aroud?"),
+                              Text(
+                                "Beer anyone aroud?",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
                               Text(
                                 "3.4kms away",
                               ),
