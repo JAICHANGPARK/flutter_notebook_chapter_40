@@ -51,8 +51,12 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                     ),
                   ),
                   Container(
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
-                    child: Text("3 Requests"),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.deepPurpleAccent,
+                    ),
+                    padding: EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                    child: Text("3 Requests",),
                   ),
                   IconButton(
                     onPressed: () {},
