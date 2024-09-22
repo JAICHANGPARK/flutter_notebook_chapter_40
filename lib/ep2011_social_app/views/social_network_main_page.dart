@@ -84,6 +84,7 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                   SizedBox(
                     height: 120,
                     child: ListView.builder(
+                      scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
                         return Container(
                           width: 120,
