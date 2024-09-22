@@ -82,15 +82,17 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                   Text("Human"),
                   Gap(12),
                   SizedBox(
-                    height: 120,
+                    height: 140,
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
                         return Container(
-                          width: 120,
+                          width: 140,
+                          padding: EdgeInsets.all(12),
                           margin: EdgeInsets.only(right: 8),
                           decoration: BoxDecoration(
-                            color: Colors.grey,
+                            color: Colors.grey[200]!,
+                            borderRadius: BorderRadius.circular(16),
                           ),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
