@@ -126,7 +126,13 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Things to do"),
+                        Text(
+                          "Things to do",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 21,
+                          ),
+                        ),
                         Text("Swipe up for more details"),
                       ],
                     ),
@@ -134,6 +140,18 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                   Container(
                     decoration: BoxDecoration(
                       color: Colors.grey[200],
+                    ),
+                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                    child: Row(
+                      children: [
+                        Icon(
+                          Icons.add,
+                          color: Colors.deepPurpleAccent,
+                        ),
+                        Text(
+                          "Create",
+                        )
+                      ],
                     ),
                   )
                 ],
