@@ -130,10 +130,17 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                           "Things to do",
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
-                            fontSize: 21,
+                            fontSize: 24,
                           ),
                         ),
-                        Text("Swipe up for more details"),
+                        Text(
+                          "Swipe up for more details",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 13,
+                            color: Colors.grey,
+                          ),
+                        ),
                       ],
                     ),
                   ),
