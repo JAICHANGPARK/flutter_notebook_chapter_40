@@ -26,10 +26,21 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("STATUS",style: TextStyle(),),
+                        Text(
+                          "STATUS",
+                          style: TextStyle(
+                            fontSize: 12,
+                            color: Colors.grey,
+                          ),
+                        ),
                         Row(
                           children: [
-                            Text("Up for coffee"),
+                            Text(
+                              "Up for coffee",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                             Icon(
                               Icons.keyboard_arrow_down,
                               size: 16,
@@ -40,7 +51,7 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                     ),
                   ),
                   Container(
-                    decoration: BoxDecoration(),
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
                     child: Text("3 Requests"),
                   ),
                   IconButton(
@@ -95,15 +106,17 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                 color: Colors.grey[200],
                 borderRadius: BorderRadius.circular(12),
               ),
-                  child: Column(
-                    children: [
-                      Container(
-                        height: 200,
-                        color: Colors.white,
-                      ),
-                      Expanded(child: Placeholder(),)
-                    ],
+              child: Column(
+                children: [
+                  Container(
+                    height: 200,
+                    color: Colors.white,
                   ),
+                  Expanded(
+                    child: Placeholder(),
+                  )
+                ],
+              ),
             )),
             Container(
               height: 82,
