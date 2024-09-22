@@ -12,6 +12,7 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -82,7 +83,17 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                   Gap(12),
                   SizedBox(
                     height: 120,
-                    child: Placeholder(),
+                    child: ListView.builder(
+                      itemBuilder: (context, index) {
+                        return Container(
+                          width: 120,
+                          
+                          decoration: BoxDecoration(
+                            color: Colors.grey,
+                          ),
+                        );
+                      },
+                    ),
                   )
                 ],
               ),
