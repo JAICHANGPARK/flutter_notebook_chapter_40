@@ -117,7 +117,7 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                 ],
               ),
             ),
-            Gap(16),
+            Gap(24),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
               child: Row(
