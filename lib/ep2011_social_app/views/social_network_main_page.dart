@@ -87,7 +87,7 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                       itemBuilder: (context, index) {
                         return Container(
                           width: 120,
-                          
+                          margin: EdgeInsets.only(right: 8),
                           decoration: BoxDecoration(
                             color: Colors.grey,
                           ),
