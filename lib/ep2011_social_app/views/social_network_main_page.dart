@@ -190,6 +190,7 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                     child: Column(
                       children: [
                         Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Container(
                               padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
@@ -216,6 +217,15 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                                 size: 18,
                               ),
                             )
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Chip(
+                              label: Text(
+                                "IN NEXT 24HRS",
+                              ),
+                            ),
                           ],
                         )
                       ],
