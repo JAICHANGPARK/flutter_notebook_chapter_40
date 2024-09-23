@@ -149,15 +149,19 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                       shape: StadiumBorder(),
                       color: Colors.grey[200]!,
                     ),
-                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                    padding: EdgeInsets.symmetric(horizontal: 14, vertical: 6),
                     child: Row(
                       children: [
                         Icon(
                           Icons.add,
                           color: Colors.deepPurpleAccent,
+                          size: 14,
                         ),
                         Text(
                           "Create",
+                          style: TextStyle(
+                            fontSize: 12,
+                          ),
                         )
                       ],
                     ),
