@@ -183,6 +183,7 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                         image: NetworkImage(
                           "https://cdn.pixabay.com/photo/2016/03/01/18/16/people-1230872_1280.jpg",
                         ),
+                        fit: BoxFit.cover,
                       ),
                     ),
                     child: Column(
@@ -192,7 +193,9 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                             Container(
                               child: Row(
                                 children: [
-                                  CircleAvatar(radius: 10,),
+                                  CircleAvatar(
+                                    radius: 10,
+                                  ),
                                   Text("initated by Unknown User")
                                 ],
                               ),
