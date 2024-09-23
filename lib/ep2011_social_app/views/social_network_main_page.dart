@@ -191,6 +191,11 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                         Row(
                           children: [
                             Container(
+                              padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(12),
+                              ),
                               child: Row(
                                 children: [
                                   CircleAvatar(
