@@ -177,7 +177,7 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Column(
-
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
                     height: 240,
@@ -249,7 +249,17 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                     ),
                   ),
                   Expanded(
-                    child: Placeholder(),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          "3.5kms away",
+                        ),
+                        Text(
+                          "Coffee over conversation, text with two lines",
+                        )
+                      ],
+                    ),
                   )
                 ],
               ),
