@@ -205,6 +205,12 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                                   Text("initated by Unknown User")
                                 ],
                               ),
+                            ),
+                            CircleAvatar(
+                              radius: 14,
+                              backgroundColor: Colors.white,
+                              foregroundColor: Colors.black,
+                              child: Icon(Icons.share, size: 18,),
                             )
                           ],
                         )
