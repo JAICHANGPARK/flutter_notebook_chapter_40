@@ -176,7 +176,6 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                 color: Colors.grey[200],
                 borderRadius: BorderRadius.circular(12),
               ),
-              
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -250,16 +249,28 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                     ),
                   ),
                   Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          "3.5kms away",
-                        ),
-                        Text(
-                          "Coffee over conversation, text with two lines",
-                        )
-                      ],
+                    child: Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "3.5kms away",
+                          ),
+                          Text(
+                            "Coffee over conversation, text with two lines",
+                          ),
+                          Row(
+                            children: [
+                              Icon(
+                                Icons.timelapse,
+                                size: 12,
+                              ),
+                              Text('Today, jan 31 at 4:00pm for 1hr'),
+                            ],
+                          )
+                        ],
+                      ),
                     ),
                   )
                 ],
