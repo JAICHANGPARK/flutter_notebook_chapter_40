@@ -279,7 +279,27 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                             ],
                           ),
                           Container(
-                            decoration: BoxDecoration(),
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(6),
+                            ),
+                            padding: EdgeInsets.all(6),
+                            child: Row(
+                              children: [
+                                CircleAvatar(
+                                  radius: 12,
+                                ),
+                                CircleAvatar(
+                                  radius: 12,
+                                ),
+                                CircleAvatar(
+                                  radius: 12,
+                                ),
+                                CircleAvatar(
+                                  radius: 12,
+                                ),
+                              ],
+                            ),
                           )
                         ],
                       ),
