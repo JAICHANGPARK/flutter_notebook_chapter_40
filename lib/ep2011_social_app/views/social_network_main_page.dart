@@ -178,11 +178,28 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                     height: 200,
                     decoration: BoxDecoration(
                       color: Colors.white,
+                      borderRadius: BorderRadius.circular(16),
                       image: DecorationImage(
                         image: NetworkImage(
                           "https://cdn.pixabay.com/photo/2016/03/01/18/16/people-1230872_1280.jpg",
                         ),
                       ),
+                    ),
+                    child: Column(
+                      children: [
+                        Row(
+                          children: [
+                            Container(
+                              child: Row(
+                                children: [
+                                  CircleAvatar(radius: 10,),
+                                  Text("initated by Unknown User")
+                                ],
+                              ),
+                            )
+                          ],
+                        )
+                      ],
                     ),
                   ),
                   Expanded(
