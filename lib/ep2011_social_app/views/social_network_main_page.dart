@@ -186,6 +186,7 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                         fit: BoxFit.cover,
                       ),
                     ),
+                    padding: EdgeInsets.all(12),
                     child: Column(
                       children: [
                         Row(
@@ -210,7 +211,10 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                               radius: 14,
                               backgroundColor: Colors.white,
                               foregroundColor: Colors.black,
-                              child: Icon(Icons.share, size: 18,),
+                              child: Icon(
+                                Icons.share,
+                                size: 18,
+                              ),
                             )
                           ],
                         )
