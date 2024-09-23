@@ -230,6 +230,16 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                                 "IN NEXT 24HRS",
                               ),
                             ),
+                            Chip(
+                              label: Text(
+                                "FUN",
+                              ),
+                            ),
+                            Chip(
+                              label: Text(
+                                "OUTDOOR",
+                              ),
+                            ),
                           ],
                         )
                       ],
