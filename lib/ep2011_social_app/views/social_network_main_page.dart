@@ -177,9 +177,10 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Column(
+
                 children: [
                   Container(
-                    height: 200,
+                    height: 240,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(16),
@@ -192,6 +193,8 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                     ),
                     padding: EdgeInsets.all(12),
                     child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -223,7 +226,7 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                             )
                           ],
                         ),
-                        Row(
+                        Wrap(
                           children: [
                             Chip(
                               label: Text(
