@@ -176,7 +176,14 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                 children: [
                   Container(
                     height: 200,
-                    color: Colors.white,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://cdn.pixabay.com/photo/2016/03/01/18/16/people-1230872_1280.jpg",
+                        ),
+                      ),
+                    ),
                   ),
                   Expanded(
                     child: Placeholder(),
