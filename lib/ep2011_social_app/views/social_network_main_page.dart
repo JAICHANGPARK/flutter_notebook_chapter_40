@@ -268,6 +268,18 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                               ),
                               Text('Today, jan 31 at 4:00pm for 1hr'),
                             ],
+                          ),
+                          Row(
+                            children: [
+                              Icon(
+                                Icons.location_on_outlined,
+                                size: 12,
+                              ),
+                              Text('No 43, Millors Road'),
+                            ],
+                          ),
+                          Container(
+                            decoration: BoxDecoration(),
                           )
                         ],
                       ),
