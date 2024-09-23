@@ -289,15 +289,20 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                                 CircleAvatar(
                                   radius: 12,
                                 ),
+                                Gap(6),
                                 CircleAvatar(
                                   radius: 12,
                                 ),
+                                Gap(6),
                                 CircleAvatar(
                                   radius: 12,
                                 ),
+                                Gap(6),
                                 CircleAvatar(
                                   radius: 12,
                                 ),
+                                Gap(6),
+                                Text("5 others are going"),
                               ],
                             ),
                           )
