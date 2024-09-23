@@ -201,6 +201,7 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                                   CircleAvatar(
                                     radius: 10,
                                   ),
+                                  Gap(4),
                                   Text("initated by Unknown User")
                                 ],
                               ),
