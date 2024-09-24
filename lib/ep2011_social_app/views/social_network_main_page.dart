@@ -303,7 +303,7 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                                 ),
                                 Gap(6),
                                 Text("5 others are going"),
-                              na],
+                              ],
                             ),
                           )
                         ],
