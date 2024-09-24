@@ -35,7 +35,10 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                             color: Colors.deepPurpleAccent,
                           ),
                         ],
-                      )
+                      ),
+                      Text(
+                        "Available for Hangout",
+                      ),
                     ],
                   ),
                 ),
