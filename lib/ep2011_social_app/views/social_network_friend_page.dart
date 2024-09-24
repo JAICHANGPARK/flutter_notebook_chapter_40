@@ -61,6 +61,16 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                   ),
                 ],
               ),
+            ),
+            Expanded(
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.only(
+                    topLeft: Radius.circular(32),
+                    topRight: Radius.circular(32),
+                  ),
+                ),
+              ),
             )
           ],
         ),
