@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
+import 'social_network_friend_page.dart';
+
 class SocialNetworkMainPage extends StatefulWidget {
   const SocialNetworkMainPage({super.key});
 
@@ -86,29 +88,38 @@ class _SocialNetworkMainPageState extends State<SocialNetworkMainPage> {
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
-                        return Container(
-                          width: 140,
-                          padding: EdgeInsets.all(12),
-                          margin: EdgeInsets.only(right: 8),
-                          decoration: BoxDecoration(
-                            color: Colors.grey[200]!,
-                            borderRadius: BorderRadius.circular(16),
-                          ),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              CircleAvatar(),
-                              Text(
-                                "Beer anyone aroud?",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
+                        return GestureDetector(
+                          onTap: () {
+                            Navigator.of(context).push(
+                              MaterialPageRoute(
+                                builder: (context) => SocialNetworkFriendPage(),
+                              ),
+                            );
+                          },
+                          child: Container(
+                            width: 140,
+                            padding: EdgeInsets.all(12),
+                            margin: EdgeInsets.only(right: 8),
+                            decoration: BoxDecoration(
+                              color: Colors.grey[200]!,
+                              borderRadius: BorderRadius.circular(16),
+                            ),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                CircleAvatar(),
+                                Text(
+                                  "Beer anyone aroud?",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                  ),
                                 ),
-                              ),
-                              Text(
-                                "3.4kms away",
-                              ),
-                            ],
+                                Text(
+                                  "3.4kms away",
+                                ),
+                              ],
+                            ),
                           ),
                         );
                       },
