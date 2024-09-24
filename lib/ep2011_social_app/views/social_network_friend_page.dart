@@ -65,11 +65,18 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
             Expanded(
               child: Container(
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(32),
-                    topRight: Radius.circular(32),
-                  ),
-                ),
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(32),
+                      topRight: Radius.circular(32),
+                    ),
+                    color: Colors.white,
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.grey[200]!,
+                        blurRadius: 3,
+                        spreadRadius: 3,
+                      )
+                    ]),
               ),
             )
           ],
