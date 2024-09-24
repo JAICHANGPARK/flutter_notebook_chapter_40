@@ -16,42 +16,51 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Row(
-              children: [
-                IconButton(
-                  onPressed: () {},
-                  icon: Icon(
-                    Icons.arrow_back_ios_new,
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Row(
+                children: [
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(
+                      Icons.arrow_back_ios_new,
+                    ),
                   ),
-                ),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Row(
-                        children: [
-                          Text("Jone Doe"),
-                          Gap(6),
-                          Icon(
-                            Icons.verified,
-                            color: Colors.deepPurpleAccent,
-                            size: 14,
-                          ),
-                        ],
-                      ),
-                      Text(
-                        "Available for Hangout",
-                      ),
-                    ],
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          children: [
+                            Text(
+                              "Jone Doe",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18,
+                              ),
+                            ),
+                            Gap(6),
+                            Icon(
+                              Icons.verified,
+                              color: Colors.deepPurpleAccent,
+                              size: 14,
+                            ),
+                          ],
+                        ),
+                        Text(
+                          "Available for Hangout",
+                        ),
+                      ],
+                    ),
                   ),
-                ),
-                IconButton(
-                  onPressed: () {},
-                  icon: Icon(
-                    Icons.more_vert,
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(
+                      Icons.more_vert,
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             )
           ],
         ),
