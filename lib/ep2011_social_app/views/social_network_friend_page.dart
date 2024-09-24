@@ -180,16 +180,20 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                             elevation: 4,
                             child: Column(
                               children: [
-                                Row(
-                                  children: [
-                                    Container(
-                                      decoration: BoxDecoration(
-                                        border: Border.all(color: Colors.red),
-                                      ),
-                                    )
-                                  ],
+                                Expanded(
+                                  child: Row(
+                                    children: [
+                                      Container(
+                                        decoration: BoxDecoration(
+                                          border: Border.all(color: Colors.red),
+                                        ),
+                                      )
+                                    ],
+                                  ),
                                 ),
-                                Text("")
+                                Text(
+                                  "Invite Expire in 24h 40m",
+                                )
                               ],
                             ),
                           ),
