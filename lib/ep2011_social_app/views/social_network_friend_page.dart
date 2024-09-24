@@ -99,6 +99,19 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                               fontWeight: FontWeight.bold,
                               fontSize: 28,
                             ),
+                          ),
+                          Text(
+                            "Looking to grab a beer with right company",
+                          ),
+                          Gap(16),
+                          Row(
+                            children: [
+                              Icon(Icons.luggage),
+                              Gap(8),
+                              Text(
+                                "Works at Mars",
+                              ),
+                            ],
                           )
                         ],
                       ),
