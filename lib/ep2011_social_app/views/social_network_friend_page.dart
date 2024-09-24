@@ -85,6 +85,7 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                       right: 24,
                       top: 24,
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Container(
                             height: 340,
@@ -93,6 +94,7 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                               borderRadius: BorderRadius.circular(16),
                             ),
                           ),
+                          Gap(32),
                           Text(
                             "Alice Bob",
                             style: TextStyle(
