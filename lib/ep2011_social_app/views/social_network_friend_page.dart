@@ -80,7 +80,22 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                     ]),
                 child: Stack(
                   children: [
-                    Positioned(child: Column(),),
+                    Positioned.fill(
+                      left: 16,
+                      right: 16,
+                      top: 16,
+                      
+                      child: Column(
+                        children: [
+                          Container(
+                            height: 480,
+                            decoration: BoxDecoration(
+                              color: Colors.grey,
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),
