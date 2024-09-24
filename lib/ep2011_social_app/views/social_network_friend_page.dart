@@ -84,7 +84,6 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                       left: 24,
                       right: 24,
                       top: 24,
-
                       child: Column(
                         children: [
                           Container(
@@ -92,6 +91,13 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                             decoration: BoxDecoration(
                               color: Colors.grey,
                               borderRadius: BorderRadius.circular(16),
+                            ),
+                          ),
+                          Text(
+                            "Alice Bob",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 28,
                             ),
                           )
                         ],
