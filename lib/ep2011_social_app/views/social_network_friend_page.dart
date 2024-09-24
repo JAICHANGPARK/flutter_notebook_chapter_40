@@ -178,7 +178,6 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                             color: Colors.white,
                             surfaceTintColor: Colors.white,
                             elevation: 4,
-
                             child: Padding(
                               padding: const EdgeInsets.all(16.0),
                               child: Column(
@@ -197,7 +196,7 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                                         Expanded(
                                           child: Container(
                                             decoration: BoxDecoration(
-                                              border: Border.all(color: Colors.red),
+                                              color: Colors.indigo,
                                             ),
                                           ),
                                         )
