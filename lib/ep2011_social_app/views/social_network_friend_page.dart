@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class SocialNetworkFriendPage extends StatefulWidget {
   const SocialNetworkFriendPage({super.key});
@@ -30,9 +31,11 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                       Row(
                         children: [
                           Text("Jone Doe"),
+                          Gap(6),
                           Icon(
                             Icons.verified,
                             color: Colors.deepPurpleAccent,
+                            size: 14,
                           ),
                         ],
                       ),
@@ -40,6 +43,12 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                         "Available for Hangout",
                       ),
                     ],
+                  ),
+                ),
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(
+                    Icons.more_vert,
                   ),
                 ),
               ],
