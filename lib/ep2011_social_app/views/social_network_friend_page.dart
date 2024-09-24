@@ -168,9 +168,16 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                         ],
                       ),
                     ),
-                    Positioned(child: Card(
-                      child: Column(),
-                    ))
+                    Positioned(
+                        left: 24,
+                        right: 24,
+                        bottom: 32,
+                        child: SizedBox(
+                          height: 120,
+                          child: Card(
+                            child: Column(),
+                          ),
+                        ))
                   ],
                 ),
               ),
