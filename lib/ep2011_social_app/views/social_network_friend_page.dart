@@ -62,6 +62,7 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                 ],
               ),
             ),
+            Gap(24),
             Expanded(
               child: Container(
                 decoration: BoxDecoration(
