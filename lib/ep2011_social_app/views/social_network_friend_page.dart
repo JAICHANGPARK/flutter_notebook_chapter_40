@@ -114,6 +114,56 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                                 "Works at Mars",
                               ),
                             ],
+                          ),
+                          Gap(8),
+                          Row(
+                            children: [
+                              Icon(Icons.luggage),
+                              Gap(8),
+                              Text(
+                                "Works at Mars",
+                              ),
+                            ],
+                          ),
+                          Gap(8),
+                          Row(
+                            children: [
+                              Icon(Icons.luggage),
+                              Gap(8),
+                              Text(
+                                "Works at Mars",
+                              ),
+                            ],
+                          ),
+                          Gap(8),
+                          Row(
+                            children: [
+                              Icon(Icons.luggage),
+                              Gap(8),
+                              Text(
+                                "Works at Mars",
+                              ),
+                            ],
+                          ),
+                          Gap(8),
+                          Row(
+                            children: [
+                              Icon(Icons.luggage),
+                              Gap(8),
+                              Text(
+                                "Works at Mars",
+                              ),
+                            ],
+                          ),
+                          Gap(8),
+                          Row(
+                            children: [
+                              Icon(Icons.luggage),
+                              Gap(8),
+                              Text(
+                                "Works at Mars",
+                              ),
+                            ],
                           )
                         ],
                       ),
