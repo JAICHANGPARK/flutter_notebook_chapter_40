@@ -173,7 +173,7 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                         right: 24,
                         bottom: 32,
                         child: SizedBox(
-                          height: 120,
+                          height: 140,
                           child: Card(
                             color: Colors.white,
                             surfaceTintColor: Colors.white,
@@ -205,6 +205,7 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                                       ],
                                     ),
                                   ),
+                                  Gap(12),
                                   Text(
                                     "Invite Expire in 24h 40m",
                                   )
