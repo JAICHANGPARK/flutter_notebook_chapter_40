@@ -175,6 +175,8 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                         child: SizedBox(
                           height: 120,
                           child: Card(
+                            color: Colors.white,
+                            surfaceTintColor: Colors.white,
                             child: Column(),
                           ),
                         ))
