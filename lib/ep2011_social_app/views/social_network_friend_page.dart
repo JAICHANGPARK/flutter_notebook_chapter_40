@@ -78,6 +78,11 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                         spreadRadius: 3,
                       )
                     ]),
+                child: Stack(
+                  children: [
+                    Positioned(child: Column(),),
+                  ],
+                ),
               ),
             )
           ],
