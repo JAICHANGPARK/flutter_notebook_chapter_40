@@ -178,23 +178,37 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                             color: Colors.white,
                             surfaceTintColor: Colors.white,
                             elevation: 4,
-                            child: Column(
-                              children: [
-                                Expanded(
-                                  child: Row(
-                                    children: [
-                                      Container(
-                                        decoration: BoxDecoration(
-                                          border: Border.all(color: Colors.red),
+
+                            child: Padding(
+                              padding: const EdgeInsets.all(16.0),
+                              child: Column(
+                                children: [
+                                  Expanded(
+                                    child: Row(
+                                      children: [
+                                        Expanded(
+                                          child: Container(
+                                            decoration: BoxDecoration(
+                                              border: Border.all(color: Colors.red),
+                                            ),
+                                          ),
                                         ),
-                                      )
-                                    ],
+                                        Gap(12),
+                                        Expanded(
+                                          child: Container(
+                                            decoration: BoxDecoration(
+                                              border: Border.all(color: Colors.red),
+                                            ),
+                                          ),
+                                        )
+                                      ],
+                                    ),
                                   ),
-                                ),
-                                Text(
-                                  "Invite Expire in 24h 40m",
-                                )
-                              ],
+                                  Text(
+                                    "Invite Expire in 24h 40m",
+                                  )
+                                ],
+                              ),
                             ),
                           ),
                         ))
