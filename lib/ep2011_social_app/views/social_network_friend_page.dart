@@ -177,7 +177,21 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                           child: Card(
                             color: Colors.white,
                             surfaceTintColor: Colors.white,
-                            child: Column(),
+                            elevation: 4,
+                            child: Column(
+                              children: [
+                                Row(
+                                  children: [
+                                    Container(
+                                      decoration: BoxDecoration(
+                                        border: Border.all(color: Colors.red),
+                                      ),
+                                    )
+                                  ],
+                                ),
+                                Text("")
+                              ],
+                            ),
                           ),
                         ))
                   ],
