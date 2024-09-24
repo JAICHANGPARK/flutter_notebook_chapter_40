@@ -189,6 +189,7 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                                           child: Container(
                                             decoration: BoxDecoration(
                                               border: Border.all(color: Colors.red),
+                                              borderRadius: BorderRadius.circular(12),
                                             ),
                                           ),
                                         ),
@@ -197,6 +198,7 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                                           child: Container(
                                             decoration: BoxDecoration(
                                               color: Colors.indigo,
+                                              borderRadius: BorderRadius.circular(12),
                                             ),
                                           ),
                                         )
