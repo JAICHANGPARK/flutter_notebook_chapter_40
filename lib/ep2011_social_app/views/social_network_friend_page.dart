@@ -84,13 +84,14 @@ class _SocialNetworkFriendPageState extends State<SocialNetworkFriendPage> {
                       left: 16,
                       right: 16,
                       top: 16,
-                      
+
                       child: Column(
                         children: [
                           Container(
-                            height: 480,
+                            height: 320,
                             decoration: BoxDecoration(
                               color: Colors.grey,
+                              borderRadius: BorderRadius.circular(16),
                             ),
                           )
                         ],
