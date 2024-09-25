@@ -87,7 +87,7 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                     ),
                   ),
                   SizedBox(
-                    height: 240,
+                    height: 180,
                   ),
                   DefaultTabController(
                     length: 4,
