@@ -32,27 +32,32 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
             ),
           ),
           Positioned.fill(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    Container(
-                      height: 42,
-                      width: 42,
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        shape: BoxShape.circle,
-                      ),
+            child: SafeArea(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Row(
+                      children: [
+                        Container(
+                          height: 42,
+                          width: 42,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            shape: BoxShape.circle,
+                          ),
+                        ),
+                        CircleAvatar(
+                          child: Icon(
+                            Icons.notifications_active_outlined,
+                          ),
+                        )
+                      ],
                     ),
-                    CircleAvatar(
-                      child: Icon(
-                        Icons.notifications_active_outlined,
-                      ),
-                    )
-                  ],
-                )
-              ],
+                  )
+                ],
+              ),
             ),
           ),
         ],
