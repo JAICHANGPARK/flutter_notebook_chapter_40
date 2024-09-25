@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'views/flight_booking_home_page.dart';
+
 void main() {
   runApp(FlightBookingApp());
 }
@@ -9,6 +11,9 @@ class FlightBookingApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      home: FlightBookingHomePage(),
+
+    );
   }
 }
