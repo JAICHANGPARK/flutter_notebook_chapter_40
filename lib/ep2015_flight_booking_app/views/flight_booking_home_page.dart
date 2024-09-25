@@ -39,38 +39,53 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(16.0),
-                    child: Row(
+                    child: Column(
                       children: [
-                        Container(
-                          height: 52,
-                          width: 52,
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                            shape: BoxShape.circle,
-                          ),
+                        Row(
+                          children: [
+                            Container(
+                              height: 52,
+                              width: 52,
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                shape: BoxShape.circle,
+                              ),
+                            ),
+                            Spacer(),
+                            CircleAvatar(
+                              child: Icon(
+                                Icons.notifications_active_outlined,
+                              ),
+                            ),
+                            Gap(8),
+                            CircleAvatar(
+                              child: Icon(
+                                Icons.shopping_cart_outlined,
+                              ),
+                            ),
+                            Gap(8),
+                            CircleAvatar(
+                              child: Icon(
+                                Icons.apps,
+                              ),
+                            ),
+                            Gap(8),
+                          ],
                         ),
-                        Spacer(),
-                        CircleAvatar(
-                          child: Icon(
-                            Icons.notifications_active_outlined,
-                          ),
+                        Gap(32),
+                        Text(
+                          "Search For AI",
                         ),
-                        Gap(8),
-                        CircleAvatar(
-                          child: Icon(
-                            Icons.shopping_cart_outlined,
-                          ),
+                        Text(
+                          "Anyone For Your",
                         ),
-                        Gap(8),
-                        CircleAvatar(
-                          child: Icon(
-                            Icons.apps,
-                          ),
+                        Text(
+                          "Needed",
                         ),
-                        Gap(8),
                       ],
                     ),
-                  )
+                  ),
+
                 ],
               ),
             ),
