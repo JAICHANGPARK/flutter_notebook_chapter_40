@@ -76,18 +76,26 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                         Gap(32),
                         Text(
                           "Search For AI",
+                          style: TextStyle(
+                            fontSize: 38,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                         Text(
-                          "Anyone For Your",
+                          "Anyone For Your",  style: TextStyle(
+                          fontSize: 38,fontWeight: FontWeight.bold,
+                        ),
                         ),
                         Text(
-                          "Needed",
+                          "Needed",  style: TextStyle(
+                          fontSize: 38,fontWeight: FontWeight.bold,
+                        ),
                         ),
                       ],
                     ),
                   ),
                   SizedBox(
-                    height: 180,
+                    height: 120,
                   ),
                   DefaultTabController(
                     length: 4,
