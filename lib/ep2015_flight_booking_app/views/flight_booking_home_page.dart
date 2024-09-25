@@ -86,6 +86,15 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                       ],
                     ),
                   ),
+                  Spacer(),
+                  DefaultTabController(
+                    length: 4,
+                    child: Column(
+                      children: [
+                        
+                      ],
+                    ),
+                  ),
 
                 ],
               ),
