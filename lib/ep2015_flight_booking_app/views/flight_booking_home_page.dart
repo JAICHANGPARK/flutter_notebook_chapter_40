@@ -18,12 +18,13 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
               decoration: BoxDecoration(
                 color: Colors.white,
                 gradient: LinearGradient(
+                  begin: Alignment.bottomCenter,
+                  end: Alignment.topCenter,
                   colors: [
                     Color.fromRGBO(206, 194, 185, 1),
                     Color.fromRGBO(175, 174, 171, 1),
                     Color.fromRGBO(156, 162, 165, 1),
                     Color.fromRGBO(146, 161, 169, 1),
-
                   ],
                 ),
               ),
