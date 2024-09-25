@@ -16,9 +16,11 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
           Positioned.fill(
             child: Container(
               decoration: BoxDecoration(
+                color: Colors.white,
                 gradient: LinearGradient(
                   colors: [
                     Color.fromRGBO(206, 194, 185, 1),
+                    Color.fromRGBO(175, 174, 171, 1),
                   ],
                 ),
               ),
