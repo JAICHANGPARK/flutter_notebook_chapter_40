@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+void main() {
+  runApp(FlightBookingApp());
+}
 
 class FlightBookingApp extends StatelessWidget {
   const FlightBookingApp({super.key});
