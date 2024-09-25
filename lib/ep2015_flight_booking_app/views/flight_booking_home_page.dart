@@ -87,32 +87,37 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                     ),
                   ),
                  
-                  Expanded(
-                    child: DefaultTabController(
-                      length: 4,
-                      child: Column(
-                        children: [
-                          TabBar(
-                            tabs: [
-                              Tab(
-                                text: "All Category",
-                              ),
-                              Tab(
-                                text: "All Category",
-                              ),
-                              Tab(
-                                text: "All Category",
-                              ),
-                              Tab(
-                                text: "All Category",
-                              ),
+                  DefaultTabController(
+                    length: 4,
+                    child: Column(
+                      children: [
+                        TabBar(
+                          tabs: [
+                            Tab(
+                              text: "All Category",
+                            ),
+                            Tab(
+                              text: "All Category",
+                            ),
+                            Tab(
+                              text: "All Category",
+                            ),
+                            Tab(
+                              text: "All Category",
+                            ),
+                          ],
+                        ),
+                        Expanded(
+                          child: TabBarView(
+                            children: [
+                              Container(),
+                              Container(),
+                              Container(),
+                              Container(),
                             ],
                           ),
-                          TabBarView(
-                            children: [],
-                          ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                   ),
                   Container(
