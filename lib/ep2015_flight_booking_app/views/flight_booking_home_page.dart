@@ -86,16 +86,38 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                       ],
                     ),
                   ),
-                  Spacer(),
-                  DefaultTabController(
-                    length: 4,
-                    child: Column(
-                      children: [
-                        
-                      ],
+                 
+                  Expanded(
+                    child: DefaultTabController(
+                      length: 4,
+                      child: Column(
+                        children: [
+                          TabBar(
+                            tabs: [
+                              Tab(
+                                text: "All Category",
+                              ),
+                              Tab(
+                                text: "All Category",
+                              ),
+                              Tab(
+                                text: "All Category",
+                              ),
+                              Tab(
+                                text: "All Category",
+                              ),
+                            ],
+                          ),
+                          TabBarView(
+                            children: [],
+                          ),
+                        ],
+                      ),
                     ),
                   ),
-
+                  Container(
+                    height: 72,
+                  )
                 ],
               ),
             ),
