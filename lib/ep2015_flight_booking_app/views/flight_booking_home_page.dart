@@ -125,12 +125,14 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                     ),
                   ),
                   Container(
-                    height: 72,
+                    height: 64,
+                    margin: EdgeInsets.symmetric(horizontal: 8),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Colors.white,
                     ),
-                  )
+                  ),
+                  Gap(24),
                 ],
               ),
             ),
