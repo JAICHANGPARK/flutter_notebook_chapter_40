@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class FlightBookingHomePage extends StatefulWidget {
   const FlightBookingHomePage({super.key});
@@ -48,11 +49,25 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                             shape: BoxShape.circle,
                           ),
                         ),
+                        Spacer(),
                         CircleAvatar(
                           child: Icon(
                             Icons.notifications_active_outlined,
                           ),
-                        )
+                        ),
+                        Gap(8),
+                        CircleAvatar(
+                          child: Icon(
+                            Icons.shopping_cart_outlined,
+                          ),
+                        ),
+                        Gap(8),
+                        CircleAvatar(
+                          child: Icon(
+                            Icons.apps,
+                          ),
+                        ),
+                        Gap(8),
                       ],
                     ),
                   )
