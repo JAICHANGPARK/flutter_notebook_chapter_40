@@ -42,8 +42,8 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                     child: Row(
                       children: [
                         Container(
-                          height: 42,
-                          width: 42,
+                          height: 52,
+                          width: 52,
                           decoration: BoxDecoration(
                             color: Colors.white,
                             shape: BoxShape.circle,
