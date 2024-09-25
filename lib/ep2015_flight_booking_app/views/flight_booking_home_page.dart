@@ -42,6 +42,12 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                       width: 42,
                       decoration: BoxDecoration(
                         color: Colors.white,
+                        shape: BoxShape.circle,
+                      ),
+                    ),
+                    CircleAvatar(
+                      child: Icon(
+                        Icons.notifications_active_outlined,
                       ),
                     )
                   ],
