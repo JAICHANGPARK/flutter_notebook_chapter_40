@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class FlightBookingHomePage extends StatefulWidget {
   const FlightBookingHomePage({super.key});
 
@@ -11,6 +10,19 @@ class FlightBookingHomePage extends StatefulWidget {
 class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Stack(
+        children: [
+          Positioned.fill(
+            child: Container(
+              decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                colors: [],
+              )),
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
