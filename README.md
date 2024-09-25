@@ -2,11 +2,11 @@
 
 ## EP2015
 
-- Tennabo - Social Network App
-- Dorjan Vulaj
-- https://dribbble.com/shots/24895841-Tennabo-Social-Network-App
+- AI Flight Booking - Mobile Application
+- Shahid Miah UI UX Designer for Wavespace - UI/UX Design Agency
+- https://dribbble.com/shots/24911446-AI-Flight-Booking-Mobile-Application
 
-<img src="https://cdn.dribbble.com/userupload/16685875/file/original-a8884dc76ec2a8fa09a4059332122e4f.png?resize=1504x1128"/>
+<img src="https://cdn.dribbble.com/userupload/16733340/file/original-4b074a972882443030e6e21c0c2d55ee.png?resize=1905x1429"/>
 
 
 ## EP2011-EP2014
