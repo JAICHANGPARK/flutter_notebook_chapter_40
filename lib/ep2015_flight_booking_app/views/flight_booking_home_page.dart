@@ -259,6 +259,17 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                         color: Colors.white,
                                                         borderRadius: BorderRadius.circular(8),
                                                       ),
+                                                      padding: EdgeInsets.all(16),
+                                                      child: Column(
+                                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                                        children: [
+                                                          Icon(Icons.shopping_cart_outlined),
+                                                          Spacer(),
+                                                          Text("Grocery"),
+                                                          Text("Shop Grocery Items")
+
+                                                        ],
+                                                      ),
                                                     ),
                                                   ),
                                                   Gap(4),
