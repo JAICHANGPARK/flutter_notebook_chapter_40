@@ -265,7 +265,13 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Text("21:20"),
+                                  Text(
+                                    "21:20",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 18,
+                                    ),
+                                  ),
                                   Text("JFK"),
                                 ],
                               ),
@@ -283,7 +289,11 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Text("10:55"),
+                                  Text("10:55",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 18,
+                                    ),),
                                   Text("CDG"),
                                 ],
                               ),
@@ -292,8 +302,15 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                           Divider(),
                           Row(
                             children: [
-                              Text("AA1-A778"),
-                              Text("\$2601.82"),
+                              Text("AA1-A778",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+
+                                ),),
+                              Text("\$2601.82",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),),
                             ],
                           )
                         ],
