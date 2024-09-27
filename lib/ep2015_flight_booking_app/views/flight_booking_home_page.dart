@@ -222,7 +222,7 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                   Expanded(
                                                     child: Container(
                                                       decoration: BoxDecoration(
-                                                        color: Colors.white,
+                                                        color: Color.fromRGBO(247, 245, 243, 1),
                                                         borderRadius: BorderRadius.circular(8),
                                                       ),
                                                     ),
