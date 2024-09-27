@@ -154,6 +154,9 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                             decoration: InputDecoration(
                               border: InputBorder.none,
                               hintText: "What do you want?",
+                              hintStyle: TextStyle(
+                                color: Colors.grey,
+                              ),
                             ),
                           ),
                         ),
