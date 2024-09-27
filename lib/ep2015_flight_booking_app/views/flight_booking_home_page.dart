@@ -297,7 +297,7 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                   Icon(Icons.food_bank_outlined),
                                                   Spacer(),
                                                   Text(
-                                                    "Food ORder",
+                                                    "Food Order",
                                                     style: TextStyle(
                                                       fontWeight: FontWeight.bold,
                                                     ),
