@@ -149,6 +149,7 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                     padding: EdgeInsets.symmetric(horizontal: 12),
                     child: Row(
                       children: [
+                        Gap(12),
                         Expanded(
                           child: TextField(
                             decoration: InputDecoration(
