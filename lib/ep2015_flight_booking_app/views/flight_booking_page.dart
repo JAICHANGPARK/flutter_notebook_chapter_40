@@ -301,6 +301,7 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                           ),
                           Divider(),
                           Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text("AA1-A778",
                                 style: TextStyle(
