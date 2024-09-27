@@ -65,7 +65,7 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                       Icon(Icons.flight_land,
                         size: 16,
                         color: Colors.white,
-                      ),
+                      ),  Gap(8),
                       Text("NRT",
                         style: TextStyle(
                           color: Colors.white,
@@ -75,10 +75,15 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                   ),
                 ),
                 Container(
+                  padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Colors.white.withOpacity(.4),
+                  ),
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.calendar_month),
+                      Icon(Icons.calendar_month),  Gap(8),
                       Text("26 Aug Mon"),
                     ],
                   ),
@@ -87,7 +92,7 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.swap_horiz),
+                      Icon(Icons.swap_horiz),  Gap(8),
                       Text("Round trip"),
                     ],
                   ),
@@ -96,7 +101,7 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.swap_horiz),
+                      Icon(Icons.swap_horiz),  Gap(8),
                       Text("Economy"),
                     ],
                   ),
@@ -105,7 +110,7 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.person),
+                      Icon(Icons.person),  Gap(8),
                       Text("2 Adult"),
                     ],
                   ),
