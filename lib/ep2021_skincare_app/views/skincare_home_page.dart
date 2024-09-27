@@ -17,42 +17,43 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
         children: [
           Positioned.fill(
 
-            top: 24,
             child: SafeArea(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Row(
-                    children: [
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            "Hi Dream👋",
-                          ),
-                          Text(
-                            "Elevate your complexion care",
-                          )
-                        ],
-                      ),
-                      Spacer(),
-                      Container(
-                        height: 64,
-                        width: 64,
-                        decoration: BoxDecoration(
-                          color: Colors.blue,
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Row(
+                      children: [
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "Hi Dream👋",
+                            ),
+                            Text(
+                              "Elevate your complexion care",
+                            )
+                          ],
                         ),
-                      )
-                    ],
+                        Spacer(),
+                        Container(
+                          height: 64,
+                          width: 64,
+                          decoration: BoxDecoration(
+                            color: Colors.blue,
+                          ),
+                        )
+                      ],
+                    ),
                   ),
-                  Gap(16),
                   Expanded(
                     child: Container(
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.only(
-                          topLeft: Radius.circular(32),
-                          topRight: Radius.circular(32),
+                          topLeft: Radius.circular(48),
+                          topRight: Radius.circular(48),
                         ),
                       ),
                     ),
