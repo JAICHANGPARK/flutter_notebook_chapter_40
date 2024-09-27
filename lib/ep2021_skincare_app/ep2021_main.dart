@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-
+  runApp(SkinCareApp());
 }
 
 class SkinCareApp extends StatelessWidget {
@@ -10,7 +10,7 @@ class SkinCareApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
+
     );
   }
 }
