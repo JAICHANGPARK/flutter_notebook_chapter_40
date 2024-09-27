@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class SkincareHomePage extends StatefulWidget {
   const SkincareHomePage({super.key});
@@ -15,8 +16,7 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
       body: Stack(
         children: [
           Positioned.fill(
-            left: 24,
-            right: 24,
+
             top: 24,
             child: SafeArea(
               child: Column(
@@ -35,6 +35,7 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                           )
                         ],
                       ),
+                      Spacer(),
                       Container(
                         height: 64,
                         width: 64,
@@ -44,7 +45,7 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                       )
                     ],
                   ),
-
+                  Gap(16),
                   Expanded(
                     child: Container(
                       decoration: BoxDecoration(
