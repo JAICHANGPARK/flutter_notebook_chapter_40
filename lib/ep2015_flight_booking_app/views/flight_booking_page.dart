@@ -27,7 +27,6 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                   style: TextStyle(color: Colors.white),
                 ),
                 Container(
-
                   padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                   decoration: ShapeDecoration(
                     shape: StadiumBorder(),
@@ -36,9 +35,18 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.flight_takeoff,
-                      size: 16,color: Colors.white,),
-                      Text("ICN"),
+                      Icon(
+                        Icons.flight_takeoff,
+                        size: 16,
+                        color: Colors.white,
+                      ),
+                      Gap(8),
+                      Text(
+                        "ICN",
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      ),
                     ],
                   ),
                 ),
