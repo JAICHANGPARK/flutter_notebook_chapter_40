@@ -50,12 +50,22 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                     ],
                   ),
                 ),
-                Text("To"),
-                Container(
+                Text(
+                  "To",
+                  style: TextStyle(color: Colors.white),
+                ),
+                Container(padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Colors.white.withOpacity(.4),
+                  ),
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.flight_takeoff),
+                      Icon(Icons.flight_land,
+                        size: 16,
+                        color: Colors.white,
+                      ),
                       Text("ICN"),
                     ],
                   ),
