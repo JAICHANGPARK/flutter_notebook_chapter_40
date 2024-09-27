@@ -54,18 +54,19 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                             ),
                             Spacer(),
                             CircleAvatar(
+                              backgroundColor: Color.fromRGBO(161, 173, 178, 1),
                               child: Icon(
                                 Icons.notifications_active_outlined,
                               ),
                             ),
                             Gap(8),
-                            CircleAvatar(
+                            CircleAvatar(backgroundColor: Color.fromRGBO(161, 173, 178, 1),
                               child: Icon(
                                 Icons.shopping_cart_outlined,
                               ),
                             ),
                             Gap(8),
-                            CircleAvatar(
+                            CircleAvatar(backgroundColor: Color.fromRGBO(161, 173, 178, 1),
                               child: Icon(
                                 Icons.apps,
                               ),
