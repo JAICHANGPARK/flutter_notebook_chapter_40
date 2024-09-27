@@ -13,7 +13,20 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
   Widget build(BuildContext context) {
     return FlightBookingDefaultPage(
       child: Column(
-        children: [],
+        children: [
+          Wrap(
+            children: [
+              Text("Flight Book From"),
+              Container(
+                child: Row(
+                  children: [
+                    Icon(Icons.flight_takeoff)
+                  ],
+                ),
+              )
+            ],
+          )
+        ],
       ),
     );
   }
