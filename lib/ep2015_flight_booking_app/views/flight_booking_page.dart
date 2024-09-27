@@ -19,11 +19,19 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: Wrap(
-              runSpacing: 4,
-              spacing: 4,
+              runSpacing: 8,
+              spacing: 8,
               children: [
-                Text("Flight Book From"),
+                Text(
+                  "Flight Book From",
+                  style: TextStyle(color: Colors.white),
+                ),
                 Container(
+                  
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Colors.white.withOpacity(.2),
+                  ),
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
@@ -89,7 +97,7 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
           Gap(12),
           Expanded(
               child: Container(
-                margin: EdgeInsets.symmetric(horizontal: 16),
+            margin: EdgeInsets.symmetric(horizontal: 16),
             decoration: BoxDecoration(
               color: Colors.white,
             ),
