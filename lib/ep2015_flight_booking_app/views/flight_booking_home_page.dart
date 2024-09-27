@@ -159,7 +159,10 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                   Gap(4),
                                                   Expanded(
                                                     child: Container(
-                                                      color: Colors.white,
+                                                      decoration: BoxDecoration(
+                                                        color: Colors.white,
+                                                        borderRadius: BorderRadius.circular(8),
+                                                      ),
                                                     ),
                                                   ),
                                                 ],
@@ -171,13 +174,80 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                 children: [
                                                   Expanded(
                                                     child: Container(
-                                                      color: Colors.white,
+                                                      decoration: BoxDecoration(
+                                                        color: Colors.white,
+                                                        borderRadius: BorderRadius.circular(8),
+                                                      ),
                                                     ),
                                                   ),
                                                   Gap(4),
                                                   Expanded(
                                                     child: Container(
-                                                      color: Colors.white,
+                                                      decoration: BoxDecoration(
+                                                        color: Colors.white,
+                                                        borderRadius: BorderRadius.circular(8),
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ),
+                                    Positioned.fill(
+                                      bottom: 64,
+                                      left: 12,
+                                      right: 12,
+                                      top: 0,
+                                      child: Container(
+                                        color: Colors.blue,
+                                        child: Column(
+                                          children: [
+                                            Expanded(
+                                              child: Row(
+                                                children: [
+                                                  Expanded(
+                                                    child: Container(
+
+                                                      decoration: BoxDecoration(
+                                                        color: Colors.white,
+                                                        borderRadius: BorderRadius.circular(8),
+                                                      ),
+                                                    ),
+                                                  ),
+                                                  Gap(4),
+                                                  Expanded(
+                                                    child: Container(
+                                                      decoration: BoxDecoration(
+                                                        color: Colors.white,
+                                                        borderRadius: BorderRadius.circular(8),
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
+                                            Gap(4),
+                                            Expanded(
+                                              child: Row(
+                                                children: [
+                                                  Expanded(
+                                                    child: Container(
+                                                      decoration: BoxDecoration(
+                                                        color: Colors.white,
+                                                        borderRadius: BorderRadius.circular(8),
+                                                      ),
+                                                    ),
+                                                  ),
+                                                  Gap(4),
+                                                  Expanded(
+                                                    child: Container(
+                                                      decoration: BoxDecoration(
+                                                        color: Colors.white,
+                                                        borderRadius: BorderRadius.circular(8),
+                                                      ),
                                                     ),
                                                   ),
                                                 ],
