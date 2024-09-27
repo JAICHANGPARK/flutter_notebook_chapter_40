@@ -112,6 +112,7 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                           TabBar(
                             isScrollable: true,
                             labelColor: Colors.white,
+                            indicatorColor: Colors.transparent,
                             unselectedLabelColor:  Color.fromRGBO(219, 222, 223, 1),
                             tabs: [
                               Tab(
