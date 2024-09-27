@@ -3,8 +3,8 @@
 ## EP2021
 
 - Skincare App
-- Shahid Miah UI UX Designer for Wavespace - UI/UX Design Agency
-- https://dribbble.com/shots/24911446-AI-Flight-Booking-Mobile-Application
+- Nadya Lazurenko for Fireart Studio
+- https://dribbble.com/shots/24931343-Skincare-App
 
 <img src="https://cdn.dribbble.com/userupload/16733340/file/original-4b074a972882443030e6e21c0c2d55ee.png?resize=1905x1429"/>
 
