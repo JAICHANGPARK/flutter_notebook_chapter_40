@@ -177,10 +177,31 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
               ],
             ),
           ),
-          Gap(12),
           SizedBox(
             height: 42,
-            child: Placeholder(),
+            child: ListView.builder(
+              scrollDirection: Axis.horizontal,
+              itemBuilder: (context, index) {
+                return Container(
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Colors.white,
+                  ),
+                  child: Row(
+                    children: [
+                      CircleAvatar(
+                        radius: 18,
+                      ),
+                      Row(
+                        children: [
+                          Text(""),
+                        ],
+                      )
+                    ],
+                  ),
+                );
+              },
+            ),
           ),
           Gap(12),
           Expanded(
