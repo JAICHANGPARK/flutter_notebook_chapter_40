@@ -211,16 +211,36 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
           ),
           Gap(12),
           Expanded(
-              child: Container(
-            margin: EdgeInsets.symmetric(horizontal: 8),
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.only(
-                topRight: Radius.circular(24),
-                topLeft: Radius.circular(24),
-              )
+            child: Container(
+              margin: EdgeInsets.symmetric(horizontal: 8),
+              decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.only(
+                    topRight: Radius.circular(24),
+                    topLeft: Radius.circular(24),
+                  )),
+              width: double.infinity,
+              padding: EdgeInsets.all(8),
+              child: Column(
+                children: [
+                  Container(
+                    height: 6,
+                    width: 42,
+                    decoration: BoxDecoration(
+                      color: Colors.grey,
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                  ),
+                  Text(
+                    "Choose departing flight",
+                  ),
+                  Text(
+                    "Your selection applies to all travler and flights",
+                  ),
+                ],
+              ),
             ),
-          ))
+          )
         ],
       ),
     );
