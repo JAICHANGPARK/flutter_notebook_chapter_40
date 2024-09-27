@@ -27,10 +27,11 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                   style: TextStyle(color: Colors.white),
                 ),
                 Container(
-                  
+
+                  padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                   decoration: ShapeDecoration(
                     shape: StadiumBorder(),
-                    color: Colors.white.withOpacity(.2),
+                    color: Colors.white.withOpacity(.4),
                   ),
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
