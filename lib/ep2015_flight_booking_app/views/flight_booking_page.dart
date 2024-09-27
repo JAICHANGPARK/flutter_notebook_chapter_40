@@ -54,7 +54,8 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                   "To",
                   style: TextStyle(color: Colors.white),
                 ),
-                Container(padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                Container(
+                  padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                   decoration: ShapeDecoration(
                     shape: StadiumBorder(),
                     color: Colors.white.withOpacity(.4),
@@ -62,11 +63,14 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.flight_land,
+                      Icon(
+                        Icons.flight_land,
                         size: 16,
                         color: Colors.white,
-                      ),  Gap(8),
-                      Text("NRT",
+                      ),
+                      Gap(8),
+                      Text(
+                        "NRT",
                         style: TextStyle(
                           color: Colors.white,
                         ),
@@ -83,34 +87,54 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.calendar_month),  Gap(8),
+                      Icon(Icons.calendar_month, size: 16,
+                        color: Colors.white,),
+                      Gap(8),
                       Text("26 Aug Mon"),
                     ],
                   ),
                 ),
                 Container(
+                  padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Colors.white.withOpacity(.4),
+                  ),
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.swap_horiz),  Gap(8),
+                      Icon(Icons.swap_horiz),
+                      Gap(8),
                       Text("Round trip"),
                     ],
                   ),
                 ),
                 Container(
+                  padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Colors.white.withOpacity(.4),
+                  ),
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.swap_horiz),  Gap(8),
+                      Icon(Icons.swap_horiz),
+                      Gap(8),
                       Text("Economy"),
                     ],
                   ),
                 ),
                 Container(
+                  padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Colors.white.withOpacity(.4),
+                  ),
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.person),  Gap(8),
+                      Icon(Icons.person),
+                      Gap(8),
                       Text("2 Adult"),
                     ],
                   ),
