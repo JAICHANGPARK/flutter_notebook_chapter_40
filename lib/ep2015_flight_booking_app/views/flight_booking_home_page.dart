@@ -146,6 +146,7 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                       shape: StadiumBorder(),
                       color: Colors.white,
                     ),
+                    padding: EdgeInsets.symmetric(horizontal: 12),
                     child: Row(
                       children: [
                         Expanded(
@@ -158,7 +159,7 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                         ),
                         CircleAvatar(
                           backgroundColor: Colors.deepOrange,
-                          
+                          foregroundColor: Colors.white,
                           child: Icon(Icons.mic),
                         ),
                       ],
