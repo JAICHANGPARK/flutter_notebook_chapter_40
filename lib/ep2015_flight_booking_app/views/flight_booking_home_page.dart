@@ -27,40 +27,40 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                     Container(
                       height: 52,
                       width: 52,
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         color: Colors.white,
                         shape: BoxShape.circle,
                       ),
                     ),
-                    Spacer(),
-                    CircleAvatar(
+                    const Spacer(),
+                    const CircleAvatar(
                       backgroundColor: Color.fromRGBO(161, 173, 178, 1),
                       foregroundColor: Colors.white,
                       child: Icon(
                         Icons.notifications_active_outlined,
                       ),
                     ),
-                    Gap(8),
-                    CircleAvatar(
+                    const Gap(8),
+                    const CircleAvatar(
                       backgroundColor: Color.fromRGBO(161, 173, 178, 1),
                       foregroundColor: Colors.white,
                       child: Icon(
                         Icons.shopping_cart_outlined,
                       ),
                     ),
-                    Gap(8),
-                    CircleAvatar(
+                    const Gap(8),
+                    const CircleAvatar(
                       backgroundColor: Color.fromRGBO(161, 173, 178, 1),
                       foregroundColor: Colors.white,
                       child: Icon(
                         Icons.apps,
                       ),
                     ),
-                    Gap(8),
+                    const Gap(8),
                   ],
                 ),
-                Gap(32),
-                Text(
+                const Gap(32),
+                const Text(
                   "Search For AI",
                   style: TextStyle(
                     fontSize: 38,
@@ -68,7 +68,7 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                     color: Colors.white,
                   ),
                 ),
-                Text(
+                const Text(
                   "Anyone For Your",
                   style: TextStyle(
                     fontSize: 38,
@@ -76,7 +76,7 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                     color: Colors.white,
                   ),
                 ),
-                Text(
+                const Text(
                   "Needed",
                   style: TextStyle(
                     fontSize: 38,
@@ -87,7 +87,7 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
               ],
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 80,
           ),
           DefaultTabController(
@@ -95,7 +95,7 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
             child: Expanded(
               child: Column(
                 children: [
-                  TabBar(
+                  const TabBar(
                     tabAlignment: TabAlignment.start,
                     isScrollable: true,
                     labelColor: Colors.white,
@@ -116,7 +116,7 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                       ),
                     ],
                   ),
-                  Gap(12),
+                  const Gap(12),
                   Expanded(
                     child: TabBarView(
                       children: [
@@ -136,30 +136,30 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                           Expanded(
                                             child: Container(),
                                           ),
-                                          Gap(4),
+                                          const Gap(4),
                                           Expanded(
                                             child: Container(),
                                           ),
                                         ],
                                       ),
                                     ),
-                                    Gap(4),
+                                    const Gap(4),
                                     Expanded(
                                       child: Row(
                                         children: [
                                           Expanded(
                                             child: Container(
                                               decoration: BoxDecoration(
-                                                color: Color.fromRGBO(234, 230, 225, 1),
+                                                color: const Color.fromRGBO(234, 230, 225, 1),
                                                 borderRadius: BorderRadius.circular(8),
                                               ),
                                             ),
                                           ),
-                                          Gap(4),
+                                          const Gap(4),
                                           Expanded(
                                             child: Container(
                                               decoration: BoxDecoration(
-                                                color: Color.fromRGBO(234, 230, 225, 1),
+                                                color: const Color.fromRGBO(234, 230, 225, 1),
                                                 borderRadius: BorderRadius.circular(8),
                                               ),
                                             ),
@@ -185,30 +185,30 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                           Expanded(
                                             child: Container(),
                                           ),
-                                          Gap(4),
+                                          const Gap(4),
                                           Expanded(
                                             child: Container(),
                                           ),
                                         ],
                                       ),
                                     ),
-                                    Gap(4),
+                                    const Gap(4),
                                     Expanded(
                                       child: Row(
                                         children: [
                                           Expanded(
                                             child: Container(
                                               decoration: BoxDecoration(
-                                                color: Color.fromRGBO(247, 245, 243, 1),
+                                                color: const Color.fromRGBO(247, 245, 243, 1),
                                                 borderRadius: BorderRadius.circular(8),
                                               ),
                                             ),
                                           ),
-                                          Gap(4),
+                                          const Gap(4),
                                           Expanded(
                                             child: Container(
                                               decoration: BoxDecoration(
-                                                color: Color.fromRGBO(247, 245, 243, 1),
+                                                color: const Color.fromRGBO(247, 245, 243, 1),
                                                 borderRadius: BorderRadius.circular(8),
                                               ),
                                             ),
@@ -237,8 +237,8 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                 color: Colors.white,
                                                 borderRadius: BorderRadius.circular(8),
                                               ),
-                                              padding: EdgeInsets.all(16),
-                                              child: Column(
+                                              padding: const EdgeInsets.all(16),
+                                              child: const Column(
                                                 crossAxisAlignment: CrossAxisAlignment.start,
                                                 children: [
                                                   Icon(Icons.shopping_cart_outlined),
@@ -254,13 +254,13 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                               ),
                                             ),
                                           ),
-                                          Gap(4),
+                                          const Gap(4),
                                           Expanded(
                                             child: GestureDetector(
                                               onTap: () {
                                                 Navigator.of(context).push(
                                                   MaterialPageRoute(
-                                                    builder: (context) => FlightBookingPage(),
+                                                    builder: (context) => const FlightBookingPage(),
                                                   ),
                                                 );
                                               },
@@ -269,8 +269,8 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                   color: Colors.white,
                                                   borderRadius: BorderRadius.circular(8),
                                                 ),
-                                                padding: EdgeInsets.all(16),
-                                                child: Column(
+                                                padding: const EdgeInsets.all(16),
+                                                child: const Column(
                                                   crossAxisAlignment: CrossAxisAlignment.start,
                                                   children: [
                                                     Icon(Icons.flight),
@@ -290,7 +290,7 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                         ],
                                       ),
                                     ),
-                                    Gap(4),
+                                    const Gap(4),
                                     Expanded(
                                       child: Row(
                                         children: [
@@ -300,8 +300,8 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                 color: Colors.white,
                                                 borderRadius: BorderRadius.circular(8),
                                               ),
-                                              padding: EdgeInsets.all(16),
-                                              child: Column(
+                                              padding: const EdgeInsets.all(16),
+                                              child: const Column(
                                                 crossAxisAlignment: CrossAxisAlignment.start,
                                                 children: [
                                                   Icon(Icons.food_bank_outlined),
@@ -317,15 +317,15 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                               ),
                                             ),
                                           ),
-                                          Gap(4),
+                                          const Gap(4),
                                           Expanded(
                                             child: Container(
                                               decoration: BoxDecoration(
                                                 color: Colors.white,
                                                 borderRadius: BorderRadius.circular(8),
                                               ),
-                                              padding: EdgeInsets.all(16),
-                                              child: Column(
+                                              padding: const EdgeInsets.all(16),
+                                              child: const Column(
                                                 crossAxisAlignment: CrossAxisAlignment.start,
                                                 children: [
                                                   Icon(Icons.favorite_border),
@@ -362,13 +362,13 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
           ),
           Container(
             height: 64,
-            margin: EdgeInsets.symmetric(horizontal: 8),
-            decoration: ShapeDecoration(
+            margin: const EdgeInsets.symmetric(horizontal: 8),
+            decoration: const ShapeDecoration(
               shape: StadiumBorder(),
               color: Colors.white,
             ),
-            padding: EdgeInsets.symmetric(horizontal: 12),
-            child: Row(
+            padding: const EdgeInsets.symmetric(horizontal: 12),
+            child: const Row(
               children: [
                 Gap(12),
                 Expanded(
@@ -390,7 +390,7 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
               ],
             ),
           ),
-          Gap(24),
+          const Gap(24),
         ],
       ),
     );
