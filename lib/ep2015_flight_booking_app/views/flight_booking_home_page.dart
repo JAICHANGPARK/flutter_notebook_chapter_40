@@ -137,8 +137,8 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                   children: [
                                     Positioned.fill(
                                       bottom: 64,
-                                      left: 4,
-                                      right: 4,
+                                      left: 12,
+                                      right: 12,
                                       top: 0,
                                       child: Container(
                                         color: Colors.blue,
@@ -152,6 +152,7 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                       color: Colors.white,
                                                     ),
                                                   ),
+                                                  Gap(4),
                                                   Expanded(
                                                     child: Container(
                                                       color: Colors.white,
@@ -160,6 +161,7 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                 ],
                                               ),
                                             ),
+                                            Gap(4),
                                             Expanded(
                                               child: Row(
                                                 children: [
@@ -168,6 +170,7 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                       color: Colors.white,
                                                     ),
                                                   ),
+                                                  Gap(4),
                                                   Expanded(
                                                     child: Container(
                                                       color: Colors.white,
