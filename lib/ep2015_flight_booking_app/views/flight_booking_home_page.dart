@@ -148,15 +148,11 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                               child: Row(
                                                 children: [
                                                   Expanded(
-                                                    child: Container(
-
-                                                    ),
+                                                    child: Container(),
                                                   ),
                                                   Gap(4),
                                                   Expanded(
-                                                    child: Container(
-                                                     
-                                                    ),
+                                                    child: Container(),
                                                   ),
                                                 ],
                                               ),
@@ -201,15 +197,11 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                               child: Row(
                                                 children: [
                                                   Expanded(
-                                                    child: Container(
-
-                                                    ),
+                                                    child: Container(),
                                                   ),
                                                   Gap(4),
                                                   Expanded(
-                                                    child: Container(
-
-                                                    ),
+                                                    child: Container(),
                                                   ),
                                                 ],
                                               ),
@@ -265,9 +257,13 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                         children: [
                                                           Icon(Icons.shopping_cart_outlined),
                                                           Spacer(),
-                                                          Text("Grocery"),
+                                                          Text(
+                                                            "Grocery",
+                                                            style: TextStyle(
+                                                              fontWeight: FontWeight.bold,
+                                                            ),
+                                                          ),
                                                           Text("Shop Grocery Items")
-
                                                         ],
                                                       ),
                                                     ),
@@ -278,6 +274,21 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                       decoration: BoxDecoration(
                                                         color: Colors.white,
                                                         borderRadius: BorderRadius.circular(8),
+                                                      ),
+                                                      padding: EdgeInsets.all(16),
+                                                      child: Column(
+                                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                                        children: [
+                                                          Icon(Icons.flight),
+                                                          Spacer(),
+                                                          Text(
+                                                            "Flight Book",
+                                                            style: TextStyle(
+                                                              fontWeight: FontWeight.bold,
+                                                            ),
+                                                          ),
+                                                          Text("Buy Your Flight Ticket")
+                                                        ],
                                                       ),
                                                     ),
                                                   ),
@@ -294,6 +305,21 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                         color: Colors.white,
                                                         borderRadius: BorderRadius.circular(8),
                                                       ),
+                                                      padding: EdgeInsets.all(16),
+                                                      child: Column(
+                                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                                        children: [
+                                                          Icon(Icons.food_bank_outlined),
+                                                          Spacer(),
+                                                          Text(
+                                                            "Food ORder",
+                                                            style: TextStyle(
+                                                              fontWeight: FontWeight.bold,
+                                                            ),
+                                                          ),
+                                                          Text("Buy Your Favourite Food")
+                                                        ],
+                                                      ),
                                                     ),
                                                   ),
                                                   Gap(4),
@@ -302,6 +328,21 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                       decoration: BoxDecoration(
                                                         color: Colors.white,
                                                         borderRadius: BorderRadius.circular(8),
+                                                      ),
+                                                      padding: EdgeInsets.all(16),
+                                                      child: Column(
+                                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                                        children: [
+                                                          Icon(Icons.favorite_border),
+                                                          Spacer(),
+                                                          Text(
+                                                            "Doctor Book",
+                                                            style: TextStyle(
+                                                              fontWeight: FontWeight.bold,
+                                                            ),
+                                                          ),
+                                                          Text("Shop Grocery Items")
+                                                        ],
                                                       ),
                                                     ),
                                                   ),
