@@ -178,29 +178,34 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
             ),
           ),
           SizedBox(
-            height: 42,
-            child: ListView.builder(
-              scrollDirection: Axis.horizontal,
-              itemBuilder: (context, index) {
-                return Container(
-                  decoration: ShapeDecoration(
-                    shape: StadiumBorder(),
-                    color: Colors.white,
-                  ),
-                  child: Row(
-                    children: [
-                      CircleAvatar(
-                        radius: 18,
-                      ),
-                      Row(
-                        children: [
-                          Text(""),
-                        ],
-                      )
-                    ],
-                  ),
-                );
-              },
+            height: 36,
+            child: Padding(
+              padding: const EdgeInsets.only(left: 16),
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (context, index) {
+                  return Container(
+                    padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.white,
+                    ),
+                    child: Row(
+                      children: [
+                        CircleAvatar(
+                          radius: 18,
+                        ),
+                        Text("Search from:"),
+                        Text("Trip.com"),
+                        Icon(
+                          Icons.check,
+                          color: Colors.red,
+                        )
+                      ],
+                    ),
+                  );
+                },
+              ),
             ),
           ),
           Gap(12),
