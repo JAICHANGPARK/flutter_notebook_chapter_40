@@ -79,17 +79,24 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                           style: TextStyle(
                             fontSize: 38,
                             fontWeight: FontWeight.bold,
+                            color: Colors.white,
                           ),
                         ),
                         Text(
-                          "Anyone For Your",  style: TextStyle(
-                          fontSize: 38,fontWeight: FontWeight.bold,
-                        ),
+                          "Anyone For Your",
+                          style: TextStyle(
+                            fontSize: 38,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                          ),
                         ),
                         Text(
-                          "Needed",  style: TextStyle(
-                          fontSize: 38,fontWeight: FontWeight.bold,
-                        ),
+                          "Needed",
+                          style: TextStyle(
+                            fontSize: 38,
+                            fontWeight: FontWeight.bold,
+                            color: Color.fromRGBO(219, 222, 223, 1),
+                          ),
                         ),
                       ],
                     ),
@@ -108,10 +115,10 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                 text: "All Category",
                               ),
                               Tab(
-                                text: "All Category",
+                                text: "Travel Ticket",
                               ),
                               Tab(
-                                text: "All Category",
+                                text: "Food Order",
                               ),
                               Tab(
                                 text: "All Category",
@@ -138,6 +145,23 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Colors.white,
+                    ),
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: TextField(
+                            decoration: InputDecoration(
+                              border: InputBorder.none,
+                              hintText: "What do you want?",
+                            ),
+                          ),
+                        ),
+                        CircleAvatar(
+                          backgroundColor: Colors.deepOrange,
+                          
+                          child: Icon(Icons.mic),
+                        ),
+                      ],
                     ),
                   ),
                   Gap(24),
