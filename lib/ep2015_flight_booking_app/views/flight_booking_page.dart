@@ -66,7 +66,11 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                         size: 16,
                         color: Colors.white,
                       ),
-                      Text("ICN"),
+                      Text("NRT",
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      ),
                     ],
                   ),
                 ),
