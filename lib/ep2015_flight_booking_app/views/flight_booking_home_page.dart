@@ -110,10 +110,11 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                       child: Column(
                         children: [
                           TabBar(
+                            tabAlignment: TabAlignment.start,
                             isScrollable: true,
                             labelColor: Colors.white,
                             indicatorColor: Colors.transparent,
-                            unselectedLabelColor:  Color.fromRGBO(219, 222, 223, 1),
+                            unselectedLabelColor: Color.fromRGBO(219, 222, 223, 1),
                             tabs: [
                               Tab(
                                 text: "All Category",
@@ -132,7 +133,55 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                           Expanded(
                             child: TabBarView(
                               children: [
-                                Container(),
+                                Stack(
+                                  children: [
+                                    Positioned.fill(
+                                      bottom: 64,
+                                      left: 4,
+                                      right: 4,
+                                      top: 0,
+                                      child: Container(
+                                        color: Colors.blue,
+                                        child: Column(
+                                          children: [
+                                            Expanded(
+                                              child: Row(
+                                                children: [
+                                                  Expanded(
+                                                    child: Container(
+                                                      color: Colors.white,
+                                                    ),
+                                                  ),
+                                                  Expanded(
+                                                    child: Container(
+                                                      color: Colors.white,
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
+                                            Expanded(
+                                              child: Row(
+                                                children: [
+                                                  Expanded(
+                                                    child: Container(
+                                                      color: Colors.white,
+                                                    ),
+                                                  ),
+                                                  Expanded(
+                                                    child: Container(
+                                                      color: Colors.white,
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    )
+                                  ],
+                                ),
                                 Container(),
                                 Container(),
                                 Container(),
