@@ -185,6 +185,7 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
                   return Container(
+                    margin: EdgeInsets.only(right: 12),
                     padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
@@ -211,9 +212,13 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
           Gap(12),
           Expanded(
               child: Container(
-            margin: EdgeInsets.symmetric(horizontal: 16),
+            margin: EdgeInsets.symmetric(horizontal: 8),
             decoration: BoxDecoration(
               color: Colors.white,
+              borderRadius: BorderRadius.only(
+                topRight: Radius.circular(24),
+                topLeft: Radius.circular(24),
+              )
             ),
           ))
         ],
