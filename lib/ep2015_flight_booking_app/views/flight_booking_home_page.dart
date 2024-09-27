@@ -130,18 +130,18 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                               ),
                             ],
                           ),
+                          Gap(12),
                           Expanded(
                             child: TabBarView(
                               children: [
                                 Stack(
                                   children: [
                                     Positioned.fill(
-                                      bottom: 64,
-                                      left: 12,
-                                      right: 12,
+                                      bottom: 42,
+                                      left: 36,
+                                      right: 36,
                                       top: 0,
                                       child: Container(
-                                        color: Colors.blue,
                                         child: Column(
                                           children: [
                                             Expanded(
@@ -150,19 +150,12 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                   Expanded(
                                                     child: Container(
 
-                                                      decoration: BoxDecoration(
-                                                        color: Colors.white,
-                                                        borderRadius: BorderRadius.circular(8),
-                                                      ),
                                                     ),
                                                   ),
                                                   Gap(4),
                                                   Expanded(
                                                     child: Container(
-                                                      decoration: BoxDecoration(
-                                                        color: Colors.white,
-                                                        borderRadius: BorderRadius.circular(8),
-                                                      ),
+                                                     
                                                     ),
                                                   ),
                                                 ],
@@ -175,7 +168,60 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                   Expanded(
                                                     child: Container(
                                                       decoration: BoxDecoration(
-                                                        color: Colors.white,
+                                                        color: Color.fromRGBO(234, 230, 225, 1),
+                                                        borderRadius: BorderRadius.circular(8),
+                                                      ),
+                                                    ),
+                                                  ),
+                                                  Gap(4),
+                                                  Expanded(
+                                                    child: Container(
+                                                      decoration: BoxDecoration(
+                                                        color: Color.fromRGBO(234, 230, 225, 1),
+                                                        borderRadius: BorderRadius.circular(8),
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ),
+                                    Positioned.fill(
+                                      bottom: 52,
+                                      left: 24,
+                                      right: 24,
+                                      top: 0,
+                                      child: Container(
+                                        child: Column(
+                                          children: [
+                                            Expanded(
+                                              child: Row(
+                                                children: [
+                                                  Expanded(
+                                                    child: Container(
+
+                                                    ),
+                                                  ),
+                                                  Gap(4),
+                                                  Expanded(
+                                                    child: Container(
+
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
+                                            Gap(4),
+                                            Expanded(
+                                              child: Row(
+                                                children: [
+                                                  Expanded(
+                                                    child: Container(
+                                                      decoration: BoxDecoration(
+                                                        color: Color.fromRGBO(247, 245, 243, 1),
                                                         borderRadius: BorderRadius.circular(8),
                                                       ),
                                                     ),
@@ -202,7 +248,6 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                       right: 12,
                                       top: 0,
                                       child: Container(
-                                        color: Colors.blue,
                                         child: Column(
                                           children: [
                                             Expanded(
@@ -210,7 +255,6 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                 children: [
                                                   Expanded(
                                                     child: Container(
-
                                                       decoration: BoxDecoration(
                                                         color: Colors.white,
                                                         borderRadius: BorderRadius.circular(8),
