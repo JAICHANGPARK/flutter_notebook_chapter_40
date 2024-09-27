@@ -245,15 +245,19 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                   Gap(16),
                   Expanded(child: ListView.builder(itemBuilder: (context, index) {
                     return Container(
+                      margin: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(8),
                         boxShadow: [
                           BoxShadow(
                             color: Colors.black.withOpacity(.1),
+                            blurRadius: 4,
+                            spreadRadius: 1,
                           )
                         ],
                       ),
+                      padding: EdgeInsets.all(9),
                       child: Column(
                         children: [
                           Row(
@@ -265,7 +269,17 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                                   Text("JFK"),
                                 ],
                               ),
-                              Expanded(child: Placeholder()),
+                              Expanded(
+                                  child: Column(
+                                children: [
+                                  SizedBox(
+                                    height: 42,
+                                  ),
+                                  Text(
+                                    "7h 32m Non-stop",
+                                  )
+                                ],
+                              )),
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
