@@ -6,7 +6,7 @@
 - Nadya Lazurenko for Fireart Studio
 - https://dribbble.com/shots/24931343-Skincare-App
 
-<img src="https://cdn.dribbble.com/userupload/16733340/file/original-4b074a972882443030e6e21c0c2d55ee.png?resize=1905x1429"/>
+<img src="https://cdn.dribbble.com/userupload/16790156/file/original-8f73ebe61d08e4722db80f1534245426.jpg?resize=1905x1429"/>
 
 
 
