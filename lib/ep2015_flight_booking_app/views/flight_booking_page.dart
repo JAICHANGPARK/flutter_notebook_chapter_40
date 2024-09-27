@@ -224,13 +224,14 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
               child: Column(
                 children: [
                   Container(
-                    height: 6,
+                    height: 4,
                     width: 42,
                     decoration: BoxDecoration(
                       color: Colors.grey,
                       borderRadius: BorderRadius.circular(8),
                     ),
                   ),
+                  Gap(16),
                   Text(
                     "Choose departing flight",
                   ),
