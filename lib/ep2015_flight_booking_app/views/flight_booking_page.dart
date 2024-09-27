@@ -243,22 +243,43 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                     "Your selection applies to all travler and flights",
                   ),
                   Gap(16),
-                  Expanded(
-                    child: ListView.builder(itemBuilder: (context, index){
-
-                      return Container(
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(8),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.black.withOpacity(.1),
-                            )
-                          ],
-                        ),
-                      );
-                    })
-                  )
+                  Expanded(child: ListView.builder(itemBuilder: (context, index) {
+                    return Container(
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(8),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withOpacity(.1),
+                          )
+                        ],
+                      ),
+                      child: Column(
+                        children: [
+                          Row(
+                            children: [
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text("21:20"),
+                                  Text("JFK"),
+                                ],
+                              ),
+                              Expanded(child: Placeholder()),
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text("10:55"),
+                                  Text("CDG"),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Divider(),
+                        ],
+                      ),
+                    );
+                  }))
                 ],
               ),
             ),
