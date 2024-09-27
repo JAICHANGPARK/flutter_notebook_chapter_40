@@ -234,10 +234,24 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                   Gap(16),
                   Text(
                     "Choose departing flight",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16,
+                    ),
                   ),
                   Text(
                     "Your selection applies to all travler and flights",
                   ),
+                  Expanded(
+                      child: Container(
+                    decoration: BoxDecoration(
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(.1),
+                        )
+                      ],
+                    ),
+                  ))
                 ],
               ),
             ),
