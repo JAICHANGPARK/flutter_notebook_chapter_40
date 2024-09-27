@@ -36,7 +36,8 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.flight_takeoff),
+                      Icon(Icons.flight_takeoff,
+                      size: 16,color: Colors.white,),
                       Text("ICN"),
                     ],
                   ),
