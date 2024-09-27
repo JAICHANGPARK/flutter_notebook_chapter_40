@@ -15,7 +15,7 @@ class FlightBookingDefaultPage extends StatelessWidget {
         children: [
           Positioned.fill(
             child: Container(
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: Colors.white,
                 gradient: LinearGradient(
                   begin: Alignment.bottomCenter,
