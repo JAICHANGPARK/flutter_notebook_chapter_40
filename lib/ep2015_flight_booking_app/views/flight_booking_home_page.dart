@@ -149,7 +149,11 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                                 children: [
                                                   Expanded(
                                                     child: Container(
-                                                      color: Colors.white,
+
+                                                      decoration: BoxDecoration(
+                                                        color: Colors.white,
+                                                        borderRadius: BorderRadius.circular(8),
+                                                      ),
                                                     ),
                                                   ),
                                                   Gap(4),
