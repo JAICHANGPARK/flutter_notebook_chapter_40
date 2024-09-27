@@ -16,7 +16,6 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
       body: Stack(
         children: [
           Positioned.fill(
-
             child: SafeArea(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -55,6 +54,29 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                           topLeft: Radius.circular(48),
                           topRight: Radius.circular(48),
                         ),
+                      ),
+                      padding: EdgeInsets.all(24),
+                      child: Column(
+                        children: [
+                          Container(
+                            height: 200,
+                            child: Placeholder(),
+                          ),
+                          Gap(24),
+                          Container(
+                            height: 100,
+                            child: Placeholder(),
+                          ),
+                          Row(
+                            children: [
+                              Text("Bestsellers:"),
+                              Text("View More"),
+                              Icon(
+                                Icons.keyboard_arrow_right,
+                              ),
+                            ],
+                          )
+                        ],
                       ),
                     ),
                   )
