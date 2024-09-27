@@ -110,6 +110,9 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                       child: Column(
                         children: [
                           TabBar(
+                            isScrollable: true,
+                            labelColor: Colors.white,
+                            unselectedLabelColor: Colors.grey,
                             tabs: [
                               Tab(
                                 text: "All Category",
