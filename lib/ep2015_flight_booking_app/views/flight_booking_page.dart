@@ -276,6 +276,12 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                             ],
                           ),
                           Divider(),
+                          Row(
+                            children: [
+                              Text("AA1-A778"),
+                              Text("\$2601.82"),
+                            ],
+                          )
                         ],
                       ),
                     );
