@@ -103,7 +103,8 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.swap_horiz),
+                      Icon(Icons.swap_horiz, size: 16,
+                        color: Colors.white,),
                       Gap(8),
                       Text("Round trip"),
                     ],
@@ -118,7 +119,8 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.swap_horiz),
+                      Icon(Icons.swap_horiz, size: 16,
+                        color: Colors.white,),
                       Gap(8),
                       Text("Economy"),
                     ],
@@ -133,7 +135,8 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.person),
+                      Icon(Icons.person, size: 16,
+                        color: Colors.white,),
                       Gap(8),
                       Text("2 Adult"),
                     ],
