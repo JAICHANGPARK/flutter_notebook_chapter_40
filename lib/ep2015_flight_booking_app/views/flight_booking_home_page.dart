@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_40/ep2015_flight_booking_app/views/flight_booking_default_page.dart';
+import 'package:flutter_notebook_chapter_40/ep2015_flight_booking_app/views/flight_booking_page.dart';
 import 'package:gap/gap.dart';
 
 class FlightBookingHomePage extends StatefulWidget {
@@ -255,25 +256,34 @@ class _FlightBookingHomePageState extends State<FlightBookingHomePage> {
                                           ),
                                           Gap(4),
                                           Expanded(
-                                            child: Container(
-                                              decoration: BoxDecoration(
-                                                color: Colors.white,
-                                                borderRadius: BorderRadius.circular(8),
-                                              ),
-                                              padding: EdgeInsets.all(16),
-                                              child: Column(
-                                                crossAxisAlignment: CrossAxisAlignment.start,
-                                                children: [
-                                                  Icon(Icons.flight),
-                                                  Spacer(),
-                                                  Text(
-                                                    "Flight Book",
-                                                    style: TextStyle(
-                                                      fontWeight: FontWeight.bold,
-                                                    ),
+                                            child: GestureDetector(
+                                              onTap: () {
+                                                Navigator.of(context).push(
+                                                  MaterialPageRoute(
+                                                    builder: (context) => FlightBookingPage(),
                                                   ),
-                                                  Text("Buy Your Flight Ticket")
-                                                ],
+                                                );
+                                              },
+                                              child: Container(
+                                                decoration: BoxDecoration(
+                                                  color: Colors.white,
+                                                  borderRadius: BorderRadius.circular(8),
+                                                ),
+                                                padding: EdgeInsets.all(16),
+                                                child: Column(
+                                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                                  children: [
+                                                    Icon(Icons.flight),
+                                                    Spacer(),
+                                                    Text(
+                                                      "Flight Book",
+                                                      style: TextStyle(
+                                                        fontWeight: FontWeight.bold,
+                                                      ),
+                                                    ),
+                                                    Text("Buy Your Flight Ticket")
+                                                  ],
+                                                ),
                                               ),
                                             ),
                                           ),
