@@ -70,12 +70,19 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                           Row(
                             children: [
                               Text("Bestsellers:"),
+                              Spacer(),
                               Text("View More"),
                               Icon(
                                 Icons.keyboard_arrow_right,
                               ),
                             ],
-                          )
+                          ),
+                          Expanded(
+                              child: GridView.builder(
+                                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                                    crossAxisCount: 2,
+                                  ),
+                                  itemBuilder: (context, index)=> Placeholder()))
                         ],
                       ),
                     ),
