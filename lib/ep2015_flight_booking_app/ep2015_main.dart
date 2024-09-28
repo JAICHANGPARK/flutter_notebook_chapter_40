@@ -13,7 +13,6 @@ class FlightBookingApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: FlightBookingHomePage(),
-
     );
   }
 }
