@@ -306,7 +306,6 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                               Text("AA1-A778",
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
-
                                 ),),
                               Text("\$2601.82",
                                 style: TextStyle(
