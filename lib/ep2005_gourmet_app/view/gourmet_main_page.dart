@@ -77,7 +77,7 @@ class _GourmetMainPageState extends State<GourmetMainPage> {
                   ),
                   TextButton(
                     onPressed: () {},
-                    child: Text("View all"),
+                    child: Text("View all",),
                   ),
                 ],
               ),
