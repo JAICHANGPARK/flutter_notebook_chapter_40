@@ -71,7 +71,7 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
                       ),
                       Gap(16),
                       Container(
-                        // color: Colors.blue,
+                       
                         height: 84,
                         child: ListView(
                           scrollDirection: Axis.horizontal,
