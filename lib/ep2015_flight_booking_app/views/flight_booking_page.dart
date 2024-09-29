@@ -218,7 +218,7 @@ class _FlightBookingPageState extends State<FlightBookingPage> {
                   borderRadius: BorderRadius.only(
                     topRight: Radius.circular(24),
                     topLeft: Radius.circular(24),
-                  )),
+                  ),),
               width: double.infinity,
               padding: EdgeInsets.all(8),
               child: Column(
