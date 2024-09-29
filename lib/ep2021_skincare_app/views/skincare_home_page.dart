@@ -82,7 +82,7 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                                     crossAxisCount: 2,
                                   ),
-                                  itemBuilder: (context, index)=> Placeholder()))
+                                  itemBuilder: (context, index)=> Placeholder(),),)
                         ],
                       ),
                     ),
