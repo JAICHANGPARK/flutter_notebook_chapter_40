@@ -17,7 +17,6 @@ class _MedicalMainPageState extends State<MedicalMainPage> {
       body: Column(
         children: [
           Container(
-            // height: 200,
             width: double.infinity,
             color: Colors.blue[50],
             padding: const EdgeInsets.only(top: 52, left: 24, right: 24, bottom: 24),
