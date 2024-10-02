@@ -45,6 +45,7 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                           width: 64,
                           decoration: BoxDecoration(
                             color: Colors.blue,
+                            borderRadius: BorderRadius.circular(8),
                           ),
                         )
                       ],
