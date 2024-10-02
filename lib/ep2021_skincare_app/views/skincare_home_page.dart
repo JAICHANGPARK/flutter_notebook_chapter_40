@@ -138,6 +138,8 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                                 crossAxisCount: 2,
                                 crossAxisSpacing: 12,
+                                mainAxisSpacing: 12,
+                                childAspectRatio: .7,
                               ),
                               itemBuilder: (context, index) => Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
