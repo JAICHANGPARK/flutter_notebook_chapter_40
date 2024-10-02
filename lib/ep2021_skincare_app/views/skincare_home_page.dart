@@ -91,6 +91,7 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                                     iconSize: 42,
                                   ),
                                 ),
+                                Gap(12),
                                 Text(
                                   "Use AI to scan your face",
                                   style: TextStyle(
@@ -103,6 +104,7 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                                   icon: Icon(
                                     Icons.arrow_forward,
                                   ),
+                                  color: Colors.white,
                                 )
                               ],
                             ),
