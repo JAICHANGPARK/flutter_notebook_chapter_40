@@ -77,6 +77,9 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                               child: Row(
                                 children: [
                                   Container(
+                                    decoration: BoxDecoration(
+                                      color: Colors.blueGrey,
+                                    ),
                                     child: IconButton(
                                       onPressed: () {},
                                       icon: Icon(
