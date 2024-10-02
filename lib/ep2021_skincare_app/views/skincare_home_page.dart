@@ -60,10 +60,8 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                         children: [
                           Container(
                             height: 200,
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(24),
-                              color: Colors.blueGrey[100]
-                            ),
+                            decoration:
+                                BoxDecoration(borderRadius: BorderRadius.circular(24), color: Colors.blueGrey[100]),
                             child: Row(
                               children: [],
                             ),
@@ -111,13 +109,26 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                               ],
                             ),
                           ),
+                          Gap(24),
                           Row(
                             children: [
-                              Text("Bestsellers:"),
+                              Text(
+                                "Bestsellers:",
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
                               Spacer(),
-                              Text("View More"),
+                              Text(
+                                "View More",
+                                style: TextStyle(
+                                  color: Colors.deepOrange,
+                                ),
+                              ),
                               Icon(
                                 Icons.keyboard_arrow_right,
+                                color: Colors.deepOrange,
                               ),
                             ],
                           ),
