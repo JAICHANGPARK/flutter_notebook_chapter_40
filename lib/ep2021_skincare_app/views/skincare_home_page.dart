@@ -96,6 +96,7 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                                   "Use AI to scan your face",
                                   style: TextStyle(
                                     color: Colors.white,
+                                    fontSize: 16,
                                   ),
                                 ),
                                 Spacer(),
