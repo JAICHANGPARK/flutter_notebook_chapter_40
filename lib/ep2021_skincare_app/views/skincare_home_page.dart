@@ -29,6 +29,10 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                           children: [
                             Text(
                               "Hi Dream👋",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                             Text(
                               "Elevate your complexion care",
