@@ -141,8 +141,18 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                               itemBuilder: (context, index) => Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Expanded(child: Container(),),
-                                  Text("C THE MELUME Super A-Cream",)
+                                  Expanded(
+                                    child: Container(),
+                                  ),
+                                  Gap(12),
+                                  Text(
+                                    "C THE MELUME Super A-Cream",
+
+                                  ),
+                                  Gap(12),
+                                  Text(
+                                    "50 ml",
+                                  )
                                 ],
                               ),
                             ),
