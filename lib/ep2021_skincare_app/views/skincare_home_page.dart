@@ -62,6 +62,7 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                             height: 200,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(24),
+                              color: Colors.blueGrey[100]
                             ),
                             child: Row(
                               children: [],
@@ -88,7 +89,7 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                                       Icons.apps,
                                     ),
                                     color: Colors.white,
-                                    iconSize: 42,
+                                    iconSize: 32,
                                   ),
                                 ),
                                 Gap(12),
