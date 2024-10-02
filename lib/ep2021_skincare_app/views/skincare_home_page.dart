@@ -69,30 +69,44 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                           ),
                           Gap(24),
                           Container(
-                              height: 92,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(24),
-                                color: Colors.black,
-                              ),
-                              padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
-                              child: Row(
-                                children: [
-                                  Container(
-                                    decoration: BoxDecoration(
-                                      color: Colors.blueGrey,
-                                      borderRadius: BorderRadius.circular(12),
+                            height: 92,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(24),
+                              color: Colors.black,
+                            ),
+                            padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+                            child: Row(
+                              children: [
+                                Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.blueGrey,
+                                    borderRadius: BorderRadius.circular(12),
+                                  ),
+                                  child: IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(
+                                      Icons.apps,
                                     ),
-                                    child: IconButton(
-                                      onPressed: () {},
-                                      icon: Icon(
-                                        Icons.apps,
-                                      ),
-                                      color: Colors.white,
-                                      iconSize: 42,
-                                    ),
-                                  )
-                                ],
-                              )),
+                                    color: Colors.white,
+                                    iconSize: 42,
+                                  ),
+                                ),
+                                Text(
+                                  "Use AI to scan your face",
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                  ),
+                                ),
+                                Spacer(),
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(
+                                    Icons.arrow_forward,
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
                           Row(
                             children: [
                               Text("Bestsellers:"),
