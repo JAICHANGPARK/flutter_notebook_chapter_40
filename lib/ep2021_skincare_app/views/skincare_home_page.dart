@@ -137,17 +137,21 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                             child: GridView.builder(
                               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                                 crossAxisCount: 2,
+                                crossAxisSpacing: 12,
                               ),
                               itemBuilder: (context, index) => Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Expanded(
-                                    child: Container(),
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: Colors.orange,
+                                      ),
+                                    ),
                                   ),
                                   Gap(12),
                                   Text(
                                     "C THE MELUME Super A-Cream",
-
                                   ),
                                   Gap(12),
                                   Text(
