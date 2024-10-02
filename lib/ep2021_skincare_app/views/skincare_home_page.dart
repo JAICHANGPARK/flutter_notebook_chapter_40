@@ -74,12 +74,15 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                                 borderRadius: BorderRadius.circular(24),
                                 color: Colors.black,
                               ),
+                              padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
                               child: Row(
                                 children: [
                                   Container(
                                     decoration: BoxDecoration(
                                       color: Colors.blueGrey,
+                                      borderRadius: BorderRadius.circular(12),
                                     ),
+                                    padding: EdgeInsets.all(12),
                                     child: IconButton(
                                       onPressed: () {},
                                       icon: Icon(
