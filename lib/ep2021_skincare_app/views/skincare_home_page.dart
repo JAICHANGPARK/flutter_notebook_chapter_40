@@ -132,12 +132,18 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                               ),
                             ],
                           ),
+                          Gap(12),
                           Expanded(
                             child: GridView.builder(
                               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                                 crossAxisCount: 2,
                               ),
-                              itemBuilder: (context, index) => Placeholder(),
+                              itemBuilder: (context, index) => Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  
+                                ],
+                              ),
                             ),
                           )
                         ],
