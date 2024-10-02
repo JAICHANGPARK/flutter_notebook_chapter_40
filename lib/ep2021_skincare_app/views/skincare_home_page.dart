@@ -69,12 +69,23 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                           ),
                           Gap(24),
                           Container(
-                            height: 100,
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(24),
-                            ),
-                            child: Placeholder(),
-                          ),
+                              height: 100,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(24),
+                                color: Colors.black,
+                              ),
+                              child: Row(
+                                children: [
+                                  Container(
+                                    child: IconButton(
+                                      onPressed: () {},
+                                      icon: Icon(
+                                        Icons.apps,
+                                      ),
+                                    ),
+                                  )
+                                ],
+                              )),
                           Row(
                             children: [
                               Text("Bestsellers:"),
