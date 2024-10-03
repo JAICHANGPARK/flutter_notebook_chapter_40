@@ -75,8 +75,12 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                           ),
                           Gap(24),
                           GestureDetector(
-                            onTap: (){
-                              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>SkincareScanPage()));
+                            onTap: () {
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (context) => SkincareScanPage(),
+                                ),
+                              );
                             },
                             child: Container(
                               height: 92,
