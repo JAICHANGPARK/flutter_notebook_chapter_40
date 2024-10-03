@@ -36,6 +36,9 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                 children: [
                   Text(
                     "Skin type Combination",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                   Gap(12),
                   Row(
@@ -100,15 +103,28 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                     height: 24,
                     width: double.infinity,
                     decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(32),
-                        color: Colors.orange,
-                        gradient: LinearGradient(
-                          colors: [
-                            Colors.yellow,
-                            Colors.red,
-                            Colors.orange,
-                          ],
-                        )),
+                      borderRadius: BorderRadius.circular(32),
+                      color: Colors.orange,
+                      gradient: LinearGradient(
+                        colors: [
+                          Colors.yellow,
+                          Colors.red,
+                          Colors.orange,
+                        ],
+                      ),
+                    ),
+                  ),
+                  Row(
+                    children: [
+                      Container(
+                        child: Text("Pigmentation"),
+                        decoration: BoxDecoration(),
+                      ),
+                      Container(
+                        child: Text("Blackheades"),
+
+                      )
+                    ],
                   )
                 ],
               ),
