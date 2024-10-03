@@ -11,7 +11,7 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+
     );
   }
 }
