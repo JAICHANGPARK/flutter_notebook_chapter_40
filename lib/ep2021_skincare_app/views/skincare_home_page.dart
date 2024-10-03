@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
+import 'skincare_scan_page.dart';
+
 class SkincareHomePage extends StatefulWidget {
   const SkincareHomePage({super.key});
 
@@ -72,46 +74,51 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                             ),
                           ),
                           Gap(24),
-                          Container(
-                            height: 92,
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(24),
-                              color: Colors.black,
-                            ),
-                            padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
-                            child: Row(
-                              children: [
-                                Container(
-                                  decoration: BoxDecoration(
-                                    color: Colors.blueGrey,
-                                    borderRadius: BorderRadius.circular(12),
+                          GestureDetector(
+                            onTap: (){
+                              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>SkincareScanPage()));
+                            },
+                            child: Container(
+                              height: 92,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(24),
+                                color: Colors.black,
+                              ),
+                              padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+                              child: Row(
+                                children: [
+                                  Container(
+                                    decoration: BoxDecoration(
+                                      color: Colors.blueGrey,
+                                      borderRadius: BorderRadius.circular(12),
+                                    ),
+                                    child: IconButton(
+                                      onPressed: () {},
+                                      icon: Icon(
+                                        Icons.apps,
+                                      ),
+                                      color: Colors.white,
+                                      iconSize: 32,
+                                    ),
                                   ),
-                                  child: IconButton(
+                                  Gap(12),
+                                  Text(
+                                    "Use AI to scan your face",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 16,
+                                    ),
+                                  ),
+                                  Spacer(),
+                                  IconButton(
                                     onPressed: () {},
                                     icon: Icon(
-                                      Icons.apps,
+                                      Icons.arrow_forward,
                                     ),
                                     color: Colors.white,
-                                    iconSize: 32,
-                                  ),
-                                ),
-                                Gap(12),
-                                Text(
-                                  "Use AI to scan your face",
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 16,
-                                  ),
-                                ),
-                                Spacer(),
-                                IconButton(
-                                  onPressed: () {},
-                                  icon: Icon(
-                                    Icons.arrow_forward,
-                                  ),
-                                  color: Colors.white,
-                                )
-                              ],
+                                  )
+                                ],
+                              ),
                             ),
                           ),
                           Gap(24),
