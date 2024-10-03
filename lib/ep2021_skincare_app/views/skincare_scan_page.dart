@@ -128,9 +128,19 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                           color: Colors.black,
                           borderRadius: BorderRadius.circular(24),
                         ),
+                        padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                       ),
                       Container(
-                        child: Text("Blackheades"),
+                        padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                        decoration: BoxDecoration(
+                          color: Colors.black,
+                          borderRadius: BorderRadius.circular(24),
+                        ),
+                        child: Text("Blackheades",
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
                       )
                     ],
                   )
