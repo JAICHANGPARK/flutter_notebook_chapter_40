@@ -28,7 +28,9 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
               decoration: BoxDecoration(
                 color: Colors.white,
               ),
+              padding: EdgeInsets.all(16),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
                     "Skin type Combination",
@@ -56,7 +58,6 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                             ),
                           fontWeight: FontWeight.bold,
                         ),
-
                       ),
                       Text(
                         "Combination",
