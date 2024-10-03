@@ -24,11 +24,12 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
               right: 32,
               bottom: 32,
               child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                ),
                 child: Column(
-                            children: [
-
-                            ],
-                          ),
+                  children: [],
+                ),
               ))
         ],
       ),
