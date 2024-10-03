@@ -29,6 +29,7 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
             child: Container(
               decoration: BoxDecoration(
                 color: Colors.white,
+                borderRadius: BorderRadius.circular(16),
               ),
               padding: EdgeInsets.all(16),
               child: Column(
