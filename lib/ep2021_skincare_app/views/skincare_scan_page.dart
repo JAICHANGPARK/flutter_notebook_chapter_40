@@ -115,6 +115,7 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                       ),
                     ),
                   ),
+                  Gap(16),
                   Row(
                     children: [
                       Container(
@@ -129,7 +130,7 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                           borderRadius: BorderRadius.circular(24),
                         ),
                         padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
-                      ),
+                      ), Gap(8),
                       Container(
                         padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                         decoration: BoxDecoration(
