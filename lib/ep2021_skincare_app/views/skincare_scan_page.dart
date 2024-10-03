@@ -95,10 +95,12 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                       )
                     ],
                   ),
+                  Gap(8),
                   Container(
-                    height: 32,
+                    height: 24,
                     width: double.infinity,
                     decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(32),
                         color: Colors.orange,
                         gradient: LinearGradient(
                           colors: [
