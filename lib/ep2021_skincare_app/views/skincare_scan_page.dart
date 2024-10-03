@@ -53,7 +53,9 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                                 Colors.yellow,
                               ],
                             ),
+                          fontWeight: FontWeight.bold,
                         ),
+
                       ),
                       Text(
                         "Combination",
