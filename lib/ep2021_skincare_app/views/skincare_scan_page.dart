@@ -67,6 +67,7 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                                 Colors.orange,
                               ],
                             ),
+                          fontWeight: FontWeight.bold,
                         ),
                       )
                     ],
