@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:ui' as ui;
 
+import 'package:gap/gap.dart';
+
 class SkincareScanPage extends StatefulWidget {
   const SkincareScanPage({super.key});
 
@@ -35,7 +37,9 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                   Text(
                     "Skin type Combination",
                   ),
+                  Gap(12),
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
                         "Dry",
@@ -90,6 +94,19 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                         ),
                       )
                     ],
+                  ),
+                  Container(
+                    height: 32,
+                    width: double.infinity,
+                    decoration: BoxDecoration(
+                        color: Colors.orange,
+                        gradient: LinearGradient(
+                          colors: [
+                            Colors.yellow,
+                            Colors.red,
+                            Colors.orange,
+                          ],
+                        )),
                   )
                 ],
               ),
