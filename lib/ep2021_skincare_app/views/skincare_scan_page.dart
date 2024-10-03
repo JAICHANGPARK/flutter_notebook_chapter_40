@@ -48,7 +48,24 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                             ..shader = ui.Gradient.linear(
                               Offset(0, 20),
                               Offset(150, 20),
-                              [],
+                              [
+                                Colors.red,
+                                Colors.yellow,
+                              ],
+                            ),
+                        ),
+                      ),
+                      Text(
+                        "Combination",
+                        style: TextStyle(
+                          foreground: Paint()
+                            ..shader = ui.Gradient.linear(
+                              Offset(0, 20),
+                              Offset(150, 20),
+                              [
+                                Colors.red,
+                                Colors.orange,
+                              ],
                             ),
                         ),
                       )
