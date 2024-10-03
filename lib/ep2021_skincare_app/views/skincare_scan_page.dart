@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:ui' as ui;
 
 class SkincareScanPage extends StatefulWidget {
   const SkincareScanPage({super.key});
@@ -28,7 +29,32 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                 color: Colors.white,
               ),
               child: Column(
-                children: [],
+                children: [
+                  Text(
+                    "Skin type Combination",
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "Dry",
+                        style: TextStyle(
+                          color: Colors.yellow,
+                        ),
+                      ),
+                      Text(
+                        "Normal",
+                        style: TextStyle(
+                          foreground: Paint()
+                            ..shader = ui.Gradient.linear(
+                              Offset(0, 20),
+                              Offset(150, 20),
+                              [],
+                            ),
+                        ),
+                      )
+                    ],
+                  )
+                ],
               ),
             ),
           )
