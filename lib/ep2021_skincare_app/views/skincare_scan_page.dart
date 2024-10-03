@@ -39,6 +39,7 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                         "Dry",
                         style: TextStyle(
                           color: Colors.yellow,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                       Text(
@@ -66,6 +67,21 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                               Offset(150, 20),
                               [
                                 Colors.red,
+                                Colors.orange,
+                              ],
+                            ),
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      Text(
+                        "Oily",
+                        style: TextStyle(
+                          foreground: Paint()
+                            ..shader = ui.Gradient.linear(
+                              Offset(0, 20),
+                              Offset(150, 20),
+                              [
+                                Colors.orange,
                                 Colors.orange,
                               ],
                             ),
