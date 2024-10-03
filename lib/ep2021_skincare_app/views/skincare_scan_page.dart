@@ -16,8 +16,20 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
           Positioned.fill(
             child: Image.network(
               "https://cdn.pixabay.com/photo/2024/05/31/10/48/woman-8800324_1280.jpg",
+              fit: BoxFit.cover,
             ),
-          )
+          ),
+          Positioned(
+              left: 32,
+              right: 32,
+              bottom: 32,
+              child: Container(
+                child: Column(
+                            children: [
+
+                            ],
+                          ),
+              ))
         ],
       ),
     );
