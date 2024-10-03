@@ -118,12 +118,19 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                   Row(
                     children: [
                       Container(
-                        child: Text("Pigmentation"),
-                        decoration: BoxDecoration(),
+                        child: Text(
+                          "Pigmentation",
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
+                        decoration: BoxDecoration(
+                          color: Colors.black,
+                          borderRadius: BorderRadius.circular(24),
+                        ),
                       ),
                       Container(
                         child: Text("Blackheades"),
-
                       )
                     ],
                   )
