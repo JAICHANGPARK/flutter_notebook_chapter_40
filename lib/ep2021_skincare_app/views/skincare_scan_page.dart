@@ -20,17 +20,18 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
             ),
           ),
           Positioned(
-              left: 32,
-              right: 32,
-              bottom: 32,
-              child: Container(
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                ),
-                child: Column(
-                  children: [],
-                ),
-              ))
+            left: 32,
+            right: 32,
+            bottom: 32,
+            child: Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+              ),
+              child: Column(
+                children: [],
+              ),
+            ),
+          )
         ],
       ),
     );
