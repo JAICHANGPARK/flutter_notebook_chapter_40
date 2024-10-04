@@ -44,15 +44,21 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                     ),
                   )),
                 ),
-                Container(
-                  decoration: BoxDecoration(
-                    color: Colors.black,
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  padding: EdgeInsets.all(8),
-                  child: Icon(
-                    Icons.close,
-                    color: Colors.white,
+                InkWell(
+                  onTap: (){
+                    Navigator.pop(context);
+                    Navigator.pop(context);
+                  },
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.black,
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    padding: EdgeInsets.all(8),
+                    child: Icon(
+                      Icons.close,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
               ],
