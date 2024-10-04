@@ -302,15 +302,23 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                         child: Stack(
                           children: [
                             Positioned.fill(
-                              left: 12,
-                              right: 12,
+                              left: 16,
+                              right: 16,
+
                               child: Container(
                                 decoration: BoxDecoration(
                                   color: Colors.orange,
                                   borderRadius: BorderRadius.circular(16),
                                 ),
                               ),
-                            )
+                            ),
+                            Positioned(
+                              right: 0,
+                              top: 0,
+                              child: CircleAvatar(
+                                radius: 16,
+                                backgroundColor: Colors.black,
+                              ),)
                           ],
                         ),
                       ),
