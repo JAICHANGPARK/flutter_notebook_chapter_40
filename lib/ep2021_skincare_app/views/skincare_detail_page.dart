@@ -292,11 +292,19 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
               child: Stack(
                 children: [
                   Positioned.fill(
+                    bottom: 16,
                     child: Center(
                       child: Container(
                         width: 180,
                         decoration: BoxDecoration(
                           color: Colors.red,
+                        ),
+                        child: Stack(
+                          children: [
+                            Positioned.fill(child: Container(
+                              color: Colors.orange,
+                            ))
+                          ],
                         ),
 
                       ),
