@@ -291,6 +291,18 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
             Expanded(
               child: Stack(
                 children: [
+                  Positioned(
+                    top: 0,
+                    left: 0,
+                    bottom: 0,
+                    child: Container(
+                      width: 160,
+                      decoration: BoxDecoration(
+                        color: Colors.blue,
+
+                      ),
+                    ),
+                  ),
                   Positioned.fill(
                     bottom: 16,
                     child: Center(
@@ -304,7 +316,6 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                             Positioned.fill(
                               left: 16,
                               right: 16,
-
                               child: Container(
                                 decoration: BoxDecoration(
                                   color: Colors.orange,
@@ -320,9 +331,7 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                                 backgroundColor: Colors.black,
                                 foregroundColor: Colors.white,
                                 child: Icon(Icons.play_arrow),
-
                               ),
-
                             )
                           ],
                         ),
