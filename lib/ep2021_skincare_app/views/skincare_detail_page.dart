@@ -14,40 +14,43 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
       body: SafeArea(
           child: Column(
         children: [
-          Row(
-            children: [
-              Container(
-                decoration: BoxDecoration(
-                  color: Colors.black,
-                  borderRadius: BorderRadius.circular(8),
-                ),
-                padding: EdgeInsets.all(8),
-                child: Icon(
-                  Icons.keyboard_arrow_left,
-                  color: Colors.white,
-                ),
-              ),
-              Expanded(
-                child: Center(
-                    child: Text(
-                  "Results",
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Row(
+              children: [
+                Container(
+                  decoration: BoxDecoration(
+                    color: Colors.black,
+                    borderRadius: BorderRadius.circular(8),
                   ),
-                )),
-              ),
-              Container(
-                decoration: BoxDecoration(
-                  color: Colors.black,
-                  borderRadius: BorderRadius.circular(8),
+                  padding: EdgeInsets.all(8),
+                  child: Icon(
+                    Icons.keyboard_arrow_left,
+                    color: Colors.white,
+                  ),
                 ),
-                padding: EdgeInsets.all(8),
-                child: Icon(
-                  Icons.close,
-                  color: Colors.white,
+                Expanded(
+                  child: Center(
+                      child: Text(
+                    "Results",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  )),
                 ),
-              ),
-            ],
+                Container(
+                  decoration: BoxDecoration(
+                    color: Colors.black,
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  padding: EdgeInsets.all(8),
+                  child: Icon(
+                    Icons.close,
+                    color: Colors.white,
+                  ),
+                ),
+              ],
+            ),
           )
         ],
       )),
