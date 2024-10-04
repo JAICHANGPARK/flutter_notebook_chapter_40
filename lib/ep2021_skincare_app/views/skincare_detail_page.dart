@@ -262,8 +262,9 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                 ],
               ),
             ),
-            SizedBox(
+            Container(
               height: 54,
+              margin: EdgeInsets.only(left: 16),
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
@@ -278,6 +279,7 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                 },
               ),
             ),
+            Gap(16),
             Expanded(
               child: Placeholder(),
             )
