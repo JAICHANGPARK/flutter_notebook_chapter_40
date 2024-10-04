@@ -13,7 +13,21 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
     return Scaffold(
       body: SafeArea(
           child: Column(
-        children: [],
+        children: [
+          Row(
+            children: [
+              Container(
+                decoration: BoxDecoration(
+                  color: Colors.black,
+                  borderRadius: BorderRadius.circular(8),
+
+                ),
+                child: Icon(Icons.keyboard_arrow_left,
+                color: Colors.white,),
+              )
+            ],
+          )
+        ],
       )),
     );
   }
