@@ -28,7 +28,13 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                 ),
               ),
               Expanded(
-                child: Text("Results"),
+                child: Center(
+                    child: Text(
+                  "Results",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
+                )),
               ),
               Container(
                 decoration: BoxDecoration(
