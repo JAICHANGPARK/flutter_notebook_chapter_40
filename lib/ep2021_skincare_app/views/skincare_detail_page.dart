@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:percent_indicator/circular_percent_indicator.dart';
 
 class SkincareDetailPage extends StatefulWidget {
   const SkincareDetailPage({super.key});
@@ -93,6 +94,19 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                                   decoration: BoxDecoration(
                                     color: Colors.white,
                                     borderRadius: BorderRadius.circular(12),
+                                  ),
+                                  padding: EdgeInsets.all(8),
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Text("💧 Moisture Level"),
+                                      Row(
+                                        children: [
+                                          Text("76%"),
+                                          CircularPercentIndicator(radius: 20),
+                                        ],
+                                      )
+                                    ],
                                   ),
                                 ),
                               ),
