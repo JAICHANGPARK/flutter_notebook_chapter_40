@@ -264,7 +264,20 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
             ),
             SizedBox(
               height: 72,
-              child: Placeholder(),
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (context, index) {
+                  return Container(
+                    margin: EdgeInsets.only(right: 12),
+                    decoration: BoxDecoration(
+                      color: Colors.black,
+                    ),
+                    child: Center(
+                      child: Text("All"),
+                    ),
+                  );
+                },
+              ),
             ),
             Expanded(
               child: Placeholder(),
