@@ -318,7 +318,12 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                               child: CircleAvatar(
                                 radius: 16,
                                 backgroundColor: Colors.black,
-                              ),)
+                                foregroundColor: Colors.white,
+                                child: Icon(Icons.play_arrow),
+
+                              ),
+
+                            )
                           ],
                         ),
                       ),
