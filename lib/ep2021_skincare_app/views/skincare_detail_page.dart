@@ -11,7 +11,10 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      body: SafeArea(
+          child: Column(
+        children: [],
+      )),
     );
   }
 }
