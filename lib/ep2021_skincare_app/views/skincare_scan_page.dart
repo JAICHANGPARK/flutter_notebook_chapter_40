@@ -40,6 +40,7 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                       onPressed: () {
                         Navigator.of(context).pop();
                       },
+                      color: Colors.white,
                       icon: Icon(
                         Icons.keyboard_arrow_left,
                       ),
