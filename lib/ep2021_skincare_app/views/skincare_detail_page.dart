@@ -289,7 +289,21 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
             ),
             Gap(16),
             Expanded(
-              child: Placeholder(),
+              child: Stack(
+                children: [
+                  Positioned.fill(
+                    child: Center(
+                      child: Container(
+                        width: 180,
+                        decoration: BoxDecoration(
+                          color: Colors.red,
+                        ),
+
+                      ),
+                    ),
+                  )
+                ],
+              ),
             )
           ],
         ),
