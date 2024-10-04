@@ -298,10 +298,10 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                     child: Transform.rotate(
                       angle: -.3,
                       child: Container(
-                        width: 160,
+                        width: 120,
                         decoration: BoxDecoration(
                           color: Colors.blue,
-
+                          borderRadius: 
                         ),
                       ),
                     ),
@@ -311,9 +311,9 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                     child: Center(
                       child: Container(
                         width: 200,
-                        decoration: BoxDecoration(
-                          color: Colors.red,
-                        ),
+                        // decoration: BoxDecoration(
+                        //   color: Colors.red,
+                        // ),
                         child: Stack(
                           children: [
                             Positioned.fill(
