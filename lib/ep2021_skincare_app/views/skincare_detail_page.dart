@@ -82,6 +82,23 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                       color: Colors.blueGrey[100],
                       borderRadius: BorderRadius.circular(16),
                     ),
+                    child: Column(
+                      children: [
+                        Expanded(
+                            child: Row(
+                          children: [
+                            Expanded(
+                              child: Container(),
+                            ),
+                            Gap(16),
+                            Expanded(
+                              child: Container(),
+                            ),
+                          ],
+                        ),),
+                        Gap(16),
+                      ],
+                    ),
                   ),
                   Gap(24),
                   Text(
