@@ -33,7 +33,8 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                 children: [
                   Container(
                     decoration: BoxDecoration(
-                      color: Colors.white,
+                      color: Colors.white.withOpacity(.2),
+                      
                     ),
                     child: IconButton(
                       onPressed: () {
