@@ -14,10 +14,12 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
     return Scaffold(
       body: SafeArea(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
                     children: [
@@ -81,10 +83,18 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                       borderRadius: BorderRadius.circular(16),
                     ),
                   ),
-                  Text("Personalized recommendations:")
+                  Gap(32),
+                  Text("Personalized recommendations:"),
                 ],
               ),
             ),
+            SizedBox(
+              height: 72,
+              child: Placeholder(),
+            ),
+            Expanded(
+              child: Placeholder(),
+            )
           ],
         ),
       ),
