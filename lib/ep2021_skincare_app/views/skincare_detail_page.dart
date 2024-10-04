@@ -101,8 +101,15 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                                     children: [
                                       Text("💧 Moisture Level"),
                                       Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                         children: [
-                                          Text("76%"),
+                                          Text(
+                                            "76%",
+                                            style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: 24,
+                                            ),
+                                          ),
                                           CircularPercentIndicator(radius: 20),
                                         ],
                                       )
