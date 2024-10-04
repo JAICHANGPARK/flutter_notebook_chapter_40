@@ -292,16 +292,16 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
               child: Stack(
                 children: [
                   Positioned(
-                    top: 42,
-                    left: -32,
-                    bottom: 16,
+                    top: 52,
+                    left: -52,
+                    bottom: 8,
                     child: Transform.rotate(
                       angle: -.3,
                       child: Container(
-                        width: 120,
+                        width: 140,
                         decoration: BoxDecoration(
                           color: Colors.blue,
-                          borderRadius: 
+                          borderRadius: BorderRadius.circular(16),
                         ),
                       ),
                     ),
