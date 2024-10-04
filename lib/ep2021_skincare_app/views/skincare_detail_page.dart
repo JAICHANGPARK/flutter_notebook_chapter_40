@@ -263,7 +263,7 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
               ),
             ),
             Container(
-              height: 54,
+              height: 50,
               margin: EdgeInsets.only(left: 16),
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
@@ -287,7 +287,7 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                 },
               ),
             ),
-            Gap(16),
+            Gap(20),
             Expanded(
               child: Stack(
                 children: [
