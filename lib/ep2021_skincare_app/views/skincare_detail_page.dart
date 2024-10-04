@@ -84,7 +84,12 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                     ),
                   ),
                   Gap(32),
-                  Text("Personalized recommendations:"),
+                  Text(
+                    "Personalized recommendations:",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ],
               ),
             ),
