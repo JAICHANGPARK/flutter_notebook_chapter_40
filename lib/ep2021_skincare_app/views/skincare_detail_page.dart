@@ -85,18 +85,32 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                     child: Column(
                       children: [
                         Expanded(
-                            child: Row(
-                          children: [
-                            Expanded(
-                              child: Container(),
-                            ),
-                            Gap(16),
-                            Expanded(
-                              child: Container(),
-                            ),
-                          ],
-                        ),),
+                          child: Row(
+                            children: [
+                              Expanded(
+                                child: Container(),
+                              ),
+                              Gap(16),
+                              Expanded(
+                                child: Container(),
+                              ),
+                            ],
+                          ),
+                        ),
                         Gap(16),
+                        Expanded(
+                          child: Row(
+                            children: [
+                              Expanded(
+                                child: Container(),
+                              ),
+                              Gap(16),
+                              Expanded(
+                                child: Container(),
+                              ),
+                            ],
+                          ),
+                        ),
                       ],
                     ),
                   ),
