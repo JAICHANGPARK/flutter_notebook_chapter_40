@@ -272,6 +272,7 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                     margin: EdgeInsets.only(right: 12),
                     decoration: BoxDecoration(
                       color: Colors.black,
+                      borderRadius: BorderRadius.circular(32),
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 32),
                     child: Center(
