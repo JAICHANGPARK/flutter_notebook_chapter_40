@@ -274,7 +274,14 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                       color: Colors.black,
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 32),
-                    child: Text("All"),
+                    child: Center(
+                      child: Text(
+                        "All",
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      ),
+                    ),
                   );
                 },
               ),
