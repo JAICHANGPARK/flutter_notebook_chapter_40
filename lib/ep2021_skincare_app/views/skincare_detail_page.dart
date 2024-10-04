@@ -20,11 +20,26 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                 decoration: BoxDecoration(
                   color: Colors.black,
                   borderRadius: BorderRadius.circular(8),
-                  
                 ),
                 padding: EdgeInsets.all(8),
-                child: Icon(Icons.keyboard_arrow_left,
-                color: Colors.white,),
+                child: Icon(
+                  Icons.keyboard_arrow_left,
+                  color: Colors.white,
+                ),
+              ),
+              Expanded(
+                child: Text("Results"),
+              ),
+              Container(
+                decoration: BoxDecoration(
+                  color: Colors.black,
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                padding: EdgeInsets.all(8),
+                child: Icon(
+                  Icons.close,
+                  color: Colors.white,
+                ),
               ),
             ],
           )
