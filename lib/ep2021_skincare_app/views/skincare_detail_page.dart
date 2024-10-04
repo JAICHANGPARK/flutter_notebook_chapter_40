@@ -83,7 +83,7 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                       borderRadius: BorderRadius.circular(16),
                     ),
                   ),
-                  Gap(32),
+                  Gap(24),
                   Text(
                     "Personalized recommendations:",
                     style: TextStyle(
