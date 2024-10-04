@@ -263,7 +263,7 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
               ),
             ),
             SizedBox(
-              height: 72,
+              height: 54,
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
@@ -272,6 +272,7 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                     decoration: BoxDecoration(
                       color: Colors.black,
                     ),
+                    padding: EdgeInsets.symmetric(horizontal: 32),
                     child: Text("All"),
                   );
                 },
