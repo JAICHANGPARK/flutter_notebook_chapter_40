@@ -100,7 +100,12 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("💧 Moisture Level"),
+                                      Text(
+                                        "💧 Moisture Level",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
                                       Row(
                                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                         children: [
