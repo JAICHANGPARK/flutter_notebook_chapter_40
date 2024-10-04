@@ -78,7 +78,7 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                   ),
                   Gap(24),
                   Container(
-                    height: 240,
+                    height: 270,
                     decoration: BoxDecoration(
                       color: Colors.blueGrey[100],
                       borderRadius: BorderRadius.circular(16),
@@ -95,7 +95,7 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                                     color: Colors.white,
                                     borderRadius: BorderRadius.circular(12),
                                   ),
-                                  padding: EdgeInsets.all(8),
+                                  padding: EdgeInsets.all(16),
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
@@ -124,7 +124,7 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                             ],
                           ),
                         ),
-                        Gap(16),
+                        Gap(12),
                         Expanded(
                           child: Row(
                             children: [
