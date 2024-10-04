@@ -23,22 +23,29 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
             ),
           ),
           Positioned(
-            child: Row(
-              children: [
-                Container(
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                  ),
-                  child: IconButton(
-                    onPressed: () {
-                      Navigator.of(context).pop();
-                    },
-                    icon: Icon(
-                      Icons.keyboard_arrow_left,
+            left: 15,
+            top: 16,
+            right: 0,
+            bottom: 0,
+            child: SafeArea(
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.white,
                     ),
-                  ),
-                )
-              ],
+                    child: IconButton(
+                      onPressed: () {
+                        Navigator.of(context).pop();
+                      },
+                      icon: Icon(
+                        Icons.keyboard_arrow_left,
+                      ),
+                    ),
+                  )
+                ],
+              ),
             ),
           ),
           Positioned(
