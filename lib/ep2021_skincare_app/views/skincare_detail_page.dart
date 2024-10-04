@@ -18,15 +18,20 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
             padding: const EdgeInsets.all(16.0),
             child: Row(
               children: [
-                Container(
-                  decoration: BoxDecoration(
-                    color: Colors.black,
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  padding: EdgeInsets.all(8),
-                  child: Icon(
-                    Icons.keyboard_arrow_left,
-                    color: Colors.white,
+                InkWell(
+                  onTap: (){
+                    Navigator.pop(context);
+                  },
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.black,
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    padding: EdgeInsets.all(8),
+                    child: Icon(
+                      Icons.keyboard_arrow_left,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
                 Expanded(
@@ -35,6 +40,7 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                     "Results",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
+                      fontSize: 16,
                     ),
                   )),
                 ),
