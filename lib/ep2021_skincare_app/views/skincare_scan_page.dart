@@ -23,6 +23,25 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
             ),
           ),
           Positioned(
+            child: Row(
+              children: [
+                Container(
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                  ),
+                  child: IconButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                    },
+                    icon: Icon(
+                      Icons.keyboard_arrow_left,
+                    ),
+                  ),
+                )
+              ],
+            ),
+          ),
+          Positioned(
             left: 32,
             right: 32,
             bottom: 32,
@@ -130,14 +149,16 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
                           borderRadius: BorderRadius.circular(24),
                         ),
                         padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
-                      ), Gap(8),
+                      ),
+                      Gap(8),
                       Container(
                         padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                         decoration: BoxDecoration(
                           color: Colors.black,
                           borderRadius: BorderRadius.circular(24),
                         ),
-                        child: Text("Blackheades",
+                        child: Text(
+                          "Blackheades",
                           style: TextStyle(
                             color: Colors.white,
                           ),
