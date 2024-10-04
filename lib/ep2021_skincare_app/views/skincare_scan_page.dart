@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_40/ep2021_skincare_app/views/skincare_detail_page.dart';
 import 'dart:ui' as ui;
 
 import 'package:gap/gap.dart';
@@ -54,128 +55,137 @@ class _SkincareScanPageState extends State<SkincareScanPage> {
             left: 32,
             right: 32,
             bottom: 32,
-            child: Container(
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(16),
-              ),
-              padding: EdgeInsets.all(16),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    "Skin type Combination",
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                    ),
+            child: GestureDetector(
+              onTap: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => SkincareDetailPage(),
                   ),
-                  Gap(12),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text(
-                        "Dry",
-                        style: TextStyle(
-                          color: Colors.yellow,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      Text(
-                        "Normal",
-                        style: TextStyle(
-                          foreground: Paint()
-                            ..shader = ui.Gradient.linear(
-                              Offset(0, 20),
-                              Offset(150, 20),
-                              [
-                                Colors.red,
-                                Colors.yellow,
-                              ],
-                            ),
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      Text(
-                        "Combination",
-                        style: TextStyle(
-                          foreground: Paint()
-                            ..shader = ui.Gradient.linear(
-                              Offset(0, 20),
-                              Offset(150, 20),
-                              [
-                                Colors.red,
-                                Colors.orange,
-                              ],
-                            ),
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      Text(
-                        "Oily",
-                        style: TextStyle(
-                          foreground: Paint()
-                            ..shader = ui.Gradient.linear(
-                              Offset(0, 20),
-                              Offset(150, 20),
-                              [
-                                Colors.orange,
-                                Colors.orange,
-                              ],
-                            ),
-                          fontWeight: FontWeight.bold,
-                        ),
-                      )
-                    ],
-                  ),
-                  Gap(8),
-                  Container(
-                    height: 24,
-                    width: double.infinity,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(32),
-                      color: Colors.orange,
-                      gradient: LinearGradient(
-                        colors: [
-                          Colors.yellow,
-                          Colors.red,
-                          Colors.orange,
-                        ],
+                );
+              },
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(16),
+                ),
+                padding: EdgeInsets.all(16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      "Skin type Combination",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
                       ),
                     ),
-                  ),
-                  Gap(16),
-                  Row(
-                    children: [
-                      Container(
-                        child: Text(
-                          "Pigmentation",
+                    Gap(12),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "Dry",
                           style: TextStyle(
-                            color: Colors.white,
+                            color: Colors.yellow,
+                            fontWeight: FontWeight.bold,
                           ),
                         ),
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          borderRadius: BorderRadius.circular(24),
+                        Text(
+                          "Normal",
+                          style: TextStyle(
+                            foreground: Paint()
+                              ..shader = ui.Gradient.linear(
+                                Offset(0, 20),
+                                Offset(150, 20),
+                                [
+                                  Colors.red,
+                                  Colors.yellow,
+                                ],
+                              ),
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
-                        padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                        Text(
+                          "Combination",
+                          style: TextStyle(
+                            foreground: Paint()
+                              ..shader = ui.Gradient.linear(
+                                Offset(0, 20),
+                                Offset(150, 20),
+                                [
+                                  Colors.red,
+                                  Colors.orange,
+                                ],
+                              ),
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        Text(
+                          "Oily",
+                          style: TextStyle(
+                            foreground: Paint()
+                              ..shader = ui.Gradient.linear(
+                                Offset(0, 20),
+                                Offset(150, 20),
+                                [
+                                  Colors.orange,
+                                  Colors.orange,
+                                ],
+                              ),
+                            fontWeight: FontWeight.bold,
+                          ),
+                        )
+                      ],
+                    ),
+                    Gap(8),
+                    Container(
+                      height: 24,
+                      width: double.infinity,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(32),
+                        color: Colors.orange,
+                        gradient: LinearGradient(
+                          colors: [
+                            Colors.yellow,
+                            Colors.red,
+                            Colors.orange,
+                          ],
+                        ),
                       ),
-                      Gap(8),
-                      Container(
-                        padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          borderRadius: BorderRadius.circular(24),
-                        ),
-                        child: Text(
-                          "Blackheades",
-                          style: TextStyle(
-                            color: Colors.white,
+                    ),
+                    Gap(16),
+                    Row(
+                      children: [
+                        Container(
+                          child: Text(
+                            "Pigmentation",
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
                           ),
+                          decoration: BoxDecoration(
+                            color: Colors.black,
+                            borderRadius: BorderRadius.circular(24),
+                          ),
+                          padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                         ),
-                      )
-                    ],
-                  )
-                ],
+                        Gap(8),
+                        Container(
+                          padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                          decoration: BoxDecoration(
+                            color: Colors.black,
+                            borderRadius: BorderRadius.circular(24),
+                          ),
+                          child: Text(
+                            "Blackheades",
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          ),
+                        )
+                      ],
+                    )
+                  ],
+                ),
               ),
             ),
           )
