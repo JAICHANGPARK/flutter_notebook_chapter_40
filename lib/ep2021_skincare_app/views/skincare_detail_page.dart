@@ -272,9 +272,7 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                     decoration: BoxDecoration(
                       color: Colors.black,
                     ),
-                    child: Center(
-                      child: Text("All"),
-                    ),
+                    child: Text("All"),
                   );
                 },
               ),
