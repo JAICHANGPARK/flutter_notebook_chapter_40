@@ -98,6 +98,7 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                                   padding: EdgeInsets.all(16),
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text("💧 Moisture Level"),
                                       Row(
