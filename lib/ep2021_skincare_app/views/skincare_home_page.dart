@@ -90,7 +90,10 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                                 borderRadius: BorderRadius.circular(24),
                                 color: Colors.black,
                               ),
-                              padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+                              padding: EdgeInsets.symmetric(
+                                horizontal: 12,
+                                vertical: 12,
+                              ),
                               child: Row(
                                 children: [
                                   Container(
