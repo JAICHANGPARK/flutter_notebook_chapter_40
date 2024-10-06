@@ -67,8 +67,10 @@ class _SkincareHomePageState extends State<SkincareHomePage> {
                         children: [
                           Container(
                             height: 200,
-                            decoration:
-                                BoxDecoration(borderRadius: BorderRadius.circular(24), color: Colors.blueGrey[100]),
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(24),
+                              color: Colors.blueGrey[100],
+                            ),
                             child: Row(
                               children: [],
                             ),
