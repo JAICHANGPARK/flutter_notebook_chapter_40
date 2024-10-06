@@ -324,7 +324,7 @@ class _SkincareDetailPageState extends State<SkincareDetailPage> {
                   Positioned.fill(
                     bottom: 16,
                     child: Center(
-                      child: Container(
+                      child: SizedBox(
                         width: 200,
                         // decoration: BoxDecoration(
                         //   color: Colors.red,
