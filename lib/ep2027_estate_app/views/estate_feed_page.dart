@@ -28,11 +28,15 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
       bottomNavigationBar: BottomAppBar(
         child: Row(
           children: [
-            Icon(
-              HugeIcons.strokeRoundedHome01,
-            ),
-            Text(
-              "Feed",
+            Row(
+              children: [
+                Icon(
+                  HugeIcons.strokeRoundedHome01,
+                ),
+                Text(
+                  "Feed",
+                ),
+              ],
             ),
             IconButton(
               onPressed: () {},
