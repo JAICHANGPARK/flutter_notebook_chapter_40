@@ -26,7 +26,28 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
         ],
       ),
       backgroundColor: Colors.white,
+      body: Column(
+        children: [
+          Container(
+            height: 42,
+            child: Placeholder(),
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text("Home For You"),
+              TextButton(
+                onPressed: () {},
+                child: Text(
+                  "See all",
+                ),
+              ),
+            ],
+          )
+        ],
+      ),
       bottomNavigationBar: BottomAppBar(
+        color: Colors.white,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
