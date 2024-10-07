@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class EstateFeedPage extends StatefulWidget {
   const EstateFeedPage({super.key});
@@ -15,12 +16,31 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
         backgroundColor: Colors.white,
         foregroundColor: Colors.black,
         title: Text("Feed"),
+        centerTitle: true,
         actions: [
           IconButton(
             onPressed: () {},
             icon: Icon(Icons.menu),
           )
         ],
+      ),
+      backgroundColor: Colors.white,
+      bottomNavigationBar: BottomAppBar(
+        child: Row(
+          children: [
+            Icon(
+              HugeIcons.strokeRoundedHome01,
+            ),
+            Text(
+              "Feed",
+            ),
+            IconButton(onPressed: (){}, icon: Icon(Icons.search),),
+            IconButton(onPressed: (){}, icon: Icon(Icons.search),),
+            IconButton(onPressed: (){}, icon: Icon(Icons.search),),
+            IconButton(onPressed: (){}, icon: Icon(Icons.search),),
+            
+          ],
+        ),
       ),
     );
   }
