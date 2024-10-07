@@ -34,11 +34,24 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
             Text(
               "Feed",
             ),
-            IconButton(onPressed: (){}, icon: Icon(Icons.search),),
-            IconButton(onPressed: (){}, icon: Icon(Icons.search),),
-            IconButton(onPressed: (){}, icon: Icon(Icons.search),),
-            IconButton(onPressed: (){}, icon: Icon(Icons.search),),
-            
+            IconButton(
+              onPressed: () {},
+              icon: Icon(Icons.search),
+            ),
+            IconButton(
+              onPressed: () {},
+              icon: Icon(Icons.favorite_outline),
+            ),
+            IconButton(
+              onPressed: () {},
+              icon: Icon(Icons.chat),
+            ),
+            IconButton(
+              onPressed: () {},
+              icon: Icon(
+                Icons.person_2_outlined,
+              ),
+            ),
           ],
         ),
       ),
