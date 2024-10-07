@@ -28,7 +28,7 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
       backgroundColor: Colors.white,
       bottomNavigationBar: BottomAppBar(
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             Row(
               children: [
