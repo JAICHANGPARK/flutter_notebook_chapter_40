@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class EstateFeedPage extends StatefulWidget {
@@ -27,12 +28,14 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
       backgroundColor: Colors.white,
       bottomNavigationBar: BottomAppBar(
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Row(
               children: [
                 Icon(
                   HugeIcons.strokeRoundedHome01,
                 ),
+                Gap(8),
                 Text(
                   "Feed",
                 ),
