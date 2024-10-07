@@ -43,7 +43,27 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                 ),
               ),
             ],
-          )
+          ),
+          Container(
+            height: 360,
+            child: Placeholder(),
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text("Home Nearby"),
+              TextButton(
+                onPressed: () {},
+                child: Text(
+                  "See all",
+                ),
+              ),
+            ],
+          ),
+          Container(
+            height: 360,
+            child: Placeholder(),
+          ),
         ],
       ),
       bottomNavigationBar: BottomAppBar(
