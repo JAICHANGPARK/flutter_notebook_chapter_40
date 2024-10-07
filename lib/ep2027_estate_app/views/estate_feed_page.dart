@@ -32,38 +32,44 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
             height: 42,
             child: Placeholder(),
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          Expanded(child: SingleChildScrollView(child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text("Home For You"),
-              TextButton(
-                onPressed: () {},
-                child: Text(
-                  "See all",
-                ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text("Home For You"),
+                  TextButton(
+                    onPressed: () {},
+                    child: Text(
+                      "See all",
+                    ),
+                  ),
+                ],
+              ),
+              Container(
+                height: 360,
+                child: Placeholder(),
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text("Home Nearby"),
+                  TextButton(
+                    onPressed: () {},
+                    child: Text(
+                      "See all",
+                    ),
+                  ),
+                ],
+              ),
+              Container(
+                height: 360,
+                child: Placeholder(),
               ),
             ],
-          ),
-          Container(
-            height: 360,
-            child: Placeholder(),
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text("Home Nearby"),
-              TextButton(
-                onPressed: () {},
-                child: Text(
-                  "See all",
-                ),
-              ),
-            ],
-          ),
-          Container(
-            height: 360,
-            child: Placeholder(),
-          ),
+          ),),),
+
         ],
       ),
       bottomNavigationBar: BottomAppBar(
