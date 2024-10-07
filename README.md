@@ -3,7 +3,7 @@
 ## EP2027
 
 - Reales UI Kit - Real Estate App (Authentication & Feed Screen)
-- Nadya Lazurenko for Fireart Studio
+- Robbi Darwis
 - https://dribbble.com/shots/24985606-Reales-UI-Kit-Real-Estate-App-Authentication-Feed-Screen
 
 <img src="https://cdn.dribbble.com/userupload/16790156/file/original-8f73ebe61d08e4722db80f1534245426.jpg?resize=1905x1429"/>
