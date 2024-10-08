@@ -66,21 +66,46 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text("Home For You"),
-                      TextButton(
-                        onPressed: () {},
-                        child: Text(
-                          "See all",
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "Home For You",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                          ),
                         ),
-                      ),
-                    ],
+                        TextButton(
+                          onPressed: () {},
+                          child: Text(
+                            "See all",
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                   Container(
                     height: 360,
-                    child: Placeholder(),
+                    margin: EdgeInsets.only(
+                      left: 16,
+                    ),
+                    child: ListView.builder(
+                      itemBuilder: (context, index) {
+                        return Container(
+                          width: 320,
+                          child: Column(
+                            children: [
+                              Expanded(
+                                child: Placeholder(),
+                              ),
+                            ],
+                          ),
+                        );
+                      },
+                    ),
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
