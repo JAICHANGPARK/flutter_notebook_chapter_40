@@ -263,10 +263,9 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                       ],
                     ),
                   ),
-                  Container(
-                    height: 360,
-                    child: Placeholder(),
-                  ),
+                 ...List.generate(5, (index){
+                   return Container();
+                 }),
                 ],
               ),
             ),
