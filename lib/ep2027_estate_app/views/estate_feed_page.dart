@@ -223,12 +223,16 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                                 "\$3,200,000",
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
-                                  fontSize: 16,
+                                  fontSize: 18,
                                 ),
                               ),
                               Gap(8),
                               Text(
                                 "10 Tranquility Way, Serene Valley, ABC 1234",
+                                style: TextStyle(
+                                  color: Colors.grey,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               )
                             ],
                           ),
