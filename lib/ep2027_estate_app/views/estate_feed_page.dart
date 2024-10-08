@@ -32,12 +32,19 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
         children: [
           Container(
               height: 42,
+              margin: EdgeInsets.only(left: 16),
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
+                itemCount: tabs.length,
                 itemBuilder: (context, index) {
                   return Container(
                     decoration: BoxDecoration(
-                      border: Border.all()
+                      border: Border.all(),
+                    ),
+                    child: Center(
+                      child: Text(
+                        "${tabs[index]}",
+                      ),
                     ),
                   );
                 },
