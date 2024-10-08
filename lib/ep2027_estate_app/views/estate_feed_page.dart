@@ -111,9 +111,11 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                                         ),
                                         fit: BoxFit.cover),
                                   ),
+                                  padding: EdgeInsets.all(12),
                                   child: Column(
                                     children: [
                                       Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                         children: [
                                           Container(
                                             decoration: BoxDecoration(
@@ -124,12 +126,9 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                                               "Popular",
                                             ),
                                           ),
-                                          IconButton(
-                                            onPressed: () {},
-                                            icon: Icon(
-                                              Icons.favorite_outline,
-                                            ),
-                                          )
+                                          Icon(
+                                            Icons.favorite,
+                                          ),
                                         ],
                                       )
                                     ],
