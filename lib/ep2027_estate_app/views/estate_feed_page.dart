@@ -103,7 +103,7 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                               Expanded(
                                 child: Placeholder(),
                               ),
-                              Wrap(
+                              Row(
                                 children: [
                                   Container(
                                     child: Row(
@@ -113,6 +113,7 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                                       ],
                                     ),
                                   ),
+                                  Gap(12),
                                   Container(
                                     child: Row(
                                       children: [
@@ -120,7 +121,7 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                                         Text("2 baths"),
                                       ],
                                     ),
-                                  ),
+                                  ),Gap(12),
                                   Container(
                                     child: Row(
                                       children: [
@@ -137,6 +138,9 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                                   fontWeight: FontWeight.bold,
                                   fontSize: 16,
                                 ),
+                              ),
+                              Text(
+                                "10 Tranquility Way, Serene Valley, ABC 1234",
                               )
                             ],
                           ),
