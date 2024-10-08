@@ -93,14 +93,51 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                       left: 16,
                     ),
                     child: ListView.builder(
+                      scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
                         return Container(
                           width: 320,
                           child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Expanded(
                                 child: Placeholder(),
                               ),
+                              Wrap(
+                                children: [
+                                  Container(
+                                    child: Row(
+                                      children: [
+                                        Icon(Icons.bathtub_outlined),
+                                        Text("2 baths"),
+                                      ],
+                                    ),
+                                  ),
+                                  Container(
+                                    child: Row(
+                                      children: [
+                                        Icon(Icons.bathtub_outlined),
+                                        Text("2 baths"),
+                                      ],
+                                    ),
+                                  ),
+                                  Container(
+                                    child: Row(
+                                      children: [
+                                        Icon(Icons.bathtub_outlined),
+                                        Text("2 baths"),
+                                      ],
+                                    ),
+                                  )
+                                ],
+                              ),
+                              Text(
+                                "\$3,200,000",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                ),
+                              )
                             ],
                           ),
                         );
