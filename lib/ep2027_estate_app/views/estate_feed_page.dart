@@ -104,9 +104,9 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                               Expanded(
                                 child: Container(
                                   decoration: BoxDecoration(
-                                      image: NetworkImage(
-                                    "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg",
-                                  )),
+                                      image: DecorationImage(image: NetworkImage(
+                                        "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg",
+                                      ))),
                                   child: Stack(),
                                 ),
                               ),
