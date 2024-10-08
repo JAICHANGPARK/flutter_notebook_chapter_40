@@ -96,7 +96,7 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
                         return Container(
-                          width: 320,
+                          width: 360,
                           margin: EdgeInsets.only(right: 16),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -168,22 +168,54 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                                   ),
                                   Gap(12),
                                   Container(
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(4),
+                                      border: Border.all(
+                                        color: Colors.grey,
+                                      ),
+                                    ),
+                                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                                     child: Row(
                                       children: [
-                                        Icon(Icons.bathtub_outlined),
-                                        Text("2 baths"),
+                                        Icon(
+                                          Icons.bathtub_outlined,
+                                          color: Colors.grey,
+                                        ),
+                                        Gap(6),
+                                        Text(
+                                          "2 baths",
+                                          style: TextStyle(
+                                            color: Colors.grey,
+                                          ),
+                                        ),
                                       ],
                                     ),
                                   ),
                                   Gap(12),
                                   Container(
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(4),
+                                      border: Border.all(
+                                        color: Colors.grey,
+                                      ),
+                                    ),
+                                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                                     child: Row(
                                       children: [
-                                        Icon(Icons.bathtub_outlined),
-                                        Text("2 baths"),
+                                        Icon(
+                                          Icons.bathtub_outlined,
+                                          color: Colors.grey,
+                                        ),
+                                        Gap(6),
+                                        Text(
+                                          "2 baths",
+                                          style: TextStyle(
+                                            color: Colors.grey,
+                                          ),
+                                        ),
                                       ],
                                     ),
-                                  )
+                                  ),
                                 ],
                               ),
                               Gap(8),
