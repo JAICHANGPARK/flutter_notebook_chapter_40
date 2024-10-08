@@ -106,7 +106,7 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                                   decoration: BoxDecoration(
                                       image: DecorationImage(image: NetworkImage(
                                         "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg",
-                                      ))),
+                                      ), fit: BoxFit.cover)),
                                   child: Stack(),
                                 ),
                               ),
