@@ -103,6 +103,7 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                               Expanded(
                                 child: Placeholder(),
                               ),
+                              Gap(8),
                               Row(
                                 children: [
                                   Container(
@@ -132,6 +133,7 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                                   )
                                 ],
                               ),
+                              Gap(8),
                               Text(
                                 "\$3,200,000",
                                 style: TextStyle(
@@ -139,6 +141,7 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                                   fontSize: 16,
                                 ),
                               ),
+                              Gap(8),
                               Text(
                                 "10 Tranquility Way, Serene Valley, ABC 1234",
                               )
