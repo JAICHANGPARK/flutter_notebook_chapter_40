@@ -97,6 +97,7 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                       itemBuilder: (context, index) {
                         return Container(
                           width: 320,
+                          margin: EdgeInsets.only(right: 16),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -122,7 +123,8 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                                         Text("2 baths"),
                                       ],
                                     ),
-                                  ),Gap(12),
+                                  ),
+                                  Gap(12),
                                   Container(
                                     child: Row(
                                       children: [
