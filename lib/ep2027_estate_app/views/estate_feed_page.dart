@@ -32,7 +32,7 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
         children: [
           Gap(16),
           Container(
-              height: 42,
+              height: 38,
               margin: EdgeInsets.only(left: 16),
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
@@ -55,6 +55,7 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                         "${tabs[index]}",
                         style: TextStyle(
                           color: index == 0 ? Colors.white : Colors.grey,
+                          fontSize: 13,
                         ),
                       ),
                     ),
