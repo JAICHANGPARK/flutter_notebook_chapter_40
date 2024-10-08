@@ -264,7 +264,44 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                     ),
                   ),
                  ...List.generate(5, (index){
-                   return Container();
+                   return Container(
+                     height: 340,
+                     margin: EdgeInsets.only(left: 16, right: 16, bottom: 12),
+                     decoration: BoxDecoration(
+                       borderRadius: BorderRadius.circular(12),
+                       image: DecorationImage(
+                           image: NetworkImage(
+                             "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg",
+                           ),
+                           fit: BoxFit.cover),
+                     ),
+                     padding: EdgeInsets.all(12),
+                     child: Column(
+                       children: [
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                           children: [
+                             Container(
+                               decoration: BoxDecoration(
+                                 color: Colors.black.withOpacity(.1),
+                                 borderRadius: BorderRadius.circular(4),
+                               ),
+                               padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                               child: Text(
+                                 "Popular",
+                                 style: TextStyle(
+                                   color: Colors.white,
+                                 ),
+                               ),
+                             ),
+                             Icon(
+                               Icons.favorite,
+                             ),
+                           ],
+                         )
+                       ],
+                     ),
+                   );
                  }),
                 ],
               ),
