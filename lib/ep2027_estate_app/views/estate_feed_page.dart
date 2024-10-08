@@ -102,7 +102,13 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Expanded(
-                                child: Placeholder(),
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                      image: NetworkImage(
+                                    "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg",
+                                  )),
+                                  child: Stack(),
+                                ),
                               ),
                               Gap(8),
                               Row(
@@ -158,10 +164,13 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text("Home Nearby", style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18,
-                        ),),
+                        Text(
+                          "Home Nearby",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
+                          ),
+                        ),
                         TextButton(
                           onPressed: () {},
                           child: Text(
