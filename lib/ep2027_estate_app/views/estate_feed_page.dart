@@ -111,7 +111,29 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                                         ),
                                         fit: BoxFit.cover),
                                   ),
-                                  child: Stack(),
+                                  child: Column(
+                                    children: [
+                                      Row(
+                                        children: [
+                                          Container(
+                                            decoration: BoxDecoration(
+                                              color: Colors.black.withOpacity(.1),
+                                              borderRadius: BorderRadius.circular(4),
+                                            ),
+                                            child: Text(
+                                              "Popular",
+                                            ),
+                                          ),
+                                          IconButton(
+                                            onPressed: () {},
+                                            icon: Icon(
+                                              Icons.favorite_outline,
+                                            ),
+                                          )
+                                        ],
+                                      )
+                                    ],
+                                  ),
                                 ),
                               ),
                               Gap(8),
