@@ -30,6 +30,7 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
       backgroundColor: Colors.white,
       body: Column(
         children: [
+          Gap(16),
           Container(
               height: 42,
               margin: EdgeInsets.only(left: 16),
@@ -43,11 +44,18 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                     ),
                     margin: EdgeInsets.only(right: 12),
                     decoration: BoxDecoration(
-                      border: Border.all(),
+                      borderRadius: BorderRadius.circular(4),
+                      border: Border.all(
+                        color: Colors.grey,
+                      ),
+                      color: index == 0 ? Colors.black : Colors.white,
                     ),
                     child: Center(
                       child: Text(
                         "${tabs[index]}",
+                        style: TextStyle(
+                          color: index == 0 ? Colors.white : Colors.grey,
+                        ),
                       ),
                     ),
                   );
