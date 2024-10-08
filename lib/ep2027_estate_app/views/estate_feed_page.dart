@@ -143,6 +143,12 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                               Row(
                                 children: [
                                   Container(
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(4),
+                                      border: Border.all(
+                                        color: Colors.grey,
+                                      ),
+                                    ),
                                     child: Row(
                                       children: [
                                         Icon(Icons.bathtub_outlined),
