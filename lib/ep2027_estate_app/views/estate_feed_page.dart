@@ -38,6 +38,10 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                 itemCount: tabs.length,
                 itemBuilder: (context, index) {
                   return Container(
+                    padding: EdgeInsets.symmetric(
+                      horizontal: 16,
+                    ),
+                    margin: EdgeInsets.only(right: 12),
                     decoration: BoxDecoration(
                       border: Border.all(),
                     ),
