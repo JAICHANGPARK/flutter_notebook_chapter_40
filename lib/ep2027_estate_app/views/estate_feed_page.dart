@@ -122,8 +122,12 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                                               color: Colors.black.withOpacity(.1),
                                               borderRadius: BorderRadius.circular(4),
                                             ),
+                                            padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                                             child: Text(
                                               "Popular",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
                                             ),
                                           ),
                                           Icon(
