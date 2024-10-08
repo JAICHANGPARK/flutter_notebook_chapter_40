@@ -56,6 +56,7 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                         style: TextStyle(
                           color: index == 0 ? Colors.white : Colors.grey,
                           fontSize: 13,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ),
