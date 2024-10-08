@@ -10,6 +10,8 @@ class EstateFeedPage extends StatefulWidget {
 }
 
 class _EstateFeedPageState extends State<EstateFeedPage> {
+  List<String> tabs = ["Houses", "Apartments", "Multi-family", "Manufacture"];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,47 +31,58 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
       body: Column(
         children: [
           Container(
-            height: 42,
-            child: Placeholder(),
+              height: 42,
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (context, index) {
+                  return Container(
+                    decoration: BoxDecoration(
+                      border: Border.all()
+                    ),
+                  );
+                },
+              )),
+          Expanded(
+            child: SingleChildScrollView(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text("Home For You"),
+                      TextButton(
+                        onPressed: () {},
+                        child: Text(
+                          "See all",
+                        ),
+                      ),
+                    ],
+                  ),
+                  Container(
+                    height: 360,
+                    child: Placeholder(),
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text("Home Nearby"),
+                      TextButton(
+                        onPressed: () {},
+                        child: Text(
+                          "See all",
+                        ),
+                      ),
+                    ],
+                  ),
+                  Container(
+                    height: 360,
+                    child: Placeholder(),
+                  ),
+                ],
+              ),
+            ),
           ),
-          Expanded(child: SingleChildScrollView(child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text("Home For You"),
-                  TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      "See all",
-                    ),
-                  ),
-                ],
-              ),
-              Container(
-                height: 360,
-                child: Placeholder(),
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text("Home Nearby"),
-                  TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      "See all",
-                    ),
-                  ),
-                ],
-              ),
-              Container(
-                height: 360,
-                child: Placeholder(),
-              ),
-            ],
-          ),),),
-
         ],
       ),
       bottomNavigationBar: BottomAppBar(
