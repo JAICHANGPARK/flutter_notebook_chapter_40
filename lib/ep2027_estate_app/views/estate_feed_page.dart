@@ -149,10 +149,20 @@ class _EstateFeedPageState extends State<EstateFeedPage> {
                                         color: Colors.grey,
                                       ),
                                     ),
+                                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                                     child: Row(
                                       children: [
-                                        Icon(Icons.bathtub_outlined),
-                                        Text("2 baths"),
+                                        Icon(
+                                          Icons.bathtub_outlined,
+                                          color: Colors.grey,
+                                        ),
+                                        Gap(6),
+                                        Text(
+                                          "2 baths",
+                                          style: TextStyle(
+                                            color: Colors.grey,
+                                          ),
+                                        ),
                                       ],
                                     ),
                                   ),
