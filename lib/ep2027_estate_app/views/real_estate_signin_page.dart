@@ -12,16 +12,26 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(
-        children: [
-          Container(
-            height: 64,
-            width: 64,
-            decoration: BoxDecoration(
-              color: Colors.black,
+      body: SafeArea(
+        child: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(32.0),
+            child: Column(
+              children: [
+                Container(
+                  height: 64,
+                  width: 64,
+                  decoration: BoxDecoration(
+                    color: Colors.black,
+                  ),
+                ),
+                Text(
+                  'Real Estate - Your Key to Seamless Real Estate',
+                )
+              ],
             ),
-          )
-        ],
+          ),
+        ),
       ),
     );
   }
