@@ -82,6 +82,16 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
                           ),
                         ),
                       ),
+                    ),
+                    Divider(),
+                    Container(
+                      decoration: BoxDecoration(
+                        border: Border.all(
+                          color: Colors.black,
+                        ),
+                        borderRadius: BorderRadius.circular(6),
+                      ),
+                      child: Center(child: Text("Sign In with Apple")),
                     )
                   ],
                 ),
