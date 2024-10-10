@@ -57,9 +57,20 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
                       ),
                     ),
                     OverflowBar(
+                      alignment: MainAxisAlignment.end,
                       children: [
-                        TextButton(onPressed: (){}, child: Text("Forgot password"))
+                        TextButton(
+                          onPressed: () {},
+                          child: Text(
+                            "Forgot password",
+                          ),
+                        ),
                       ],
+                    ),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Colors.black,
+                      ),
                     )
                   ],
                 ),
