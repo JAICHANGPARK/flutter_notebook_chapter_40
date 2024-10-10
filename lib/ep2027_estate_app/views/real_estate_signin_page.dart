@@ -90,7 +90,7 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
                         ),
                       ),
                     ),
-                    Divider(),
+                    Divider(height: 42,),
                     Container(
                       decoration: BoxDecoration(
                         border: Border.all(
@@ -106,7 +106,7 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
                           fontWeight: FontWeight.bold,
                         ),
                       )),
-                    ),
+                    ), Gap(16),
                     Container(
                       decoration: BoxDecoration(
                         border: Border.all(
@@ -123,6 +123,7 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
                         ),
                       )),
                     ),
+                    Gap(16),
                     Container(
                       decoration: BoxDecoration(
                         color: Color.fromRGBO(92, 123, 187, 1),
