@@ -33,22 +33,36 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text("Email"),
+                    Text(
+                      "Email",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
                     TextField(
                       decoration: InputDecoration(
                         border: OutlineInputBorder(),
                       ),
                     ),
                     Gap(12),
-                    Text("Password"),
+                    Text(
+                      "Password",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
                     TextField(
                       decoration: InputDecoration(
                         border: OutlineInputBorder(),
                       ),
+                    ),
+                    OverflowBar(
+                      children: [
+                        TextButton(onPressed: (){}, child: Text("Forgot password"))
+                      ],
                     )
                   ],
                 ),
-
               ],
             ),
           ),
