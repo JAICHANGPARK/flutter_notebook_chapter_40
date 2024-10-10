@@ -70,6 +70,7 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
                     Container(
                       decoration: BoxDecoration(
                         color: Colors.black,
+                        borderRadius: BorderRadius.circular(4),
                       ),
                       padding: EdgeInsets.symmetric(vertical: 16),
                       child: Center(
