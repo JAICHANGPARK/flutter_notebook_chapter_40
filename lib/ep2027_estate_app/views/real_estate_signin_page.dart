@@ -92,7 +92,13 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
                         borderRadius: BorderRadius.circular(6),
                       ),
                       padding: EdgeInsets.symmetric(vertical: 12),
-                      child: Center(child: Text("Sign In with Apple")),
+                      child: Center(
+                          child: Text(
+                        "Sign In with Apple",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      )),
                     )
                   ],
                 ),
