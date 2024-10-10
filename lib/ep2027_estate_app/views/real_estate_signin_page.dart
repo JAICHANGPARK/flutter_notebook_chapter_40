@@ -71,6 +71,16 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
                       decoration: BoxDecoration(
                         color: Colors.black,
                       ),
+                      padding: EdgeInsets.symmetric(vertical: 16),
+                      child: Center(
+                        child: Text(
+                          "Sign in",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
                     )
                   ],
                 ),
