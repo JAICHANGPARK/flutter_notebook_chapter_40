@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'views/estate_feed_page.dart';
+import 'views/real_estate_signin_page.dart';
 
 void main() {
   runApp(EstateApp());
@@ -12,7 +13,7 @@ class EstateApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: EstateFeedPage(),
+      home: RealEstateSignInPage(),
     );
   }
 }
