@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class RealEstateSignInPage extends StatefulWidget {
   const RealEstateSignInPage({super.key});
@@ -30,8 +31,16 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
                 ),
                 Text('Sign in or register and we\'ll get started'),
                 Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text("Email"),
+                    TextField(
+                      decoration: InputDecoration(
+                        border: OutlineInputBorder(),
+                      ),
+                    ),
+                    Gap(12),
+                    Text("Password"),
                     TextField(
                       decoration: InputDecoration(
                         border: OutlineInputBorder(),
