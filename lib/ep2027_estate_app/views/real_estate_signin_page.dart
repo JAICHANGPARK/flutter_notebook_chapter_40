@@ -29,6 +29,17 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
                   'Real Estate - Your Key to Seamless Real Estate',
                 ),
                 Text('Sign in or register and we\'ll get started'),
+                Column(
+                  children: [
+                    Text("Email"),
+                    TextField(
+                      decoration: InputDecoration(
+                        border: OutlineInputBorder(),
+                      ),
+                    )
+                  ],
+                ),
+
               ],
             ),
           ),
