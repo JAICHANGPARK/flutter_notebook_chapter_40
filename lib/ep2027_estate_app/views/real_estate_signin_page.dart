@@ -27,7 +27,8 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
                 ),
                 Text(
                   'Real Estate - Your Key to Seamless Real Estate',
-                )
+                ),
+                Text('Sign in or register and we\'ll get started'),
               ],
             ),
           ),
