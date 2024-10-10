@@ -26,10 +26,17 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
                     color: Colors.black,
                   ),
                 ),
+                Gap(24),
                 Text(
                   'Real Estate - Your Key to Seamless Real Estate',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 32,
+                  ),
                 ),
+                Gap(16),
                 Text('Sign in or register and we\'ll get started'),
+                Gap(16),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -110,11 +117,11 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
                       padding: EdgeInsets.symmetric(vertical: 12),
                       child: Center(
                           child: Text(
-                            "Continue with Google",
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                            ),
-                          )),
+                        "Continue with Google",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      )),
                     ),
                     Container(
                       decoration: BoxDecoration(
@@ -124,12 +131,12 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
                       padding: EdgeInsets.symmetric(vertical: 12),
                       child: Center(
                           child: Text(
-                            "Continue with Facebook",
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              color: Colors.white
-                            ),
-                          )),
+                        "Continue with Facebook",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      )),
                     )
                   ],
                 ),
