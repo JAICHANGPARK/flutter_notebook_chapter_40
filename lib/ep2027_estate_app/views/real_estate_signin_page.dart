@@ -118,9 +118,7 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
                     ),
                     Container(
                       decoration: BoxDecoration(
-                        border: Border.all(
-                          color: Colors.black,
-                        ),
+                        color: Color.fromRGBO(92, 123, 187, 1),
                         borderRadius: BorderRadius.circular(6),
                       ),
                       padding: EdgeInsets.symmetric(vertical: 12),
@@ -129,6 +127,7 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
                             "Continue with Facebook",
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
+                              color: Colors.white
                             ),
                           )),
                     )
