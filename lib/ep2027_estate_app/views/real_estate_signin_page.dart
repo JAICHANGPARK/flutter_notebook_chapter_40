@@ -99,6 +99,38 @@ class _RealEstateSigninPageState extends State<RealEstateSignInPage> {
                           fontWeight: FontWeight.bold,
                         ),
                       )),
+                    ),
+                    Container(
+                      decoration: BoxDecoration(
+                        border: Border.all(
+                          color: Colors.black,
+                        ),
+                        borderRadius: BorderRadius.circular(6),
+                      ),
+                      padding: EdgeInsets.symmetric(vertical: 12),
+                      child: Center(
+                          child: Text(
+                            "Continue with Google",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                            ),
+                          )),
+                    ),
+                    Container(
+                      decoration: BoxDecoration(
+                        border: Border.all(
+                          color: Colors.black,
+                        ),
+                        borderRadius: BorderRadius.circular(6),
+                      ),
+                      padding: EdgeInsets.symmetric(vertical: 12),
+                      child: Center(
+                          child: Text(
+                            "Continue with Facebook",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                            ),
+                          )),
                     )
                   ],
                 ),
