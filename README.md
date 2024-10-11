@@ -2,9 +2,9 @@
 
 ## EP2031
 
-- Reales UI Kit - Real Estate App (Authentication & Feed Screen)
-- Robbi Darwis
-- https://dribbble.com/shots/24985606-Reales-UI-Kit-Real-Estate-App-Authentication-Feed-Screen
+- Laundry Mobile App
+- Rijal ☘️ for Caraka
+- https://dribbble.com/shots/25011500-Laundry-Mobile-App
 
 <img src="https://cdn.dribbble.com/userupload/16953679/file/original-b5b775e70f7d70291f5342145f892306.jpg?resize=1905x1429"/>
 
