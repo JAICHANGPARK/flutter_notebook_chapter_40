@@ -20,6 +20,22 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
               Container(
                 height: 240,
                 color: Colors.blue,
+                child: Column(
+                  children: [
+                    Row(
+                      children: [
+                        Container(
+                          height: 52,
+                          width: 52,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(4),
+                          ),
+                        )
+                      ],
+                    )
+                  ],
+                ),
               ),
               Expanded(
                   child: Container(
