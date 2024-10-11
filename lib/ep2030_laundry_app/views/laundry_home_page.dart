@@ -19,9 +19,9 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
               child: Column(
             children: [
               Container(
-                height: 240,
+                height: 280,
                 color: Colors.blue,
-                padding: EdgeInsets.only(top: 62, left: 24, right: 24),
+                padding: EdgeInsets.only(top: 72, left: 24, right: 24),
                 child: Column(
                   children: [
                     Row(
@@ -94,7 +94,21 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                   child: Container(
                 decoration: BoxDecoration(
                   color: Colors.white,
+
                 ),
+                    child: Column(
+                      children: [
+                        Container(
+                          height: 64,
+                          child: Placeholder(),
+                        ),
+                        Container(
+                          height: 140,
+                          child: Placeholder(),
+                        ),
+                        Text("")
+                      ],
+                    ),
               ))
             ],
           ))
