@@ -41,7 +41,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                         ),
                         Expanded(
                           child: Container(
-
+                                  
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(4),
