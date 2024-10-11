@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class LaundryHomePage extends StatefulWidget {
   const LaundryHomePage({super.key});
@@ -41,7 +42,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                         ),
                         Expanded(
                           child: Container(
-                                  margin: EdgeInsets.symmetric(horizontal: 42),
+                            margin: EdgeInsets.symmetric(horizontal: 42),
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(4),
@@ -56,9 +57,14 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                   color: Colors.blue,
                                   size: 20,
                                 ),
+                                Gap(8),
                                 Text(
                                   "Seoul, Korea",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                  ),
                                 ),
+                                Gap(8),
                                 Icon(Icons.keyboard_arrow_down)
                               ],
                             ),
