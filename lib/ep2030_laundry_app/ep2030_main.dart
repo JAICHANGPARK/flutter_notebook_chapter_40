@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'views/laundry_home_page.dart';
+
 void main() {
   runApp(LaundryApp());
 }
@@ -9,6 +11,8 @@ class LaundryApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      home: LaundryHomePage(),
+    );
   }
 }
