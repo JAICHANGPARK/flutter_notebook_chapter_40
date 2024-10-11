@@ -1,6 +1,6 @@
 # flutter_notebook_chapter_40
 
-## EP2027
+## EP2027-2030
 
 - Reales UI Kit - Real Estate App (Authentication & Feed Screen)
 - Robbi Darwis
