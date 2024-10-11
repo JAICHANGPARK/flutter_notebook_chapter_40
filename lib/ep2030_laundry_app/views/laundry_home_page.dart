@@ -26,8 +26,8 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                     Row(
                       children: [
                         Container(
-                          height: 52,
-                          width: 52,
+                          height: 48,
+                          width: 48,
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(4),
@@ -44,9 +44,9 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                             margin: EdgeInsets.symmetric(horizontal: 32),
                             decoration: BoxDecoration(
                               color: Colors.white,
-                              borderRadius: BorderRadius.circular(6),
+                              borderRadius: BorderRadius.circular(4),
                             ),
-                            padding: Ed,
+                            padding: EdgeInsets.symmetric(vertical: 12, horizontal: 12),
                             child: Row(
                               children: [
                                 Icon(
@@ -59,8 +59,8 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                           ),
                         ),
                         Container(
-                            height: 52,
-                            width: 52,
+                            height: 48,
+                            width: 48,
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(4),
