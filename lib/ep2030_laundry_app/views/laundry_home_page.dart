@@ -41,19 +41,24 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                         ),
                         Expanded(
                           child: Container(
-                            margin: EdgeInsets.symmetric(horizontal: 32),
+
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(4),
                             ),
                             padding: EdgeInsets.symmetric(vertical: 12, horizontal: 12),
                             child: Row(
+                              mainAxisSize: MainAxisSize.min,
                               children: [
                                 Icon(
                                   Icons.location_on_rounded,
                                   color: Colors.blue,
-                                  size: 16,
-                                )
+                                  size: 20,
+                                ),
+                                Text(
+                                  "Seoul, Korea",
+                                ),
+                                Icon(Icons.keyboard_arrow_down)
                               ],
                             ),
                           ),
