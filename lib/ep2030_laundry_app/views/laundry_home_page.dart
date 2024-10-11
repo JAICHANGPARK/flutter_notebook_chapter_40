@@ -33,6 +33,12 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(4),
                           ),
+                          padding: EdgeInsets.all(3),
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: Colors.orange,
+                            ),
+                          ),
                         )
                       ],
                     )
