@@ -41,13 +41,14 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                         ),
                         Expanded(
                           child: Container(
-                                  
+                                  margin: EdgeInsets.symmetric(horizontal: 42),
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(4),
                             ),
                             padding: EdgeInsets.symmetric(vertical: 12, horizontal: 12),
                             child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
                               mainAxisSize: MainAxisSize.min,
                               children: [
                                 Icon(
