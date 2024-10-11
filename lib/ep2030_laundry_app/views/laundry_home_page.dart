@@ -94,34 +94,46 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                   child: Container(
                 decoration: BoxDecoration(
                   color: Colors.white,
-
                 ),
-                    child: Column(
+                child: Column(
+                  children: [
+                    Container(
+                      height: 64,
+                      child: Placeholder(),
+                    ),
+                    Container(
+                      height: 140,
+                      child: Placeholder(),
+                    ),
+                    Text("Your order is being processed"),
+                    Container(
+                      height: 160,
+                      child: Placeholder(),
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
+                        Text("Recommendations for you"),
                         Container(
-                          height: 64,
-                          child: Placeholder(),
-                        ),
-                        Container(
-                          height: 140,
-                          child: Placeholder(),
-                        ),
-                        Text("Your order is being processed"),
-                        Container(
-                          height: 160,
-                          child: Placeholder(),
-                        ),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Text("Recommendations for you"),
-                            Container(
-                              child: Icon(Icons.arrow_forward, size: 16,),
-                            )
-                          ],
-                        ),
+                          child: Icon(
+                            Icons.arrow_forward,
+                            size: 16,
+                          ),
+                        )
                       ],
                     ),
+                    Expanded(
+                      child: GridView.builder(
+                        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                          crossAxisCount: 2,
+                        ),
+                        itemBuilder: (context, index) {
+                          return Placeholder();
+                        },
+                      ),
+                    )
+                  ],
+                ),
               ))
             ],
           ))
