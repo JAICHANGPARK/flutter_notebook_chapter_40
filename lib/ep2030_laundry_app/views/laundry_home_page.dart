@@ -40,7 +40,17 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                           ),
                         ),
                         Expanded(
-                          child: Container(),
+                          child: Container(
+                            child: Row(
+                              children: [
+                                Icon(
+                                  Icons.location_on_rounded,
+                                  color: Colors.blue,
+                                  size: 16,
+                                )
+                              ],
+                            ),
+                          ),
                         ),
                         Container(
                             height: 52,
