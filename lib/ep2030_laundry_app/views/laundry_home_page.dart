@@ -11,6 +11,9 @@ class LaundryHomePage extends StatefulWidget {
 class _LaundryHomePageState extends State<LaundryHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.white,
+      
+    );
   }
 }
