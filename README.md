@@ -6,7 +6,7 @@
 - Rijal ☘️ for Caraka
 - https://dribbble.com/shots/25011500-Laundry-Mobile-App
 
-<img src="https://cdn.dribbble.com/userupload/16953679/file/original-b5b775e70f7d70291f5342145f892306.jpg?resize=1905x1429"/>
+<img src="https://cdn.dribbble.com/userupload/17028271/file/original-3ecaf259b151f68b9359a1389a53d047.jpg?resize=1600x1199/>
 
 ## EP2027-2030
 
