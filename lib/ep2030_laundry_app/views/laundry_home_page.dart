@@ -177,11 +177,14 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                           ],
                         ),
                       ),
+                      Gap(12),
                       Text("Your order is being processed"),
+                      Gap(12),
                       Container(
                         height: 160,
                         child: Placeholder(),
                       ),
+                      Gap(12),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
