@@ -52,7 +52,9 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                               borderRadius: BorderRadius.circular(4),
                             ),
                             padding: EdgeInsets.symmetric(
-                                vertical: 12, horizontal: 12),
+                              vertical: 12,
+                              horizontal: 12,
+                            ),
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               mainAxisSize: MainAxisSize.min,
