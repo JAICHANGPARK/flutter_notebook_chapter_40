@@ -120,15 +120,13 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                 decoration: InputDecoration(
                                   icon: Icon(Icons.search),
                                   hintText: "What to wash today?",
-
                                   border: InputBorder.none,
-
                                 ),
                               ),
                             ),
                             Container(
                               decoration: BoxDecoration(
-                                color: Colors.white, 
+                                color: Colors.white,
                               ),
                               child: Icon(Icons.mic),
                             )
@@ -137,7 +135,18 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                       ),
                       Container(
                         height: 140,
-                        child: Placeholder(),
+                        child: Row(
+                          children: [
+                            Expanded(
+                                child: Container(
+                              decoration: BoxDecoration(
+                                  color: Colors.grey[100],
+                                  border: Border.all(
+                                    color: Colors.grey[300]!,
+                                  )),
+                            ))
+                          ],
+                        ),
                       ),
                       Text("Your order is being processed"),
                       Container(
@@ -158,8 +167,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                       ),
                       Expanded(
                         child: GridView.builder(
-                          gridDelegate:
-                              SliverGridDelegateWithFixedCrossAxisCount(
+                          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                             crossAxisCount: 2,
                           ),
                           itemBuilder: (context, index) {
