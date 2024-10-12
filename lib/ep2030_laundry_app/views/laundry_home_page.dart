@@ -17,6 +17,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
         children: [
           Positioned(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
                 height: 280,
@@ -107,6 +108,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                     color: Colors.white,
                   ),
                   child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Container(
                         decoration: BoxDecoration(
