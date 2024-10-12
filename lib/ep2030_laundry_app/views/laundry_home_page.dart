@@ -21,7 +21,11 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
               Container(
                 height: 280,
                 color: Colors.blue,
-                padding: EdgeInsets.only(top: 72, left: 24, right: 24),
+                padding: EdgeInsets.only(
+                  top: 72,
+                  left: 24,
+                  right: 24,
+                ),
                 child: Column(
                   children: [
                     Row(
@@ -72,71 +76,74 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                           ),
                         ),
                         Container(
-                            height: 48,
-                            width: 48,
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(4),
-                            ),
-                            padding: EdgeInsets.all(3),
-                            child: Center(
-                              child: Badge(
-                                child: Icon(
-                                  Icons.notifications_active_outlined,
-                                ),
+                          height: 48,
+                          width: 48,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(4),
+                          ),
+                          padding: EdgeInsets.all(3),
+                          child: Center(
+                            child: Badge(
+                              child: Icon(
+                                Icons.notifications_active_outlined,
                               ),
-                            )),
+                            ),
+                          ),
+                        ),
                       ],
                     )
                   ],
                 ),
               ),
               Expanded(
-                  child: Container(
-                padding: EdgeInsets.all(16),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                ),
-                child: Column(
-                  children: [
-                    Container(
-                      height: 64,
-                      child: Placeholder(),
-                    ),
-                    Container(
-                      height: 140,
-                      child: Placeholder(),
-                    ),
-                    Text("Your order is being processed"),
-                    Container(
-                      height: 160,
-                      child: Placeholder(),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text("Recommendations for you"),
-                        Container(
-                          child: Icon(
-                            Icons.arrow_forward,
-                            size: 16,
-                          ),
-                        )
-                      ],
-                    ),
-                    Expanded(
-                      child: GridView.builder(
-                        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                          crossAxisCount: 2,
-                        ),
-                        itemBuilder: (context, index) {
-                          return Placeholder();
-                        },
+                child: Container(
+                  padding: EdgeInsets.all(16),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                  ),
+                  child: Column(
+                    children: [
+                      Container(
+                        height: 64,
+                        child: Placeholder(),
                       ),
-                    )
-                  ],
+                      Container(
+                        height: 140,
+                        child: Placeholder(),
+                      ),
+                      Text("Your order is being processed"),
+                      Container(
+                        height: 160,
+                        child: Placeholder(),
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text("Recommendations for you"),
+                          Container(
+                            child: Icon(
+                              Icons.arrow_forward,
+                              size: 16,
+                            ),
+                          )
+                        ],
+                      ),
+                      Expanded(
+                        child: GridView.builder(
+                          gridDelegate:
+                              SliverGridDelegateWithFixedCrossAxisCount(
+                            crossAxisCount: 2,
+                          ),
+                          itemBuilder: (context, index) {
+                            return Placeholder();
+                          },
+                        ),
+                      )
+                    ],
+                  ),
                 ),
-              ))
+              )
             ],
           ))
         ],
