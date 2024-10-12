@@ -70,7 +70,9 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                   ),
                                 ),
                                 Gap(8),
-                                Icon(Icons.keyboard_arrow_down)
+                                Icon(
+                                  Icons.keyboard_arrow_down,
+                                )
                               ],
                             ),
                           ),
