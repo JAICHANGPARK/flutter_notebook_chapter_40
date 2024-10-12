@@ -109,8 +109,21 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                   child: Column(
                     children: [
                       Container(
+                        decoration: BoxDecoration(
+                          color: Colors.grey[200],
+                        ),
                         height: 64,
-                        child: Placeholder(),
+                        child: TextField(
+                          decoration: InputDecoration(
+                            icon: Icon(Icons.search),
+                            hintText: "What to wash today?",
+                            suffix: Container(
+                              child: Icon(Icons.mic),
+                            ),
+                            border: InputBorder.none,
+
+                          ),
+                        ),
                       ),
                       Container(
                         height: 140,
