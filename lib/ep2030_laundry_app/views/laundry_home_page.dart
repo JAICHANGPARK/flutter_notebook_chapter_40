@@ -47,7 +47,8 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(4),
                             ),
-                            padding: EdgeInsets.symmetric(vertical: 12, horizontal: 12),
+                            padding: EdgeInsets.symmetric(
+                                vertical: 12, horizontal: 12),
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               mainAxisSize: MainAxisSize.min,
@@ -92,7 +93,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
               ),
               Expanded(
                   child: Container(
-                    padding: EdgeInsets.all(16),
+                padding: EdgeInsets.all(16),
                 decoration: BoxDecoration(
                   color: Colors.white,
                 ),
