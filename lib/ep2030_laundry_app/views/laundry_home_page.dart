@@ -133,6 +133,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                           ],
                         ),
                       ),
+                      Gap(12),
                       Container(
                         height: 140,
                         child: Row(
@@ -144,7 +145,31 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                   border: Border.all(
                                     color: Colors.grey[300]!,
                                   )),
-                            ))
+                            )),
+                            Expanded(
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                      color: Colors.grey[100],
+                                      border: Border.all(
+                                        color: Colors.grey[300]!,
+                                      )),
+                                )),
+                            Expanded(
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                      color: Colors.grey[100],
+                                      border: Border.all(
+                                        color: Colors.grey[300]!,
+                                      )),
+                                )),
+                            Expanded(
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                      color: Colors.grey[100],
+                                      border: Border.all(
+                                        color: Colors.grey[300]!,
+                                      )),
+                                ))
                           ],
                         ),
                       ),
