@@ -170,14 +170,15 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                             ),
                             Gap(12),
                             Expanded(
-                                child: Container(
-                              decoration: BoxDecoration(
-                                color: Colors.grey[100],
-                                border: Border.all(
-                                  color: Colors.grey[300]!,
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.grey[100],
+                                  border: Border.all(
+                                    color: Colors.grey[300]!,
+                                  ),
                                 ),
                               ),
-                            ))
+                            )
                           ],
                         ),
                       ),
