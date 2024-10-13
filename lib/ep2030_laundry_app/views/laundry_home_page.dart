@@ -17,7 +17,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
         children: [
           Positioned(
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
                 height: 280,
@@ -152,28 +152,31 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                             Gap(12),
                             Expanded(
                                 child: Container(
-                                  decoration: BoxDecoration(
-                                      color: Colors.grey[100],
-                                      border: Border.all(
-                                        color: Colors.grey[300]!,
-                                      )),
-                                )),Gap(12),
+                              decoration: BoxDecoration(
+                                  color: Colors.grey[100],
+                                  border: Border.all(
+                                    color: Colors.grey[300]!,
+                                  )),
+                            )),
+                            Gap(12),
+                            Expanded(
+                              child: Container(
+                                decoration: BoxDecoration(
+                                    color: Colors.grey[100],
+                                    border: Border.all(
+                                      color: Colors.grey[300]!,
+                                    )),
+                              ),
+                            ),
+                            Gap(12),
                             Expanded(
                                 child: Container(
-                                  decoration: BoxDecoration(
-                                      color: Colors.grey[100],
-                                      border: Border.all(
-                                        color: Colors.grey[300]!,
-                                      )),
-                                )),Gap(12),
-                            Expanded(
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                      color: Colors.grey[100],
-                                      border: Border.all(
-                                        color: Colors.grey[300]!,
-                                      )),
-                                ))
+                              decoration: BoxDecoration(
+                                  color: Colors.grey[100],
+                                  border: Border.all(
+                                    color: Colors.grey[300]!,
+                                  )),
+                            ))
                           ],
                         ),
                       ),
@@ -199,7 +202,8 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                       ),
                       Expanded(
                         child: GridView.builder(
-                          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                          gridDelegate:
+                              SliverGridDelegateWithFixedCrossAxisCount(
                             crossAxisCount: 2,
                           ),
                           itemBuilder: (context, index) {
