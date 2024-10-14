@@ -348,7 +348,24 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                     mainAxisSpacing: 12,
                                   ),
                                   itemBuilder: (context, index) {
-                                    return Placeholder();
+                                    return Column(
+                                      children: [
+                                        Expanded(
+                                          child: Container(),
+                                        ),
+                                        Row(
+                                          children: [
+                                            Container(
+                                              height: 24,
+                                              width: 24,
+                                              color: Colors.grey,
+                                            ),
+                                            Gap(8),
+                                            Text("Unknown.")
+                                          ],
+                                        )
+                                      ],
+                                    );
                                   },
                                 )
                               ],
@@ -363,10 +380,9 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
             ),
           ),
           Positioned(
-
             bottom: 24,
             left: 0,
-            right:0,
+            right: 0,
             child: Align(
               alignment: Alignment.center,
               child: Container(
