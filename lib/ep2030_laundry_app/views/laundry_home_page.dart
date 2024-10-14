@@ -131,6 +131,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                               Container(
                                 decoration: BoxDecoration(
                                   color: Colors.white,
+                                  borderRadius: BorderRadius.circular(6),
                                 ),
                                 padding: EdgeInsets.all(4),
                                 child: Icon(Icons.mic),
@@ -150,7 +151,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                     color: Colors.grey[100],
                                     border: Border.all(
                                       color: Colors.grey[300]!,
-                                    ),
+                                    ),borderRadius: BorderRadius.circular(6),
                                   ),
                                 ),
                               ),
