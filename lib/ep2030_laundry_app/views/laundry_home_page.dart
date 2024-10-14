@@ -314,7 +314,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                             Text(
                               "Recommendations for you",
                               style: TextStyle(
-                                fontSize: 16,
+                                fontSize: 18,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
@@ -330,10 +330,14 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                             )
                           ],
                         ),
+                        Gap(12),
                         Expanded(
                           child: GridView.builder(
+                            padding: EdgeInsets.zero,
                             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                               crossAxisCount: 2,
+                              crossAxisSpacing: 12,
+                              mainAxisSpacing: 12,
                             ),
                             itemBuilder: (context, index) {
                               return Placeholder();
