@@ -167,7 +167,9 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                         style: TextStyle(
                                           fontSize: 12,
                                           fontWeight: FontWeight.bold,
+
                                         ),
+                                        textAlign: TextAlign.center,
                                       )
                                     ],
                                   ),
