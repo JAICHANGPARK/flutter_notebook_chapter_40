@@ -156,10 +156,12 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                     borderRadius: BorderRadius.circular(6),
                                   ),
                                   child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Container(
                                         height: 42,
                                         width: 42,
+                                        color: Colors.grey,
                                       ),
                                       Text("Regular\nWash")
                                     ],
