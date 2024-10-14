@@ -185,6 +185,25 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                     ),
                                     borderRadius: BorderRadius.circular(6),
                                   ),
+                                   child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      height: 42,
+                                      width: 42,
+                                      color: Colors.grey,
+                                    ),
+                                    Gap(4),
+                                    Text(
+                                      "Regular\nWash",
+                                      style: TextStyle(
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    )
+                                  ],
+                                ),
                                 ),
                               ),
                               Gap(12),
@@ -196,7 +215,25 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                       color: Colors.grey[300]!,
                                     ),
                                     borderRadius: BorderRadius.circular(6),
-                                  ),
+                                  ), child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      height: 42,
+                                      width: 42,
+                                      color: Colors.grey,
+                                    ),
+                                    Gap(4),
+                                    Text(
+                                      "Regular\nWash",
+                                      style: TextStyle(
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    )
+                                  ],
+                                ),
                                 ),
                               ),
                               Gap(12),
@@ -208,7 +245,25 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                       color: Colors.grey[300]!,
                                     ),
                                     borderRadius: BorderRadius.circular(6),
-                                  ),
+                                  ), child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Container(
+                                      height: 42,
+                                      width: 42,
+                                      color: Colors.grey,
+                                    ),
+                                    Gap(4),
+                                    Text(
+                                      "Regular\nWash",
+                                      style: TextStyle(
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    )
+                                  ],
+                                ),
                                 ),
                               )
                             ],
