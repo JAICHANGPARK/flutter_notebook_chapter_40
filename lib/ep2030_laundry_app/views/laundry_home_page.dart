@@ -362,16 +362,16 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
             ),
           ),
           Positioned(
-            
+
             bottom: 24,
-
-            child: Container(
-              decoration: BoxDecoration(
-                color: Colors.white,
-              ),
-
-              child: Align(
-                alignment: Alignment.center,
+            left: 0,
+            right:0,
+            child: Align(
+              alignment: Alignment.center,
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                ),
                 child: Row(
                   mainAxisSize: MainAxisSize.min,
                   mainAxisAlignment: MainAxisAlignment.center,
