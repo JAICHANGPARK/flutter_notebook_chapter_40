@@ -206,9 +206,11 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                           height: 160,
                           decoration: BoxDecoration(
                             color: Colors.blue[100],
+                            borderRadius: BorderRadius.circular(12),
                           ),
                           padding: EdgeInsets.all(16),
                           child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Container(
