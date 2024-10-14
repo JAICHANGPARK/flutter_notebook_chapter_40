@@ -354,12 +354,43 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                             ),
                           ),
                         ),
-
                       ],
                     ),
                   ),
                 )
               ],
+            ),
+          ),
+          Positioned(
+            bottom: 24,
+            child: Center(
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                ),
+
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.home_filled),
+                    ),
+                    IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.chat_outlined),
+                    ),
+                    IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.receipt_long),
+                    ),
+                    IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.settings_outlined),
+                    ),
+                  ],
+                ),
+              ),
             ),
           )
         ],
