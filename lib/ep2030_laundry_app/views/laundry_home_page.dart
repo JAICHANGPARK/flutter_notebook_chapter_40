@@ -341,6 +341,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                   shrinkWrap: true,
                                   padding: EdgeInsets.zero,
                                   itemCount: 10,
+                                  physics: NeverScrollableScrollPhysics(),
                                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                                     crossAxisCount: 2,
                                     crossAxisSpacing: 12,
