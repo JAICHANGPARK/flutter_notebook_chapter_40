@@ -204,10 +204,20 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                         Gap(12),
                         Container(
                           height: 160,
+                          decoration: BoxDecoration(
+                            color: Colors.blue[100],
+                          ),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-
+                              Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(4),
+                                ),
+                                child: Row(
+                                  children: [Text("Quick Wash")],
+                                ),
+                              ),
                             ],
                           ),
                         ),
