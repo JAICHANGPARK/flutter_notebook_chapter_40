@@ -186,6 +186,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                     border: Border.all(
                                       color: Colors.grey[300]!,
                                     ),
+                                    borderRadius: BorderRadius.circular(6),
                                   ),
                                 ),
                               )
