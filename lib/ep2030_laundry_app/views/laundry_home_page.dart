@@ -351,8 +351,14 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                     return Column(
                                       children: [
                                         Expanded(
-                                          child: Container(),
+                                          child: Container(
+                                            decoration: BoxDecoration(
+                                              color: Colors.grey,
+                                              borderRadius: BorderRadius.circular(8),
+                                            ),
+                                          ),
                                         ),
+                                        Gap(12),
                                         Row(
                                           children: [
                                             Container(
@@ -364,15 +370,23 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                             Text("Unknown.")
                                           ],
                                         ),
+                                        Gap(4),
                                         Row(
                                           children: [
-                                            Icon(Icons.monetization_on_outlined),
+                                            Icon(
+                                              Icons.monetization_on_outlined,
+                                              size: 16,
+                                            ),
                                             Text("Start from \$1000")
                                           ],
                                         ),
+                                        Gap(4),
                                         Row(
                                           children: [
-                                            Icon(Icons.location_on),
+                                            Icon(
+                                              Icons.location_on,
+                                              size: 16,
+                                            ),
                                             Text("Sta")
                                           ],
                                         )
