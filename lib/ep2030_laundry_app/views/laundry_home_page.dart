@@ -346,6 +346,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                     crossAxisCount: 2,
                                     crossAxisSpacing: 12,
                                     mainAxisSpacing: 12,
+                                    childAspectRatio: .9,
                                   ),
                                   itemBuilder: (context, index) {
                                     return Column(
