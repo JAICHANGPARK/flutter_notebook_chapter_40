@@ -207,6 +207,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                           decoration: BoxDecoration(
                             color: Colors.blue[100],
                           ),
+                          padding: EdgeInsets.all(16),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -218,6 +219,13 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                   children: [Text("Quick Wash")],
                                 ),
                               ),
+                              Text("Estimation finish today at 17:30"),
+                              Divider(),
+                              Row(
+                                children: [
+                                  Text("kkkkkkk COD"),
+                                ],
+                              )
                             ],
                           ),
                         ),
