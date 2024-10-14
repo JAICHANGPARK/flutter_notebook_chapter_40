@@ -333,6 +333,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                         Gap(12),
                         Expanded(
                           child: GridView.builder(
+                            shrinkWrap: true,
                             padding: EdgeInsets.zero,
                             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                               crossAxisCount: 2,
