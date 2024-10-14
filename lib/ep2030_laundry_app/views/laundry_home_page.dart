@@ -140,211 +140,218 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                           ),
                         ),
                         Gap(12),
-                        Container(
-                          height: 120,
-                          // margin: EdgeInsets.symmetric(vertical: 8),
-                          child: Row(
-                            children: [
-                              Expanded(
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                    color: Colors.grey[100],
-                                    border: Border.all(
-                                      color: Colors.grey[300]!,
-                                    ),
-                                    borderRadius: BorderRadius.circular(6),
-                                  ),
-                                  child: Column(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Container(
-                                        height: 42,
-                                        width: 42,
-                                        color: Colors.grey,
-                                      ),
-                                      Gap(4),
-                                      Text(
-                                        "Regular\nWash",
-                                        style: TextStyle(
-                                          fontSize: 12,
-                                          fontWeight: FontWeight.bold,
-                                        ),
-                                        textAlign: TextAlign.center,
-                                      )
-                                    ],
-                                  ),
-                                ),
-                              ),
-                              Gap(12),
-                              Expanded(
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                    color: Colors.grey[100],
-                                    border: Border.all(
-                                      color: Colors.grey[300]!,
-                                    ),
-                                    borderRadius: BorderRadius.circular(6),
-                                  ),
-                                   child: Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: [
-                                    Container(
-                                      height: 42,
-                                      width: 42,
-                                      color: Colors.grey,
-                                    ),
-                                    Gap(4),
-                                    Text(
-                                      "Regular\nWash",
-                                      style: TextStyle(
-                                        fontSize: 12,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                      textAlign: TextAlign.center,
-                                    )
-                                  ],
-                                ),
-                                ),
-                              ),
-                              Gap(12),
-                              Expanded(
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                    color: Colors.grey[100],
-                                    border: Border.all(
-                                      color: Colors.grey[300]!,
-                                    ),
-                                    borderRadius: BorderRadius.circular(6),
-                                  ), child: Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: [
-                                    Container(
-                                      height: 42,
-                                      width: 42,
-                                      color: Colors.grey,
-                                    ),
-                                    Gap(4),
-                                    Text(
-                                      "Regular\nWash",
-                                      style: TextStyle(
-                                        fontSize: 12,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                      textAlign: TextAlign.center,
-                                    )
-                                  ],
-                                ),
-                                ),
-                              ),
-                              Gap(12),
-                              Expanded(
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                    color: Colors.grey[100],
-                                    border: Border.all(
-                                      color: Colors.grey[300]!,
-                                    ),
-                                    borderRadius: BorderRadius.circular(6),
-                                  ), child: Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: [
-                                    Container(
-                                      height: 42,
-                                      width: 42,
-                                      color: Colors.grey,
-                                    ),
-                                    Gap(4),
-                                    Text(
-                                      "Regular\nWash",
-                                      style: TextStyle(
-                                        fontSize: 12,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                      textAlign: TextAlign.center,
-                                    )
-                                  ],
-                                ),
-                                ),
-                              )
-                            ],
-                          ),
-                        ),
-                        Gap(20),
-                        Text(
-                          "Your order is being processed",
-                          style: TextStyle(
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                        Gap(12),
-                        Container(
-                          height: 160,
-                          decoration: BoxDecoration(
-                            color: Colors.blue[100],
-                            borderRadius: BorderRadius.circular(12),
-                          ),
-                          padding: EdgeInsets.all(16),
+                        Expanded(
                           child: Column(
-                            mainAxisAlignment: MainAxisAlignment.spaceAround,
-                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Container(
-                                decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(4),
-                                ),
+                                height: 120,
+                                // margin: EdgeInsets.symmetric(vertical: 8),
                                 child: Row(
-                                  children: [Text("Quick Wash")],
+                                  children: [
+                                    Expanded(
+                                      child: Container(
+                                        decoration: BoxDecoration(
+                                          color: Colors.grey[100],
+                                          border: Border.all(
+                                            color: Colors.grey[300]!,
+                                          ),
+                                          borderRadius: BorderRadius.circular(6),
+                                        ),
+                                        child: Column(
+                                          mainAxisAlignment: MainAxisAlignment.center,
+                                          children: [
+                                            Container(
+                                              height: 42,
+                                              width: 42,
+                                              color: Colors.grey,
+                                            ),
+                                            Gap(4),
+                                            Text(
+                                              "Regular\nWash",
+                                              style: TextStyle(
+                                                fontSize: 12,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                              textAlign: TextAlign.center,
+                                            )
+                                          ],
+                                        ),
+                                      ),
+                                    ),
+                                    Gap(12),
+                                    Expanded(
+                                      child: Container(
+                                        decoration: BoxDecoration(
+                                          color: Colors.grey[100],
+                                          border: Border.all(
+                                            color: Colors.grey[300]!,
+                                          ),
+                                          borderRadius: BorderRadius.circular(6),
+                                        ),
+                                        child: Column(
+                                          mainAxisAlignment: MainAxisAlignment.center,
+                                          children: [
+                                            Container(
+                                              height: 42,
+                                              width: 42,
+                                              color: Colors.grey,
+                                            ),
+                                            Gap(4),
+                                            Text(
+                                              "Regular\nWash",
+                                              style: TextStyle(
+                                                fontSize: 12,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                              textAlign: TextAlign.center,
+                                            )
+                                          ],
+                                        ),
+                                      ),
+                                    ),
+                                    Gap(12),
+                                    Expanded(
+                                      child: Container(
+                                        decoration: BoxDecoration(
+                                          color: Colors.grey[100],
+                                          border: Border.all(
+                                            color: Colors.grey[300]!,
+                                          ),
+                                          borderRadius: BorderRadius.circular(6),
+                                        ),
+                                        child: Column(
+                                          mainAxisAlignment: MainAxisAlignment.center,
+                                          children: [
+                                            Container(
+                                              height: 42,
+                                              width: 42,
+                                              color: Colors.grey,
+                                            ),
+                                            Gap(4),
+                                            Text(
+                                              "Regular\nWash",
+                                              style: TextStyle(
+                                                fontSize: 12,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                              textAlign: TextAlign.center,
+                                            )
+                                          ],
+                                        ),
+                                      ),
+                                    ),
+                                    Gap(12),
+                                    Expanded(
+                                      child: Container(
+                                        decoration: BoxDecoration(
+                                          color: Colors.grey[100],
+                                          border: Border.all(
+                                            color: Colors.grey[300]!,
+                                          ),
+                                          borderRadius: BorderRadius.circular(6),
+                                        ),
+                                        child: Column(
+                                          mainAxisAlignment: MainAxisAlignment.center,
+                                          children: [
+                                            Container(
+                                              height: 42,
+                                              width: 42,
+                                              color: Colors.grey,
+                                            ),
+                                            Gap(4),
+                                            Text(
+                                              "Regular\nWash",
+                                              style: TextStyle(
+                                                fontSize: 12,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                              textAlign: TextAlign.center,
+                                            )
+                                          ],
+                                        ),
+                                      ),
+                                    )
+                                  ],
                                 ),
                               ),
-                              Text("Estimation finish today at 17:30"),
-                              Divider(),
+                              Gap(20),
+                              Text(
+                                "Your order is being processed",
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              Gap(12),
+                              Container(
+                                height: 160,
+                                decoration: BoxDecoration(
+                                  color: Colors.blue[100],
+                                  borderRadius: BorderRadius.circular(12),
+                                ),
+                                padding: EdgeInsets.all(16),
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Container(
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(4),
+                                      ),
+                                      child: Row(
+                                        children: [Text("Quick Wash")],
+                                      ),
+                                    ),
+                                    Text("Estimation finish today at 17:30"),
+                                    Divider(),
+                                    Row(
+                                      children: [
+                                        Text("kkkkkkk COD"),
+                                      ],
+                                    )
+                                  ],
+                                ),
+                              ),
+                              Gap(12),
                               Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                 children: [
-                                  Text("kkkkkkk COD"),
+                                  Text(
+                                    "Recommendations for you",
+                                    style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  Container(
+                                    decoration: BoxDecoration(
+                                      color: Colors.grey[100],
+                                      borderRadius: BorderRadius.circular(4),
+                                    ),
+                                    child: Icon(
+                                      Icons.arrow_forward,
+                                      size: 16,
+                                    ),
+                                  )
                                 ],
+                              ),
+                              Gap(12),
+                              GridView.builder(
+                                shrinkWrap: true,
+                                padding: EdgeInsets.zero,
+                                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                                  crossAxisCount: 2,
+                                  crossAxisSpacing: 12,
+                                  mainAxisSpacing: 12,
+                                ),
+                                itemBuilder: (context, index) {
+                                  return Placeholder();
+                                },
                               )
                             ],
                           ),
                         ),
-                        Gap(12),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Text(
-                              "Recommendations for you",
-                              style: TextStyle(
-                                fontSize: 18,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                            Container(
-                              decoration: BoxDecoration(
-                                color: Colors.grey[100],
-                                borderRadius: BorderRadius.circular(4),
-                              ),
-                              child: Icon(
-                                Icons.arrow_forward,
-                                size: 16,
-                              ),
-                            )
-                          ],
-                        ),
-                        Gap(12),
-                        Expanded(
-                          child: GridView.builder(
-                            shrinkWrap: true,
-                            padding: EdgeInsets.zero,
-                            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                              crossAxisCount: 2,
-                              crossAxisSpacing: 12,
-                              mainAxisSpacing: 12,
-                            ),
-                            itemBuilder: (context, index) {
-                              return Placeholder();
-                            },
-                          ),
-                        )
+
                       ],
                     ),
                   ),
