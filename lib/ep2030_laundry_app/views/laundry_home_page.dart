@@ -142,13 +142,15 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                           child: Row(
                             children: [
                               Expanded(
-                                  child: Container(
-                                decoration: BoxDecoration(
+                                child: Container(
+                                  decoration: BoxDecoration(
                                     color: Colors.grey[100],
                                     border: Border.all(
                                       color: Colors.grey[300]!,
-                                    ),),
-                              ),),
+                                    ),
+                                  ),
+                                ),
+                              ),
                               Gap(12),
                               Expanded(
                                   child: Container(
@@ -183,7 +185,13 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                           ),
                         ),
                         Gap(12),
-                        Text("Your order is being processed"),
+                        Text(
+                          "Your order is being processed",
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
                         Gap(12),
                         Container(
                           height: 160,
@@ -193,8 +201,18 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Text("Recommendations for you"),
+                            Text(
+                              "Recommendations for you",
+                              style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                             Container(
+                              decoration: BoxDecoration(
+                                color: Colors.grey[100],
+                                borderRadius: BorderRadius.circular(4),
+                              ),
                               child: Icon(
                                 Icons.arrow_forward,
                                 size: 16,
@@ -204,8 +222,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                         ),
                         Expanded(
                           child: GridView.builder(
-                            gridDelegate:
-                                SliverGridDelegateWithFixedCrossAxisCount(
+                            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                               crossAxisCount: 2,
                             ),
                             itemBuilder: (context, index) {
