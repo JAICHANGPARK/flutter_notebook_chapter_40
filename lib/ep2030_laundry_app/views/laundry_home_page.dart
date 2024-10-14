@@ -126,7 +126,6 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                     hintText: "What to wash today?",
                                     border: InputBorder.none,
                                   ),
-
                                 ),
                               ),
                               Container(
@@ -163,7 +162,13 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                         width: 42,
                                         color: Colors.grey,
                                       ),
-                                      Text("Regular\nWash")
+                                      Text(
+                                        "Regular\nWash",
+                                        style: TextStyle(
+                                          fontSize: 12,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      )
                                     ],
                                   ),
                                 ),
