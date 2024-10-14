@@ -363,6 +363,18 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                             Gap(8),
                                             Text("Unknown.")
                                           ],
+                                        ),
+                                        Row(
+                                          children: [
+                                            Icon(Icons.monetization_on_outlined),
+                                            Text("Start from \$1000")
+                                          ],
+                                        ),
+                                        Row(
+                                          children: [
+                                            Icon(Icons.location_on),
+                                            Text("Sta")
+                                          ],
                                         )
                                       ],
                                     );
