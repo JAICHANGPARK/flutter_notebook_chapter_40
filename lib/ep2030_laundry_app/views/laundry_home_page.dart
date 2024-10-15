@@ -355,13 +355,39 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                         Expanded(
                                           child: Container(
                                             decoration: BoxDecoration(
-                                                color: Colors.grey,
-                                                borderRadius: BorderRadius.circular(8),
-                                                image: DecorationImage(
-                                                  image: NetworkImage(
-                                                    "https://cdn.pixabay.com/photo/2017/08/22/10/47/washing-machine-2668472_1280.jpg",
+                                              color: Colors.grey,
+                                              borderRadius: BorderRadius.circular(8),
+                                              image: DecorationImage(
+                                                image: NetworkImage(
+                                                  "https://cdn.pixabay.com/photo/2017/08/22/10/47/washing-machine-2668472_1280.jpg",
+                                                ),
+                                                fit: BoxFit.cover,
+                                              ),
+                                            ),
+                                            child: Stack(
+                                              children: [
+                                                Positioned(
+                                                  right: 4,
+                                                  top: 4,
+                                                  child: Container(
+                                                    decoration: BoxDecoration(
+                                                      color: Colors.white,
+                                                    ),
+                                                    child: Row(
+                                                      children: [
+                                                        Icon(
+                                                          Icons.star,
+                                                          color: Colors.orange,
+                                                          size: 18,
+                                                        ),
+
+                                                        Text("4.7"),
+                                                      ],
+                                                    ),
                                                   ),
-                                                )),
+                                                )
+                                              ],
+                                            ),
                                           ),
                                         ),
                                         Gap(12),
