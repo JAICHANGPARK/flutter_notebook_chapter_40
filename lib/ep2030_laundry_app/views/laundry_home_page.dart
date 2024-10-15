@@ -143,6 +143,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                         Expanded(
                           child: SingleChildScrollView(
                             child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Container(
                                   height: 120,
