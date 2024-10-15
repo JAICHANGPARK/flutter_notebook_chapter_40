@@ -15,18 +15,21 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned.fill(
-            child: Container(
-
-              decoration: BoxDecoration(
-                  color: Colors.white,
+          ClipRRect(
+            child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 6, sigmaY: 6),
+              child: Container(
+                width: double.infinity,
+                height: double.infinity,
+                decoration: BoxDecoration(
+                  color: Colors.white.withOpacity(.4),
                   image: DecorationImage(
-                image: NetworkImage(
-                  "https://cdn.pixabay.com/photo/2021/12/29/08/30/real-estate-6900973_1280.jpg",
+                    image: NetworkImage(
+                      "https://cdn.pixabay.com/photo/2021/12/29/08/30/real-estate-6900973_1280.jpg",
+                    ),
+                    fit: BoxFit.cover,
+                  ),
                 ),
-              )),
-              child: BackdropFilter(
-                filter: ImageFilter.blur(sigmaX: 4, sigmaY: 6),
               ),
             ),
           ),
