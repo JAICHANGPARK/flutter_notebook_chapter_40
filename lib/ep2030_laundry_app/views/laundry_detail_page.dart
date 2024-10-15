@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class LaundryDetailPage extends StatefulWidget {
   const LaundryDetailPage({super.key});
@@ -41,7 +42,7 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                     ),
                     Expanded(
                       child: Container(
-                    color: Colors.white,
+                        color: Colors.white,
                       ),
                     )
                   ],
@@ -89,10 +90,41 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                           child: Icon(
                             Icons.share,
                           ),
-                        )
+                        ),
                       ],
                     ),
                   ),
+                  Gap(100),
+                  Row(
+                    children: [
+                      Container(
+                        height: 120,
+                        width: 120,
+                        decoration: BoxDecoration(color: Colors.green),
+                      ),
+                      Expanded(
+                        child: Column(
+                          children: [
+                            Gap(32),
+                            Row(
+                              children: [
+                                Column(
+                                  children: [
+                                    Text("Dream, Laundry",),
+                                    Row(
+                                      children: [
+
+                                      ],
+                                    )
+                                  ],
+                                )
+                              ],
+                            )
+                          ],
+                        ),
+                      )
+                    ],
+                  )
                 ],
               ),
             ),
