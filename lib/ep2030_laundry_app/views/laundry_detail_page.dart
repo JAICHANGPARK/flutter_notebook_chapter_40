@@ -15,24 +15,49 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
     return Scaffold(
       body: Stack(
         children: [
-          ClipRRect(
-            child: BackdropFilter(
-              filter: ImageFilter.blur(sigmaX: 6, sigmaY: 6),
-              child: Container(
-                width: double.infinity,
-                height: double.infinity,
-                decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(.4),
-                  image: DecorationImage(
-                    image: NetworkImage(
-                      "https://cdn.pixabay.com/photo/2021/12/29/08/30/real-estate-6900973_1280.jpg",
-                    ),
-                    fit: BoxFit.cover,
-                  ),
+          Container(
+            width: double.infinity,
+            height: double.infinity,
+            decoration: BoxDecoration(
+              color: Colors.black.withOpacity(.2),
+              image: DecorationImage(
+                image: NetworkImage(
+                  "https://cdn.pixabay.com/photo/2021/12/29/08/30/real-estate-6900973_1280.jpg",
                 ),
+                fit: BoxFit.cover,
+              ),
+            ),
+            child: BackdropFilter(
+              filter: ImageFilter.blur(
+                sigmaX: 10,
+                sigmaY: 10,
+              ),
+              child: Container(
+                color: Colors.black.withOpacity(.1),
               ),
             ),
           ),
+          Positioned.fill(
+            child: SafeArea(
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(2),
+                        ),
+                        child: Icon(
+                          Icons.arrow_back,
+                        ),
+                      )
+                    ],
+                  )
+                ],
+              ),
+            ),
+          )
         ],
       ),
     );
