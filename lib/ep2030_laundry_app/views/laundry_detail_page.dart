@@ -11,7 +11,7 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+
     );
   }
 }
