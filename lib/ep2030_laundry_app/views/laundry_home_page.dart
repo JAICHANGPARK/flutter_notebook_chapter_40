@@ -367,11 +367,12 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                             child: Stack(
                                               children: [
                                                 Positioned(
-                                                  right: 6,
-                                                  top: 6,
+                                                  right: 8,
+                                                  top: 8,
                                                   child: Container(
                                                     decoration: BoxDecoration(
                                                       color: Colors.white,
+                                                      borderRadius: BorderRadius.circular(4),
                                                     ),
                                                     padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
                                                     child: Row(
@@ -381,7 +382,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                                           color: Colors.orange,
                                                           size: 18,
                                                         ),
-
+                                                        Gap(6),
                                                         Text("4.7"),
                                                       ],
                                                     ),
