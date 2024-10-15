@@ -34,6 +34,18 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
               ),
               child: Container(
                 color: Colors.black.withOpacity(.1),
+                child: Column(
+                  children: [
+                    Container(
+                      height: 260,
+                    ),
+                    Expanded(
+                      child: Container(
+                    color: Colors.white,
+                      ),
+                    )
+                  ],
+                ),
               ),
             ),
           ),
@@ -41,19 +53,46 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
             child: SafeArea(
               child: Column(
                 children: [
-                  Row(
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(2),
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Row(
+                      children: [
+                        Container(
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(2),
+                          ),
+                          padding: EdgeInsets.all(6),
+                          child: Icon(
+                            Icons.arrow_back,
+                          ),
                         ),
-                        child: Icon(
-                          Icons.arrow_back,
+                        Expanded(
+                          child: Align(
+                            alignment: Alignment.center,
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(2),
+                              ),
+                              padding: EdgeInsets.all(8),
+                              child: Text("Detail Laundry"),
+                            ),
+                          ),
                         ),
-                      )
-                    ],
-                  )
+                        Container(
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(2),
+                          ),
+                          padding: EdgeInsets.all(6),
+                          child: Icon(
+                            Icons.share,
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
                 ],
               ),
             ),
