@@ -355,9 +355,13 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                         Expanded(
                                           child: Container(
                                             decoration: BoxDecoration(
-                                              color: Colors.grey,
-                                              borderRadius: BorderRadius.circular(8),
-                                            ),
+                                                color: Colors.grey,
+                                                borderRadius: BorderRadius.circular(8),
+                                                image: DecorationImage(
+                                                  image: NetworkImage(
+                                                    "https://cdn.pixabay.com/photo/2017/08/22/10/47/washing-machine-2668472_1280.jpg",
+                                                  ),
+                                                )),
                                           ),
                                         ),
                                         Gap(12),
