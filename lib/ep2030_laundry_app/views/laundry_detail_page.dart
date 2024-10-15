@@ -146,6 +146,21 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                         )
                       ],
                     ),
+                  ),
+                  SizedBox(
+                    height: 32,
+                    child: Placeholder(),
+                  ),
+                  Expanded(
+                    child: GridView.builder(
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+                      itemCount: 10,
+                      itemBuilder: (context, index) {
+                        return Container(
+                          child: Placeholder(),
+                        );
+                      },
+                    ),
                   )
                 ],
               ),
