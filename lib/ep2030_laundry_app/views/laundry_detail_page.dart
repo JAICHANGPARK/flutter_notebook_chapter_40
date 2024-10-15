@@ -95,35 +95,57 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                     ),
                   ),
                   Gap(100),
-                  Row(
-                    children: [
-                      Container(
-                        height: 120,
-                        width: 120,
-                        decoration: BoxDecoration(color: Colors.green),
-                      ),
-                      Expanded(
-                        child: Column(
-                          children: [
-                            Gap(32),
-                            Row(
-                              children: [
-                                Column(
-                                  children: [
-                                    Text("Dream, Laundry",),
-                                    Row(
-                                      children: [
-
-                                      ],
-                                    )
-                                  ],
-                                )
-                              ],
-                            )
-                          ],
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Row(
+                      children: [
+                        Container(
+                          height: 100,
+                          width: 100,
+                          decoration: BoxDecoration(color: Colors.green),
                         ),
-                      )
-                    ],
+                        Gap(12),
+                        Expanded(
+                          child: Column(
+                            children: [
+                              Gap(12),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Column(
+                                    children: [
+                                      Text(
+                                        "Dream, Laundry",
+                                      ),
+                                      Row(
+                                        children: [
+                                          Icon(Icons.location_on_sharp),
+                                          Text("South Korea"),
+                                        ],
+                                      )
+                                    ],
+                                  ),
+                                  Container(
+                                    decoration: BoxDecoration(
+                                        color: Colors.white,
+                                        borderRadius: BorderRadius.circular(4),
+                                        border: Border.all(
+                                          color: Colors.grey[200]!,
+                                        )),
+                                    child: Row(
+                                      children: [
+                                        Icon(Icons.star),
+                                        Text("4.7"),
+                                      ],
+                                    ),
+                                  )
+                                ],
+                              )
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
                   )
                 ],
               ),
