@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_40/ep2030_laundry_app/views/laundry_detail_page.dart';
 import 'package:gap/gap.dart';
 
 class LaundryHomePage extends StatefulWidget {
@@ -353,42 +354,51 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                     return Column(
                                       children: [
                                         Expanded(
-                                          child: Container(
-                                            decoration: BoxDecoration(
-                                              color: Colors.grey,
-                                              borderRadius: BorderRadius.circular(8),
-                                              image: DecorationImage(
-                                                image: NetworkImage(
-                                                  "https://cdn.pixabay.com/photo/2017/08/22/10/47/washing-machine-2668472_1280.jpg",
+                                          child: InkWell(
+                                            onTap: () {
+                                              Navigator.of(context).push(
+                                                MaterialPageRoute(
+                                                  builder: (context) => LaundryDetailPage(),
                                                 ),
-                                                fit: BoxFit.cover,
-                                              ),
-                                            ),
-                                            child: Stack(
-                                              children: [
-                                                Positioned(
-                                                  right: 8,
-                                                  top: 8,
-                                                  child: Container(
-                                                    decoration: BoxDecoration(
-                                                      color: Colors.white,
-                                                      borderRadius: BorderRadius.circular(4),
-                                                    ),
-                                                    padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
-                                                    child: Row(
-                                                      children: [
-                                                        Icon(
-                                                          Icons.star,
-                                                          color: Colors.orange,
-                                                          size: 18,
-                                                        ),
-                                                        Gap(6),
-                                                        Text("4.7"),
-                                                      ],
-                                                    ),
+                                              );
+                                            },
+                                            child: Container(
+                                              decoration: BoxDecoration(
+                                                color: Colors.grey,
+                                                borderRadius: BorderRadius.circular(8),
+                                                image: DecorationImage(
+                                                  image: NetworkImage(
+                                                    "https://cdn.pixabay.com/photo/2017/08/22/10/47/washing-machine-2668472_1280.jpg",
                                                   ),
-                                                )
-                                              ],
+                                                  fit: BoxFit.cover,
+                                                ),
+                                              ),
+                                              child: Stack(
+                                                children: [
+                                                  Positioned(
+                                                    right: 8,
+                                                    top: 8,
+                                                    child: Container(
+                                                      decoration: BoxDecoration(
+                                                        color: Colors.white,
+                                                        borderRadius: BorderRadius.circular(4),
+                                                      ),
+                                                      padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                                                      child: Row(
+                                                        children: [
+                                                          Icon(
+                                                            Icons.star,
+                                                            color: Colors.orange,
+                                                            size: 18,
+                                                          ),
+                                                          Gap(6),
+                                                          Text("4.7"),
+                                                        ],
+                                                      ),
+                                                    ),
+                                                  )
+                                                ],
+                                              ),
                                             ),
                                           ),
                                         ),
