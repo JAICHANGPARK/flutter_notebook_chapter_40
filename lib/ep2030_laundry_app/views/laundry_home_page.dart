@@ -367,12 +367,13 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                             child: Stack(
                                               children: [
                                                 Positioned(
-                                                  right: 4,
-                                                  top: 4,
+                                                  right: 6,
+                                                  top: 6,
                                                   child: Container(
                                                     decoration: BoxDecoration(
                                                       color: Colors.white,
                                                     ),
+                                                    padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
                                                     child: Row(
                                                       children: [
                                                         Icon(
