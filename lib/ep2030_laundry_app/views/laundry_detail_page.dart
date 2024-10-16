@@ -115,13 +115,20 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                 children: [
                                   Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
                                       Text(
                                         "Dream, Laundry",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 18,
+                                        ),
                                       ),
                                       Row(
                                         children: [
-                                          Icon(Icons.location_on_sharp),
+                                          Icon(Icons.location_on_sharp,
+                                          size: 15,),
+                                          Gap(4),
                                           Text("South Korea"),
                                         ],
                                       )
