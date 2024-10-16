@@ -149,8 +149,13 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                       ],
                     ),
                   ),
-                  SizedBox(
+                  Container(
                     height: 32,
+                    margin: EdgeInsets.only(
+                      left: 16,
+                      bottom: 8,
+                      top: 8,
+                    ),
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
                       itemCount: tabs.length,
@@ -159,7 +164,13 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                           decoration: BoxDecoration(
                             color: index == 0 ? Colors.blueAccent : Colors.grey[100]!,
                           ),
-                          child: Text("${tabs[index]}"),
+                          padding: EdgeInsets.symmetric(horizontal: 12),
+                          margin: EdgeInsets.only(right: 8),
+                          child: Center(
+                            child: Text(
+                              "${tabs[index]}",
+                            ),
+                          ),
                         );
                       },
                     ),
