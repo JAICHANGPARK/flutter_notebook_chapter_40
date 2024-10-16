@@ -162,8 +162,11 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                       itemBuilder: (context, index) {
                         return Container(
                           decoration: BoxDecoration(
-                            color: index == 0 ? Colors.blueAccent : Colors.grey[100]!,
-                          ),
+                              color: index == 0 ? Colors.blueAccent : Colors.grey[100]!,
+                              borderRadius: BorderRadius.circular(4),
+                              border: Border.all(
+                                color: Colors.grey[200]!,
+                              )),
                           padding: EdgeInsets.symmetric(horizontal: 12),
                           margin: EdgeInsets.only(right: 8),
                           child: Center(
