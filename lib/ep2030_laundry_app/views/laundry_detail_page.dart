@@ -152,6 +152,8 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                   SizedBox(
                     height: 32,
                     child: ListView.builder(
+                      scrollDirection: Axis.horizontal,
+                      itemCount: tabs.length,
                       itemBuilder: (context, index) {
                         return Container(
                           decoration: BoxDecoration(
