@@ -11,6 +11,8 @@ class LaundryDetailPage extends StatefulWidget {
 }
 
 class _LaundryDetailPageState extends State<LaundryDetailPage> {
+  List<String> tabs = ["All", "Top", "Outerwear", "Bottoms", "innerware"];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -149,7 +151,16 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                   ),
                   SizedBox(
                     height: 32,
-                    child: Placeholder(),
+                    child: ListView.builder(
+                      itemBuilder: (context, index) {
+                        return Container(
+                          decoration: BoxDecoration(
+                            color: index == 0 ? Colors.blueAccent : Colors.grey[100]!,
+                          ),
+                          child: Text("${tabs[index]}"),
+                        );
+                      },
+                    ),
                   ),
                   Expanded(
                     child: GridView.builder(
