@@ -139,7 +139,7 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                                           Icon(
                                             Icons.location_on_sharp,
                                             size: 15,
-                                            color: Colors.white,
+                                            color: Colors.grey,
                                           ),
                                           Gap(4),
                                           Text("South Korea"),
