@@ -190,25 +190,51 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                     ),
                   ),
                   Expanded(
-                    child: GridView.builder(
-                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
-                      itemCount: 10,
-                      itemBuilder: (context, index) {
-                        return Column(
-                          children: [
-                            Expanded(
-                              child: Container(),
-                            ),
-                            Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                Text("T-Shirt"),
-                                Text("\$199.00"),
-                              ],
-                            )
-                          ],
-                        );
-                      },
+                    child: Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: GridView.builder(
+                        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                          crossAxisCount: 2,
+                          mainAxisSpacing: 12,
+                          crossAxisSpacing: 12,
+                          childAspectRatio: 0.9,
+                        ),
+                        itemCount: 10,
+                        itemBuilder: (context, index) {
+                          return Column(
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    border: Border.all(
+                                      color: Colors.grey[200]!,
+                                    ),
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                ),
+                              ),
+                              Gap(6),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Text(
+                                    "T-Shirt",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  Text(
+                                    "\$199.00",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ],
+                              )
+                            ],
+                          );
+                        },
+                      ),
                     ),
                   )
                 ],
