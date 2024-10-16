@@ -126,8 +126,11 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                                       ),
                                       Row(
                                         children: [
-                                          Icon(Icons.location_on_sharp,
-                                          size: 15,),
+                                          Icon(
+                                            Icons.location_on_sharp,
+                                            size: 15,
+                                            color: Colors.white,
+                                          ),
                                           Gap(4),
                                           Text("South Korea"),
                                         ],
@@ -136,11 +139,12 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                                   ),
                                   Container(
                                     decoration: BoxDecoration(
-                                        color: Colors.white,
-                                        borderRadius: BorderRadius.circular(4),
-                                        border: Border.all(
-                                          color: Colors.grey[200]!,
-                                        )),
+                                      color: Colors.white,
+                                      borderRadius: BorderRadius.circular(4),
+                                      border: Border.all(
+                                        color: Colors.grey[200]!,
+                                      ),
+                                    ),
                                     child: Row(
                                       children: [
                                         Icon(Icons.star),
@@ -190,8 +194,19 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
                       itemCount: 10,
                       itemBuilder: (context, index) {
-                        return Container(
-                          child: Placeholder(),
+                        return Column(
+                          children: [
+                            Expanded(
+                              child: Container(),
+                            ),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text("T-Shirt"),
+                                Text("\$199.00"),
+                              ],
+                            )
+                          ],
                         );
                       },
                     ),
