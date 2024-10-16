@@ -104,10 +104,16 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                         Container(
                           height: 100,
                           width: 100,
-                          decoration: BoxDecoration(color: Colors.white),
+                          decoration: BoxDecoration(color: Colors.white,
+                          borderRadius: BorderRadius.circular(4),
+                          ),
                           padding: EdgeInsets.all(6),
                           child: Container(
-                            color: Colors.green,
+
+                            decoration: BoxDecoration(
+                              color: Colors.green,
+                              borderRadius: BorderRadius.circular(4),
+                            ),
                           ),
                         ),
                         Gap(12),
