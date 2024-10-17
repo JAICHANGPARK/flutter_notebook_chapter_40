@@ -16,34 +16,54 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Row(
-              children: [
-                CircleAvatar(
-                  radius: 28,
-                ),
-                Gap(12),
-                Expanded(
-                  child: Column(
-                    children: [
-                      Text("Welcome Back"),
-                      Text(
-                        "Dreamwalker",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Row(
+                children: [
+                  CircleAvatar(
+                    radius: 28,
+                  ),
+                  Gap(12),
+                  Expanded(
+                    child: Column(
+                      children: [
+                        Text("Welcome Back"),
+                        Text(
+                          "Dreamwalker",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
-                      ),
-                    ],
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                      ],
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                    ),
                   ),
-                ),
-                CircleAvatar(
-                  backgroundColor: Colors.white,
-                  child: IconButton(
-                    onPressed: () {},
-                    icon: Icon(Icons.send_outlined),
+                  CircleAvatar(
+                    backgroundColor: Colors.white,
+                    child: IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.send_outlined),
+                    ),
+                  )
+                ],
+              ),
+            ),
+            Container(
+              height: 64,
+              color: Colors.blueAccent,
+              child: Row(
+                children: [
+                  CircleAvatar(
+                    backgroundColor: Colors.white,
                   ),
-                )
-              ],
+                  Expanded(
+                    child: ListView.builder(
+                      scrollDirection: Axis.horizontal,
+                      itemBuilder: (context, index) {},
+                    ),
+                  )
+                ],
+              ),
             )
           ],
         ),
