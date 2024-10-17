@@ -96,9 +96,18 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
             Row(
               children: [
                 Gap(16),
-                Text("Courses for you"),
+                Text("Learning Progress"),
               ],
             ),
+            Container(
+              height: 120,
+              child: Row(
+                children: [
+                  Expanded(child: Placeholder()),
+                  Expanded(child: Placeholder()),
+                ],
+              ),
+            )
           ],
         ),
       ),
