@@ -48,21 +48,26 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                 ],
               ),
             ),
+            Gap(24),
             Container(
               height: 64,
               color: Colors.blueAccent,
               child: Row(
                 children: [
+                  Gap(16),
                   CircleAvatar(
                     backgroundColor: Colors.white,
                     radius: 28,
                   ),
-                  Gap(12),
+                  Gap(8),
                   Expanded(
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
-                        return CircleAvatar(radius: 28,
+                        return Padding(
+                          padding: const EdgeInsets.only(right: 4),
+                          child: CircleAvatar(radius: 28,
+                          ),
                         );
                       },
                     ),
