@@ -89,7 +89,16 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
               decoration: BoxDecoration(
                 color: Colors.purple,
               ),
-            )
+            ),
+            LinearProgressIndicator(
+              value: .4,
+            ),
+            Row(
+              children: [
+                Gap(16),
+                Text("Courses for you"),
+              ],
+            ),
           ],
         ),
       ),
