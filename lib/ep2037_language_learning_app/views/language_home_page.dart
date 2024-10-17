@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class LanguageHomePage extends StatefulWidget {
   const LanguageHomePage({super.key});
@@ -20,8 +21,28 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                 CircleAvatar(
                   radius: 28,
                 ),
-                Expanded(child: Column(children: [],
-                crossAxisAlignment: CrossAxisAlignment.start,))
+                Gap(12),
+                Expanded(
+                  child: Column(
+                    children: [
+                      Text("Welcome Back"),
+                      Text(
+                        "Dreamwalker",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                  ),
+                ),
+                CircleAvatar(
+                  backgroundColor: Colors.white,
+                  child: IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.send_outlined),
+                  ),
+                )
               ],
             )
           ],
