@@ -66,7 +66,8 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                       itemBuilder: (context, index) {
                         return Padding(
                           padding: const EdgeInsets.only(right: 4),
-                          child: CircleAvatar(radius: 28,
+                          child: CircleAvatar(
+                            radius: 28,
                           ),
                         );
                       },
@@ -75,7 +76,20 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                 ],
               ),
             ),
-            
+            Gap(16),
+            Row(
+              children: [
+                Gap(16),
+                Text("Courses for you"),
+              ],
+            ),
+            Container(
+              margin: EdgeInsets.all(16),
+              height: 320,
+              decoration: BoxDecoration(
+                color: Colors.purple,
+              ),
+            )
           ],
         ),
       ),
