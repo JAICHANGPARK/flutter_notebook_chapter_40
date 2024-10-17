@@ -17,7 +17,7 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(16.0),
               child: Row(
                 children: [
                   CircleAvatar(
@@ -48,7 +48,7 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                 ],
               ),
             ),
-            Gap(24),
+            Gap(8),
             Container(
               height: 64,
               color: Colors.blueAccent,
@@ -74,7 +74,8 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                   )
                 ],
               ),
-            )
+            ),
+            
           ],
         ),
       ),
