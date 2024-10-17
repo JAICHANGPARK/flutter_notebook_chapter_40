@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+void main() {
+  runApp(LanguageLearningApp());
+}
 
 class LanguageLearningApp extends StatelessWidget {
   const LanguageLearningApp({super.key});
