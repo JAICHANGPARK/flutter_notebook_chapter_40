@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'views/language_home_page.dart';
+
 void main() {
   runApp(LanguageLearningApp());
 }
@@ -10,7 +12,7 @@ class LanguageLearningApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ,
+      home: LanguageHomePage(),
     );
   }
 }
