@@ -55,11 +55,16 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                 children: [
                   CircleAvatar(
                     backgroundColor: Colors.white,
+                    radius: 28,
                   ),
+                  Gap(12),
                   Expanded(
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
-                      itemBuilder: (context, index) {},
+                      itemBuilder: (context, index) {
+                        return CircleAvatar(radius: 28,
+                        );
+                      },
                     ),
                   )
                 ],
