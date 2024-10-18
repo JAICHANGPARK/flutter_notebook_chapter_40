@@ -144,7 +144,7 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                     children: [
                       Text("60 hours"),
                       Gap(24),
-                      Icon(Icons.star),
+                      Icon(Icons.star, size: 18,),
                       Text("4.5 Rating"),
                     ],
                   ),
