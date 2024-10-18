@@ -155,8 +155,13 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                 ],
               ),
             ),
-            LinearProgressIndicator(
-              value: .4,
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: LinearProgressIndicator(
+                value: .4,
+                color: Colors.grey,
+                backgroundColor: Colors.grey[400],
+              ),
             ),
             Row(
               children: [
