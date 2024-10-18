@@ -18,11 +18,15 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
         centerTitle: true,
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
             height: 320,
-            color: Colors.white,
-          )
+            color: Colors.blue,
+          ),
+          Text(
+            "All Chats",
+          ),
         ],
       ),
     );
