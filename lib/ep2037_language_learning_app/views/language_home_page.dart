@@ -32,6 +32,7 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                           "Dreamwalker",
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
+                            fontSize: 16,
                           ),
                         ),
                       ],
