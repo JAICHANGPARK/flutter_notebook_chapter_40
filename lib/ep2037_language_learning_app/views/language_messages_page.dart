@@ -15,6 +15,7 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
       appBar: AppBar(
         backgroundColor: Colors.white,
         title: Text("Messages"),
+        centerTitle: true,
       ),
     );
   }
