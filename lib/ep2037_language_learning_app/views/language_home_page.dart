@@ -214,6 +214,7 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                       ),
                       padding: EdgeInsets.all(16),
                       child: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text("Completed"),
