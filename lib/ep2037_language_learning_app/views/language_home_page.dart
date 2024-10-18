@@ -258,12 +258,12 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text("Completed"),
+                          Text("Score"),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(
-                                "14",
+                                "26",
                                 style: TextStyle(
                                   fontSize: 42,
                                 ),
