@@ -162,7 +162,7 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                 backgroundColor: Colors.grey[400],
               ),
             ),
-            Gap(24),
+            Gap(32),
             Row(
               children: [
                 Gap(16),
@@ -174,11 +174,13 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                 ),
               ],
             ),
+            Gap(12),
             Container(
               height: 120,
               child: Row(
                 children: [
                   Expanded(child: Placeholder()),
+                  Gap(12),
                   Expanded(child: Placeholder()),
                 ],
               ),
