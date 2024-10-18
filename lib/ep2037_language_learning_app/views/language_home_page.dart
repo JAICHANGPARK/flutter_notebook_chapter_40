@@ -139,8 +139,18 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                       Text("60 hours"),
                       Gap(24),
                       Icon(Icons.star),
-                      Text("4.5 Rating")
+                      Text("4.5 Rating"),
                     ],
+                  ),
+                  Gap(12),
+                  Expanded(
+                    child: Container(
+
+                      decoration: BoxDecoration(
+                        color: Colors.grey,
+                        borderRadius: BorderRadius.circular(16),
+                      ),
+                    ),
                   )
                 ],
               ),
