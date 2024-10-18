@@ -218,8 +218,11 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                         children: [
                           Text("Completed"),
                           Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text("14"),
+                              Text("14",style: TextStyle(
+                                fontSize: 42,
+                              ),),
                               CircleAvatar(
                                 backgroundColor: Colors.black,
                                 foregroundColor: Colors.white,
