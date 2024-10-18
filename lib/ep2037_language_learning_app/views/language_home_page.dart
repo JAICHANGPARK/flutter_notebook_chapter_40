@@ -219,7 +219,20 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                           Row(
                             children: [
                               Text("14"),
-                              
+                              CircleAvatar(
+                                backgroundColor: Colors.black,
+                                foregroundColor: Colors.white,
+                                child: IconButton(
+                                  onPressed: () {},
+                                  icon: Transform.rotate(
+                                    angle: -.8,
+                                    child: Icon(
+                                      Icons.arrow_forward,
+                                    ),
+                                  ),
+                                ),
+                              )
+
                             ],
                           )
                         ],
@@ -232,6 +245,31 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                       decoration: BoxDecoration(
                         color: Color.fromRGBO(169, 235, 249, 1),
                         borderRadius: BorderRadius.circular(16),
+                      ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("Completed"),
+                          Row(
+                            children: [
+                              Text("14"),
+                              CircleAvatar(
+                                backgroundColor: Colors.black,
+                                foregroundColor: Colors.white,
+                                child: IconButton(
+                                  onPressed: () {},
+                                  icon: Transform.rotate(
+                                    angle: -.8,
+                                    child: Icon(
+                                      Icons.arrow_forward,
+                                    ),
+                                  ),
+                                ),
+                              )
+
+                            ],
+                          )
+                        ],
                       ),
                     ),
                   ),
