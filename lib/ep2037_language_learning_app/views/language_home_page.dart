@@ -52,13 +52,18 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
             Gap(8),
             Container(
               height: 64,
-              color: Colors.blueAccent,
               child: Row(
                 children: [
                   Gap(16),
                   CircleAvatar(
                     backgroundColor: Colors.white,
                     radius: 28,
+                    child: IconButton(
+                      onPressed: () {},
+                      icon: Icon(
+                        Icons.add,
+                      ),
+                    ),
                   ),
                   Gap(8),
                   Expanded(
