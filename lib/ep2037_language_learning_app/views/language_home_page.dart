@@ -39,6 +39,7 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                     ),
                   ),
                   CircleAvatar(
+                    radius: 28,
                     backgroundColor: Colors.white,
                     child: IconButton(
                       onPressed: () {},
