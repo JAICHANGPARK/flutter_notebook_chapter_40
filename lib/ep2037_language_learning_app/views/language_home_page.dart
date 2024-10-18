@@ -176,6 +176,7 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
             ),
             Gap(12),
             Container(
+              margin: EdgeInsets.symmetric(horizontal: 16),
               height: 120,
               child: Row(
                 children: [
