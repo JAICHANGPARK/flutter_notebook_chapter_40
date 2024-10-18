@@ -86,9 +86,12 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
             Row(
               children: [
                 Gap(16),
-                Text("Courses for you",style: TextStyle(
-                  fontSize: 20,
-                ),),
+                Text(
+                  "Courses for you",
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
               ],
             ),
             Container(
@@ -98,10 +101,27 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                 color: Colors.purple,
                 borderRadius: BorderRadius.circular(24),
               ),
+              padding: EdgeInsets.all(16),
               child: Column(
                 children: [
                   Row(
-
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(16),
+                          color: Colors.white,
+                        ),
+                        child: Text("English"),
+                      ),
+                      CircleAvatar(
+                        child: IconButton(
+                          onPressed: () {},
+                          icon: Icon(
+                            Icons.arrow_forward,
+                          ),
+                        ),
+                      )
+                    ],
                   ),
                 ],
               ),
