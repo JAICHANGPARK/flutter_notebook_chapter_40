@@ -105,8 +105,10 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
               child: Column(
                 children: [
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Container(
+                        padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(16),
                           color: Colors.white,
@@ -114,6 +116,8 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                         child: Text("English"),
                       ),
                       CircleAvatar(
+                        backgroundColor: Colors.black,
+                        foregroundColor: Colors.white,
                         child: IconButton(
                           onPressed: () {},
                           icon: Icon(
