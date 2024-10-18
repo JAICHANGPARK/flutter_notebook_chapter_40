@@ -180,9 +180,23 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
               height: 120,
               child: Row(
                 children: [
-                  Expanded(child: Placeholder()),
+                  Expanded(
+                    child: Container(
+                      decoration: BoxDecoration(
+                        color: Colors.teal[300],
+                        borderRadius: BorderRadius.circular(16),
+                      ),
+                    ),
+                  ),
                   Gap(12),
-                  Expanded(child: Placeholder()),
+                  Expanded(
+                    child: Container(
+                      decoration: BoxDecoration(
+                        color: Colors.blueAccent[100],
+                        borderRadius: BorderRadius.circular(16),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             )
