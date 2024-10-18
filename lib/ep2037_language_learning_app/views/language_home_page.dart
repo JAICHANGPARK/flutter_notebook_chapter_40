@@ -132,19 +132,28 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                     ],
                   ),
                   Gap(24),
-                  Text("English Mastery",
-                  style: TextStyle(
-                    fontSize: 24,
-                  ),),
-                  Text("Beginner to Fluent", style: TextStyle(
-                    fontSize: 24,
-                  ),),
+                  Text(
+                    "English Mastery",
+                    style: TextStyle(
+                      fontSize: 24,
+                    ),
+                  ),
+                  Text(
+                    "Beginner to Fluent",
+                    style: TextStyle(
+                      fontSize: 24,
+                    ),
+                  ),
                   Gap(12),
                   Row(
                     children: [
                       Text("60 hours"),
                       Gap(24),
-                      Icon(Icons.star, size: 18,),
+                      Icon(
+                        Icons.star,
+                        size: 18,
+                      ),
+                      Gap(8),
                       Text("4.5 Rating"),
                     ],
                   ),
@@ -154,6 +163,16 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                       decoration: BoxDecoration(
                         color: Colors.grey,
                         borderRadius: BorderRadius.circular(16),
+                      ),
+                      child: Center(
+                        child: IconButton(
+                          onPressed: () {},
+                          icon: Icon(
+                            Icons.play_arrow,
+                          ),
+                          color: Colors.white,
+                          iconSize: 32,
+                        ),
                       ),
                     ),
                   )
