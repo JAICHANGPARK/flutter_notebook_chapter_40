@@ -17,17 +17,20 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
         title: Text("Messages"),
         centerTitle: true,
       ),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Container(
-            height: 320,
-            color: Colors.blue,
-          ),
-          Text(
-            "All Chats",
-          ),
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Container(
+              height: 200,
+              color: Colors.blue,
+            ),
+            Text(
+              "All Chats",
+            ),
+          ],
+        ),
       ),
     );
   }
