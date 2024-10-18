@@ -222,7 +222,7 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                   Expanded(
                     child: Container(
                       decoration: BoxDecoration(
-                        color: Colors.blueAccent[100],
+                        color: Color.fromRGBO(169, 235, 249, 1),
                         borderRadius: BorderRadius.circular(16),
                       ),
                     ),
