@@ -221,9 +221,12 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text("14",style: TextStyle(
-                                fontSize: 42,
-                              ),),
+                              Text(
+                                "14",
+                                style: TextStyle(
+                                  fontSize: 42,
+                                ),
+                              ),
                               CircleAvatar(
                                 backgroundColor: Colors.black,
                                 foregroundColor: Colors.white,
@@ -237,7 +240,6 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                                   ),
                                 ),
                               )
-
                             ],
                           )
                         ],
@@ -257,7 +259,8 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text("Completed"),
-                          Row( mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text("14"),
                               CircleAvatar(
@@ -273,7 +276,6 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                                   ),
                                 ),
                               )
-
                             ],
                           )
                         ],
