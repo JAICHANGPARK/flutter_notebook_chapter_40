@@ -212,6 +212,7 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                         color: Color.fromRGBO(146, 228, 152, 1),
                         borderRadius: BorderRadius.circular(16),
                       ),
+                      padding: EdgeInsets.all(16),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -246,6 +247,7 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                         color: Color.fromRGBO(169, 235, 249, 1),
                         borderRadius: BorderRadius.circular(16),
                       ),
+                      padding: EdgeInsets.all(16),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
