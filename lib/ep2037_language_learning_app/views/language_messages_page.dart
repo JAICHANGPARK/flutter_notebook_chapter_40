@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class LanguageMessagesPage extends StatefulWidget {
   const LanguageMessagesPage({super.key});
@@ -26,8 +27,15 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
               height: 200,
               color: Colors.blue,
             ),
+            Gap(16),
             Text(
               "All Chats",
+            ),
+            Gap(16),
+            Expanded(
+              child: ListView.builder(
+                itemBuilder: (context, index) {},
+              ),
             ),
           ],
         ),
