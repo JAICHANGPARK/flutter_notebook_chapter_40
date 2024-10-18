@@ -130,6 +130,13 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                       )
                     ],
                   ),
+                  Text("English Mastery"),
+                  Text("Beginner to Fluent"),
+                  Row(
+                    children: [
+                      
+                    ],
+                  )
                 ],
               ),
             ),
