@@ -212,6 +212,12 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                         color: Colors.teal[300],
                         borderRadius: BorderRadius.circular(16),
                       ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+
+                        ],
+                      ),
                     ),
                   ),
                   Gap(12),
