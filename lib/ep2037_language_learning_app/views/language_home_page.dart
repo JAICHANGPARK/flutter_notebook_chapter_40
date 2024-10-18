@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
+import 'language_messages_page.dart';
+
 class LanguageHomePage extends StatefulWidget {
   const LanguageHomePage({super.key});
 
@@ -43,7 +45,13 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                     radius: 28,
                     backgroundColor: Colors.white,
                     child: IconButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => LanguageMessagesPage(),
+                          ),
+                        );
+                      },
                       icon: Icon(Icons.send_outlined),
                     ),
                   )
