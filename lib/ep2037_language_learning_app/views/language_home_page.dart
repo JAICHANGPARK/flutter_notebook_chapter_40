@@ -96,7 +96,14 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
               height: 320,
               decoration: BoxDecoration(
                 color: Colors.purple,
-                borderRadius: BorderRadius.circular(16),
+                borderRadius: BorderRadius.circular(24),
+              ),
+              child: Column(
+                children: [
+                  Row(
+
+                  ),
+                ],
               ),
             ),
             LinearProgressIndicator(
