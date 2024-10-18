@@ -103,6 +103,7 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
               ),
               padding: EdgeInsets.all(16),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -130,6 +131,7 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                       )
                     ],
                   ),
+                  Gap(24),
                   Text("English Mastery"),
                   Text("Beginner to Fluent"),
                   Row(
