@@ -96,7 +96,7 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
             ),
             Container(
               margin: EdgeInsets.all(16),
-              height: 320,
+              height: 350,
               decoration: BoxDecoration(
                 color: Colors.purple[100],
                 borderRadius: BorderRadius.circular(24),
@@ -132,8 +132,14 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                     ],
                   ),
                   Gap(24),
-                  Text("English Mastery"),
-                  Text("Beginner to Fluent"),
+                  Text("English Mastery",
+                  style: TextStyle(
+                    fontSize: 24,
+                  ),),
+                  Text("Beginner to Fluent", style: TextStyle(
+                    fontSize: 24,
+                  ),),
+                  Gap(12),
                   Row(
                     children: [
                       Text("60 hours"),
