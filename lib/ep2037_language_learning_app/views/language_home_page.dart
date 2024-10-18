@@ -145,7 +145,6 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                   Gap(12),
                   Expanded(
                     child: Container(
-
                       decoration: BoxDecoration(
                         color: Colors.grey,
                         borderRadius: BorderRadius.circular(16),
@@ -163,10 +162,16 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                 backgroundColor: Colors.grey[400],
               ),
             ),
+            Gap(24),
             Row(
               children: [
                 Gap(16),
-                Text("Learning Progress"),
+                Text(
+                  "Learning Progress",
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
               ],
             ),
             Container(
