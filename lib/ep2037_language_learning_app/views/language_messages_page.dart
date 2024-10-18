@@ -10,6 +10,12 @@ class LanguageMessagesPage extends StatefulWidget {
 class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        title: Text("Messages"),
+      ),
+    );
   }
 }
