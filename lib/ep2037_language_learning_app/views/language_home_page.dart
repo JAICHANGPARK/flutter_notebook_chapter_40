@@ -99,7 +99,7 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
               margin: EdgeInsets.all(16),
               height: 350,
               decoration: BoxDecoration(
-                color: Colors.purple[100],
+                color: Color.fromRGBO(215, 202, 232, 1),
                 borderRadius: BorderRadius.circular(24),
               ),
               padding: EdgeInsets.all(16),
@@ -209,14 +209,12 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                   Expanded(
                     child: Container(
                       decoration: BoxDecoration(
-                        color: Colors.teal[300],
+                        color: Color.fromRGBO(146, 228, 152, 1),
                         borderRadius: BorderRadius.circular(16),
                       ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-
-                        ],
+                        children: [],
                       ),
                     ),
                   ),
