@@ -82,11 +82,13 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                 ],
               ),
             ),
-            Gap(16),
+            Gap(24),
             Row(
               children: [
                 Gap(16),
-                Text("Courses for you"),
+                Text("Courses for you",style: TextStyle(
+                  fontSize: 20,
+                ),),
               ],
             ),
             Container(
@@ -94,6 +96,7 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
               height: 320,
               decoration: BoxDecoration(
                 color: Colors.purple,
+                borderRadius: BorderRadius.circular(16),
               ),
             ),
             LinearProgressIndicator(
