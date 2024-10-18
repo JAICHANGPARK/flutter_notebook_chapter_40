@@ -120,8 +120,11 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                         foregroundColor: Colors.white,
                         child: IconButton(
                           onPressed: () {},
-                          icon: Icon(
-                            Icons.arrow_forward,
+                          icon: Transform.rotate(
+                            angle: -.8,
+                            child: Icon(
+                              Icons.arrow_forward,
+                            ),
                           ),
                         ),
                       )
