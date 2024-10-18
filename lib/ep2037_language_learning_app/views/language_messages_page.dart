@@ -17,6 +17,14 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
         title: Text("Messages"),
         centerTitle: true,
       ),
+      body: Column(
+        children: [
+          Container(
+            height: 320,
+            color: Colors.white,
+          )
+        ],
+      ),
     );
   }
 }
