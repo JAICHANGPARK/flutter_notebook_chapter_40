@@ -214,7 +214,15 @@ class _LanguageHomePageState extends State<LanguageHomePage> {
                       ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [],
+                        children: [
+                          Text("Completed"),
+                          Row(
+                            children: [
+                              Text("14"),
+                              
+                            ],
+                          )
+                        ],
                       ),
                     ),
                   ),
