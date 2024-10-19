@@ -135,6 +135,7 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                                   )
                                 ],
                               ),
+                              Gap(12),
                               Divider(),
                             ],
                           ),
