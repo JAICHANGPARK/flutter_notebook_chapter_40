@@ -26,6 +26,25 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
             Container(
               height: 200,
               color: Colors.blue,
+              child: Stack(
+                children: [
+                  Positioned(
+                    child: CircleAvatar(),
+                  ),
+                  Positioned(
+                    child: CircleAvatar(),
+                  ),
+                  Positioned(
+                    child: CircleAvatar(),
+                  ),
+                  Positioned(
+                    child: CircleAvatar(),
+                  ),
+                  Positioned(
+                    child: CircleAvatar(),
+                  ),
+                ],
+              ),
             ),
             Gap(16),
             Text(
@@ -72,9 +91,12 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                                   Gap(42),
                                   CircleAvatar(
                                     radius: 8,
-                                    child: Text("1",style: TextStyle(
-                                      fontSize: 12,
-                                    ),),
+                                    child: Text(
+                                      "1",
+                                      style: TextStyle(
+                                        fontSize: 12,
+                                      ),
+                                    ),
                                   )
                                 ],
                               ),
