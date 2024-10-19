@@ -24,7 +24,7 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              height: 160,
+              height: 150,
               width: double.infinity,
               // color: Colors.blue,
               child: Stack(
@@ -33,26 +33,26 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                     top: 0,
                     left: 0,
                     child: CircleAvatar(
-                      radius:30,
+                      radius: 30,
                     ),
                   ),
                   Positioned(
                     top: 0,
                     right: 0,
                     child: CircleAvatar(
-                      radius:30,
+                      radius: 30,
                     ),
                   ),
                   Positioned(
-                    top: 42,
-                    left: 26 +26 + 16,
+                    top: 32,
+                    left: 26 + 26 + 16,
                     child: CircleAvatar(
                       radius: 34,
                     ),
                   ),
                   Positioned(
-                    top: 42,
-                    right: 26 +26 + 16,
+                    top: 32,
+                    right: 26 + 26 + 16,
                     child: CircleAvatar(
                       radius: 34,
                     ),
@@ -65,7 +65,6 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                       radius: 46,
                     ),
                   ),
-
                 ],
               ),
             ),
@@ -93,7 +92,7 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Row(
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+
                                 children: [
                                   Text(
                                     "John Doe",
@@ -101,6 +100,12 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
+                                  Spacer(),
+                                  if (index % 3 == 0)
+                                    Icon(
+                                      Icons.done_all_outlined,
+                                      color: Colors.purple,
+                                    ),
                                   Text("12:45 PM")
                                 ],
                               ),
