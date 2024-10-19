@@ -122,6 +122,8 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                                     ),
                                   ),
                                   Gap(42),
+                                  if (index % 3 != 0)
+
                                   CircleAvatar(
                                     radius: 8,
                                     child: Text(
