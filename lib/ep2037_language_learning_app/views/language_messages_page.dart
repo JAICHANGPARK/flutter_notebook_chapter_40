@@ -29,11 +29,15 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
               child: Stack(
                 children: [
                   Positioned(
+                    top: 0,
+                    left: 16,
                     child: CircleAvatar(
                       radius: 26,
                     ),
                   ),
                   Positioned(
+                    top: 0,
+                    right: 16,
                     child: CircleAvatar(
                       radius: 26,
                     ),
