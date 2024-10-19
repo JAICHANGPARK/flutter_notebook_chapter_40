@@ -58,19 +58,21 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                     ),
                   ),
                   Positioned(
-                    left: 0,
-                    right: 0,
-                    bottom: 0,
-                    child:Container(
-                      height: 92,
-                      width: 92,
-                      child: Stack(
-                        children: [
-                          
-                        ],
-                      ),
-                    )
-                  ),
+                      left: 0,
+                      right: 0,
+                      bottom: 0,
+                      child: Container(
+                        height: 96,
+                        width: 96,
+                        child: Stack(
+                          children: [
+                            Positioned.fill(
+                              child: CircleAvatar(),
+                            ),
+                            CircleAvatar(),
+                          ],
+                        ),
+                      )),
                 ],
               ),
             ),
@@ -98,7 +100,6 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Row(
-
                                 children: [
                                   Text(
                                     "John Doe",
@@ -129,16 +130,15 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                                   ),
                                   Gap(42),
                                   if (index % 3 != 0)
-
-                                  CircleAvatar(
-                                    radius: 8,
-                                    child: Text(
-                                      "1",
-                                      style: TextStyle(
-                                        fontSize: 12,
+                                    CircleAvatar(
+                                      radius: 8,
+                                      child: Text(
+                                        "1",
+                                        style: TextStyle(
+                                          fontSize: 12,
+                                        ),
                                       ),
-                                    ),
-                                  )
+                                    )
                                 ],
                               ),
                               Gap(8),
