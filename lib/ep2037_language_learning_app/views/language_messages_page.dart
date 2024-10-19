@@ -34,7 +34,30 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
             Gap(16),
             Expanded(
               child: ListView.builder(
-                itemBuilder: (context, index) {},
+                itemBuilder: (context, index) {
+                  return Row(
+                    children: [
+                      CircleAvatar(),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text(
+                                  "John Doe",
+                                ),
+                                Text("12:45 PM")
+                              ],
+                            ),
+                            Gap(8),
+                          ],
+                        ),
+                      ),
+                    ],
+                  );
+                },
               ),
             ),
           ],
