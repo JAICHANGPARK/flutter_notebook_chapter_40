@@ -24,7 +24,7 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              height: 200,
+              height: 140,
               width: double.infinity,
               color: Colors.blue,
               child: Stack(
@@ -33,33 +33,35 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                     top: 0,
                     left: 0,
                     child: CircleAvatar(
-                      radius: 26,
+                      radius:30,
                     ),
                   ),
                   Positioned(
                     top: 0,
                     right: 0,
                     child: CircleAvatar(
-                      radius: 26,
+                      radius:30,
                     ),
                   ),
                   Positioned(
-                    top: 28 + 26,
-                    left: 26 +26 +26,
+                    top: 42,
+                    left: 26 +26 + 16,
                     child: CircleAvatar(
-                      radius: 28,
+                      radius: 34,
                     ),
                   ),
                   Positioned(
 
                     child: CircleAvatar(
-                      radius: 28,
+                      radius: 34,
                     ),
                   ),
                   Positioned(
-                    
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
                     child: CircleAvatar(
-                      radius: 32,
+                      radius: 46,
                     ),
                   ),
 
