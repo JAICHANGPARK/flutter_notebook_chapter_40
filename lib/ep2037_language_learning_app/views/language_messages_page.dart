@@ -40,7 +40,7 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                     child: Row(
                       children: [
                         CircleAvatar(
-                          radius: 26,
+                          radius: 24,
                         ),
                         Gap(12),
                         Expanded(
@@ -52,16 +52,23 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                                 children: [
                                   Text(
                                     "John Doe",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                    ),
                                   ),
                                   Text("12:45 PM")
                                 ],
                               ),
-                              Gap(8),
+                              Gap(4),
                               Row(
                                 children: [
-                                  Expanded(child: Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ",
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,),),
+                                  Expanded(
+                                    child: Text(
+                                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
                                   Gap(42),
                                   CircleAvatar(
                                     radius: 8,
