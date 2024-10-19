@@ -35,6 +35,16 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                   ),
                   Positioned(
                     child: CircleAvatar(
+                      radius: 26,
+                    ),
+                  ),
+                  Positioned(
+                    child: CircleAvatar(
+                      radius: 28,
+                    ),
+                  ),
+                  Positioned(
+                    child: CircleAvatar(
                       radius: 28,
                     ),
                   ),
@@ -43,12 +53,7 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                       radius: 32,
                     ),
                   ),
-                  Positioned(
-                    child: CircleAvatar(),
-                  ),
-                  Positioned(
-                    child: CircleAvatar(),
-                  ),
+
                 ],
               ),
             ),
