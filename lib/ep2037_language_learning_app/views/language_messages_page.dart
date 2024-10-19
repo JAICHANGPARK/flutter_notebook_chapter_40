@@ -52,6 +52,16 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                               ],
                             ),
                             Gap(8),
+                            Row(
+                              children: [
+                                Expanded(child: Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ",)),
+                                CircleAvatar(
+                                  radius: 8,
+                                  child: Text("1"),
+                                )
+                              ],
+                            ),
+                            Divider(),
                           ],
                         ),
                       ),
