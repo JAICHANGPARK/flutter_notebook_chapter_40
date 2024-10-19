@@ -25,34 +25,39 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
           children: [
             Container(
               height: 200,
+              width: double.infinity,
               color: Colors.blue,
               child: Stack(
                 children: [
                   Positioned(
                     top: 0,
-                    left: 16,
+                    left: 0,
                     child: CircleAvatar(
                       radius: 26,
                     ),
                   ),
                   Positioned(
                     top: 0,
-                    right: 16,
+                    right: 0,
                     child: CircleAvatar(
                       radius: 26,
                     ),
                   ),
                   Positioned(
+                    top: 28 + 26,
+                    left: 26 +26 +26,
                     child: CircleAvatar(
                       radius: 28,
                     ),
                   ),
                   Positioned(
+
                     child: CircleAvatar(
                       radius: 28,
                     ),
                   ),
                   Positioned(
+                    
                     child: CircleAvatar(
                       radius: 32,
                     ),
