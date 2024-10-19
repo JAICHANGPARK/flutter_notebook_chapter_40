@@ -35,37 +35,43 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
             Expanded(
               child: ListView.builder(
                 itemBuilder: (context, index) {
-                  return Row(
-                    children: [
-                      CircleAvatar(),
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                Text(
-                                  "John Doe",
-                                ),
-                                Text("12:45 PM")
-                              ],
-                            ),
-                            Gap(8),
-                            Row(
-                              children: [
-                                Expanded(child: Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ",)),
-                                CircleAvatar(
-                                  radius: 8,
-                                  child: Text("1"),
-                                )
-                              ],
-                            ),
-                            Divider(),
-                          ],
+                  return Padding(
+                    padding: const EdgeInsets.only(bottom: 6),
+                    child: Row(
+                      children: [
+                        CircleAvatar(
+                          radius: 32,
                         ),
-                      ),
-                    ],
+                        Gap(12),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Text(
+                                    "John Doe",
+                                  ),
+                                  Text("12:45 PM")
+                                ],
+                              ),
+                              Gap(8),
+                              Row(
+                                children: [
+                                  Expanded(child: Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ",)),
+                                  CircleAvatar(
+                                    radius: 8,
+                                    child: Text("1"),
+                                  )
+                                ],
+                              ),
+                              Divider(),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
                   );
                 },
               ),
