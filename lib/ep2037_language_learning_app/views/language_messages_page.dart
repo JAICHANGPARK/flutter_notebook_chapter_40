@@ -105,7 +105,9 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                                     Icon(
                                       Icons.done_all_outlined,
                                       color: Colors.purple,
+                                      size: 16,
                                     ),
+                                  Gap(8),
                                   Text("12:45 PM")
                                 ],
                               ),
