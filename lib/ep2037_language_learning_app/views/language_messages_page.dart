@@ -72,7 +72,9 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                                   Gap(42),
                                   CircleAvatar(
                                     radius: 8,
-                                    child: Text("1"),
+                                    child: Text("1",style: TextStyle(
+                                      fontSize: 12,
+                                    ),),
                                   )
                                 ],
                               ),
