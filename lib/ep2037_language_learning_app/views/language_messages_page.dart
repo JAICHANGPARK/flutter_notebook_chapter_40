@@ -26,7 +26,7 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
             Container(
               height: 160,
               width: double.infinity,
-              color: Colors.blue,
+              // color: Colors.blue,
               child: Stack(
                 children: [
                   Positioned(
@@ -69,9 +69,12 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                 ],
               ),
             ),
-            Gap(16),
+            Gap(32),
             Text(
               "All Chats",
+              style: TextStyle(
+                fontSize: 24,
+              ),
             ),
             Gap(16),
             Expanded(
