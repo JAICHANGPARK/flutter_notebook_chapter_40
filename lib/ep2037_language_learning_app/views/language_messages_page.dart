@@ -24,7 +24,7 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              height: 140,
+              height: 160,
               width: double.infinity,
               color: Colors.blue,
               child: Stack(
