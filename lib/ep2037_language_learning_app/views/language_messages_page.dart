@@ -69,7 +69,15 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                             Positioned.fill(
                               child: CircleAvatar(),
                             ),
-                           
+                            Positioned(
+                              bottom: 0,
+                              left: 0,
+                              right: -52,
+                              child: CircleAvatar(
+                                radius: 12,
+                                backgroundColor: Colors.blue,
+                              ),
+                            ),
                           ],
                         ),
                       )),
