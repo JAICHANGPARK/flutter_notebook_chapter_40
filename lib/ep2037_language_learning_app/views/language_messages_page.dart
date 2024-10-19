@@ -84,7 +84,7 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                     child: Row(
                       children: [
                         CircleAvatar(
-                          radius: 24,
+                          radius: 26,
                         ),
                         Gap(12),
                         Expanded(
@@ -135,7 +135,7 @@ class _LanguageMessagesPageState extends State<LanguageMessagesPage> {
                                   )
                                 ],
                               ),
-                              Gap(12),
+                              Gap(8),
                               Divider(),
                             ],
                           ),
