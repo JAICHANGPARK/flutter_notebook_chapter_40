@@ -26,6 +26,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
             top: 24,
             child: SafeArea(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -58,6 +59,12 @@ class _TravelMainPageState extends State<TravelMainPage> {
                       )
                     ],
                   ),
+                  Expanded(child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+
+                    ],
+                  ),),
                   Text(
                     'Find Flights',
                   ),
