@@ -100,14 +100,23 @@ class _TravelMainPageState extends State<TravelMainPage> {
                           ),
                         ),
                         Container(
-                          decoration: BoxDecoration(
-                            color: Colors.white
-                          ),
+                          decoration: BoxDecoration(color: Colors.white),
                           padding: EdgeInsets.all(16),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text("Discover Europe's Wonders!")
+                              Text(
+                                "Discover Europe's Wonders!",
+                              ),
+                              Text(
+                                "Explore the best of Europe with flight deals",
+                              ),
+                              Container(
+                                height: 240,
+                                decoration: BoxDecoration(
+                                  color: Colors.blue,
+                                ),
+                              )
                             ],
                           ),
                         )
