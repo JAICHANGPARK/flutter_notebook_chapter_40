@@ -28,6 +28,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
               child: Column(
                 children: [
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Container(
                         decoration: BoxDecoration(
@@ -56,6 +57,17 @@ class _TravelMainPageState extends State<TravelMainPage> {
                         ),
                       )
                     ],
+                  ),
+                  Text(
+                    'Find Flights',
+                  ),
+                  Text(
+                    'Explore top destinations with unbeatable deals',
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                    ),
                   )
                 ],
               ),
