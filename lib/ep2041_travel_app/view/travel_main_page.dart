@@ -59,23 +59,61 @@ class _TravelMainPageState extends State<TravelMainPage> {
                       )
                     ],
                   ),
-                  Expanded(child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-
-                    ],
-                  ),),
-                  Text(
-                    'Find Flights',
-                  ),
-                  Text(
-                    'Explore top destinations with unbeatable deals',
-                  ),
-                  Container(
-                    decoration: BoxDecoration(
-                      color: Colors.white,
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          'Find Flights',
+                        ),
+                        Text(
+                          'Explore top destinations with unbeatable deals',
+                        ),
+                        Container(
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                          ),
+                          padding: EdgeInsets.all(16),
+                          child: Column(
+                            children: [
+                              Container(
+                                height: 52,
+                                child: Placeholder(),
+                              ),
+                              Container(
+                                height: 120,
+                                child: Placeholder(),
+                              ),
+                              Container(
+                                height: 52,
+                                child: Placeholder(),
+                              ),
+                              Container(
+                                height: 52,
+                                child: Placeholder(),
+                              ),
+                              Container(
+                                height: 52,
+                                child: Placeholder(),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          decoration: BoxDecoration(
+                            color: Colors.white
+                          ),
+                          padding: EdgeInsets.all(16),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text("Discover Europe's Wonders!")
+                            ],
+                          ),
+                        )
+                      ],
                     ),
-                  )
+                  ),
                 ],
               ),
             ),
