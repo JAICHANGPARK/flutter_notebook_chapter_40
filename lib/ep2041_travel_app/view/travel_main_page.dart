@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class TravelMainPage extends StatefulWidget {
   const TravelMainPage({super.key});
@@ -58,69 +59,72 @@ class _TravelMainPageState extends State<TravelMainPage> {
                         ),
                       )
                     ],
-                  ),
+                  ),Gap(24),
                   Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          'Find Flights',
-                        ),
-                        Text(
-                          'Explore top destinations with unbeatable deals',
-                        ),
-                        Container(
-                          decoration: BoxDecoration(
-                            color: Colors.white,
+                    child: SingleChildScrollView(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Find Flights',
                           ),
-                          padding: EdgeInsets.all(16),
-                          child: Column(
-                            children: [
-                              Container(
-                                height: 52,
-                                child: Placeholder(),
-                              ),
-                              Container(
-                                height: 120,
-                                child: Placeholder(),
-                              ),
-                              Container(
-                                height: 52,
-                                child: Placeholder(),
-                              ),
-                              Container(
-                                height: 52,
-                                child: Placeholder(),
-                              ),
-                              Container(
-                                height: 52,
-                                child: Placeholder(),
-                              ),
-                            ],
-                          ),
-                        ),
-                        Container(
-                          decoration: BoxDecoration(color: Colors.white),
-                          padding: EdgeInsets.all(16),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                "Discover Europe's Wonders!",
-                              ),
-                              Text(
-                                "Explore the best of Europe with flight deals",
-                              ),
-                              Container(
-                                height: 240,
-                                decoration: BoxDecoration(
-                                  color: Colors.blue,
+                          Text(
+                            'Explore top destinations with unbeatable deals',
+                          ),  Gap(24),
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                            ),
+                            padding: EdgeInsets.all(16),
+                            child: Column(
+                              children: [
+                                Container(
+                                  height: 52,
+                                  child: Placeholder(),
                                 ),
-                              )
-                            ],
+                                Container(
+                                  height: 120,
+                                  child: Placeholder(),
+                                ),
+                                Container(
+                                  height: 52,
+                                  child: Placeholder(),
+                                ),
+                                Container(
+                                  height: 52,
+                                  child: Placeholder(),
+                                ),
+                                Container(
+                                  height: 52,
+                                  child: Placeholder(),
+                                ),
+                              ],
+                            ),
                           ),
-                        )
-                      ],
+                          Gap(16),
+                          Container(
+                            decoration: BoxDecoration(color: Colors.white),
+                            padding: EdgeInsets.all(16),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Discover Europe's Wonders!",
+                                ),
+                                Text(
+                                  "Explore the best of Europe with flight deals",
+                                ),
+                                Container(
+                                  height: 240,
+                                  decoration: BoxDecoration(
+                                    color: Colors.blue,
+                                  ),
+                                )
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
                     ),
                   ),
                 ],
