@@ -6,7 +6,7 @@
 - Dhira Danuarta for Caraka
 - https://dribbble.com/shots/25061984-tickk-Travel-App
 
-<img src="https://cdn.dribbble.com/userupload/17110598/file/original-59dcf5051d5f50ce1425efd8fbd2cebf.jpg?resize=1905x1429"/>
+<img src="https://cdn.dribbble.com/userupload/17181610/file/original-bd4f1fdf67679008f5225772b2e080f7.jpg?resize=1905x1429"/>
 
 
 ## EP2037-2040
