@@ -228,11 +228,13 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                       border: Border.all(
                                         color: Colors.grey[300]!,
                                       )),
+                                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 4),
                                   child: Row(
                                     children: [
                                       Icon(
                                         Icons.calendar_today,
                                       ),
+                                      Gap(12),
                                       Expanded(
                                         child: TextField(),
                                       ),
