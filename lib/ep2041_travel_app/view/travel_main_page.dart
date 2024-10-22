@@ -86,6 +86,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                     color: Colors.grey[100],
                                     borderRadius: BorderRadius.circular(8),
                                   ),
+                                  padding: EdgeInsets.all(6),
                                   child: Row(
                                     children: [
                                       Expanded(
@@ -93,11 +94,28 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                           decoration: BoxDecoration(
                                             color: Colors.white,
                                           ),
+                                          child: Row(
+                                            mainAxisAlignment: MainAxisAlignment.center,
+                                            children: [
+                                              Icon(Icons.sync_alt),
+                                              Gap(4),
+                                              Text("Round Trip"),
+                                            ],
+                                          ),
                                         ),
-
                                       ),
                                       Gap(8),
-                                      Expanded(child: Container()),
+                                      Expanded(
+                                          child: Container(
+                                        child: Row(
+                                          mainAxisAlignment: MainAxisAlignment.center,
+                                          children: [
+                                            Icon(Icons.sync_alt),
+                                            Gap(4),
+                                            Text("Round Trip"),
+                                          ],
+                                        ),
+                                      )),
                                     ],
                                   ),
                                 ),
