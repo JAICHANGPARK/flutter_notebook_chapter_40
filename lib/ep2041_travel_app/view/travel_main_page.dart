@@ -84,9 +84,21 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                   height: 58,
                                   decoration: BoxDecoration(
                                     color: Colors.grey[100],
+                                    borderRadius: BorderRadius.circular(8),
                                   ),
                                   child: Row(
-                                    children: [],
+                                    children: [
+                                      Expanded(
+                                        child: Container(
+                                          decoration: BoxDecoration(
+                                            color: Colors.white,
+                                          ),
+                                        ),
+
+                                      ),
+                                      Gap(8),
+                                      Expanded(child: Container()),
+                                    ],
                                   ),
                                 ),
                                 Container(
