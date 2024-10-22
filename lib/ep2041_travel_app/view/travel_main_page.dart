@@ -241,13 +241,39 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                     ],
                                   ),
                                 ),
+                                Gap(12),
                                 Container(
                                   height: 52,
-                                  child: Placeholder(),
+                                  decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      borderRadius: BorderRadius.circular(8),
+                                      border: Border.all(
+                                        color: Colors.grey[300]!,
+                                      )),
+                                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                                  child: Row(
+                                    children: [
+                                      Icon(
+                                        Icons.person,
+                                      ),
+                                      Gap(12),
+                                      Expanded(
+                                        child: TextField(),
+                                      ),
+                                    ],
+                                  ),
                                 ),
+                                Gap(12),
                                 Container(
                                   height: 52,
-                                  child: Placeholder(),
+                                  child: Center(
+                                    child: Text(
+                                      "Search Now",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  ),
                                 ),
                               ],
                             ),
