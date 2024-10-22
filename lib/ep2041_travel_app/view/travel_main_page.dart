@@ -79,8 +79,10 @@ class _TravelMainPageState extends State<TravelMainPage> {
                             child: Column(
                               children: [
                                 Container(
-                                  height: 52,
-                                  child: Placeholder(),
+                                  height: 58,
+                                  child: Row(
+                                    children: [],
+                                  )
                                 ),
                                 Container(
                                   height: 120,
