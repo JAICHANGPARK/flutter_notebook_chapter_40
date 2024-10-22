@@ -94,13 +94,15 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                           decoration: BoxDecoration(
                                             color: Colors.white,
                                           ),
-                                          child: Row(
-                                            mainAxisAlignment: MainAxisAlignment.center,
-                                            children: [
-                                              Icon(Icons.sync_alt),
-                                              Gap(4),
-                                              Text("Round Trip"),
-                                            ],
+                                          child: Center(
+                                            child: Row(
+                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              children: [
+                                                Icon(Icons.arrow_forward),
+                                                Gap(4),
+                                                Text("One Way"),
+                                              ],
+                                            ),
                                           ),
                                         ),
                                       ),
