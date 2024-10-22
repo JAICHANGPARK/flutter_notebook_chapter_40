@@ -189,18 +189,22 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                       ),
                                       Positioned(
                                         right: 0,
-                                        child: Container(
-                                            decoration: BoxDecoration(
-                                              border: Border.all(
-                                                color: Colors.grey[100]!,
+                                        top: 0,
+                                        bottom: 0,
+                                        child: Center(
+                                          child: Container(
+                                              decoration: BoxDecoration(
+                                                border: Border.all(
+                                                  color: Colors.grey[100]!,
+                                                ),
                                               ),
-                                            ),
-                                            child: IconButton(
-                                              onPressed: () {},
-                                              icon: Icon(
-                                                Icons.swap_vert,
-                                              ),
-                                            )),
+                                              child: IconButton(
+                                                onPressed: () {},
+                                                icon: Icon(
+                                                  Icons.swap_vert,
+                                                ),
+                                              )),
+                                        ),
                                       ),
                                     ],
                                   ),
