@@ -140,7 +140,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                     ),
                                     borderRadius: BorderRadius.circular(12),
                                   ),
-                                  
+                                  padding: EdgeInsets.all(16),
                                   child: Stack(
                                     children: [
                                       Positioned.fill(
