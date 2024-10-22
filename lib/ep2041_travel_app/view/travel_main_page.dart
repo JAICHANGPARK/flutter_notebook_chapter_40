@@ -82,7 +82,6 @@ class _TravelMainPageState extends State<TravelMainPage> {
                           Text(
                             'Explore top destinations with unbeatable deals',
                             style: TextStyle(
-                             
                               color: Colors.white,
                             ),
                           ),
@@ -220,9 +219,16 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                     ],
                                   ),
                                 ),
+                                Gap(12),
                                 Container(
                                   height: 52,
-                                  child: Placeholder(),
+                                  child: Row(
+                                    children: [
+                                      TextField(
+
+                                      ),
+                                    ],
+                                  ),
                                 ),
                                 Container(
                                   height: 52,
