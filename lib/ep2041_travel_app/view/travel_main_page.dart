@@ -59,7 +59,8 @@ class _TravelMainPageState extends State<TravelMainPage> {
                         ),
                       )
                     ],
-                  ),Gap(24),
+                  ),
+                  Gap(24),
                   Expanded(
                     child: SingleChildScrollView(
                       child: Column(
@@ -70,7 +71,8 @@ class _TravelMainPageState extends State<TravelMainPage> {
                           ),
                           Text(
                             'Explore top destinations with unbeatable deals',
-                          ),  Gap(24),
+                          ),
+                          Gap(24),
                           Container(
                             decoration: BoxDecoration(
                               color: Colors.white,
@@ -80,9 +82,12 @@ class _TravelMainPageState extends State<TravelMainPage> {
                               children: [
                                 Container(
                                   height: 58,
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey[100],
+                                  ),
                                   child: Row(
                                     children: [],
-                                  )
+                                  ),
                                 ),
                                 Container(
                                   height: 120,
