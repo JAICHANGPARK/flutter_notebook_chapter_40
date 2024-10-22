@@ -9,6 +9,8 @@ class TravelMainPage extends StatefulWidget {
 }
 
 class _TravelMainPageState extends State<TravelMainPage> {
+  TextEditingController controller1 = TextEditingController();
+  TextEditingController controller2 = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -133,7 +135,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                 ),
                                 Gap(12),
                                 Container(
-                                  height: 120,
+                                  height: 148,
                                   decoration: BoxDecoration(
                                     border: Border.all(
                                       color: Colors.grey[200]!,
@@ -152,6 +154,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                                 Gap(12),
                                                 Expanded(
                                                   child: TextField(
+                                                    controller: controller1,
                                                     decoration: InputDecoration(
                                                       border: InputBorder.none,
                                                     ),
@@ -167,7 +170,14 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                                   Icons.flight_land,
                                                 ),
                                                 Gap(12),
-                                                Text("ICN"),
+                                                Expanded(
+                                                  child: TextField(
+                                                    controller: controller1,
+                                                    decoration: InputDecoration(
+                                                      border: InputBorder.none,
+                                                    ),
+                                                  ),
+                                                ),
                                               ],
                                             ),
                                           ],
