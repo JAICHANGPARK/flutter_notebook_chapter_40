@@ -9,8 +9,11 @@ class TravelMainPage extends StatefulWidget {
 }
 
 class _TravelMainPageState extends State<TravelMainPage> {
-  TextEditingController controller1 = TextEditingController();
+  TextEditingController controller1 = TextEditingController(
+    text: "ICN",
+  );
   TextEditingController controller2 = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -157,10 +160,10 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                                     controller: controller1,
                                                     decoration: InputDecoration(
                                                       border: InputBorder.none,
+                                                      hintText: "Where to?",
                                                     ),
                                                   ),
                                                 ),
-
                                               ],
                                             ),
                                             Divider(),
@@ -172,9 +175,10 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                                 Gap(12),
                                                 Expanded(
                                                   child: TextField(
-                                                    controller: controller1,
+                                                    controller: controller2,
                                                     decoration: InputDecoration(
                                                       border: InputBorder.none,
+                                                      hintText: "Where to?",
                                                     ),
                                                   ),
                                                 ),
@@ -182,7 +186,15 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                             ),
                                           ],
                                         ),
-                                      )
+                                      ),
+                                      Positioned(
+                                        right: 0,
+                                        child: Container(
+
+                                          decoration: BoxDecoration(),
+                                          child: Icon(Icons.),
+                                        ),
+                                      ),
                                     ],
                                   ),
                                 ),
