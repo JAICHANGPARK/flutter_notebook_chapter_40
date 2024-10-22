@@ -81,7 +81,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                             child: Column(
                               children: [
                                 Container(
-                                  height: 58,
+                                  height: 54,
                                   decoration: BoxDecoration(
                                     color: Colors.grey[100],
                                     borderRadius: BorderRadius.circular(8),
@@ -100,9 +100,12 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                               children: [
                                                 Icon(Icons.arrow_forward),
                                                 Gap(4),
-                                                Text("One Way", style: TextStyle(
-                                                  fontSize: 18,
-                                                ),),
+                                                Text(
+                                                  "One Way",
+                                                  style: TextStyle(
+                                                    fontSize: 18,
+                                                  ),
+                                                ),
                                               ],
                                             ),
                                           ),
@@ -116,13 +119,19 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                           children: [
                                             Icon(Icons.sync_alt),
                                             Gap(4),
-                                            Text("Round Trip"),
+                                            Text(
+                                              "Round Trip",
+                                              style: TextStyle(
+                                                fontSize: 18,
+                                              ),
+                                            ),
                                           ],
                                         ),
                                       )),
                                     ],
                                   ),
                                 ),
+                                Gap(12),
                                 Container(
                                   height: 120,
                                   child: Placeholder(),
