@@ -149,10 +149,27 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                             Row(
                                               children: [
                                                 Icon(Icons.flight_takeoff_outlined),
-                                                Text("ICN"),
+                                                Gap(12),
+                                                Expanded(
+                                                  child: TextField(
+                                                    decoration: InputDecoration(
+                                                      border: InputBorder.none,
+                                                    ),
+                                                  ),
+                                                ),
+
                                               ],
                                             ),
                                             Divider(),
+                                            Row(
+                                              children: [
+                                                Icon(
+                                                  Icons.flight_land,
+                                                ),
+                                                Gap(12),
+                                                Text("ICN"),
+                                              ],
+                                            ),
                                           ],
                                         ),
                                       )
