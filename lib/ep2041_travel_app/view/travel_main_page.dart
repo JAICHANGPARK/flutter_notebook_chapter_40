@@ -81,6 +81,10 @@ class _TravelMainPageState extends State<TravelMainPage> {
                           Gap(8),
                           Text(
                             'Explore top destinations with unbeatable deals',
+                            style: TextStyle(
+                             
+                              color: Colors.white,
+                            ),
                           ),
                           Gap(24),
                           Container(
