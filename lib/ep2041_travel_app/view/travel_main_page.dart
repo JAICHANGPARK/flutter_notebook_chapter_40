@@ -198,6 +198,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                                   color: Colors.grey[300]!,
                                                 ),
                                                 color: Colors.white,
+                                                borderRadius: BorderRadius.circular(6),
                                               ),
                                               child: IconButton(
                                                 onPressed: () {},
