@@ -134,12 +134,23 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                 Gap(12),
                                 Container(
                                   height: 120,
-                                  decoration: BoxDecoration(),
+                                  decoration: BoxDecoration(
+                                      border: Border.all(
+                                    color: Colors.grey[200]!,
+                                  )),
                                   child: Stack(
                                     children: [
                                       Positioned.fill(
                                         child: Column(
-                                          children: [],
+                                          children: [
+                                            Row(
+                                              children: [
+                                                Icon(Icons.flight_takeoff_outlined),
+                                                Text("ICN"),
+                                              ],
+                                            ),
+                                            Divider(),
+                                          ],
                                         ),
                                       )
                                     ],
