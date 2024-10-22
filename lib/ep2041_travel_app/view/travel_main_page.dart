@@ -100,7 +100,9 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                               children: [
                                                 Icon(Icons.arrow_forward),
                                                 Gap(4),
-                                                Text("One Way"),
+                                                Text("One Way", style: TextStyle(
+                                                  fontSize: 18,
+                                                ),),
                                               ],
                                             ),
                                           ),
