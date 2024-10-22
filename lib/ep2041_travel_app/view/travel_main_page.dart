@@ -135,9 +135,12 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                 Container(
                                   height: 120,
                                   decoration: BoxDecoration(
-                                      border: Border.all(
-                                    color: Colors.grey[200]!,
-                                  )),
+                                    border: Border.all(
+                                      color: Colors.grey[200]!,
+                                    ),
+                                    borderRadius: BorderRadius.circular(12),
+                                  ),
+                                  
                                   child: Stack(
                                     children: [
                                       Positioned.fill(
