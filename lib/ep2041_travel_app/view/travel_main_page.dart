@@ -134,7 +134,16 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                 Gap(12),
                                 Container(
                                   height: 120,
-                                  child: Placeholder(),
+                                  decoration: BoxDecoration(),
+                                  child: Stack(
+                                    children: [
+                                      Positioned.fill(
+                                        child: Column(
+                                          children: [],
+                                        ),
+                                      )
+                                    ],
+                                  ),
                                 ),
                                 Container(
                                   height: 52,
