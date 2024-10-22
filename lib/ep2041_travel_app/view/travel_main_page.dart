@@ -266,6 +266,10 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                 Gap(12),
                                 Container(
                                   height: 52,
+                                  decoration: BoxDecoration(
+                                    color: Colors.black,
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
                                   child: Center(
                                     child: Text(
                                       "Search Now",
