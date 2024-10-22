@@ -141,7 +141,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                   height: 148,
                                   decoration: BoxDecoration(
                                     border: Border.all(
-                                      color: Colors.grey[200]!,
+                                      color: Colors.grey[300]!,
                                     ),
                                     borderRadius: BorderRadius.circular(12),
                                   ),
@@ -195,8 +195,9 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                           child: Container(
                                               decoration: BoxDecoration(
                                                 border: Border.all(
-                                                  color: Colors.grey[100]!,
+                                                  color: Colors.grey[300]!,
                                                 ),
+                                                color: Colors.white,
                                               ),
                                               child: IconButton(
                                                 onPressed: () {},
