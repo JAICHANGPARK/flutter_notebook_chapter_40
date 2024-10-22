@@ -73,7 +73,12 @@ class _TravelMainPageState extends State<TravelMainPage> {
                         children: [
                           Text(
                             'Find Flights',
+                            style: TextStyle(
+                              fontSize: 28,
+                              color: Colors.white,
+                            ),
                           ),
+                          Gap(8),
                           Text(
                             'Explore top destinations with unbeatable deals',
                           ),
