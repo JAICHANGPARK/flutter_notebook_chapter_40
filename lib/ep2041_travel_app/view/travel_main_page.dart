@@ -222,10 +222,19 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                 Gap(12),
                                 Container(
                                   height: 52,
+                                  decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      borderRadius: BorderRadius.circular(8),
+                                      border: Border.all(
+                                        color: Colors.grey[300]!,
+                                      )),
                                   child: Row(
                                     children: [
-                                      TextField(
-
+                                      Icon(
+                                        Icons.calendar_today,
+                                      ),
+                                      Expanded(
+                                        child: TextField(),
                                       ),
                                     ],
                                   ),
