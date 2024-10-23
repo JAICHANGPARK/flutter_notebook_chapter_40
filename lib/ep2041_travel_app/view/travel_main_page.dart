@@ -76,6 +76,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                             style: TextStyle(
                               fontSize: 28,
                               color: Colors.white,
+                              fontWeight: FontWeight.bold,
                             ),
                           ),
                           Gap(8),
