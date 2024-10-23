@@ -318,16 +318,37 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                 ),
                                 Gap(20),
                                 Container(
-                                  height: 240,
+                                  height: 200,
                                   child: ListView.builder(
                                     scrollDirection: Axis.horizontal,
                                     itemBuilder: (context, index) {
                                       return Container(
                                         margin: EdgeInsets.only(right: 12),
-                                        width: 160,
+                                        width: 150,
                                         decoration: BoxDecoration(
                                           color: Colors.blue,
                                           borderRadius: BorderRadius.circular(12),
+                                          image: DecorationImage(
+                                            image: NetworkImage(
+                                              "https://cdn.pixabay.com/photo/2018/04/25/09/26/eiffel-tower-3349075_1280.jpg",
+                                            ),
+                                            fit: BoxFit.cover,
+                                          ),
+                                        ),
+                                        child: Stack(
+                                          children: [
+                                            Positioned(
+                                              left: 12,
+                                              bottom: 12,
+                                              child: Text(
+                                                "Paris",
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                  color: Colors.white,
+                                                ),
+                                              ),
+                                            )
+                                          ],
                                         ),
                                       );
                                     },
