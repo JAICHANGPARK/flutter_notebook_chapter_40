@@ -319,7 +319,16 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                     color: Colors.blue,
                                   ),
                                   child: ListView.builder(
-                                    itemBuilder: (context, index) {},
+                                    scrollDirection: Axis.horizontal,
+                                    itemBuilder: (context, index) {
+                                      return Container(
+                                        margin: EdgeInsets.only(right: 12),
+                                        width: 140,
+                                        decoration: BoxDecoration(
+                                          color: Colors.blue,
+                                        ),
+                                      );
+                                    },
                                   ),
                                 )
                               ],
