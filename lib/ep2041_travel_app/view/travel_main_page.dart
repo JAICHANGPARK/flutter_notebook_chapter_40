@@ -297,7 +297,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                           Gap(16),
                           Container(
                             decoration: BoxDecoration(color: Colors.white),
-                            padding: EdgeInsets.all(16),
+                            padding: EdgeInsets.fromLTRB(16, 16, 0 , 16),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
@@ -315,18 +315,16 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                 Gap(12),
                                 Container(
                                   height: 240,
-                                  decoration: BoxDecoration(
-                                    color: Colors.blue,
-                                  ),
                                   child: ListView.builder(
                                     scrollDirection: Axis.horizontal,
                                     itemBuilder: (context, index) {
                                       return Container(
                                         margin: EdgeInsets.only(right: 12),
-                                        width: 140,
+                                        width: 160,
                                         decoration: BoxDecoration(
                                           color: Colors.blue,
                                         ),
+                                        
                                       );
                                     },
                                   ),
