@@ -308,13 +308,18 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                     fontSize: 20,
                                   ),
                                 ),
+                                Gap(8),
                                 Text(
                                   "Explore the best of Europe with flight deals",
                                 ),
+                                Gap(12),
                                 Container(
                                   height: 240,
                                   decoration: BoxDecoration(
                                     color: Colors.blue,
+                                  ),
+                                  child: ListView.builder(
+                                    itemBuilder: (context, index) {},
                                   ),
                                 )
                               ],
