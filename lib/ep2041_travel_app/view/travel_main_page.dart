@@ -316,7 +316,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                 Text(
                                   "Explore the best of Europe with flight deals",
                                 ),
-                                Gap(12),
+                                Gap(20),
                                 Container(
                                   height: 240,
                                   child: ListView.builder(
