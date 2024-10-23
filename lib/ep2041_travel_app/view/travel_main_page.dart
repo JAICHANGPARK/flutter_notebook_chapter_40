@@ -107,6 +107,14 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                         child: Container(
                                           decoration: BoxDecoration(
                                             color: Colors.white,
+                                            borderRadius: BorderRadius.circular(8),
+                                            boxShadow: [
+                                              BoxShadow(
+                                                color: Colors.grey[200]!,
+                                                blurRadius: 2,
+                                                spreadRadius: 2,
+                                              )
+                                            ],
                                           ),
                                           child: Center(
                                             child: Row(
