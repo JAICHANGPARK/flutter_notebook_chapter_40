@@ -297,8 +297,11 @@ class _TravelMainPageState extends State<TravelMainPage> {
                           ),
                           Gap(16),
                           Container(
-                            decoration: BoxDecoration(color: Colors.white),
-                            padding: EdgeInsets.fromLTRB(16, 16, 0 , 16),
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            padding: EdgeInsets.fromLTRB(16, 16, 0, 16),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
@@ -324,8 +327,8 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                         width: 160,
                                         decoration: BoxDecoration(
                                           color: Colors.blue,
+                                          borderRadius: BorderRadius.circular(12),
                                         ),
-                                        
                                       );
                                     },
                                   ),
