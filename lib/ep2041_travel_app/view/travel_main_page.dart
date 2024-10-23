@@ -345,6 +345,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                                 style: TextStyle(
                                                   fontWeight: FontWeight.bold,
                                                   color: Colors.white,
+                                                  fontSize: 16,
                                                 ),
                                               ),
                                             )
