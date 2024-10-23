@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class TravelMainPage extends StatefulWidget {
   const TravelMainPage({super.key});
@@ -74,9 +75,10 @@ class _TravelMainPageState extends State<TravelMainPage> {
                           Text(
                             'Find Flights',
                             style: TextStyle(
-                              fontSize: 28,
+                              fontSize: 32,
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
+                              fontFamily: GoogleFonts.jimNightshade().fontFamily,
                             ),
                           ),
                           Gap(8),
@@ -299,6 +301,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 18,
+                                        fontFamily: GoogleFonts.jimNightshade().fontFamily,
                                       ),
                                     ),
                                   ),
@@ -320,7 +323,8 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                   "Discover Europe's Wonders!",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
-                                    fontSize: 20,
+                                    fontSize: 25,
+                                    fontFamily: GoogleFonts.jimNightshade().fontFamily,
                                   ),
                                 ),
                                 Gap(8),
