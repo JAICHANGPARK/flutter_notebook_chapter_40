@@ -95,7 +95,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                             child: Column(
                               children: [
                                 Container(
-                                  height: 54,
+                                  height: 52,
                                   decoration: BoxDecoration(
                                     color: Colors.grey[100],
                                     borderRadius: BorderRadius.circular(8),
@@ -125,7 +125,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                                 Text(
                                                   "One Way",
                                                   style: TextStyle(
-                                                    fontSize: 18,
+                                                    fontSize: 16,
                                                   ),
                                                 ),
                                               ],
@@ -144,7 +144,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                             Text(
                                               "Round Trip",
                                               style: TextStyle(
-                                                fontSize: 18,
+                                                fontSize: 16,
                                               ),
                                             ),
                                           ],
