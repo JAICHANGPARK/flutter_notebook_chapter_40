@@ -280,6 +280,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                             border: InputBorder.none,
                                             hintText: "Person ",
                                           ),
+                                          style: TextStyle(),
                                         ),
                                       ),
                                     ],
@@ -297,6 +298,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                       "Search Now",
                                       style: TextStyle(
                                         color: Colors.white,
+                                        fontSize: 18,
                                       ),
                                     ),
                                   ),
