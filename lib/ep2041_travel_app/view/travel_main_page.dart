@@ -303,6 +303,10 @@ class _TravelMainPageState extends State<TravelMainPage> {
                               children: [
                                 Text(
                                   "Discover Europe's Wonders!",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 18,
+                                  ),
                                 ),
                                 Text(
                                   "Explore the best of Europe with flight deals",
