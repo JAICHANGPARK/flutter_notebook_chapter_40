@@ -89,6 +89,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                           Container(
                             decoration: BoxDecoration(
                               color: Colors.white,
+                              borderRadius: BorderRadius.circular(12),
                             ),
                             padding: EdgeInsets.all(16),
                             child: Column(
