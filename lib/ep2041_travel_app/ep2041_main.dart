@@ -13,7 +13,7 @@ class TravelApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        fontFamily: GoogleFonts.jimNightshade().fontFamily,
+        // fontFamily: GoogleFonts.jimNightshade().fontFamily,
       ),
       home: TravelMainPage(),
     );
