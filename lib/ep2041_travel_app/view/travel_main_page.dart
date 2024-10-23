@@ -240,6 +240,7 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                         child: TextField(
                                           decoration: InputDecoration(
                                             border: InputBorder.none,
+                                            hintText: "Date",
                                           ),
                                         ),
                                       ),
@@ -250,11 +251,12 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                 Container(
                                   height: 52,
                                   decoration: BoxDecoration(
-                                      color: Colors.white,
-                                      borderRadius: BorderRadius.circular(8),
-                                      border: Border.all(
-                                        color: Colors.grey[300]!,
-                                      )),
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(8),
+                                    border: Border.all(
+                                      color: Colors.grey[300]!,
+                                    ),
+                                  ),
                                   padding: EdgeInsets.symmetric(horizontal: 16, vertical: 4),
                                   child: Row(
                                     children: [
@@ -263,7 +265,12 @@ class _TravelMainPageState extends State<TravelMainPage> {
                                       ),
                                       Gap(12),
                                       Expanded(
-                                        child: TextField(),
+                                        child: TextField(
+                                          decoration: InputDecoration(
+                                            border: InputBorder.none,
+                                            hintText: "Person ",
+                                          ),
+                                        ),
                                       ),
                                     ],
                                   ),
