@@ -76,6 +76,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   children: [
                     Expanded(
                         child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Row(
                           children: [
@@ -96,7 +97,25 @@ class _TravelHomePageState extends State<TravelHomePage> {
                         ),
                         Text("Bright and Beautiful!"),
                       ],
-                    ))
+                    )),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        border: Border.all(
+                          color: Colors.grey[200]!,
+                        ),
+                      ),
+                      child: Row(
+                        children: [
+                          Icon(
+                            Icons.near_me_outlined,
+                          ),
+                          Text(
+                            "Seoul",
+                          )
+                        ],
+                      ),
+                    )
                   ],
                 )
               ],
