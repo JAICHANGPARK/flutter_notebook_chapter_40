@@ -21,11 +21,15 @@ class _TravelHomePageState extends State<TravelHomePage> {
                 child: Row(
                   children: [
                     Expanded(
-                        child: Container(
-                      decoration: BoxDecoration(
-                        color: Colors.white,
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          border: Border.all(
+                            color: Colors.grey[200]!,
+                          ),
+                        ),
                       ),
-                    ))
+                    )
                   ],
                 ),
               )
