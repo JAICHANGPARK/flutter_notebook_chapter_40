@@ -72,51 +72,61 @@ class _TravelHomePageState extends State<TravelHomePage> {
                     ],
                   ),
                 ),
-                Row(
-                  children: [
-                    Expanded(
-                        child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Row(
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    children: [
+                      Expanded(
+                          child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+                              Text(
+                                "29°C",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              Gap(8),
+                              Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.orange[100],
+                                  borderRadius: BorderRadius.circular(4),
+                                ),
+                                child: Row(
+                                  children: [
+                                    Icon(Icons.wb_sunny_outlined),
+                                    Text("Sunny"),
+                                  ],
+                                ),
+                              )
+                            ],
+                          ),
+                          Text("Bright and Beautiful!"),
+                        ],
+                      )),
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          border: Border.all(
+                            color: Colors.grey[200]!,
+                          ),
+                        ),
+                        child: Row(
                           children: [
-                            Text("29°C"),
-                            Container(
-                              decoration: BoxDecoration(
-                                color: Colors.orange[100],
-                                borderRadius: BorderRadius.circular(4),
-                              ),
-                              child: Row(
-                                children: [
-                                  Icon(Icons.wb_sunny_outlined),
-                                  Text("Sunny"),
-                                ],
-                              ),
+                            Icon(
+                              Icons.near_me_outlined,
+                            ),
+                            Text(
+                              "Seoul",
                             )
                           ],
                         ),
-                        Text("Bright and Beautiful!"),
-                      ],
-                    )),
-                    Container(
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        border: Border.all(
-                          color: Colors.grey[200]!,
-                        ),
-                      ),
-                      child: Row(
-                        children: [
-                          Icon(
-                            Icons.near_me_outlined,
-                          ),
-                          Text(
-                            "Seoul",
-                          )
-                        ],
-                      ),
-                    )
-                  ],
+                      )
+                    ],
+                  ),
                 )
               ],
             ),
