@@ -131,13 +131,20 @@ class _TravelHomePageState extends State<TravelHomePage> {
                           ],
                         ),
                       ),
-
                     ],
                   ),
                 ),
                 Container(
-                  height: 140,
+                  height: 180,
                   color: Colors.red,
+                ),
+                Text("Jet-Set Ready!"),
+                Text(
+                  "Explore top destinations with unbeatable deals",
+                ),
+                Container(
+                  height: 200,
+                  color: Colors.blue,
                 )
               ],
             ),
