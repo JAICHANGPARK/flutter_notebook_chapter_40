@@ -34,12 +34,28 @@ class _TravelHomePageState extends State<TravelHomePage> {
                       ),
                       Gap(16),
                       Container(
+                        padding: EdgeInsets.all(12),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          border: Border.all(
+                            color: Colors.grey[100]!,
+                          ),
+                          borderRadius: BorderRadius.circular(4),
+                        ),
                         child: Icon(
                           Icons.card_giftcard,
                         ),
                       ),
                       Gap(16),
                       Container(
+                        padding: EdgeInsets.all(12),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          border: Border.all(
+                            color: Colors.grey[100]!,
+                          ),
+                          borderRadius: BorderRadius.circular(4),
+                        ),
                         child: Badge(
                           child: Icon(
                             Icons.notifications_none,
