@@ -112,6 +112,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                         ],
                       )),
                       Container(
+                        margin: EdgeInsets.all(16),
                         padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                         decoration: BoxDecoration(
                           color: Colors.white,
@@ -136,6 +137,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                 ),
                 Container(
                   height: 180,
+                  margin: EdgeInsets.all(16),
                   color: Colors.red,
                 ),
                 Text("Jet-Set Ready!"),
@@ -143,6 +145,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   "Explore top destinations with unbeatable deals",
                 ),
                 Container(
+                  margin: EdgeInsets.all(16),
                   height: 200,
                   color: Colors.blue,
                 )
