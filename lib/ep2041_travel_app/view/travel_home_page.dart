@@ -31,6 +31,12 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               color: Colors.grey[200]!,
                             ),
                           ),
+                          child: TextField(
+                            decoration: InputDecoration(
+                              border: InputBorder.none,
+                              hintText: "Where to next?",
+                            ),
+                          ),
                         ),
                       ),
                       Gap(16),
@@ -65,6 +71,13 @@ class _TravelHomePageState extends State<TravelHomePage> {
                       )
                     ],
                   ),
+                ),
+                Row(
+                  children: [
+                    Expanded(child: Column(children: [
+                      
+                    ],))
+                  ],
                 )
               ],
             ),
