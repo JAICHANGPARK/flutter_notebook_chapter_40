@@ -146,7 +146,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                 ),
                 Container(
                   margin: EdgeInsets.all(16),
-                  height: 200,
+                  height: 260,
                   color: Colors.blue,
                 )
               ],
