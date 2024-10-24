@@ -107,6 +107,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               )
                             ],
                           ),
+                          Gap(8),
                           Text("Bright and Beautiful!"),
                         ],
                       )),
@@ -129,9 +130,14 @@ class _TravelHomePageState extends State<TravelHomePage> {
                             )
                           ],
                         ),
-                      )
+                      ),
+
                     ],
                   ),
+                ),
+                Container(
+                  height: 140,
+                  color: Colors.red,
                 )
               ],
             ),
