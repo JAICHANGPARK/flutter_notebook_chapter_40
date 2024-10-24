@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class TravelHomePage extends StatefulWidget {
   const TravelHomePage({super.key});
@@ -14,26 +15,42 @@ class _TravelHomePageState extends State<TravelHomePage> {
       body: Stack(
         children: [
           Positioned.fill(
-              child: Column(
-            children: [
-              Container(
-                height: 52,
-                child: Row(
-                  children: [
-                    Expanded(
-                      child: Container(
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          border: Border.all(
-                            color: Colors.grey[200]!,
+              child: SafeArea(
+            child: Column(
+              children: [
+                Container(
+                  height: 52,
+                  child: Row(
+                    children: [
+                      Expanded(
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            border: Border.all(
+                              color: Colors.grey[200]!,
+                            ),
                           ),
                         ),
                       ),
-                    )
-                  ],
-                ),
-              )
-            ],
+                      Gap(16),
+                      Container(
+                        child: Icon(
+                          Icons.card_giftcard,
+                        ),
+                      ),
+                      Gap(16),
+                      Container(
+                        child: Badge(
+                          child: Icon(
+                            Icons.notifications_none,
+                          ),
+                        ),
+                      )
+                    ],
+                  ),
+                )
+              ],
+            ),
           ))
         ],
       ),
