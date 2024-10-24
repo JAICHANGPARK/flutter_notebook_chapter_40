@@ -19,6 +19,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
             child: Column(
               children: [
                 Container(
+                  margin: EdgeInsets.all(16),
                   height: 52,
                   child: Row(
                     children: [
