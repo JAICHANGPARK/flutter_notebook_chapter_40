@@ -74,9 +74,24 @@ class _TravelHomePageState extends State<TravelHomePage> {
                 ),
                 Row(
                   children: [
-                    Expanded(child: Column(children: [
-                      
-                    ],))
+                    Expanded(
+                        child: Column(
+                      children: [
+                        Text("29°C"),
+                        Container(
+                          decoration: BoxDecoration(
+                            color: Colors.orange[100],
+                            borderRadius: BorderRadius.circular(4),
+                          ),
+                          child: Row(
+                            children: [
+                              Icon(Icons.wb_sunny_outlined),
+                              Text("Sunny"),
+                            ],
+                          ),
+                        )
+                      ],
+                    ))
                   ],
                 )
               ],
