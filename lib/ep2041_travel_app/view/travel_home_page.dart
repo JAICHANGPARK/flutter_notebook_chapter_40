@@ -109,6 +109,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                         ],
                       )),
                       Container(
+                        padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                         decoration: BoxDecoration(
                           color: Colors.white,
                           border: Border.all(
@@ -120,6 +121,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                             Icon(
                               Icons.near_me_outlined,
                             ),
+                            Gap(8),
                             Text(
                               "Seoul",
                             )
