@@ -73,7 +73,9 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 16,
+                  ),
                   child: Row(
                     children: [
                       Expanded(
