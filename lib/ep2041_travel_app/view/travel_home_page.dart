@@ -139,6 +139,20 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   height: 180,
                   margin: EdgeInsets.all(16),
                   color: Colors.red,
+                  child: Column(
+                    children: [
+                      Expanded(
+                          child: Row(
+                        children: [
+                          Expanded(
+                            child: Column(
+                              children: [],
+                            ),
+                          )
+                        ],
+                      ))
+                    ],
+                  ),
                 ),
                 Text("Jet-Set Ready!"),
                 Text(
