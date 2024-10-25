@@ -147,7 +147,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                       ),
                     ),
                     Container(
-                      height: 180,
+                      height: 200,
                       margin: EdgeInsets.all(16),
                       padding: EdgeInsets.all(16),
                       decoration: BoxDecoration(
@@ -180,7 +180,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                   ),
                                 ),
                                 Expanded(
-                                  child: Column(
+                                  child: Column(  mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Container(
                                         padding: EdgeInsets.all(12),
@@ -191,12 +191,12 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                         child: Icon(Icons.flight),
                                       ),
                                       Gap(6),
-                                      Text("Flights"),
+                                      Text("Hotels"),
                                     ],
                                   ),
                                 ),
                                 Expanded(
-                                  child: Column(
+                                  child: Column(  mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Container(
                                         padding: EdgeInsets.all(12),
@@ -207,12 +207,12 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                         child: Icon(Icons.flight),
                                       ),
                                       Gap(6),
-                                      Text("Flights"),
+                                      Text("Trains"),
                                     ],
                                   ),
                                 ),
                                 Expanded(
-                                  child: Column(
+                                  child: Column(  mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Container(
                                         padding: EdgeInsets.all(12),
@@ -223,7 +223,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                         child: Icon(Icons.flight),
                                       ),
                                       Gap(6),
-                                      Text("Flights"),
+                                      Text("Events"),
                                     ],
                                   ),
                                 )
