@@ -12,6 +12,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Stack(
         children: [
           Positioned.fill(
@@ -253,7 +254,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                         ],
                       ),
                     ),
-                    Gap(24),
+                    Gap(16),
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16),
                       child: Column(
