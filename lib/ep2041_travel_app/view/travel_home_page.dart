@@ -154,9 +154,11 @@ class _TravelHomePageState extends State<TravelHomePage> {
                         children: [
                           Expanded(
                             child: Row(
+                              crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
                                 Expanded(
                                   child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Container(
                                         padding: EdgeInsets.all(12),
@@ -223,6 +225,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                             ),
                           ),
                           Container(
+                            padding: EdgeInsets.symmetric(vertical: 14),
                             decoration: BoxDecoration(
                               color: Colors.grey[300]!,
                               borderRadius: BorderRadius.circular(8),
@@ -230,6 +233,9 @@ class _TravelHomePageState extends State<TravelHomePage> {
                             child: Center(
                               child: Text(
                                 "All Categories",
+                                style: TextStyle(
+                                  fontSize: 16,
+                                ),
                               ),
                             ),
                           )
