@@ -182,7 +182,8 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                   ),
                                 ),
                                 Expanded(
-                                  child: Column(  mainAxisAlignment: MainAxisAlignment.center,
+                                  child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Container(
                                         padding: EdgeInsets.all(12),
@@ -198,7 +199,8 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                   ),
                                 ),
                                 Expanded(
-                                  child: Column(  mainAxisAlignment: MainAxisAlignment.center,
+                                  child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Container(
                                         padding: EdgeInsets.all(12),
@@ -214,7 +216,8 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                   ),
                                 ),
                                 Expanded(
-                                  child: Column(  mainAxisAlignment: MainAxisAlignment.center,
+                                  child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Container(
                                         padding: EdgeInsets.all(12),
@@ -250,20 +253,26 @@ class _TravelHomePageState extends State<TravelHomePage> {
                         ],
                       ),
                     ),
-
+                    Gap(24),
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text("Jet-Set Ready!"),
+                          Text(
+                            "Jet-Set Ready!",
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          Gap(6),
                           Text(
                             "Explore top destinations with unbeatable deals",
                           ),
                         ],
                       ),
                     ),
-
                     Container(
                       margin: EdgeInsets.all(16),
                       height: 260,
