@@ -146,7 +146,16 @@ class _TravelHomePageState extends State<TravelHomePage> {
                         children: [
                           Expanded(
                             child: Column(
-                              children: [],
+                              children: [
+                                Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey[200]!,
+                                    borderRadius: BorderRadius.circular(4),
+                                  ),
+                                  child: Icon(Icons.flight),
+                                ),
+                                Text("Flights"),
+                              ],
                             ),
                           )
                         ],
