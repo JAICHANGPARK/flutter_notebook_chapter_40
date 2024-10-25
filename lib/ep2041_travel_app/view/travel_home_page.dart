@@ -250,10 +250,20 @@ class _TravelHomePageState extends State<TravelHomePage> {
                         ],
                       ),
                     ),
-                    Text("Jet-Set Ready!"),
-                    Text(
-                      "Explore top destinations with unbeatable deals",
+
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("Jet-Set Ready!"),
+                          Text(
+                            "Explore top destinations with unbeatable deals",
+                          ),
+                        ],
+                      ),
                     ),
+
                     Container(
                       margin: EdgeInsets.all(16),
                       height: 260,
