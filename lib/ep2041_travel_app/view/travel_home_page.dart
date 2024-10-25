@@ -15,6 +15,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
       body: Stack(
         children: [
           Positioned.fill(
+            top: 24,
               child: SafeArea(
             child: Column(
               children: [
@@ -30,6 +31,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                             border: Border.all(
                               color: Colors.grey[200]!,
                             ),
+                            borderRadius: BorderRadius.circular(6),
                           ),
                           padding: EdgeInsets.symmetric(horizontal: 8),
                           child: Row(
@@ -54,9 +56,9 @@ class _TravelHomePageState extends State<TravelHomePage> {
                         decoration: BoxDecoration(
                           color: Colors.white,
                           border: Border.all(
-                            color: Colors.grey[100]!,
+                            color: Colors.grey[300]!,
                           ),
-                          borderRadius: BorderRadius.circular(4),
+                          borderRadius: BorderRadius.circular(6),
                         ),
                         child: Icon(
                           Icons.card_giftcard,
