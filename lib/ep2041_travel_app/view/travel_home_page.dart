@@ -18,6 +18,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
               top: 24,
               child: SafeArea(
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Container(
                       margin: EdgeInsets.all(16),
