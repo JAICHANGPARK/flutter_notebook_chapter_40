@@ -222,6 +222,17 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               ],
                             ),
                           ),
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.grey[300]!,
+                              borderRadius: BorderRadius.circular(8),
+                            ),
+                            child: Center(
+                              child: Text(
+                                "All Categories",
+                              ),
+                            ),
+                          )
                         ],
                       ),
                     ),
