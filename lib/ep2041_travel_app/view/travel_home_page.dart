@@ -150,7 +150,12 @@ class _TravelHomePageState extends State<TravelHomePage> {
                       height: 180,
                       margin: EdgeInsets.all(16),
                       padding: EdgeInsets.all(16),
-                      color: Colors.red,
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(12),
+                          border: Border.all(
+                            color: Colors.grey[300]!,
+                          )),
                       child: Column(
                         children: [
                           Expanded(
