@@ -31,11 +31,19 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               color: Colors.grey[200]!,
                             ),
                           ),
-                          child: TextField(
-                            decoration: InputDecoration(
-                              border: InputBorder.none,
-                              hintText: "Where to next?",
-                            ),
+                          child: Row(
+                            children: [
+                              Icon(Icons.search),
+                              Gap(8),
+                              Expanded(
+                                child: TextField(
+                                  decoration: InputDecoration(
+                                    border: InputBorder.none,
+                                    hintText: "Where to next?",
+                                  ),
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                       ),
