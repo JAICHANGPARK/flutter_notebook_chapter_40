@@ -146,8 +146,9 @@ class _TravelHomePageState extends State<TravelHomePage> {
                         ],
                       ),
                     ),
+                    Gap(12),
                     Container(
-                      height: 200,
+                      height: 190,
                       margin: EdgeInsets.all(16),
                       padding: EdgeInsets.all(16),
                       decoration: BoxDecoration(
