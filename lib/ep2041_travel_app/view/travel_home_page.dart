@@ -149,294 +149,297 @@ class _TravelHomePageState extends State<TravelHomePage> {
                     ),
                   ),
                   Gap(12),
-                  Expanded(child: SingleChildScrollView(child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Container(
-                        height: 190,
-                        margin: EdgeInsets.all(16),
-                        padding: EdgeInsets.all(16),
-                        decoration: BoxDecoration(
+                  Expanded(
+                      child: SingleChildScrollView(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Container(
+                          height: 190,
+                          margin: EdgeInsets.all(16),
+                          padding: EdgeInsets.all(16),
+                          decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(12),
                             border: Border.all(
                               color: Colors.grey[300]!,
-                            )),
-                        child: Column(
-                          children: [
-                            Expanded(
-                              child: Row(
-                                crossAxisAlignment: CrossAxisAlignment.center,
-                                children: [
-                                  Expanded(
-                                    child: Column(
-                                      mainAxisAlignment: MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          padding: EdgeInsets.all(12),
-                                          decoration: BoxDecoration(
-                                            color: Colors.grey[200]!,
-                                            borderRadius: BorderRadius.circular(4),
-                                          ),
-                                          child: Icon(Icons.flight),
-                                        ),
-                                        Gap(6),
-                                        Text("Flights"),
-                                      ],
-                                    ),
-                                  ),
-                                  Expanded(
-                                    child: Column(
-                                      mainAxisAlignment: MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          padding: EdgeInsets.all(12),
-                                          decoration: BoxDecoration(
-                                            color: Colors.grey[200]!,
-                                            borderRadius: BorderRadius.circular(4),
-                                          ),
-                                          child: Icon(Icons.hotel),
-                                        ),
-                                        Gap(6),
-                                        Text("Hotels"),
-                                      ],
-                                    ),
-                                  ),
-                                  Expanded(
-                                    child: Column(
-                                      mainAxisAlignment: MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          padding: EdgeInsets.all(12),
-                                          decoration: BoxDecoration(
-                                            color: Colors.grey[200]!,
-                                            borderRadius: BorderRadius.circular(4),
-                                          ),
-                                          child: Icon(Icons.train),
-                                        ),
-                                        Gap(6),
-                                        Text("Trains"),
-                                      ],
-                                    ),
-                                  ),
-                                  Expanded(
-                                    child: Column(
-                                      mainAxisAlignment: MainAxisAlignment.center,
-                                      children: [
-                                        Container(
-                                          padding: EdgeInsets.all(12),
-                                          decoration: BoxDecoration(
-                                            color: Colors.grey[200]!,
-                                            borderRadius: BorderRadius.circular(4),
-                                          ),
-                                          child: Icon(Icons.event),
-                                        ),
-                                        Gap(6),
-                                        Text("Events"),
-                                      ],
-                                    ),
-                                  )
-                                ],
-                              ),
                             ),
-                            Container(
-                              padding: EdgeInsets.symmetric(vertical: 14),
-                              decoration: BoxDecoration(
-                                color: Colors.grey[300]!,
-                                borderRadius: BorderRadius.circular(8),
-                              ),
-                              child: Center(
-                                child: Text(
-                                  "All Categories",
-                                  style: TextStyle(
-                                    fontSize: 16,
-                                  ),
+                          ),
+                          child: Column(
+                            children: [
+                              Expanded(
+                                child: Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  children: [
+                                    Expanded(
+                                      child: Column(
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        children: [
+                                          Container(
+                                            padding: EdgeInsets.all(12),
+                                            decoration: BoxDecoration(
+                                              color: Colors.grey[200]!,
+                                              borderRadius: BorderRadius.circular(4),
+                                            ),
+                                            child: Icon(Icons.flight),
+                                          ),
+                                          Gap(6),
+                                          Text("Flights"),
+                                        ],
+                                      ),
+                                    ),
+                                    Expanded(
+                                      child: Column(
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        children: [
+                                          Container(
+                                            padding: EdgeInsets.all(12),
+                                            decoration: BoxDecoration(
+                                              color: Colors.grey[200]!,
+                                              borderRadius: BorderRadius.circular(4),
+                                            ),
+                                            child: Icon(Icons.hotel),
+                                          ),
+                                          Gap(6),
+                                          Text("Hotels"),
+                                        ],
+                                      ),
+                                    ),
+                                    Expanded(
+                                      child: Column(
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        children: [
+                                          Container(
+                                            padding: EdgeInsets.all(12),
+                                            decoration: BoxDecoration(
+                                              color: Colors.grey[200]!,
+                                              borderRadius: BorderRadius.circular(4),
+                                            ),
+                                            child: Icon(Icons.train),
+                                          ),
+                                          Gap(6),
+                                          Text("Trains"),
+                                        ],
+                                      ),
+                                    ),
+                                    Expanded(
+                                      child: Column(
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        children: [
+                                          Container(
+                                            padding: EdgeInsets.all(12),
+                                            decoration: BoxDecoration(
+                                              color: Colors.grey[200]!,
+                                              borderRadius: BorderRadius.circular(4),
+                                            ),
+                                            child: Icon(Icons.event),
+                                          ),
+                                          Gap(6),
+                                          Text("Events"),
+                                        ],
+                                      ),
+                                    )
+                                  ],
                                 ),
                               ),
-                            )
-                          ],
-                        ),
-                      ),
-                      Gap(16),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 16),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              "Jet-Set Ready!",
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                            Gap(6),
-                            Text(
-                              "Explore top destinations with unbeatable deals",
-                            ),
-                          ],
-                        ),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(16),
-                        height: 240,
-                        color: Colors.blue,
-                        child: ListView.builder(
-                          scrollDirection: Axis.horizontal,
-                          itemBuilder: (context, index) {
-                            return Container(
-                              width: 200,
-                              margin: EdgeInsets.only(right: 16),
-                              decoration: BoxDecoration(
-                                color: Colors.grey,
-                              ),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Expanded(
-                                      child: Container(
-                                        decoration: BoxDecoration(
-                                          color: Colors.orange,
-                                        ),
-                                        child: Stack(
-                                          children: [
-                                            Positioned(
-                                                left: 12,
-                                                bottom: 0,
-                                                right: 0,
-                                                top: 0,
-                                                child: Container(
-                                                  decoration: BoxDecoration(
-                                                    color: Colors.red,
-                                                  ),
-                                                ))
-                                          ],
-                                        ),
-                                      )),
-                                  Gap(8),
-                                  Row(
-                                    children: [
-                                      Icon(
-                                        Icons.calendar_today,
-                                        size: 16,
-                                      ),
-                                      Gap(8),
-                                      Text("18 Oct 2024"),
-                                    ],
+                              Container(
+                                padding: EdgeInsets.symmetric(vertical: 12),
+                                decoration: BoxDecoration(
+                                  color: Colors.grey[200]!,
+                                  borderRadius: BorderRadius.circular(8),
+                                ),
+                                child: Center(
+                                  child: Text(
+                                    "All Categories",
+                                    style: TextStyle(
+                                      fontSize: 15,
+                                    ),
                                   ),
-                                  Gap(4),
-                                  Row(
-                                    children: [
-                                      Text("Seoul"),
-                                      Gap(8),
-                                      Icon(
-                                        Icons.arrow_forward,
-                                        size: 16,
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                        Gap(16),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 16),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Jet-Set Ready!",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              Gap(6),
+                              Text(
+                                "Explore top destinations with unbeatable deals",
+                              ),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          margin: EdgeInsets.all(16),
+                          height: 240,
+                          color: Colors.blue,
+                          child: ListView.builder(
+                            scrollDirection: Axis.horizontal,
+                            itemBuilder: (context, index) {
+                              return Container(
+                                width: 200,
+                                margin: EdgeInsets.only(right: 16),
+                                decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Expanded(
+                                        child: Container(
+                                      decoration: BoxDecoration(
+                                        color: Colors.orange,
                                       ),
-                                      Gap(8),
-                                      Text("Bali"),
-                                    ],
-                                  ),
-                                  Gap(8),
-                                  Text("Start from"),
-                                  Text("\$120"),
-                                ],
-                              ),
-                            );
-                          },
-                        ),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 16),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              "Find Hotels Near Your Next Stop!",
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                            Gap(6),
-                            Text(
-                              "Explore top destinations with unbeatable deals",
-                            ),
-                          ],
-                        ),
-                      ),
-                      Container(
-                        margin: EdgeInsets.all(16),
-                        height: 240,
-                        color: Colors.blue,
-                        child: ListView.builder(
-                          scrollDirection: Axis.horizontal,
-                          itemBuilder: (context, index) {
-                            return Container(
-                              width: 200,
-                              margin: EdgeInsets.only(right: 16),
-                              decoration: BoxDecoration(
-                                color: Colors.grey,
-                              ),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Expanded(
-                                      child: Container(
-                                        decoration: BoxDecoration(
-                                          color: Colors.orange,
+                                      child: Stack(
+                                        children: [
+                                          Positioned(
+                                              left: 12,
+                                              bottom: 0,
+                                              right: 0,
+                                              top: 0,
+                                              child: Container(
+                                                decoration: BoxDecoration(
+                                                  color: Colors.red,
+                                                ),
+                                              ))
+                                        ],
+                                      ),
+                                    )),
+                                    Gap(8),
+                                    Row(
+                                      children: [
+                                        Icon(
+                                          Icons.calendar_today,
+                                          size: 16,
                                         ),
-                                        child: Stack(
-                                          children: [
-                                            Positioned(
-                                                left: 12,
-                                                bottom: 0,
-                                                right: 0,
-                                                top: 0,
-                                                child: Container(
-                                                  decoration: BoxDecoration(
-                                                    color: Colors.red,
-                                                  ),
-                                                ))
-                                          ],
+                                        Gap(8),
+                                        Text("18 Oct 2024"),
+                                      ],
+                                    ),
+                                    Gap(4),
+                                    Row(
+                                      children: [
+                                        Text("Seoul"),
+                                        Gap(8),
+                                        Icon(
+                                          Icons.arrow_forward,
+                                          size: 16,
                                         ),
-                                      )),
-                                  Gap(8),
-                                  Row(
-                                    children: [
-                                      Icon(
-                                        Icons.calendar_today,
-                                        size: 16,
-                                      ),
-                                      Gap(8),
-                                      Text("18 Oct 2024"),
-                                    ],
-                                  ),
-                                  Gap(4),
-                                  Row(
-                                    children: [
-                                      Text("Seoul"),
-                                      Gap(8),
-                                      Icon(
-                                        Icons.arrow_forward,
-                                        size: 16,
-                                      ),
-                                      Gap(8),
-                                      Text("Bali"),
-                                    ],
-                                  ),
-                                  Gap(8),
-                                  Text("Start from"),
-                                  Text("\$120"),
-                                ],
-                              ),
-                            );
-                          },
+                                        Gap(8),
+                                        Text("Bali"),
+                                      ],
+                                    ),
+                                    Gap(8),
+                                    Text("Start from"),
+                                    Text("\$120"),
+                                  ],
+                                ),
+                              );
+                            },
+                          ),
                         ),
-                      ),
-                    ],
-                  ),))
-
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 16),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Find Hotels Near Your Next Stop!",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              Gap(6),
+                              Text(
+                                "Explore top destinations with unbeatable deals",
+                              ),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          margin: EdgeInsets.all(16),
+                          height: 240,
+                          color: Colors.blue,
+                          child: ListView.builder(
+                            scrollDirection: Axis.horizontal,
+                            itemBuilder: (context, index) {
+                              return Container(
+                                width: 200,
+                                margin: EdgeInsets.only(right: 16),
+                                decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Expanded(
+                                        child: Container(
+                                      decoration: BoxDecoration(
+                                        color: Colors.orange,
+                                      ),
+                                      child: Stack(
+                                        children: [
+                                          Positioned(
+                                              left: 12,
+                                              bottom: 0,
+                                              right: 0,
+                                              top: 0,
+                                              child: Container(
+                                                decoration: BoxDecoration(
+                                                  color: Colors.red,
+                                                ),
+                                              ))
+                                        ],
+                                      ),
+                                    )),
+                                    Gap(8),
+                                    Row(
+                                      children: [
+                                        Icon(
+                                          Icons.calendar_today,
+                                          size: 16,
+                                        ),
+                                        Gap(8),
+                                        Text("18 Oct 2024"),
+                                      ],
+                                    ),
+                                    Gap(4),
+                                    Row(
+                                      children: [
+                                        Text("Seoul"),
+                                        Gap(8),
+                                        Icon(
+                                          Icons.arrow_forward,
+                                          size: 16,
+                                        ),
+                                        Gap(8),
+                                        Text("Bali"),
+                                      ],
+                                    ),
+                                    Gap(8),
+                                    Text("Start from"),
+                                    Text("\$120"),
+                                  ],
+                                ),
+                              );
+                            },
+                          ),
+                        ),
+                      ],
+                    ),
+                  ))
                 ],
               ),
             ),
