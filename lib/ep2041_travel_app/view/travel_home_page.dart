@@ -342,7 +342,26 @@ class _TravelHomePageState extends State<TravelHomePage> {
                         );
                       },
                     ),
-                  )
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          "Find Hotels Near Your Next Stop!",
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        Gap(6),
+                        Text(
+                          "Explore top destinations with unbeatable deals",
+                        ),
+                      ],
+                    ),
+                  ),
                 ],
               ),
             ),
