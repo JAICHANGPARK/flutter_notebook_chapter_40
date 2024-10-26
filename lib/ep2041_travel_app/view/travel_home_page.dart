@@ -276,7 +276,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   ),
                   Container(
                     margin: EdgeInsets.all(16),
-                    height: 260,
+                    height: 240,
                     color: Colors.blue,
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
