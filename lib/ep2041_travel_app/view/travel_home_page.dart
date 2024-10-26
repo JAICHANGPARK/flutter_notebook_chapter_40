@@ -298,31 +298,43 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                 child: Stack(
                                   children: [
                                     Positioned(
-                                      left: 12,
+                                        left: 12,
                                         bottom: 0,
                                         right: 0,
                                         top: 0,
                                         child: Container(
-                                      decoration: BoxDecoration(
-                                        color: Colors.red,
-                                      ),
-                                    ))
+                                          decoration: BoxDecoration(
+                                            color: Colors.red,
+                                          ),
+                                        ))
                                   ],
                                 ),
                               )),
+                              Gap(8),
                               Row(
                                 children: [
-                                  Icon(Icons.calendar_today),
+                                  Icon(
+                                    Icons.calendar_today,
+                                    size: 16,
+                                  ),
+                                  Gap(8),
                                   Text("18 Oct 2024"),
                                 ],
                               ),
+                              Gap(4),
                               Row(
                                 children: [
                                   Text("Seoul"),
-                                  Icon(Icons.arrow_forward),
+                                  Gap(8),
+                                  Icon(
+                                    Icons.arrow_forward,
+                                    size: 16,
+                                  ),
+                                  Gap(8),
                                   Text("Bali"),
                                 ],
                               ),
+                              Gap(8),
                               Text("Start from"),
                               Text("\$120"),
                             ],
