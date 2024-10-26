@@ -303,6 +303,8 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                   Text("Bali"),
                                 ],
                               ),
+                              Text("Start from"),
+                              Text("\$120"),
                             ],
                           ),
                         );
