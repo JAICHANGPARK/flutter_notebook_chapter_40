@@ -279,6 +279,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                     height: 260,
                     color: Colors.blue,
                     child: ListView.builder(
+                      scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
                         return Container(
                           width: 200,
@@ -286,6 +287,12 @@ class _TravelHomePageState extends State<TravelHomePage> {
                           decoration: BoxDecoration(
                             color: Colors.grey,
                           ),
+                          child: Column(
+                            children: [
+                              
+                            ],
+                          ),
+
                         );
                       },
                     ),
