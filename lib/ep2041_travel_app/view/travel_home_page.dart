@@ -304,15 +304,16 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                       child: Stack(
                                         children: [
                                           Positioned(
-                                              left: 12,
-                                              bottom: 0,
-                                              right: 0,
-                                              top: 0,
-                                              child: Container(
-                                                decoration: BoxDecoration(
-                                                  color: Colors.red,
-                                                ),
-                                              ))
+                                            left: 12,
+                                            bottom: 0,
+                                            right: 0,
+                                            top: 0,
+                                            child: Container(
+                                              decoration: BoxDecoration(
+                                                color: Colors.red,
+                                              ),
+                                            ),
+                                          )
                                         ],
                                       ),
                                     )),
