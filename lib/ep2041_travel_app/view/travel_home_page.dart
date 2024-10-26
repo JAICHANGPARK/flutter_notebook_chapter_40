@@ -297,37 +297,42 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Expanded(
-                                        child: Container(
-                                      decoration: BoxDecoration(
-                                        color: Colors.orange,
-                                      ),
-                                      child: Stack(
-                                        children: [
-                                          Positioned(
-                                            left: 8,
-                                            bottom: 0,
-                                            right: 0,
-                                            top: 0,
-                                            child: Container(
-                                              decoration: BoxDecoration(
-                                                color: Colors.red,
+                                      child: Container(
+                                        decoration: BoxDecoration(
+                                          color: Colors.orange,
+                                        ),
+                                        child: Stack(
+                                          children: [
+                                            Positioned(
+                                              left: 8,
+                                              bottom: 0,
+                                              right: 0,
+                                              top: 0,
+                                              child: Container(
+                                                decoration: BoxDecoration(
+                                                  color: Colors.red,
+                                                ),
                                               ),
                                             ),
-                                          ),
-                                          Positioned(
-                                            left: 0,
-                                            top: 16,
-                                            child: Container(
-                                              height: 32,
-                                              width: 80,
-                                              decoration: BoxDecoration(
-                                                color: Colors.green,
+                                            Positioned(
+                                              left: 0,
+                                              top: 16,
+                                              child: Container(
+                                                height: 32,
+                                                width: 80,
+                                                decoration: BoxDecoration(
+                                                  color: Colors.green,
+                                                  borderRadius: BorderRadius.only(
+                                                    topRight: Radius.circular(4),
+                                                    bottomRight: Radius.circular(4),
+                                                  ),
+                                                ),
                                               ),
-                                            ),
-                                          )
-                                        ],
+                                            )
+                                          ],
+                                        ),
                                       ),
-                                    )),
+                                    ),
                                     Gap(8),
                                     Row(
                                       children: [
