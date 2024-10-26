@@ -325,6 +325,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                                   borderRadius: BorderRadius.only(
                                                     topRight: Radius.circular(4),
                                                     bottomRight: Radius.circular(4),
+                                                    bottomLeft: Radius.circular(4),
                                                   ),
                                                 ),
                                               ),
