@@ -290,9 +290,9 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               return Container(
                                 width: 200,
                                 margin: EdgeInsets.only(right: 16),
-                                decoration: BoxDecoration(
-                                  color: Colors.grey,
-                                ),
+                                // decoration: BoxDecoration(
+                                //   color: Colors.grey,
+                                // ),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
