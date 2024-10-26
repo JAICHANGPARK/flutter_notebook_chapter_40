@@ -290,7 +290,12 @@ class _TravelHomePageState extends State<TravelHomePage> {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Expanded(child: Container()),
+                              Expanded(
+                                  child: Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.orange,
+                                ),
+                              )),
                               Row(
                                 children: [
                                   Icon(Icons.calendar_today),
