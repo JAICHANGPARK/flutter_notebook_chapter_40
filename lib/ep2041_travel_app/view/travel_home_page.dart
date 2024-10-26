@@ -289,11 +289,22 @@ class _TravelHomePageState extends State<TravelHomePage> {
                           ),
                           child: Column(
                             children: [
-
-
+                              Expanded(child: Container()),
+                              Row(
+                                children: [
+                                  Icon(Icons.calendar_today),
+                                  Text("18 Oct 2024"),
+                                ],
+                              ),
+                              Row(
+                                children: [
+                                  Text("Seoul"),
+                                  Icon(Icons.arrow_forward),
+                                  Text("Bali"),
+                                ],
+                              ),
                             ],
                           ),
-
                         );
                       },
                     ),
