@@ -288,6 +288,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                             color: Colors.grey,
                           ),
                           child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Expanded(child: Container()),
                               Row(
