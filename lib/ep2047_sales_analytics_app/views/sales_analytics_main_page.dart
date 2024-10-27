@@ -122,7 +122,7 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
             ),
             Gap(12),
             Container(
-              height: 48,
+
               margin: EdgeInsets.symmetric(horizontal: 16),
               // decoration: BoxDecoration(
               //   color: Colors.grey[100],
@@ -134,9 +134,9 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                       border: Border.all(
                         color: Colors.grey[300]!,
                       ),
-                      borderRadius: BorderRadius.circular(4),
+                      borderRadius: BorderRadius.circular(6),
                     ),
-                    padding: EdgeInsets.all(6),
+                    padding: EdgeInsets.all(10),
                     child: Icon(
                       Icons.sync,
                       size: 20,
@@ -149,9 +149,9 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                         border: Border.all(
                           color: Colors.grey[300]!,
                         ),
-                        borderRadius: BorderRadius.circular(4),
+                        borderRadius: BorderRadius.circular(6),
                       ),
-                      padding: EdgeInsets.all(6),
+                      padding: EdgeInsets.all(10),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -177,9 +177,9 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                         border: Border.all(
                           color: Colors.grey[300]!,
                         ),
-                        borderRadius: BorderRadius.circular(4),
+                        borderRadius: BorderRadius.circular(6),
                       ),
-                      padding: EdgeInsets.all(6),
+                      padding: EdgeInsets.all(10),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
