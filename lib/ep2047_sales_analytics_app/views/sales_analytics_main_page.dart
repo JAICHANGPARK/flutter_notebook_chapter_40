@@ -70,6 +70,27 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                       borderRadius: BorderRadius.circular(4),
                     ),
                     padding: EdgeInsets.all(6),
+                    child: Row(
+                      children: [
+                        CircleAvatar(
+                          radius: 10,
+                        ),
+                        Gap(8),
+                        Icon(
+                          Icons.more_horiz,
+                          size: 20,
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.grey[300]!,
+                      ),
+                      borderRadius: BorderRadius.circular(4),
+                    ),
+                    padding: EdgeInsets.all(6),
                     child: Icon(
                       Icons.more_horiz,
                       size: 20,
