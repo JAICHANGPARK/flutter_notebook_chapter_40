@@ -107,6 +107,7 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
               ),
             ),
             Divider(),
+            Gap(12),
             Container(
               height: 48,
               margin: EdgeInsets.symmetric(horizontal: 16),
@@ -123,9 +124,9 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
             Container(
               height: 48,
               margin: EdgeInsets.symmetric(horizontal: 16),
-              decoration: BoxDecoration(
-                color: Colors.grey[100],
-              ),
+              // decoration: BoxDecoration(
+              //   color: Colors.grey[100],
+              // ),
               child: Row(
                 children: [
                   Container(
@@ -141,49 +142,57 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                       size: 20,
                     ),
                   ),
-                  Container(
-                    decoration: BoxDecoration(
-                      border: Border.all(
-                        color: Colors.grey[300]!,
+                  Gap(16),
+                  Expanded(
+                    child: Container(
+                      decoration: BoxDecoration(
+                        border: Border.all(
+                          color: Colors.grey[300]!,
+                        ),
+                        borderRadius: BorderRadius.circular(4),
                       ),
-                      borderRadius: BorderRadius.circular(4),
-                    ),
-                    padding: EdgeInsets.all(6),
-                    child: Row(
-                      children: [
-                        Icon(
-                          Icons.calendar_today,
-                          size: 20,
-                        ),
-                        Gap(8),
-                        Text("Monthly")
-                        Gap(8),
-                        Icon(
-                          Icons.keyboard_arrow_down,
-                          size: 20,
-                        ),
-                      ],
+                      padding: EdgeInsets.all(6),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(
+                            Icons.calendar_today,
+                            size: 20,
+                          ),
+                          Gap(8),
+                          Text("Monthly"),
+                          Gap(8),
+                          Icon(
+                            Icons.keyboard_arrow_down,
+                            size: 20,
+                          ),
+                        ],
+                      ),
                     ),
                   ),
-                  Container(
-                    decoration: BoxDecoration(
-                      border: Border.all(
-                        color: Colors.grey[300]!,
-                      ),
-                      borderRadius: BorderRadius.circular(4),
-                    ),
-                    padding: EdgeInsets.all(6),
-                    child: Row(
-                      children: [
-
-
-                        Icon(
-                          Icons.download,
-                          size: 20,
+                  Gap(16),
+                  Expanded(
+                    child: Container(
+                      decoration: BoxDecoration(
+                        border: Border.all(
+                          color: Colors.grey[300]!,
                         ),
-                        Gap(8),
-                        Text("Download")
-                      ],
+                        borderRadius: BorderRadius.circular(4),
+                      ),
+                      padding: EdgeInsets.all(6),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                    
+                    
+                          Icon(
+                            Icons.download,
+                            size: 20,
+                          ),
+                          Gap(8),
+                          Text("Download")
+                        ],
+                      ),
                     ),
                   ),
                 ],
