@@ -6,7 +6,7 @@
 - Barly Design for UI8
 - https://dribbble.com/shots/25088556-Sales-Analytics-Responsive
 
-<img src="https://cdn.dribbble.com/userupload/17181610/file/original-bd4f1fdf67679008f5225772b2e080f7.jpg?resize=1905x1429"/>
+<img src="https://cdn.dribbble.com/userupload/17259231/file/original-8ee9c0e6c1b24196a9c11c21223d7c31.jpg?resize=1905x1429"/>
 
 
 ## EP2041-2046
