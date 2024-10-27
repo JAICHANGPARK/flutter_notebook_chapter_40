@@ -10,6 +10,14 @@ class SalesAnalyticsMainPage extends StatefulWidget {
 class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: SafeArea(
+        child: Column(
+          children: [
+
+          ],
+        ),
+      ),
+    );
   }
 }
