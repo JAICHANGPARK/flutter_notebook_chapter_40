@@ -6,14 +6,3 @@ void main() {
   runApp(SalesAnalyticsApp());
 }
 
-
-class SalesAnalyticsApp extends StatelessWidget {
-  const SalesAnalyticsApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: SalesAnalyticsMainPage(),
-    );
-  }
-}
