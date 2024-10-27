@@ -60,7 +60,21 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                       Icons.notifications_none,
                       size: 20,
                     ),
-                  )
+                  ),
+                  VerticalDivider(),
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.grey[300]!,
+                      ),
+                      borderRadius: BorderRadius.circular(4),
+                    ),
+                    padding: EdgeInsets.all(6),
+                    child: Icon(
+                      Icons.more_horiz,
+                      size: 20,
+                    ),
+                  ),
                 ],
               ),
             ),
