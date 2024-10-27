@@ -1,6 +1,15 @@
 # flutter_notebook_chapter_40
 
-## EP2041
+## EP2041-2046
+
+- tickk - Travel App
+- Dhira Danuarta for Caraka
+- https://dribbble.com/shots/25061984-tickk-Travel-App
+
+<img src="https://cdn.dribbble.com/userupload/17181610/file/original-bd4f1fdf67679008f5225772b2e080f7.jpg?resize=1905x1429"/>
+
+
+## EP2041-2046
 
 - tickk - Travel App
 - Dhira Danuarta for Caraka
