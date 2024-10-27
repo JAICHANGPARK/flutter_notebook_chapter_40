@@ -115,14 +115,11 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                 color: Colors.grey[100],
               ),
               child: Row(
-                children: [
-
-                ],
+                children: [],
               ),
             ),
             Gap(12),
             Container(
-
               margin: EdgeInsets.symmetric(horizontal: 16),
               // decoration: BoxDecoration(
               //   color: Colors.grey[100],
@@ -183,8 +180,6 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                    
-                    
                           Icon(
                             Icons.download,
                             size: 20,
@@ -196,6 +191,21 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                     ),
                   ),
                 ],
+              ),
+            ),
+            Divider(),
+            Expanded(
+              child: ListView.builder(
+                itemBuilder: (context, index) {
+                  return Container(
+                    height: 180,
+                    decoration: BoxDecoration(
+                      color: Colors.grey[200]!,
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    margin: EdgeInsets.all(16),
+                  );
+                },
               ),
             )
           ],
