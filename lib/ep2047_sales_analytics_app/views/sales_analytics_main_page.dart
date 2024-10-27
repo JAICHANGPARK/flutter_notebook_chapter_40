@@ -14,18 +14,25 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
       body: SafeArea(
         child: Column(
           children: [
-            Row(
-              children: [
-                Container(
-                  decoration: BoxDecoration(
-                    border: Border.all(
-                      color: Colors.grey[300]!,
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.grey[300]!,
+                      ),
+                      borderRadius: BorderRadius.circular(4),
                     ),
-                    borderRadius: BorderRadius.circular(4),
-                  ),
-                  child: Icon(Icons.menu),
-                )
-              ],
+                    padding: EdgeInsets.all(6),
+                    child: Icon(
+                      Icons.menu,
+                      size: 20,
+                    ),
+                  )
+                ],
+              ),
             ),
             Divider(),
           ],
