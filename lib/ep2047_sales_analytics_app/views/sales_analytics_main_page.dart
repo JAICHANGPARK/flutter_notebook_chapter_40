@@ -77,12 +77,13 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                         ),
                         Gap(8),
                         Icon(
-                          Icons.more_horiz,
+                          Icons.keyboard_arrow_down,
                           size: 20,
                         ),
                       ],
                     ),
                   ),
+                  Gap(12),
                   Container(
                     decoration: BoxDecoration(
                       border: Border.all(
