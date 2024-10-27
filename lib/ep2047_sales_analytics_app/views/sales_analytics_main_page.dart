@@ -118,6 +118,30 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
 
                 ],
               ),
+            ),
+            Container(
+              height: 48,
+              margin: EdgeInsets.symmetric(horizontal: 16),
+              decoration: BoxDecoration(
+                color: Colors.grey[100],
+              ),
+              child: Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.grey[300]!,
+                      ),
+                      borderRadius: BorderRadius.circular(4),
+                    ),
+                    padding: EdgeInsets.all(6),
+                    child: Icon(
+                      Icons.sync,
+                      size: 20,
+                    ),
+                  ),
+                ],
+              ),
             )
           ],
         ),
