@@ -311,7 +311,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                               child: Container(
                                                 decoration: BoxDecoration(
                                                   color: Colors.red,
-                                                  borderRadius: BorderRadius.circular(7),
+                                                  borderRadius: BorderRadius.circular(7),g
                                                 ),
                                               ),
                                             ),
