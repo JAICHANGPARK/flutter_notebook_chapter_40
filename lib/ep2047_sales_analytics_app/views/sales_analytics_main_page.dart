@@ -119,6 +119,7 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                 ],
               ),
             ),
+            Gap(12),
             Container(
               height: 48,
               margin: EdgeInsets.symmetric(horizontal: 16),
@@ -138,6 +139,51 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                     child: Icon(
                       Icons.sync,
                       size: 20,
+                    ),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.grey[300]!,
+                      ),
+                      borderRadius: BorderRadius.circular(4),
+                    ),
+                    padding: EdgeInsets.all(6),
+                    child: Row(
+                      children: [
+                        Icon(
+                          Icons.calendar_today,
+                          size: 20,
+                        ),
+                        Gap(8),
+                        Text("Monthly")
+                        Gap(8),
+                        Icon(
+                          Icons.keyboard_arrow_down,
+                          size: 20,
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.grey[300]!,
+                      ),
+                      borderRadius: BorderRadius.circular(4),
+                    ),
+                    padding: EdgeInsets.all(6),
+                    child: Row(
+                      children: [
+
+
+                        Icon(
+                          Icons.download,
+                          size: 20,
+                        ),
+                        Gap(8),
+                        Text("Download")
+                      ],
                     ),
                   ),
                 ],
