@@ -1,10 +1,10 @@
 # flutter_notebook_chapter_40
 
-## EP2041-2046
+## EP2047
 
-- tickk - Travel App
-- Dhira Danuarta for Caraka
-- https://dribbble.com/shots/25061984-tickk-Travel-App
+- Sales Analytics - Responsive
+- Barly Design for UI8
+- https://dribbble.com/shots/25088556-Sales-Analytics-Responsive
 
 <img src="https://cdn.dribbble.com/userupload/17181610/file/original-bd4f1fdf67679008f5225772b2e080f7.jpg?resize=1905x1429"/>
 
