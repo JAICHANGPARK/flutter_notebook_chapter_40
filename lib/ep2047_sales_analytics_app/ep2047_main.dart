@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'views/sales_analytics_main_page.dart';
+
 void main() {
   
 }
@@ -10,6 +12,8 @@ class SalesAnalyticsApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      home: SalesAnalyticsMainPage(),
+    );
   }
 }
