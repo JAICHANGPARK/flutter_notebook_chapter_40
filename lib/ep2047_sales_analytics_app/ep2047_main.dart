@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'views/sales_analytics_main_page.dart';
+import 'ep2047_app.dart';
+
 
 void main() {
   runApp(SalesAnalyticsApp());
