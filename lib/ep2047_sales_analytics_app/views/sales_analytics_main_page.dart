@@ -107,6 +107,18 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
               ),
             ),
             Divider(),
+            Container(
+              height: 48,
+              margin: EdgeInsets.symmetric(horizontal: 16),
+              decoration: BoxDecoration(
+                color: Colors.grey[100],
+              ),
+              child: Row(
+                children: [
+
+                ],
+              ),
+            )
           ],
         ),
       ),
