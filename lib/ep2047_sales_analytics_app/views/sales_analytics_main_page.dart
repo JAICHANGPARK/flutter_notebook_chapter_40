@@ -133,7 +133,7 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Icon(Icons.view_sidebar_outlined),
+                            Icon(Icons.view_sidebar_outlined),Gap(6),
                             Text(
                               "Overview",
                               style: TextStyle(
@@ -154,6 +154,7 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Icon(Icons.sync),
+                          Gap(6),
                           Text(
                             "Order",
                             style: TextStyle(
