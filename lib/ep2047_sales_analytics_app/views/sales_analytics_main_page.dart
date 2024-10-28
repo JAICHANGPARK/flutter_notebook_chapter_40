@@ -149,8 +149,19 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                     width: 0,
                   ),
                   Expanded(
-                    child: Row(
-                      children: [],
+                    child: Center(
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(Icons.sync),
+                          Text(
+                            "Order",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                            ),
+                          )
+                        ],
+                      ),
                     ),
                   ), VerticalDivider(
                     width: 0,
