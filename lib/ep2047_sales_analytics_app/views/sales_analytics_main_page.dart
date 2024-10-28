@@ -277,6 +277,7 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                       ),
                       borderRadius: BorderRadius.circular(12),
                     ),
+                    padding: EdgeInsets.all(8),
                     margin: EdgeInsets.all(16),
                     child: Column(
                       children: [
