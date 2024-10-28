@@ -116,9 +116,20 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                 border: Border.all(
                   color: Colors.grey[300]!,
                 ),
+                borderRadius: BorderRadius.circular(8),
               ),
               child: Row(
                 children: [
+                  Expanded(
+                    child: Row(
+                      children: [],
+                    ),
+                  ),
+                  Expanded(
+                    child: Row(
+                      children: [],
+                    ),
+                  ),
                   Expanded(
                     child: Row(
                       children: [],
