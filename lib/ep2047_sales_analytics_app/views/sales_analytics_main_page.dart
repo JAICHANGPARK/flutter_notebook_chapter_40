@@ -278,7 +278,7 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                       borderRadius: BorderRadius.circular(12),
                     ),
                     padding: EdgeInsets.all(8),
-                    margin: EdgeInsets.all(16),
+                    margin: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                     child: Column(
                       children: [
                         Expanded(
