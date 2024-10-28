@@ -133,7 +133,8 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Icon(Icons.view_sidebar_outlined),Gap(6),
+                            Icon(Icons.view_sidebar_outlined),
+                            Gap(6),
                             Text(
                               "Overview",
                               style: TextStyle(
@@ -164,12 +165,25 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                         ],
                       ),
                     ),
-                  ), VerticalDivider(
+                  ),
+                  VerticalDivider(
                     width: 0,
                   ),
                   Expanded(
-                    child: Row(
-                      children: [],
+                    child: Center(
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(Icons.auto_graph),
+                          Gap(6),
+                          Text(
+                            "Sales",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                            ),
+                          )
+                        ],
+                      ),
                     ),
                   ),
                 ],
