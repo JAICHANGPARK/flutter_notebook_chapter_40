@@ -292,19 +292,25 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                           ),
                         )),
                         Gap(8),
-                        Row(
-                          children: [
-                            Text(
-                              "+\$2,156",
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
+                        Padding(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 8,
+                            vertical: 4,
+                          ),
+                          child: Row(
+                            children: [
+                              Text(
+                                "+\$2,156",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
-                            ),
-                            Gap(6),
-                            Text("from last month"),
-                            Spacer(),
-                            Icon(Icons.arrow_forward),
-                          ],
+                              Gap(6),
+                              Text("from last month"),
+                              Spacer(),
+                              Icon(Icons.arrow_forward),
+                            ],
+                          ),
                         )
                       ],
                     ),
