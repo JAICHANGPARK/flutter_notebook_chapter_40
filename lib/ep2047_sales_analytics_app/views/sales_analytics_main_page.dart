@@ -285,8 +285,21 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                             child: Container(
                           decoration: BoxDecoration(
                             color: Colors.white,
+                            border: Border.all(
+                              color: Colors.grey[400]!,
+                            ),
+                            borderRadius: BorderRadius.circular(12),
                           ),
-                        ))
+                        )),
+                        Gap(8),
+                        Row(
+                          children: [
+                            Text("+\$2,156"),
+                            Text("from last month"),
+                            Spacer(),
+                            Icon(Icons.arrow_forward),
+                          ],
+                        )
                       ],
                     ),
                   );
