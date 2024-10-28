@@ -122,7 +122,9 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                 children: [
                   Expanded(
                     child: Row(
-                      children: [],
+                      children: [
+                        Icon(Icons.)
+                      ],
                     ),
                   ),
                   Expanded(
