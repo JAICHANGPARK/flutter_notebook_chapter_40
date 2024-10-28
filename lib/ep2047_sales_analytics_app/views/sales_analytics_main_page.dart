@@ -109,10 +109,10 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
             Divider(),
             Gap(12),
             Container(
-              height: 48,
+              height: 46,
               margin: EdgeInsets.symmetric(horizontal: 16),
               decoration: BoxDecoration(
-                color: Colors.grey[100],
+                color: Colors.grey[50],
                 border: Border.all(
                   color: Colors.grey[300]!,
                 ),
