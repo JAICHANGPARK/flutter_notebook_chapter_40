@@ -271,7 +271,7 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                   return Container(
                     height: 150,
                     decoration: BoxDecoration(
-                      color: Colors.grey[200]!,
+                      color: Colors.grey[50]!,
                       border: Border.all(
                         color: Colors.grey[400]!,
                       ),
