@@ -269,7 +269,7 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
               child: ListView.builder(
                 itemBuilder: (context, index) {
                   return Container(
-                    height: 180,
+                    height: 160,
                     decoration: BoxDecoration(
                       color: Colors.grey[200]!,
                       borderRadius: BorderRadius.circular(12),
