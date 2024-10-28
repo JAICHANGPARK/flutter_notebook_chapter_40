@@ -295,6 +295,7 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                         Row(
                           children: [
                             Text("+\$2,156"),
+                            Gap(6),
                             Text("from last month"),
                             Spacer(),
                             Icon(Icons.arrow_forward),
