@@ -269,7 +269,7 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
               child: ListView.builder(
                 itemBuilder: (context, index) {
                   return Container(
-                    height: 160,
+                    height: 150,
                     decoration: BoxDecoration(
                       color: Colors.grey[200]!,
                       border: Border.all(
@@ -294,7 +294,12 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                         Gap(8),
                         Row(
                           children: [
-                            Text("+\$2,156"),
+                            Text(
+                              "+\$2,156",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                             Gap(6),
                             Text("from last month"),
                             Spacer(),
