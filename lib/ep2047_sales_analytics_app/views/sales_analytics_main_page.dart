@@ -124,7 +124,12 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                     child: Row(
                       children: [
                         Icon(Icons.view_sidebar_outlined),
-                        Text("data")
+                        Text(
+                          "Overview",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                          ),
+                        )
                       ],
                     ),
                   ),
