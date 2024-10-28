@@ -272,6 +272,9 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                     height: 160,
                     decoration: BoxDecoration(
                       color: Colors.grey[200]!,
+                      border: Border.all(
+                        color: Colors.grey[600]!,
+                      ),
                       borderRadius: BorderRadius.circular(12),
                     ),
                     margin: EdgeInsets.all(16),
