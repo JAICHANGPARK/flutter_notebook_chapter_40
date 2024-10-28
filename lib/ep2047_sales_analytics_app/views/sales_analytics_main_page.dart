@@ -122,8 +122,13 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                 children: [
                   Expanded(
                     child: Container(
-                      decoration: BoxDecoration(color: Colors.white),
-
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(6),
+                          topRight: Radius.circular(6),
+                        ),
+                      ),
                       child: Center(
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
