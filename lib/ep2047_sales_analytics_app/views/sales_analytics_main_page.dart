@@ -145,10 +145,15 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                       ),
                     ),
                   ),
+                  VerticalDivider(
+                    width: 0,
+                  ),
                   Expanded(
                     child: Row(
                       children: [],
                     ),
+                  ), VerticalDivider(
+                    width: 0,
                   ),
                   Expanded(
                     child: Row(
