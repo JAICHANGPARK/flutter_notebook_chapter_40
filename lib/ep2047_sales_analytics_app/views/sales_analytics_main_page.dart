@@ -354,6 +354,9 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                       color: Colors.grey[200]!,
                                     ),
                                   ),
+                                  padding: EdgeInsets.all(8),
+                                  child: Icon(Icons.currency_bitcoin,
+                                  color: Colors.purple,),
                                 )
                               ],
                             ),
