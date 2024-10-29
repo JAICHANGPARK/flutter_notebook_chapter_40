@@ -351,13 +351,15 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                   decoration: BoxDecoration(
                                     color: Colors.white,
                                     border: Border.all(
-                                      color: Colors.grey[200]!,
+                                      color: Colors.grey[300]!,
                                     ),
-                                    borderRadius: BorderRadius.circular(8)
+                                    borderRadius: BorderRadius.circular(8),
                                   ),
                                   padding: EdgeInsets.all(8),
-                                  child: Icon(Icons.currency_bitcoin,
-                                  color: Colors.purple,),
+                                  child: Icon(
+                                    Icons.currency_bitcoin,
+                                    color: Colors.purple,
+                                  ),
                                 )
                               ],
                             ),
