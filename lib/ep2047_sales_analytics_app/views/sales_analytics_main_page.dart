@@ -297,9 +297,12 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
-                                      Text("NEW NET INCOME",style: TextStyle(
-                                        fontSize: 12,
-                                      ),),
+                                      Text(
+                                        "NEW NET INCOME",
+                                        style: TextStyle(
+                                          fontSize: 12,
+                                        ),
+                                      ),
                                       Gap(6),
                                       Row(
                                         children: [
@@ -314,9 +317,10 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                           Container(
                                             decoration: ShapeDecoration(
                                               shape: StadiumBorder(
-                                                  side: BorderSide(
-                                                color: Colors.tealAccent[200]!,
-                                              )),
+                                                side: BorderSide(
+                                                  color: Colors.teal[100]!,
+                                                ),
+                                              ),
                                               color: Colors.teal[50],
                                             ),
                                             padding: EdgeInsets.symmetric(horizontal: 2, vertical: 1),
