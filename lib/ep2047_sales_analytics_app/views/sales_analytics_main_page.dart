@@ -353,6 +353,7 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                     border: Border.all(
                                       color: Colors.grey[200]!,
                                     ),
+                                    borderRadius: BorderRadius.circular(8)
                                   ),
                                   padding: EdgeInsets.all(8),
                                   child: Icon(Icons.currency_bitcoin,
