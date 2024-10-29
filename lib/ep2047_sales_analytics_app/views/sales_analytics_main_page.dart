@@ -282,15 +282,23 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                     child: Column(
                       children: [
                         Expanded(
-                            child: Container(
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                            border: Border.all(
-                              color: Colors.grey[400]!,
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              border: Border.all(
+                                color: Colors.grey[400]!,
+                              ),
+                              borderRadius: BorderRadius.circular(12),
                             ),
-                            borderRadius: BorderRadius.circular(12),
+                            child: Row(
+                              children: [
+                                Column(
+                                  children: [],
+                                ),
+                              ],
+                            ),
                           ),
-                        )),
+                        ),
                         Gap(8),
                         Padding(
                           padding: const EdgeInsets.symmetric(
