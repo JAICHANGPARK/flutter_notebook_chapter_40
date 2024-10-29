@@ -343,10 +343,18 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                             ),
                                           )
                                         ],
-                                      )
+                                      ),
                                     ],
                                   ),
                                 ),
+                                Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    border: Border.all(
+                                      color: Colors.grey[200]!,
+                                    ),
+                                  ),
+                                )
                               ],
                             ),
                           ),
