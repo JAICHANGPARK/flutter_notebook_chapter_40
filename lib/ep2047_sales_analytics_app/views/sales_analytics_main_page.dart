@@ -290,42 +290,52 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                               ),
                               borderRadius: BorderRadius.circular(12),
                             ),
+                            padding: EdgeInsets.all(16),
                             child: Row(
                               children: [
-                                Column(
-                                  children: [
-                                    Text("NEW NET INCOME"),
-                                    Row(
-                                      children: [
-                                        Text("\$53,765"),
-                                        Container(
-                                          decoration: ShapeDecoration(
-                                            shape: StadiumBorder(
-                                                side: BorderSide(
-                                              color: Colors.tealAccent[200]!,
-                                            )),
-                                            color: Colors.tealAccent[100],
+                                Expanded(
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Text("NEW NET INCOME"),
+                                      Row(
+                                        children: [
+                                          Text(
+                                            "\$53,765",
+                                            style: TextStyle(
+                                              fontSize: 24,
+                                              fontWeight: FontWeight.bold,
+                                            ),
                                           ),
-                                          padding: EdgeInsets.symmetric(horizontal: 2, vertical: 1),
-                                          child: Row(
-                                            children: [
-                                              Icon(
-                                                Icons.arrow_circle_up,
-                                                color: Colors.teal,
-                                                size: 16,
-                                              ),
-                                              Text(
-                                                "10.5%",
-                                                style: TextStyle(
+                                          Container(
+                                            decoration: ShapeDecoration(
+                                              shape: StadiumBorder(
+                                                  side: BorderSide(
+                                                color: Colors.tealAccent[200]!,
+                                              )),
+                                              color: Colors.tealAccent[100],
+                                            ),
+                                            padding: EdgeInsets.symmetric(horizontal: 2, vertical: 1),
+                                            child: Row(
+                                              children: [
+                                                Icon(
+                                                  Icons.arrow_circle_up,
                                                   color: Colors.teal,
+                                                  size: 16,
                                                 ),
-                                              ),
-                                            ],
-                                          ),
-                                        )
-                                      ],
-                                    )
-                                  ],
+                                                Text(
+                                                  "10.5%",
+                                                  style: TextStyle(
+                                                    color: Colors.teal,
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                          )
+                                        ],
+                                      )
+                                    ],
+                                  ),
                                 ),
                               ],
                             ),
