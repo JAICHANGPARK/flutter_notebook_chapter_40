@@ -299,16 +299,21 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                       children: [
                                         Text("\$53,765"),
                                         Container(
-                                          decoration: BoxDecoration(
-                                            color: Colors.tealAccent[100],
-                                            border: Border.all(
-                                              color: Colors.teal,
+                                          decoration: ShapeDecoration(
+                                            shape: StadiumBorder(
+                                              side: BorderSide(
+                                                color: 
+                                              )
                                             ),
+                                            color: Colors.tealAccent[100],
+
                                           ),
                                           child: Row(
                                             children: [
-                                              Icon(Icons.arrow_circle_up),
-                                            ,
+                                              Icon(
+                                                Icons.arrow_circle_up,
+                                                color: Colors.teal,
+                                              ),
                                               Text("10.5%"),
                                             ],
                                           ),
