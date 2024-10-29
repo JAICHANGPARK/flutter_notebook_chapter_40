@@ -297,16 +297,20 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
-                                      Text("NEW NET INCOME"),
+                                      Text("NEW NET INCOME",style: TextStyle(
+                                        fontSize: 12,
+                                      ),),
+                                      Gap(6),
                                       Row(
                                         children: [
                                           Text(
                                             "\$53,765",
                                             style: TextStyle(
-                                              fontSize: 24,
+                                              fontSize: 20,
                                               fontWeight: FontWeight.bold,
                                             ),
                                           ),
+                                          Gap(6),
                                           Container(
                                             decoration: ShapeDecoration(
                                               shape: StadiumBorder(
@@ -323,10 +327,12 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                                   color: Colors.teal,
                                                   size: 16,
                                                 ),
+                                                Gap(3),
                                                 Text(
                                                   "10.5%",
                                                   style: TextStyle(
                                                     color: Colors.teal,
+                                                    fontSize: 12,
                                                   ),
                                                 ),
                                               ],
