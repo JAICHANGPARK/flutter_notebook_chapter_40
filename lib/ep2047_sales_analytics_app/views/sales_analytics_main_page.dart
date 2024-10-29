@@ -301,10 +301,15 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                         Container(
                                           decoration: BoxDecoration(
                                             color: Colors.tealAccent[100],
+                                            border: Border.all(
+                                              color: Colors.teal,
+                                            ),
                                           ),
                                           child: Row(
                                             children: [
-                                              
+                                              Icon(Icons.arrow_circle_up),
+                                            ,
+                                              Text("10.5%"),
                                             ],
                                           ),
                                         )
