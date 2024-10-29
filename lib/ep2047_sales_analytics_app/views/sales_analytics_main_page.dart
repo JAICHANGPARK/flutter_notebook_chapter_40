@@ -302,7 +302,7 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                           decoration: ShapeDecoration(
                                             shape: StadiumBorder(
                                               side: BorderSide(
-                                                color: Colors.tealAccent[100]!,
+                                                color: Colors.tealAccent[200]!,
                                               )
                                             ),
                                             color: Colors.tealAccent[100],
