@@ -293,7 +293,24 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                             child: Row(
                               children: [
                                 Column(
-                                  children: [],
+                                  children: [
+                                    Text("NEW NET INCOME"),
+                                    Row(
+                                      children: [
+                                        Text("\$53,765"),
+                                        Container(
+                                          decoration: BoxDecoration(
+                                            color: Colors.tealAccent[100],
+                                          ),
+                                          child: Row(
+                                            children: [
+                                              
+                                            ],
+                                          ),
+                                        )
+                                      ],
+                                    )
+                                  ],
                                 ),
                               ],
                             ),
