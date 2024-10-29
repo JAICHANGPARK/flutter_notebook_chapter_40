@@ -301,20 +301,25 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                         Container(
                                           decoration: ShapeDecoration(
                                             shape: StadiumBorder(
-                                              side: BorderSide(
-                                                color: Colors.tealAccent[200]!,
-                                              )
-                                            ),
+                                                side: BorderSide(
+                                              color: Colors.tealAccent[200]!,
+                                            )),
                                             color: Colors.tealAccent[100],
-
                                           ),
+                                          padding: EdgeInsets.symmetric(horizontal: 2, vertical: 1),
                                           child: Row(
                                             children: [
                                               Icon(
                                                 Icons.arrow_circle_up,
                                                 color: Colors.teal,
+                                                size: 16,
                                               ),
-                                              Text("10.5%"),
+                                              Text(
+                                                "10.5%",
+                                                style: TextStyle(
+                                                  color: Colors.teal,
+                                                ),
+                                              ),
                                             ],
                                           ),
                                         )
