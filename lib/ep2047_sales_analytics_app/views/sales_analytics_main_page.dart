@@ -317,7 +317,7 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                                   side: BorderSide(
                                                 color: Colors.tealAccent[200]!,
                                               )),
-                                              color: Colors.tealAccent[100],
+                                              color: Colors.teal[50],
                                             ),
                                             padding: EdgeInsets.symmetric(horizontal: 2, vertical: 1),
                                             child: Row(
