@@ -398,10 +398,12 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                       },
                     ),
                     Container(
+                      margin: EdgeInsets.all(16),
                       decoration: BoxDecoration(
                         color: Colors.grey[100],
                         borderRadius: BorderRadius.circular(16),
                       ),
+                      padding: EdgeInsets.all(8),
                       child: Column(
                         children: [
                           Container(
