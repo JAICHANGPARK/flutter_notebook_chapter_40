@@ -501,7 +501,6 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                               borderRadius: BorderRadius.circular(16),
                             ),
                             padding: EdgeInsets.all(16),
-                            
                             child: Column(
                               children: [
                                 Row(
@@ -512,13 +511,25 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                         children: [
                                           Text(
                                             "Product views",
+                                            style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: 16,
+                                            ),
                                           ),
+                                          Gap(6),
                                           Text("%15")
                                         ],
                                       ),
-                                    )
+                                    ),
+                                    Text(
+                                      "6,545",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16,
+                                      ),
+                                    ),
                                   ],
-                                )
+                                ),
                               ],
                             ),
                           )
