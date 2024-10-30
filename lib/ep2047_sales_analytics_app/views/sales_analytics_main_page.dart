@@ -621,7 +621,13 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                             ),
                             padding: EdgeInsets.all(16),
                             child: Column(
-                            children: [],
+                              children: [
+                                Text(
+                                  "Supercharge your sales management and unlock "
+                                      "your full potential for extraordinary success.",
+
+                                )
+                              ],
                             ),
                           )
                         ],
