@@ -502,35 +502,44 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                             ),
                             padding: EdgeInsets.all(16),
                             child: Column(
-                              children: [
-                                Row(
+                              children: List.generate(
+                                4,
+                                (index) => Column(
                                   children: [
-                                    Expanded(
-                                      child: Column(
-                                        crossAxisAlignment: CrossAxisAlignment.start,
-                                        children: [
-                                          Text(
-                                            "Product views",
-                                            style: TextStyle(
-                                              fontWeight: FontWeight.bold,
-                                              fontSize: 16,
-                                            ),
+                                    Row(
+                                      children: [
+                                        Expanded(
+                                          child: Column(
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            children: [
+                                              Text(
+                                                "Product views",
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                  fontSize: 16,
+                                                ),
+                                              ),
+                                              Gap(6),
+                                              Text("15%")
+                                            ],
                                           ),
-                                          Gap(6),
-                                          Text("%15")
-                                        ],
-                                      ),
+                                        ),
+                                        Text(
+                                          "6,545",
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 16,
+                                          ),
+                                        ),
+                                      ],
                                     ),
-                                    Text(
-                                      "6,545",
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 16,
-                                      ),
+                                    if(index != 3)
+                                    Divider(
+                                      height: 42,
                                     ),
                                   ],
                                 ),
-                              ],
+                              ),
                             ),
                           )
                         ],
