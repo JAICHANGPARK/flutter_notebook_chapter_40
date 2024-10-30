@@ -272,7 +272,7 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                     ListView.builder(
                       shrinkWrap: true,
                       physics: NeverScrollableScrollPhysics(),
-                      itemCount: 10,
+                      itemCount: 6,
                       itemBuilder: (context, index) {
                         return Container(
                           height: 150,
@@ -401,6 +401,92 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                       decoration: BoxDecoration(
                         color: Colors.grey[100],
                         borderRadius: BorderRadius.circular(16),
+                      ),
+                      child: Column(
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              border: Border.all(
+                                color: Colors.grey[400]!,
+                              ),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            padding: EdgeInsets.all(16),
+                            child: Row(
+                              children: [
+                                Expanded(
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        "NEW NET INCOME",
+                                        style: TextStyle(
+                                          fontSize: 12,
+                                        ),
+                                      ),
+                                      Gap(6),
+                                      Row(
+                                        children: [
+                                          Text(
+                                            "\$53,765",
+                                            style: TextStyle(
+                                              fontSize: 20,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                          Gap(6),
+                                          Container(
+                                            decoration: ShapeDecoration(
+                                              shape: StadiumBorder(
+                                                side: BorderSide(
+                                                  color: Colors.teal[100]!,
+                                                ),
+                                              ),
+                                              color: Colors.teal[50],
+                                            ),
+                                            padding: EdgeInsets.symmetric(horizontal: 2, vertical: 1),
+                                            child: Row(
+                                              children: [
+                                                Icon(
+                                                  Icons.arrow_circle_up,
+                                                  color: Colors.teal,
+                                                  size: 16,
+                                                ),
+                                                Gap(3),
+                                                Text(
+                                                  "10.5%",
+                                                  style: TextStyle(
+                                                    color: Colors.teal,
+                                                    fontSize: 12,
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                          )
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    border: Border.all(
+                                      color: Colors.grey[300]!,
+                                    ),
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                  padding: EdgeInsets.all(8),
+                                  child: Icon(
+                                    Icons.currency_bitcoin,
+                                    color: Colors.purple,
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
+                        ],
                       ),
                     )
                   ],
