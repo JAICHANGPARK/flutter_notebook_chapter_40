@@ -267,6 +267,8 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
             Divider(),
             Expanded(
               child: ListView.builder(
+                shrinkWrap: true,
+                itemCount: 10,
                 itemBuilder: (context, index) {
                   return Container(
                     height: 150,
