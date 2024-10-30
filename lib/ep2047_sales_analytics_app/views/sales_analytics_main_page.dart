@@ -266,132 +266,134 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
             ),
             Divider(),
             Expanded(
-              child: ListView.builder(
-                shrinkWrap: true,
-                itemCount: 10,
-                itemBuilder: (context, index) {
-                  return Container(
-                    height: 150,
-                    decoration: BoxDecoration(
-                      color: Colors.grey[50]!,
-                      border: Border.all(
-                        color: Colors.grey[400]!,
+              child: SingleChildScrollView(
+                child: ListView.builder(
+                  shrinkWrap: true,
+                  itemCount: 10,
+                  itemBuilder: (context, index) {
+                    return Container(
+                      height: 150,
+                      decoration: BoxDecoration(
+                        color: Colors.grey[50]!,
+                        border: Border.all(
+                          color: Colors.grey[400]!,
+                        ),
+                        borderRadius: BorderRadius.circular(12),
                       ),
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                    padding: EdgeInsets.all(8),
-                    margin: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-                    child: Column(
-                      children: [
-                        Expanded(
-                          child: Container(
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              border: Border.all(
-                                color: Colors.grey[400]!,
+                      padding: EdgeInsets.all(8),
+                      margin: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                      child: Column(
+                        children: [
+                          Expanded(
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                border: Border.all(
+                                  color: Colors.grey[400]!,
+                                ),
+                                borderRadius: BorderRadius.circular(12),
                               ),
-                              borderRadius: BorderRadius.circular(12),
-                            ),
-                            padding: EdgeInsets.all(16),
-                            child: Row(
-                              children: [
-                                Expanded(
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [
-                                      Text(
-                                        "NEW NET INCOME",
-                                        style: TextStyle(
-                                          fontSize: 12,
-                                        ),
-                                      ),
-                                      Gap(6),
-                                      Row(
-                                        children: [
-                                          Text(
-                                            "\$53,765",
-                                            style: TextStyle(
-                                              fontSize: 20,
-                                              fontWeight: FontWeight.bold,
-                                            ),
+                              padding: EdgeInsets.all(16),
+                              child: Row(
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          "NEW NET INCOME",
+                                          style: TextStyle(
+                                            fontSize: 12,
                                           ),
-                                          Gap(6),
-                                          Container(
-                                            decoration: ShapeDecoration(
-                                              shape: StadiumBorder(
-                                                side: BorderSide(
-                                                  color: Colors.teal[100]!,
-                                                ),
+                                        ),
+                                        Gap(6),
+                                        Row(
+                                          children: [
+                                            Text(
+                                              "\$53,765",
+                                              style: TextStyle(
+                                                fontSize: 20,
+                                                fontWeight: FontWeight.bold,
                                               ),
-                                              color: Colors.teal[50],
                                             ),
-                                            padding: EdgeInsets.symmetric(horizontal: 2, vertical: 1),
-                                            child: Row(
-                                              children: [
-                                                Icon(
-                                                  Icons.arrow_circle_up,
-                                                  color: Colors.teal,
-                                                  size: 16,
-                                                ),
-                                                Gap(3),
-                                                Text(
-                                                  "10.5%",
-                                                  style: TextStyle(
-                                                    color: Colors.teal,
-                                                    fontSize: 12,
+                                            Gap(6),
+                                            Container(
+                                              decoration: ShapeDecoration(
+                                                shape: StadiumBorder(
+                                                  side: BorderSide(
+                                                    color: Colors.teal[100]!,
                                                   ),
                                                 ),
-                                              ],
-                                            ),
-                                          )
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Container(
-                                  decoration: BoxDecoration(
-                                    color: Colors.white,
-                                    border: Border.all(
-                                      color: Colors.grey[300]!,
+                                                color: Colors.teal[50],
+                                              ),
+                                              padding: EdgeInsets.symmetric(horizontal: 2, vertical: 1),
+                                              child: Row(
+                                                children: [
+                                                  Icon(
+                                                    Icons.arrow_circle_up,
+                                                    color: Colors.teal,
+                                                    size: 16,
+                                                  ),
+                                                  Gap(3),
+                                                  Text(
+                                                    "10.5%",
+                                                    style: TextStyle(
+                                                      color: Colors.teal,
+                                                      fontSize: 12,
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            )
+                                          ],
+                                        ),
+                                      ],
                                     ),
-                                    borderRadius: BorderRadius.circular(8),
                                   ),
-                                  padding: EdgeInsets.all(8),
-                                  child: Icon(
-                                    Icons.currency_bitcoin,
-                                    color: Colors.purple,
-                                  ),
-                                )
-                              ],
+                                  Container(
+                                    decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      border: Border.all(
+                                        color: Colors.grey[300]!,
+                                      ),
+                                      borderRadius: BorderRadius.circular(8),
+                                    ),
+                                    padding: EdgeInsets.all(8),
+                                    child: Icon(
+                                      Icons.currency_bitcoin,
+                                      color: Colors.purple,
+                                    ),
+                                  )
+                                ],
+                              ),
                             ),
                           ),
-                        ),
-                        Gap(8),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 8,
-                            vertical: 4,
-                          ),
-                          child: Row(
-                            children: [
-                              Text(
-                                "+\$2,156",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
+                          Gap(8),
+                          Padding(
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 8,
+                              vertical: 4,
+                            ),
+                            child: Row(
+                              children: [
+                                Text(
+                                  "+\$2,156",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                  ),
                                 ),
-                              ),
-                              Gap(6),
-                              Text("from last month"),
-                              Spacer(),
-                              Icon(Icons.arrow_forward),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                  );
-                },
+                                Gap(6),
+                                Text("from last month"),
+                                Spacer(),
+                                Icon(Icons.arrow_forward),
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    );
+                  },
+                ),
               ),
             )
           ],
