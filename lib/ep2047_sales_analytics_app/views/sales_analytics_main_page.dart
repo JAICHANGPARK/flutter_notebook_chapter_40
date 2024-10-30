@@ -491,6 +491,7 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                               ],
                             ),
                           ),
+                          Gap(6),
                           Container(
                             decoration: BoxDecoration(
                               color: Colors.white,
