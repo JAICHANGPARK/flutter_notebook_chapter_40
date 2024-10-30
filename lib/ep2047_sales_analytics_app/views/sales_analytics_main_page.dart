@@ -402,8 +402,11 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                       decoration: BoxDecoration(
                         color: Colors.grey[100],
                         borderRadius: BorderRadius.circular(16),
+                        border: Border.all(
+                          color: Colors.grey[400]!,
+                        ),
                       ),
-                      padding: EdgeInsets.all(8),
+                      padding: EdgeInsets.all(6),
                       child: Column(
                         children: [
                           Container(
@@ -488,6 +491,13 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                               ],
                             ),
                           ),
+                          Container(
+
+                            decoration: BoxDecoration(
+                             color: Colors.white,
+                              
+                            ),
+                          )
                         ],
                       ),
                     )
