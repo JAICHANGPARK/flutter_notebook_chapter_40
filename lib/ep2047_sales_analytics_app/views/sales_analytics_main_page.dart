@@ -500,16 +500,20 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                               ),
                               borderRadius: BorderRadius.circular(16),
                             ),
+                            padding: EdgeInsets.all(16),
+                            
                             child: Column(
                               children: [
                                 Row(
                                   children: [
                                     Expanded(
                                       child: Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
                                         children: [
                                           Text(
                                             "Product views",
                                           ),
+                                          Text("%15")
                                         ],
                                       ),
                                     )
