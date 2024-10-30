@@ -533,15 +533,84 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                         ),
                                       ],
                                     ),
-                                    if(index != 3)
-                                    Divider(
-                                      height: 42,
-                                    ),
+                                    if (index != 3)
+                                      Divider(
+                                        height: 42,
+                                      ),
                                   ],
                                 ),
                               ),
                             ),
                           )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(16),
+                      decoration: BoxDecoration(
+                        color: Colors.grey[100],
+                        borderRadius: BorderRadius.circular(16),
+                        border: Border.all(
+                          color: Colors.grey[400]!,
+                        ),
+                      ),
+                      padding: EdgeInsets.all(6),
+                      child: Column(
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              border: Border.all(
+                                color: Colors.grey[400]!,
+                              ),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            padding: EdgeInsets.all(16),
+                            child: Row(
+                              children: [
+                                Expanded(
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        "UPGRADE",
+                                        style: TextStyle(
+                                          fontSize: 12,
+                                        ),
+                                      ),
+                                      Gap(6),
+                                      Row(
+                                        children: [
+                                          Text(
+                                            "Premium Plan",
+                                            style: TextStyle(
+                                              fontSize: 20,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    border: Border.all(
+                                      color: Colors.grey[300]!,
+                                    ),
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                  padding: EdgeInsets.symmetric(
+                                    horizontal: 14,
+                                    vertical: 8,
+                                  ),
+                                  child: Text("Upgrade"),
+                                )
+                              ],
+                            ),
+                          ),
+                          Gap(6),
                         ],
                       ),
                     )
