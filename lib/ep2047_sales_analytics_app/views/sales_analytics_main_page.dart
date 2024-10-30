@@ -584,7 +584,7 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                           Text(
                                             "Premium Plan",
                                             style: TextStyle(
-                                              fontSize: 20,
+                                              fontSize: 24,
                                               fontWeight: FontWeight.bold,
                                             ),
                                           ),
@@ -611,6 +611,19 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                             ),
                           ),
                           Gap(6),
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              border: Border.all(
+                                color: Colors.grey[400]!,
+                              ),
+                              borderRadius: BorderRadius.circular(16),
+                            ),
+                            padding: EdgeInsets.all(16),
+                            child: Column(
+                            children: [],
+                            ),
+                          )
                         ],
                       ),
                     )
