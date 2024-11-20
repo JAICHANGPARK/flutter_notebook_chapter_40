@@ -315,7 +315,9 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                               BorderRadius.circular(4),
                                         ),
                                         child: Row(
-                                          children: [Text("Quick Wash")],
+                                          children: [
+                                            Text("Quick Wash"),
+                                          ],
                                         ),
                                       ),
                                       Text("Estimation finish today at 17:30"),
