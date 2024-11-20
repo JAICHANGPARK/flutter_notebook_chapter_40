@@ -11,7 +11,13 @@ class LaundryDetailPage extends StatefulWidget {
 }
 
 class _LaundryDetailPageState extends State<LaundryDetailPage> {
-  List<String> tabs = ["All", "Top", "Outerwear", "Bottoms", "innerware"];
+  List<String> tabs = [
+    "All",
+    "Top",
+    "Outerwear",
+    "Bottoms",
+    "innerware",
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -104,12 +110,12 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                         Container(
                           height: 100,
                           width: 100,
-                          decoration: BoxDecoration(color: Colors.white,
-                          borderRadius: BorderRadius.circular(4),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(4),
                           ),
                           padding: EdgeInsets.all(6),
                           child: Container(
-
                             decoration: BoxDecoration(
                               color: Colors.green,
                               borderRadius: BorderRadius.circular(4),
@@ -122,10 +128,12 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                             children: [
                               Gap(12),
                               Row(
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
                                 children: [
                                   Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
                                     children: [
                                       Text(
                                         "Dream, Laundry",
@@ -183,7 +191,9 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                       itemBuilder: (context, index) {
                         return Container(
                           decoration: BoxDecoration(
-                              color: index == 0 ? Colors.blueAccent : Colors.grey[100]!,
+                              color: index == 0
+                                  ? Colors.blueAccent
+                                  : Colors.grey[100]!,
                               borderRadius: BorderRadius.circular(4),
                               border: Border.all(
                                 color: Colors.grey[200]!,
@@ -225,7 +235,8 @@ class _LaundryDetailPageState extends State<LaundryDetailPage> {
                               ),
                               Gap(6),
                               Row(
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
                                     "T-Shirt",
