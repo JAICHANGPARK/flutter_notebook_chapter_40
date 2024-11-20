@@ -105,7 +105,9 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                 Expanded(
                   child: Container(
                     padding: EdgeInsets.all(16),
-                    decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(8)),
+                    decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(8)),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -158,10 +160,12 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                             border: Border.all(
                                               color: Colors.grey[300]!,
                                             ),
-                                            borderRadius: BorderRadius.circular(6),
+                                            borderRadius:
+                                                BorderRadius.circular(6),
                                           ),
                                           child: Column(
-                                            mainAxisAlignment: MainAxisAlignment.center,
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.center,
                                             children: [
                                               Container(
                                                 height: 42,
@@ -189,10 +193,12 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                             border: Border.all(
                                               color: Colors.grey[300]!,
                                             ),
-                                            borderRadius: BorderRadius.circular(6),
+                                            borderRadius:
+                                                BorderRadius.circular(6),
                                           ),
                                           child: Column(
-                                            mainAxisAlignment: MainAxisAlignment.center,
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.center,
                                             children: [
                                               Container(
                                                 height: 42,
@@ -220,10 +226,12 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                             border: Border.all(
                                               color: Colors.grey[300]!,
                                             ),
-                                            borderRadius: BorderRadius.circular(6),
+                                            borderRadius:
+                                                BorderRadius.circular(6),
                                           ),
                                           child: Column(
-                                            mainAxisAlignment: MainAxisAlignment.center,
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.center,
                                             children: [
                                               Container(
                                                 height: 42,
@@ -251,10 +259,12 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                             border: Border.all(
                                               color: Colors.grey[300]!,
                                             ),
-                                            borderRadius: BorderRadius.circular(6),
+                                            borderRadius:
+                                                BorderRadius.circular(6),
                                           ),
                                           child: Column(
-                                            mainAxisAlignment: MainAxisAlignment.center,
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.center,
                                             children: [
                                               Container(
                                                 height: 42,
@@ -294,12 +304,15 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                   ),
                                   padding: EdgeInsets.all(16),
                                   child: Column(
-                                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceAround,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
                                     children: [
                                       Container(
                                         decoration: BoxDecoration(
-                                          borderRadius: BorderRadius.circular(4),
+                                          borderRadius:
+                                              BorderRadius.circular(4),
                                         ),
                                         child: Row(
                                           children: [Text("Quick Wash")],
@@ -317,7 +330,8 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                 ),
                                 Gap(12),
                                 Row(
-                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
                                   children: [
                                     Text(
                                       "Recommendations for you",
@@ -344,7 +358,8 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                   padding: EdgeInsets.zero,
                                   itemCount: 10,
                                   physics: NeverScrollableScrollPhysics(),
-                                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                                  gridDelegate:
+                                      SliverGridDelegateWithFixedCrossAxisCount(
                                     crossAxisCount: 2,
                                     crossAxisSpacing: 12,
                                     mainAxisSpacing: 12,
@@ -358,14 +373,16 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                             onTap: () {
                                               Navigator.of(context).push(
                                                 MaterialPageRoute(
-                                                  builder: (context) => LaundryDetailPage(),
+                                                  builder: (context) =>
+                                                      LaundryDetailPage(),
                                                 ),
                                               );
                                             },
                                             child: Container(
                                               decoration: BoxDecoration(
                                                 color: Colors.grey,
-                                                borderRadius: BorderRadius.circular(8),
+                                                borderRadius:
+                                                    BorderRadius.circular(8),
                                                 image: DecorationImage(
                                                   image: NetworkImage(
                                                     "https://cdn.pixabay.com/photo/2017/08/22/10/47/washing-machine-2668472_1280.jpg",
@@ -381,14 +398,20 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                                     child: Container(
                                                       decoration: BoxDecoration(
                                                         color: Colors.white,
-                                                        borderRadius: BorderRadius.circular(4),
+                                                        borderRadius:
+                                                            BorderRadius
+                                                                .circular(4),
                                                       ),
-                                                      padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                                                      padding:
+                                                          EdgeInsets.symmetric(
+                                                              horizontal: 4,
+                                                              vertical: 2),
                                                       child: Row(
                                                         children: [
                                                           Icon(
                                                             Icons.star,
-                                                            color: Colors.orange,
+                                                            color:
+                                                                Colors.orange,
                                                             size: 18,
                                                           ),
                                                           Gap(6),
