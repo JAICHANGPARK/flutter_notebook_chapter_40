@@ -320,7 +320,9 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                                           ],
                                         ),
                                       ),
-                                      Text("Estimation finish today at 17:30"),
+                                      Text(
+                                        "Estimation finish today at 17:30",
+                                      ),
                                       Divider(),
                                       Row(
                                         children: [
