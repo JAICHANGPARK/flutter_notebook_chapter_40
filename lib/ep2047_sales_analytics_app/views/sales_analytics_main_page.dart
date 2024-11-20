@@ -227,9 +227,15 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                             Icons.calendar_today,
                             size: 20,
                           ),
-                          Gap(8),
-                          Text("Monthly"),
-                          Gap(8),
+                          Gap(
+                            8,
+                          ),
+                          Text(
+                            "Monthly",
+                          ),
+                          Gap(
+                            8,
+                          ),
                           Icon(
                             Icons.keyboard_arrow_down,
                             size: 20,
@@ -284,7 +290,8 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                             borderRadius: BorderRadius.circular(12),
                           ),
                           padding: EdgeInsets.all(8),
-                          margin: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                          margin: EdgeInsets.symmetric(
+                              horizontal: 16, vertical: 12),
                           child: Column(
                             children: [
                               Expanded(
@@ -301,7 +308,8 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                     children: [
                                       Expanded(
                                         child: Column(
-                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
                                           children: [
                                             Text(
                                               "NEW NET INCOME",
@@ -324,12 +332,15 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                                   decoration: ShapeDecoration(
                                                     shape: StadiumBorder(
                                                       side: BorderSide(
-                                                        color: Colors.teal[100]!,
+                                                        color:
+                                                            Colors.teal[100]!,
                                                       ),
                                                     ),
                                                     color: Colors.teal[50],
                                                   ),
-                                                  padding: EdgeInsets.symmetric(horizontal: 2, vertical: 1),
+                                                  padding: EdgeInsets.symmetric(
+                                                      horizontal: 2,
+                                                      vertical: 1),
                                                   child: Row(
                                                     children: [
                                                       Icon(
@@ -359,7 +370,8 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                           border: Border.all(
                                             color: Colors.grey[300]!,
                                           ),
-                                          borderRadius: BorderRadius.circular(8),
+                                          borderRadius:
+                                              BorderRadius.circular(8),
                                         ),
                                         padding: EdgeInsets.all(8),
                                         child: Icon(
@@ -422,7 +434,8 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                               children: [
                                 Expanded(
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
                                     children: [
                                       Text(
                                         "NEW NET INCOME",
@@ -450,7 +463,8 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                               ),
                                               color: Colors.teal[50],
                                             ),
-                                            padding: EdgeInsets.symmetric(horizontal: 2, vertical: 1),
+                                            padding: EdgeInsets.symmetric(
+                                                horizontal: 2, vertical: 1),
                                             child: Row(
                                               children: [
                                                 Icon(
@@ -510,7 +524,8 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                                       children: [
                                         Expanded(
                                           child: Column(
-                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "Product views",
@@ -570,7 +585,8 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                               children: [
                                 Expanded(
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
                                     children: [
                                       Text(
                                         "UPGRADE",
@@ -624,8 +640,7 @@ class _SalesAnalyticsMainPageState extends State<SalesAnalyticsMainPage> {
                               children: [
                                 Text(
                                   "Supercharge your sales management and unlock "
-                                      "your full potential for extraordinary success.",
-
+                                  "your full potential for extraordinary success.",
                                 )
                               ],
                             ),
