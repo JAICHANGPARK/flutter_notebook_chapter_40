@@ -148,7 +148,7 @@ class _LaundryHomePageState extends State<LaundryHomePage> {
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Container(
+                                SizedBox(
                                   height: 120,
                                   // margin: EdgeInsets.symmetric(vertical: 8),
                                   child: Row(
